@@ -1,0 +1,657 @@
+/* RPG Fantasy Pixel Map Theme for Obsidian
+   Enabled snippet: rpg-map-styles
+   Requested visual style: parchment map, wooden quest panels, pixel-art image frames.
+*/
+
+/* Reading View dark fantasy map surface */
+body,
+.app-container,
+.workspace,
+.workspace-split,
+.workspace-leaf,
+.workspace-leaf-content,
+.workspace-leaf-content[data-type="markdown"],
+.workspace-leaf-content[data-type="markdown"] .view-content,
+.workspace-leaf-content[data-type="markdown"] .markdown-reading-view,
+.workspace-leaf-content[data-type="markdown"] .markdown-preview-view,
+.markdown-reading-view,
+.markdown-preview-view {
+  background:
+    radial-gradient(circle at top center, rgba(88, 54, 27, 0.38), transparent 42%),
+    linear-gradient(180deg, #24160d 0%, #1a100a 55%, #120b07 100%) !important;
+  background-attachment: fixed !important;
+}
+
+.markdown-preview-view .markdown-preview-sizer {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.markdown-preview-view {
+  color: #eadcc4 !important;
+  text-shadow: none !important;
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4 {
+  color: #f2d28b !important;
+  font-family: "Pixelify Sans", "VT323", "IM Fell English SC", "Courier New", monospace;
+  letter-spacing: 0;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.45) !important;
+}
+
+.markdown-preview-view p,
+.markdown-preview-view li {
+  color: #eadcc4 !important;
+}
+
+.markdown-preview-view strong {
+  color: #fff0c4 !important;
+}
+
+.markdown-preview-view a.internal-link {
+  color: #8fd3d8 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.markdown-preview-view a.internal-link:hover {
+  color: #f2d28b !important;
+  text-decoration: underline !important;
+}
+
+.markdown-preview-view hr {
+  border: 0;
+  border-top: 4px solid #7a4a22;
+  box-shadow: 0 2px 0 #d7a852;
+  margin: 28px 0;
+}
+
+/* Wooden RPG quest panels for callouts */
+.markdown-preview-view .callout {
+  --callout-color: 235, 183, 82;
+  --callout-icon: lucide-scroll-text;
+
+  position: relative;
+  overflow: hidden;
+  margin: 22px 0;
+  padding: 18px 20px;
+  border: 4px solid #d7a852;
+  border-radius: 0;
+  background:
+    linear-gradient(90deg, rgba(255, 221, 132, 0.14), transparent 18%, rgba(21, 10, 4, 0.22) 50%, transparent 82%, rgba(255, 221, 132, 0.12)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.08) 0 3px, rgba(56, 28, 12, 0.08) 3px 7px),
+    linear-gradient(180deg, #73431e 0%, #4f2b15 42%, #351a0d 100%);
+  box-shadow:
+    0 0 0 3px #3a1d0d,
+    inset 0 0 0 2px rgba(255, 225, 139, 0.22),
+    inset 0 -10px 0 rgba(32, 15, 6, 0.22),
+    8px 8px 0 rgba(40, 22, 10, 0.55);
+  color: #f8e7bf;
+}
+
+.markdown-preview-view .callout::before,
+.markdown-preview-view .callout::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  height: 3px;
+  background: #f0c66b;
+  box-shadow: 0 2px 0 rgba(49, 23, 9, 0.75);
+  pointer-events: none;
+}
+
+.markdown-preview-view .callout::before {
+  top: 10px;
+}
+
+.markdown-preview-view .callout::after {
+  bottom: 10px;
+}
+
+.markdown-preview-view .callout-title {
+  align-items: center;
+  gap: 10px;
+  color: #ffe49b;
+  font-family: "Pixelify Sans", "VT323", "IM Fell English SC", "Courier New", monospace;
+  font-size: 1.08em;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.25;
+  text-shadow:
+    1px 1px 0 #2a1308,
+    2px 2px 0 rgba(0, 0, 0, 0.42);
+}
+
+.markdown-preview-view .callout-icon {
+  color: #ffd36c;
+}
+
+.markdown-preview-view .callout-content {
+  color: #f8e7bf;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.98em;
+  line-height: 1.65;
+}
+
+.markdown-preview-view .callout-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Callout type colors keep the wooden RPG frame but change the panel tone */
+.markdown-preview-view .callout[data-callout="abstract"] {
+  --callout-color: 215, 168, 82;
+  border-color: #d7a852;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.16), transparent 18%, rgba(18, 10, 28, 0.25) 50%, transparent 82%, rgba(255, 228, 155, 0.12)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.07) 0 3px, rgba(37, 22, 54, 0.14) 3px 7px),
+    linear-gradient(180deg, #4c2f65 0%, #3b234f 48%, #24152f 100%);
+}
+
+.markdown-preview-view .callout[data-callout="info"] {
+  --callout-color: 143, 184, 216;
+  border-color: #cfa45b;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.13), transparent 18%, rgba(9, 18, 34, 0.28) 50%, transparent 82%, rgba(255, 228, 155, 0.1)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.06) 0 3px, rgba(25, 47, 82, 0.14) 3px 7px),
+    linear-gradient(180deg, #29456f 0%, #1f3558 48%, #142239 100%);
+}
+
+.markdown-preview-view .callout[data-callout="note"] {
+  --callout-color: 162, 190, 118;
+  border-color: #cda758;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.13), transparent 18%, rgba(10, 24, 12, 0.28) 50%, transparent 82%, rgba(255, 228, 155, 0.1)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.06) 0 3px, rgba(38, 63, 42, 0.15) 3px 7px),
+    linear-gradient(180deg, #315137 0%, #263f2a 48%, #182818 100%);
+}
+
+.markdown-preview-view .callout[data-callout="question"] {
+  --callout-color: 214, 112, 91;
+  border-color: #d7a852;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.13), transparent 18%, rgba(35, 8, 8, 0.3) 50%, transparent 82%, rgba(255, 228, 155, 0.1)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.06) 0 3px, rgba(74, 31, 31, 0.15) 3px 7px),
+    linear-gradient(180deg, #5d2929 0%, #4a1f1f 48%, #2f1111 100%);
+}
+
+.markdown-preview-view .callout[data-callout="example"] {
+  --callout-color: 108, 196, 187;
+  border-color: #cfa45b;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.13), transparent 18%, rgba(8, 31, 31, 0.28) 50%, transparent 82%, rgba(255, 228, 155, 0.1)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.06) 0 3px, rgba(31, 72, 72, 0.15) 3px 7px),
+    linear-gradient(180deg, #275c5c 0%, #1f4848 48%, #132d2d 100%);
+}
+
+.markdown-preview-view .callout[data-callout="tip"] {
+  --callout-color: 122, 198, 148;
+  border-color: #d7a852;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.13), transparent 18%, rgba(8, 30, 18, 0.28) 50%, transparent 82%, rgba(255, 228, 155, 0.1)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.06) 0 3px, rgba(37, 69, 51, 0.15) 3px 7px),
+    linear-gradient(180deg, #2e5940 0%, #254533 48%, #172c20 100%);
+}
+
+.markdown-preview-view .callout[data-callout="quote"] {
+  --callout-color: 186, 178, 164;
+  border-color: #b99552;
+  background:
+    linear-gradient(90deg, rgba(255, 228, 155, 0.12), transparent 18%, rgba(18, 17, 16, 0.28) 50%, transparent 82%, rgba(255, 228, 155, 0.09)),
+    repeating-linear-gradient(0deg, rgba(255, 236, 165, 0.05) 0 3px, rgba(52, 48, 44, 0.16) 3px 7px),
+    linear-gradient(180deg, #46413b 0%, #34302c 48%, #211f1d 100%);
+}
+
+.markdown-preview-view .callout[data-callout="abstract"] .callout-title,
+.markdown-preview-view .callout[data-callout="info"] .callout-title,
+.markdown-preview-view .callout[data-callout="note"] .callout-title,
+.markdown-preview-view .callout[data-callout="question"] .callout-title,
+.markdown-preview-view .callout[data-callout="example"] .callout-title,
+.markdown-preview-view .callout[data-callout="tip"] .callout-title,
+.markdown-preview-view .callout[data-callout="quote"] .callout-title {
+  color: #ffe49b;
+}
+
+.markdown-preview-view .callout[data-callout="abstract"] .callout-icon,
+.markdown-preview-view .callout[data-callout="info"] .callout-icon,
+.markdown-preview-view .callout[data-callout="note"] .callout-icon,
+.markdown-preview-view .callout[data-callout="question"] .callout-icon,
+.markdown-preview-view .callout[data-callout="example"] .callout-icon,
+.markdown-preview-view .callout[data-callout="tip"] .callout-icon,
+.markdown-preview-view .callout[data-callout="quote"] .callout-icon {
+  color: #ffe49b;
+}
+
+/* Framed pixel-art images */
+.markdown-preview-view img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+  border: 5px solid #c8923d;
+  border-radius: 0;
+  outline: 3px solid #5f3518;
+  background: #2f1b0d;
+  box-shadow:
+    0 0 0 2px rgba(255, 225, 139, 0.45),
+    8px 8px 0 rgba(46, 26, 12, 0.5);
+}
+
+.markdown-preview-view p > img,
+.markdown-preview-view .image-embed {
+  margin: 20px auto;
+}
+
+.markdown-preview-view img[alt*="banner" i],
+.markdown-preview-view img[src*="banner" i] {
+  border-width: 6px;
+  outline-width: 4px;
+  box-shadow:
+    0 0 0 2px rgba(255, 225, 139, 0.55),
+    10px 10px 0 rgba(46, 26, 12, 0.58);
+}
+
+
+/* =========================
+   Fantasy graph view style
+   ========================= */
+
+/* Graph background */
+.graph-view.canvas-background,
+.workspace-leaf-content[data-type="graph"] .view-content {
+  background:
+    radial-gradient(circle at top center, rgba(94, 60, 30, 0.18), transparent 35%),
+    linear-gradient(180deg, #1c120c 0%, #140c08 100%) !important;
+}
+
+/* Default node fill */
+.graph-view.color-fill {
+  color: #c8923d !important;
+}
+
+/* Default node text */
+.graph-view.color-text {
+  color: #f0deb3 !important;
+}
+
+/* Default connection lines */
+.graph-view.color-line {
+  color: rgba(143, 211, 216, 0.35) !important;
+}
+
+/* Tag nodes */
+.graph-view.color-fill-tag {
+  color: #8fd3d8 !important;
+}
+
+/* Focused / selected node */
+.graph-view.color-fill-focused {
+  color: #ffd36c !important;
+}
+
+/* Focused connections */
+.graph-view.color-line-highlight {
+  color: rgba(255, 211, 108, 0.65) !important;
+}
+
+/* Unresolved notes if shown */
+.graph-view.color-fill-unresolved {
+  color: #9b5d3a !important;
+}
+
+/* Better readable graph labels */
+.graph-view text {
+  font-family: "Pixelify Sans", "VT323", "Courier New", monospace !important;
+  fill: #f3e2ba !important;
+}
+
+/* Slightly softer graph circles */
+.graph-view circle {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.45));
+}
+
+.markdown-preview-view .callout[data-callout="dialogue"] {
+  position: relative;
+  display: block;
+  margin: 32px 0;
+  padding: 30px 34px 28px 170px;
+  min-height: 165px;
+
+  border: 4px solid #d7a852;
+  border-radius: 0;
+
+  background:
+    linear-gradient(180deg, rgba(42, 39, 58, 0.96), rgba(20, 18, 32, 0.98));
+
+  box-shadow:
+    0 0 0 3px #16111f,
+    inset 0 0 0 2px rgba(255, 231, 160, 0.18),
+    8px 8px 0 rgba(0, 0, 0, 0.55);
+
+  color: #f7ecd0;
+}
+
+.markdown-preview-view .callout[data-callout="dialogue"] .callout-title {
+  position: absolute;
+  top: -36px;
+  left: 18px;
+
+  padding: 7px 20px;
+
+  border: 3px solid #d7a852;
+  border-radius: 0;
+
+  background:
+    linear-gradient(180deg, #4b3d2b, #20170f);
+
+  color: #ffe49b;
+  font-family: "Pixelify Sans", "VT323", "Courier New", monospace;
+  font-size: 1.15em;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  box-shadow:
+    0 0 0 2px #16111f,
+    4px 4px 0 rgba(0, 0, 0, 0.45);
+}
+
+.markdown-preview-view .callout[data-callout="dialogue"] .callout-content img {
+  position: absolute;
+  left: 26px;
+  bottom: 18px;
+
+  width: 120px;
+  height: auto;
+
+  image-rendering: pixelated;
+
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.markdown-preview-view .callout[data-callout="dialogue"] .callout-content {
+  color: #f7ecd0;
+  font-family: "Courier New", monospace;
+  font-size: 1.18em;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   Global Mermaid diagrams
+   Purpose: dark fantasy panel, light nodes, dark text, safer spacing.
+   This block is global: it applies to Mermaid diagrams on every page.
+   Keep only one Mermaid block in the snippet.
+   ========================================================= */
+
+.markdown-preview-view .mermaid,
+.markdown-rendered .mermaid {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 2rem auto !important;
+  padding: 32px !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  border: 2px solid #9b7446 !important;
+  border-radius: 14px !important;
+  background:
+    radial-gradient(circle at 50% 10%, rgba(126, 79, 39, 0.18), transparent 42%),
+    linear-gradient(180deg, #28150d 0%, #1b0d08 58%, #120805 100%) !important;
+  box-shadow:
+    0 0 0 1px rgba(235, 196, 130, 0.45),
+    0 14px 28px rgba(0, 0, 0, 0.35) !important;
+}
+
+.markdown-preview-view .mermaid svg,
+.markdown-rendered .mermaid svg {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+  background: transparent !important;
+}
+
+/* Global readable text. Smaller and less heavy than before so it fits inside Mermaid nodes. */
+.markdown-preview-view .mermaid text,
+.markdown-preview-view .mermaid tspan,
+.markdown-preview-view .mermaid foreignObject,
+.markdown-preview-view .mermaid foreignObject *,
+.markdown-preview-view .mermaid .nodeLabel,
+.markdown-preview-view .mermaid .nodeLabel *,
+.markdown-preview-view .mermaid .edgeLabel,
+.markdown-preview-view .mermaid .edgeLabel *,
+.markdown-rendered .mermaid text,
+.markdown-rendered .mermaid tspan,
+.markdown-rendered .mermaid foreignObject,
+.markdown-rendered .mermaid foreignObject *,
+.markdown-rendered .mermaid .nodeLabel,
+.markdown-rendered .mermaid .nodeLabel *,
+.markdown-rendered .mermaid .edgeLabel,
+.markdown-rendered .mermaid .edgeLabel * {
+  color: #2b160b !important;
+  fill: #2b160b !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.18 !important;
+  text-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Prevent HTML labels from clipping at the edge of a node. */
+.markdown-preview-view .mermaid svg foreignObject,
+.markdown-rendered .mermaid svg foreignObject {
+  overflow: visible !important;
+}
+
+.markdown-preview-view .mermaid svg .nodeLabel,
+.markdown-rendered .mermaid svg .nodeLabel {
+  white-space: normal !important;
+  overflow: visible !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
+
+/* Default node shapes: light parchment. */
+.markdown-preview-view .mermaid svg g.node rect,
+.markdown-preview-view .mermaid svg g.node polygon,
+.markdown-preview-view .mermaid svg g.node circle,
+.markdown-preview-view .mermaid svg g.node ellipse,
+.markdown-preview-view .mermaid svg g.node path,
+.markdown-preview-view .mermaid svg .stateGroup rect,
+.markdown-preview-view .mermaid svg .stateGroup polygon,
+.markdown-rendered .mermaid svg g.node rect,
+.markdown-rendered .mermaid svg g.node polygon,
+.markdown-rendered .mermaid svg g.node circle,
+.markdown-rendered .mermaid svg g.node ellipse,
+.markdown-rendered .mermaid svg g.node path,
+.markdown-rendered .mermaid svg .stateGroup rect,
+.markdown-rendered .mermaid svg .stateGroup polygon {
+  fill: #f3dfb9 !important;
+  stroke: #d0a05a !important;
+  stroke-width: 2.2px !important;
+}
+
+/* Center/root nodes. */
+.markdown-preview-view .mermaid svg g.node.center rect,
+.markdown-preview-view .mermaid svg g.node.center polygon,
+.markdown-preview-view .mermaid svg g.node.center circle,
+.markdown-preview-view .mermaid svg g.node.center ellipse,
+.markdown-rendered .mermaid svg g.node.center rect,
+.markdown-rendered .mermaid svg g.node.center polygon,
+.markdown-rendered .mermaid svg g.node.center circle,
+.markdown-rendered .mermaid svg g.node.center ellipse {
+  fill: #ddd2ff !important;
+  stroke: #a875ff !important;
+  stroke-width: 3px !important;
+}
+
+/* Main concept boxes. Covers the class names used across your pages. */
+.markdown-preview-view .mermaid svg g.node.core rect,
+.markdown-preview-view .mermaid svg g.node.gate rect,
+.markdown-preview-view .mermaid svg g.node.user rect,
+.markdown-preview-view .mermaid svg g.node.source rect,
+.markdown-preview-view .mermaid svg g.node.proto rect,
+.markdown-preview-view .mermaid svg g.node.principle rect,
+.markdown-preview-view .mermaid svg g.node.field rect,
+.markdown-preview-view .mermaid svg g.node.realm rect,
+.markdown-preview-view .mermaid svg g.node.concept rect,
+.markdown-preview-view .mermaid svg g.node.value rect,
+.markdown-preview-view .mermaid svg g.node.node rect,
+.markdown-preview-view .mermaid svg g.node.process rect,
+.markdown-preview-view .mermaid svg g.node.step rect,
+.markdown-preview-view .mermaid svg g.node.main rect,
+.markdown-preview-view .mermaid svg g.node.loop rect,
+.markdown-preview-view .mermaid svg g.node.layer rect,
+.markdown-rendered .mermaid svg g.node.core rect,
+.markdown-rendered .mermaid svg g.node.gate rect,
+.markdown-rendered .mermaid svg g.node.user rect,
+.markdown-rendered .mermaid svg g.node.source rect,
+.markdown-rendered .mermaid svg g.node.proto rect,
+.markdown-rendered .mermaid svg g.node.principle rect,
+.markdown-rendered .mermaid svg g.node.field rect,
+.markdown-rendered .mermaid svg g.node.realm rect,
+.markdown-rendered .mermaid svg g.node.concept rect,
+.markdown-rendered .mermaid svg g.node.value rect,
+.markdown-rendered .mermaid svg g.node.node rect,
+.markdown-rendered .mermaid svg g.node.process rect,
+.markdown-rendered .mermaid svg g.node.step rect,
+.markdown-rendered .mermaid svg g.node.main rect,
+.markdown-rendered .mermaid svg g.node.loop rect,
+.markdown-rendered .mermaid svg g.node.layer rect {
+  fill: #eee9ff !important;
+  stroke: #a875ff !important;
+}
+
+/* Detail/output boxes. */
+.markdown-preview-view .mermaid svg g.node.detail rect,
+.markdown-preview-view .mermaid svg g.node.need rect,
+.markdown-preview-view .mermaid svg g.node.forge rect,
+.markdown-preview-view .mermaid svg g.node.purpose rect,
+.markdown-preview-view .mermaid svg g.node.practice rect,
+.markdown-preview-view .mermaid svg g.node.material rect,
+.markdown-preview-view .mermaid svg g.node.output rect,
+.markdown-preview-view .mermaid svg g.node.support rect,
+.markdown-preview-view .mermaid svg g.node.question rect,
+.markdown-preview-view .mermaid svg g.node.choice rect,
+.markdown-preview-view .mermaid svg g.node.check rect,
+.markdown-preview-view .mermaid svg g.node.result rect,
+.markdown-preview-view .mermaid svg g.node.task rect,
+.markdown-preview-view .mermaid svg g.node.trace rect,
+.markdown-preview-view .mermaid svg g.node.action rect,
+.markdown-rendered .mermaid svg g.node.detail rect,
+.markdown-rendered .mermaid svg g.node.need rect,
+.markdown-rendered .mermaid svg g.node.forge rect,
+.markdown-rendered .mermaid svg g.node.purpose rect,
+.markdown-rendered .mermaid svg g.node.practice rect,
+.markdown-rendered .mermaid svg g.node.material rect,
+.markdown-rendered .mermaid svg g.node.output rect,
+.markdown-rendered .mermaid svg g.node.support rect,
+.markdown-rendered .mermaid svg g.node.question rect,
+.markdown-rendered .mermaid svg g.node.choice rect,
+.markdown-rendered .mermaid svg g.node.check rect,
+.markdown-rendered .mermaid svg g.node.result rect,
+.markdown-rendered .mermaid svg g.node.task rect,
+.markdown-rendered .mermaid svg g.node.trace rect,
+.markdown-rendered .mermaid svg g.node.action rect {
+  fill: #f6d6ee !important;
+  stroke: #c27aa2 !important;
+}
+
+/* Evidence/final/safe outcome boxes. */
+.markdown-preview-view .mermaid svg g.node.final rect,
+.markdown-preview-view .mermaid svg g.node.final polygon,
+.markdown-preview-view .mermaid svg g.node.final circle,
+.markdown-preview-view .mermaid svg g.node.final ellipse,
+.markdown-preview-view .mermaid svg g.node.evidence rect,
+.markdown-preview-view .mermaid svg g.node.answer rect,
+.markdown-rendered .mermaid svg g.node.final rect,
+.markdown-rendered .mermaid svg g.node.final polygon,
+.markdown-rendered .mermaid svg g.node.final circle,
+.markdown-rendered .mermaid svg g.node.final ellipse,
+.markdown-rendered .mermaid svg g.node.evidence rect,
+.markdown-rendered .mermaid svg g.node.answer rect {
+  fill: #d9efd7 !important;
+  stroke: #7cab72 !important;
+}
+
+/* Warning/risk boxes. */
+.markdown-preview-view .mermaid svg g.node.warning rect,
+.markdown-preview-view .mermaid svg g.node.risk rect,
+.markdown-preview-view .mermaid svg g.node.low rect,
+.markdown-preview-view .mermaid svg g.node.critical rect,
+.markdown-rendered .mermaid svg g.node.warning rect,
+.markdown-rendered .mermaid svg g.node.risk rect,
+.markdown-rendered .mermaid svg g.node.low rect,
+.markdown-rendered .mermaid svg g.node.critical rect {
+  fill: #f7d4cd !important;
+  stroke: #c27a63 !important;
+}
+
+/* Lines and arrows. */
+.markdown-preview-view .mermaid svg .edgePath path,
+.markdown-preview-view .mermaid svg .flowchart-link,
+.markdown-preview-view .mermaid svg line,
+.markdown-preview-view .mermaid svg .transition,
+.markdown-rendered .mermaid svg .edgePath path,
+.markdown-rendered .mermaid svg .flowchart-link,
+.markdown-rendered .mermaid svg line,
+.markdown-rendered .mermaid svg .transition {
+  stroke: #d39a34 !important;
+  stroke-width: 2.5px !important;
+  opacity: 1 !important;
+}
+
+.markdown-preview-view .mermaid svg marker path,
+.markdown-rendered .mermaid svg marker path {
+  fill: #d39a34 !important;
+  stroke: #d39a34 !important;
+}
+
+/* Label backgrounds for edge labels, notes, and sequence labels. */
+.markdown-preview-view .mermaid svg .edgeLabel rect,
+.markdown-preview-view .mermaid svg .labelBkg,
+.markdown-preview-view .mermaid svg .labelBox,
+.markdown-preview-view .mermaid svg .note,
+.markdown-rendered .mermaid svg .edgeLabel rect,
+.markdown-rendered .mermaid svg .labelBkg,
+.markdown-rendered .mermaid svg .labelBox,
+.markdown-rendered .mermaid svg .note {
+  fill: #f3dfb9 !important;
+  stroke: #d0a05a !important;
+  opacity: 1 !important;
+}
+
+/* Sequence diagrams. */
+.markdown-preview-view .mermaid svg .actor,
+.markdown-preview-view .mermaid svg .actor-box,
+.markdown-preview-view .mermaid svg .labelBox,
+.markdown-rendered .mermaid svg .actor,
+.markdown-rendered .mermaid svg .actor-box,
+.markdown-rendered .mermaid svg .labelBox {
+  fill: #eee9ff !important;
+  stroke: #a875ff !important;
+  stroke-width: 2.2px !important;
+}
+
+.markdown-preview-view .mermaid svg .actor-line,
+.markdown-preview-view .mermaid svg .messageLine0,
+.markdown-preview-view .mermaid svg .messageLine1,
+.markdown-preview-view .mermaid svg .loopLine,
+.markdown-preview-view .mermaid svg .activation0,
+.markdown-preview-view .mermaid svg .activation1,
+.markdown-rendered .mermaid svg .actor-line,
+.markdown-rendered .mermaid svg .messageLine0,
+.markdown-rendered .mermaid svg .messageLine1,
+.markdown-rendered .mermaid svg .loopLine,
+.markdown-rendered .mermaid svg .activation0,
+.markdown-rendered .mermaid svg .activation1 {
+  stroke: #d39a34 !important;
+}
