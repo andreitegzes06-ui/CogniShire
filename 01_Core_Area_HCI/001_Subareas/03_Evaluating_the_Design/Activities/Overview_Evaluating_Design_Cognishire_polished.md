@@ -31,7 +31,7 @@ status: polished-rpg-readable-draft
 
 The official academic area is **Human-Computer Interaction**. The official CS2023 unit for this room is **HCI-Evaluation: Evaluating the Design**. The chamber metaphor works because evaluation is about careful observation: watching users, measuring interaction, inspecting interfaces, interpreting evidence, and deciding what the evidence can actually prove.
 
-The [[../01_Mind_Library/Overview|Mind Library]] explains the user. The [[../02_System_Design/Overview|Interface Forge]] builds the interface. The **Observation Chamber** asks whether that interface works when it meets real tasks, real people, real contexts, and real constraints. The [[../04_Inclusive_Gate/Overview|Inclusive Gate]] adds accessibility, ethics, and accountability. The [[../05_Oracle_Engine/Overview|Oracle Engine]] extends evaluation toward AI-mediated systems.
+The [[../../01_Understanding_the_User/Overview|Mind Library]] explains the user. The [[../../02_System_Design/Overview|Interface Forge]] builds the interface. The **Observation Chamber** asks whether that interface works when it meets real tasks, real people, real contexts, and real constraints. The [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]] adds accessibility, ethics, and accountability. The [[../../05_Human_AI_Interaction/Overview|Oracle Engine]] extends evaluation toward AI-mediated systems.
 
 > [!quote] Chamber rule
 > Evaluation is not asking whether people “like” the design. It asks what evidence supports the claim that the design works.
@@ -80,14 +80,14 @@ flowchart TB
 
 | Page | Role in the chamber | Use it when you need to |
 |---|---|---|
-| [[Activities/Theory|Theory]] | Concepts, validity concerns, measurement models, and evaluation frameworks | Understand what makes evaluation evidence trustworthy or weak |
-| [[Activities/Design|Design]] | Protocols, tasks, instruments, metrics, rubrics, and study materials | Build an evaluation plan before collecting data |
-| [[Activities/Experiment|Experiment]] | Usability tests, controlled experiments, field studies, surveys, log studies, and mixed methods | Run or compare empirical evaluation methods |
-| [[Connections|Connections]] | Links to statistics, psychology, empirical software engineering, social science methods, product analytics, and ethics | Understand which other fields support evaluation |
-| [[Important People|Important People]] | Researcher and practitioner roadmap | Find people associated with HCI evaluation methods |
-| [[Important Venues|Important Venues]] | Conference, journal, workshop, lab, and community atlas | Find where evaluation and usability research is published |
-| [[Local and Global|Local and Global]] | Scale map for evaluation settings, populations, cultures, deployments, and real-world use | Ask whether findings travel beyond one study |
-| [[Open Problems|Open Problems]] | Frontier map for validity, realism, metrics, bias, reproducibility, and long-term outcomes | Track what evaluation still struggles to measure |
+| [[Theory|Theory]] | Concepts, validity concerns, measurement models, and evaluation frameworks | Understand what makes evaluation evidence trustworthy or weak |
+| [[Design|Design]] | Protocols, tasks, instruments, metrics, rubrics, and study materials | Build an evaluation plan before collecting data |
+| [[Experiment|Experiment]] | Usability tests, controlled experiments, field studies, surveys, log studies, and mixed methods | Run or compare empirical evaluation methods |
+| [[../Connections|Connections]] | Links to statistics, psychology, empirical software engineering, social science methods, product analytics, and ethics | Understand which other fields support evaluation |
+| [[../Important People|Important People]] | Researcher and practitioner roadmap | Find people associated with HCI evaluation methods |
+| [[../Important Venues|Important Venues]] | Conference, journal, workshop, lab, and community atlas | Find where evaluation and usability research is published |
+| [[../Local and Global|Local and Global]] | Scale map for evaluation settings, populations, cultures, deployments, and real-world use | Ask whether findings travel beyond one study |
+| [[../Open Problems|Open Problems]] | Frontier map for validity, realism, metrics, bias, reproducibility, and long-term outcomes | Track what evaluation still struggles to measure |
 
 ## CS2023 foundation
 
@@ -397,10 +397,10 @@ flowchart TB
 
 | Connected room | Relation to evaluation |
 |---|---|
-| [[../01_Mind_Library/Overview|Mind Library]] | Supplies concepts that explain what evaluation finds |
-| [[../02_System_Design/Overview|Interface Forge]] | Supplies prototypes, components, tasks, and interface claims to test |
-| [[../04_Inclusive_Gate/Overview|Inclusive Gate]] | Adds accessibility, ethics, fairness, consent, and accountability |
-| [[../05_Oracle_Engine/Overview|Oracle Engine]] | Adds evaluation problems around AI, uncertainty, trust, explainability, and automation |
+| [[../../01_Understanding_the_User/Overview|Mind Library]] | Supplies concepts that explain what evaluation finds |
+| [[../../02_System_Design/Overview|Interface Forge]] | Supplies prototypes, components, tasks, and interface claims to test |
+| [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]] | Adds accessibility, ethics, fairness, consent, and accountability |
+| [[../../05_Human_AI_Interaction/Overview|Oracle Engine]] | Adds evaluation problems around AI, uncertainty, trust, explainability, and automation |
 
 ## Source grounding
 
@@ -471,7 +471,7 @@ The central question of this room is:
 
 > What evidence justifies the claim that this design works?
 
-Back to [[../The five rooms of HCI|The five rooms of HCI]].
+Back to [[00_Index/Human-Computer Interaction|The five rooms of HCI]].
 
 ## Academic anchors
 

@@ -529,7 +529,7 @@ The central question is:
 
 > Whose work helps us understand, design, test, and repair access barriers?
 
-This page connects to [[Theory]] because the researchers define key concepts. It connects to [[Design]] because their work shapes accessible components and methods. It connects to [[Experiment]] because accessibility must be tested with evidence. It connects to [[Connections]] because every person route crosses multiple fields. It connects to [[Local and Global]] because UVT context and global HCI must both be visible.
+This page connects to [[Activities/Theory]] because the researchers define key concepts. It connects to [[Activities/Design]] because their work shapes accessible components and methods. It connects to [[Activities/Experiment]] because accessibility must be tested with evidence. It connects to [[Connections]] because every person route crosses multiple fields. It connects to [[Local and Global]] because UVT context and global HCI must both be visible.
 
 ## Academic Anchors
 
