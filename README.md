@@ -11,7 +11,7 @@ Download and install Obsidian from the official website:
 Open the **Releases** section of this repository and download the latest version.
 
 <p align="center">
-  <img src="assets/photos/release.png" alt="GitHub releases page" width="700">
+  <img src="assets/photos/release.png" alt="GitHub releases page" width="300">
 </p>
 
 Click:
@@ -21,7 +21,7 @@ Source code (zip)
 ```
 
 <p align="center">
-  <img src="assets/photos/zipy.png" alt="Source code zip download" width="700">
+  <img src="assets/photos/zipy.png" alt="Source code zip download" width="300">
 </p>
 
 ### 3. Extract the ZIP file
