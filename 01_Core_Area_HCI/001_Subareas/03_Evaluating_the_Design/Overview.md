@@ -22,7 +22,7 @@ tags:
   - evidence
 status: academic-career-guide-polished
 ---
-
+![[natural.jpg|1000]]
 # The Observation Chamber
 
 > [!abstract] CS2023 Evaluating the Design
@@ -75,7 +75,6 @@ flowchart TB
 |---|---|---|
 | Local UVT trial | The project is tested with the people, devices, tools, and academic expectations around UVT | Does the map work for the people who will use or evaluate it? |
 | Evidence core | The study records behaviour, task success, confusion, comments, access issues, and setup failures | What happened during use, and what does it mean? |
-| Global HCI standards | Local evidence is interpreted through CS2023, usability definitions, accessibility standards, and HCI methods | What can this evidence honestly claim? |
 
 ## Room identity
 
@@ -109,7 +108,6 @@ flowchart LR
 
 ## What this room measures
 
-Evaluation does not measure only whether users like a design. It can measure effectiveness, efficiency, satisfaction, accessibility, understanding, trust, and learning. These are different constructs. A study must choose methods that match the claim.
 
 ```mermaid
 flowchart TB
@@ -189,7 +187,6 @@ flowchart TB
 
 ## Global HCI evaluation layer
 
-The global layer keeps the project academically grounded. It helps prevent local impressions from becoming unsupported claims.
 
 ```mermaid
 flowchart TB
@@ -269,7 +266,6 @@ flowchart TB
 | [[Connections|Connections]] | Statistics, psychology, social science, empirical software engineering, ethics, and analytics | Which external fields support evaluation? |
 | [[Important People|Important People]] | Evaluation researchers, UX metrics specialists, and accessibility researchers | Whose work should I follow? |
 | [[Important Venues|Important Venues]] | CHI, UXPA, ASSETS, HFES, ESEM, CSCW, and journals | Where is evaluation research published? |
-| [[Local and Global|Local and Global]] | UVT evidence compared with global HCI claims | How far can local evidence travel? |
 | [[Open Problems|Open Problems]] | Validity, realism, metrics, bias, reproducibility, and AI evaluation | What remains unresolved? |
 
 ## The evidence engine
@@ -279,7 +275,6 @@ flowchart LR
     A[Design enters] --> B[User acts]
     B --> C[Observation records]
     C --> D[Method organises]
-    D --> E[Claim is limited]
     E --> F[Revision repairs]
     F --> G[New version tested]
 
@@ -296,21 +291,16 @@ flowchart LR
 | User acts | A student, professor, or local viewer tries to use or understand it |
 | Observation records | The study captures wrong turns, success, confusion, comments, time, confidence, and access problems |
 | Method organises | A protocol turns raw behaviour into findings |
-| Claim is limited | The result is reported as local, global, formative, summative, qualitative, or quantitative evidence |
 | Revision repairs | The map is changed because of evidence, not taste alone |
 | New version tested | The revised version enters a new evaluation cycle |
 
-## The claim ladder
 
 ```mermaid
 flowchart TB
-    A((Claim Ladder))
 
     A --> B[Observation]
     B --> C[Pattern]
     C --> D[Finding]
-    D --> E[Local Claim]
-    E --> F[Broader Claim]
 
     B --> B1[One user was confused]
     C --> C1[Several local users<br/>were confused]
@@ -327,17 +317,13 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Claim level | Example for this map |
 |---|---|
 | Observation | One student interpreted “Observation Chamber” as a video-recording room |
 | Pattern | Several students could not connect the room names to CS2023 terms |
 | Finding | The metaphor needs an immediate academic translation |
-| Local claim | In the UVT test context, fantasy names should be paired with CS2023 labels |
-| Broader claim | Fantasy-based HCI maps need academic labels for all students. This needs broader evidence |
 
 ## Chamber trial: minimal local study
 
-A minimal local study is enough for formative improvement. It is not enough for universal claims. The goal is to find problems, repair them, and state the limits clearly.
 
 ```mermaid
 flowchart TB
@@ -372,7 +358,6 @@ flowchart TB
 
 ## Validity watch
 
-Validity asks whether a study supports the claim it makes. It is the main academic guardrail for this page.
 
 ```mermaid
 flowchart TB
@@ -420,21 +405,6 @@ This room is useful for career preparation because evaluation produces artifacts
 | Accessibility checklist | You understand access as part of evaluation |
 | Clone/setup test | You can evaluate portability and reproducibility |
 | Before/after screenshots | You can show design iteration |
-| Claim-boundary table | You understand what the evidence does and does not prove |
-
-## Local and global synthesis
-
-The Observation Chamber exists to stop the map from becoming only aesthetic. It asks: who tested it, what they did, what evidence was collected, what failed, what improved, and what the evidence can honestly prove.
-
-Locally, this means testing the HCI map inside the UVT Faculty of Informatics context: students, professor, GitHub, Obsidian, CSS, diagrams, sources, and classroom expectations.
-
-Globally, this means interpreting the local findings through CS2023 HCI-Evaluation, usability theory, accessibility standards, HCI methods, and peer-reviewed research.
-
-The central question of this room is:
-
-> What evidence shows that this design works, and what are the limits of that evidence?
-
-Back to [[00_Index/Human-Computer Interaction|The five rooms of HCI]].
 
 ## Academic anchors
 

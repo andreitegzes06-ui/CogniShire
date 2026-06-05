@@ -19,7 +19,6 @@ status: visual-academic-factchecked
 # Experiment
 
 > [!abstract] Evidence Chamber
-> Experiment is the part of HCI where design claims are tested against human behaviour. It gathers evidence about understanding, effort, error, accessibility, trust, task success, and recovery.
 
 The Experiment chamber connects [[Theory]] with [[Design]]. Theory gives the concepts: mental models, feedback, cognitive load, accessibility, trust, and situated action. Design gives the prototype, workflow, page, interface, or system. Experiment asks whether the design actually supports users under observable conditions.
 
@@ -256,7 +255,6 @@ flowchart LR
 
 ## The Data Trail
 
-The data trail shows how raw interaction becomes research material. Evidence is not simply “found.” It is recorded, selected, coded, interpreted, and reported. This is why researchers must be careful about bias, missing data, and exaggerated claims.
 
 ```mermaid
 sequenceDiagram
@@ -388,7 +386,6 @@ flowchart LR
     B --> B1["Clear purpose<br/>Voluntary participation"]
     C --> C1["Minimal data<br/>Safe storage"]
     D --> D1["No blame<br/>Accessible procedure"]
-    E --> E1["Limits stated<br/>Claims accurate"]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -437,12 +434,6 @@ flowchart LR
     class B1,C1,D1 detail;
     class E1 final;
 ```
-
-## Synthesis
-
-Experiment is the Mind Library’s evidence chamber. It begins with a researchable question, chooses a method, defines the study structure, collects evidence, interprets patterns through theory, and returns the result to design. It prevents HCI from becoming pure opinion by requiring claims about users to be tested, explained, and revised.
-
-The chamber connects back to [[Theory]], because every finding needs explanation. It connects forward to [[Design]], because every strong explanation should become redesign. It also connects outward to [[../Connections]], [[../Important Venues]], and [[../Open Problems]], because research methods are shaped by communities, ethics, accessibility, and unresolved sociotechnical problems.
 
 ## Academic anchors
 

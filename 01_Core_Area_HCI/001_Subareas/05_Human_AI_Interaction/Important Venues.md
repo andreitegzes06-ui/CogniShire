@@ -32,7 +32,7 @@ tags:
   - local-global
 status: max-polished-factchecked
 ---
-
+![[cybertruck.gif|1000]]
 # Important Venues
 
 Back to [[Overview|The Oracle Engine]].
@@ -83,7 +83,7 @@ flowchart TB
     A --> K[Journals + Toolkits]
 
     B --> B1[CSAI, DTSE,<br/>TRAIN, seminars]
-    C --> C1[RoCHI, A(I)BILITIES,<br/>USV / MintViz]
+    C --> C1[RoCHI, AIBILITIES,<br/>USV / MintViz]
     D --> D1[CHI, IUI,<br/>HAI, TiiS]
     E --> E1[FAccT, AIES,<br/>NIST, EU AI Act]
     F --> F1[IUI, CHI,<br/>VIS, TiiS]
@@ -202,8 +202,6 @@ flowchart TB
 | Obsidian/GitHub project context | The immediate venue where AI-assisted source verification, design, and accountability are tested |
 | Professor review | The local evaluation venue where the AI-assisted project must be academically inspectable |
 
-> [!warning] Local wording rule
-> Do not claim that UVT has a dedicated Human-AI Interaction venue unless an official source says so. Use the safer phrase: **UVT routes that can support Human-AI Interaction questions**.
 
 ## Romanian Venue Layer
 
@@ -501,7 +499,6 @@ flowchart TB
 | CHI | Human-centred AI accessibility studies |
 | IUI | Intelligent interfaces for access, adaptation, and personalisation |
 
-**Real-life translation:** use this gate when AI claims to help disabled users, adapt interfaces, generate alt text, summarise content, personalise access, or make digital systems more usable.
 
 ## AI Education and AI Literacy Venues
 
@@ -741,14 +738,11 @@ flowchart LR
 
 | Project problem | Venue combination |
 |---|---|
-| AI invented or overstated a local UVT claim | UVT official page + HAX/PAIR verification pattern + issue log |
 | AI generated an impressive but unsupported page | CHI/IUI + source verification + NIST risk framing |
 | AI explanation did not help judgement | IUI + CHI + TiiS + VIS |
 | AI changed how the student works | CHIWORK + CSCW + SIGCSE |
-| AI accessibility claim is untested | ASSETS + Web4All + A(I)BILITIES + WCAG/WAI if web-based |
 | AI agent might edit project files | HAI + software engineering + HAX + GitHub workflow |
 | AI output may be biased or harmful | FAccT + AIES + AI Incident Database + NIST AI RMF |
-| AI source support is weak | Official source + Human-AI method + claim-boundary table |
 
 ## Venue Reliability Ladder
 
@@ -842,29 +836,6 @@ flowchart TB
 | AI output needs national Romanian grounding | RoCHI, USV/MintViz, A(I)BILITIES |
 | AI agent might act across files | HAI, software engineering, HAX, NIST AI RMF |
 | AI explanation is unclear | IUI, CHI, TiiS, VIS |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Human-AI Interaction is a single official CS2023 unit.” | “Human-AI Interaction is treated here as a bridge between HCI, AI, software, accessibility, and ethics.” |
-| “UVT has a dedicated Human-AI Interaction venue.” | “UVT has local AI, ML, software, seminar, and project routes relevant to Human-AI questions.” |
-| “A technical AI benchmark proves good Human-AI Interaction.” | “Technical AI evidence must be paired with HCI evidence about user understanding, control, and trust.” |
-| “A toolkit is a peer-reviewed venue.” | “Toolkits are practical design sources. They should be used with research and official standards.” |
-| “FAccT or AIES replaces interface evaluation.” | “Responsible AI venues frame risk and accountability. Interface behaviour still needs HCI evaluation.” |
-| “AI accessibility is solved by an AI feature.” | “AI accessibility claims need evidence from accessibility venues, standards, and user testing.” |
-
-## Venue Synthesis
-
-Important Venues for **Human-AI Interaction** form a local-global atlas. Locally, the Oracle Engine starts with UVT: Faculty of Informatics, CSAI, DTSE, AI and ML research routes, TRAIN, scientific seminars, AI programmes, and the real Obsidian/GitHub project context. Nationally, it connects to RoCHI, A(I)BILITIES, USV/MintViz, ASSIST Software, Romanian accessibility evaluation, and Romanian-language interaction. Globally, it connects to IUI, CHI, HAI, TiiS, FAccT, AIES, CSCW, CHIWORK, ASSETS, Web4All, SIGCSE, AIED, NIST AI RMF, EU AI Act, Microsoft HAX, Google PAIR, and Stanford HAI.
-
-The central lesson is that there is no single Human-AI venue. If the question is interface behaviour, search IUI and CHI. If the question is responsibility, search FAccT, AIES, NIST, and the EU AI Act. If the question is agent behaviour, search HAI, HRI, IVA, and ACL/EMNLP. If the question is accessibility, search ASSETS and Web4All. If the question is work, search CSCW and CHIWORK. If the question is learning, search SIGCSE and AIED. If the question is local, start from UVT and Romania before expanding globally.
-
-The central question is:
-
-> Where should I search for evidence, standards, methods, and examples when AI changes what humans believe, decide, trust, verify, and control?
-
-This page connects to [[Activities/Theory]] because venues shape the concepts used in Human-AI Interaction. It connects to [[Activities/Design]] because toolkits and Human-AI venues become interface patterns. It connects to [[Activities/Experiment]] because venues define how trust, verification, explanation, oversight, and collaboration are tested. It connects to [[Connections]] because each venue belongs to several fields. It connects to [[Important People]] because researchers publish and organise work through these venues.
 
 ## Academic Anchors
 

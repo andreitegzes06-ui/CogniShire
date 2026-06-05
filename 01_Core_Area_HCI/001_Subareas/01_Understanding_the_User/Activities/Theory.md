@@ -148,7 +148,6 @@ flowchart LR
 | Confirmation | The action succeeded | “Your changes were saved.” |
 | Progress | The action is still happening | Upload percentage or progress bar |
 | Error | The action failed and needs repair | “Password must include at least 8 characters.” |
-| Warning | The action carries risk | “This action cannot be undone.” |
 | Empty state | The system has no content yet and suggests next action | “No files yet. Upload your first document.” |
 
 Nielsen Norman Group's visibility of system status heuristic is a practical anchor here. The principle is that users should know what is going on within a reasonable time. In theoretical terms, feedback supports prediction, trust, recovery, and mental model repair.
@@ -263,11 +262,9 @@ Microsoft's Human-AI Interaction Guidelines organise design guidance around init
 
 ## Theory in motion
 
-Theory should not remain static. In HCI, a concept moves through design and experiment. It begins as an explanation, becomes a design claim, enters a prototype, meets users, and is revised through evidence.
 
 ```mermaid
 flowchart LR
-    A["Theory concept"] --> B["Design claim"]
     B --> C["Prototype"]
     C --> D["Experiment"]
     D --> E["Evidence"]
@@ -297,12 +294,6 @@ This is why theory is not academic decoration. It is a tool for generating desig
 | Accessibility | Inclusive perception and operation | Keyboard failure, contrast issue, screen reader problem | [[../Local and Global]] |
 | Trust | Reliance, uncertainty, and control | Overacceptance, rejection, verification behaviour | [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] |
 
-## Chamber synthesis
-
-Theory is the Mind Library's conceptual archive. It gives HCI disciplined explanations for interaction rather than loose opinion. Mental models explain expectation. Affordances and signifiers explain possible action. Feedback explains system response. Cognitive load explains effort. Accessibility explains diversity of use. Human-AI theory explains trust under uncertainty.
-
-The rest of the library depends on this archive. [[Design]] draws from it, [[Experiment]] tests it, [[../Connections]] carries it into other disciplines, and [[../Open Problems]] revises it when emerging systems create new forms of interaction.
-
 ## Academic anchors
 
 | Route | Trusted source | Why it supports this page |
@@ -312,7 +303,6 @@ The rest of the library depends on this archive. [[Design]] draws from it, [[Exp
 | Mental models | [NN/g: Mental Models](https://www.nngroup.com/articles/mental-models/) | Explains how users rely on internal representations of how systems work. |
 | Conceptual models and signifiers | [Don Norman: The Design of Everyday Things](https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/) | Anchors the distinction between system design, perceived cues, affordances, and signifiers. |
 | Usability heuristics | [NN/g: 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) | Supports visibility of system status, match with user language, user control, recognition, error prevention, and recovery. |
-| Recognition over recall | [NN/g: Recognition Rather Than Recall](https://www.nngroup.com/articles/recognition-and-recall/) | Supports the claim that interfaces should reduce memory burden by making options visible. |
 | Cognitive load | [Sweller: Cognitive Load During Problem Solving](https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1202_4) | Provides a foundational source for cognitive load theory. |
 | Accessibility standards | [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/) | Defines the four accessibility principles and testable success criteria. |
 | Accessibility guidance | [W3C Web Accessibility Initiative](https://www.w3.org/WAI/) | Provides practical and conceptual guidance for accessible digital systems. |

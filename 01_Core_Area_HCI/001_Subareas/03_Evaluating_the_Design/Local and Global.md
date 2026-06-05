@@ -25,7 +25,7 @@ tags:
   - empirical-methods
 status: academic-career-guide-draft
 ---
-
+![[colos.jpg|1000]]
 # Local and Global
 
 Back to [[Overview|The Observation Chamber]].
@@ -35,7 +35,6 @@ Back to [[Overview|The Observation Chamber]].
 
 The official CS2023 label is **HCI-Evaluation: Evaluating the Design**.  
 The project nickname is **Observation Chamber**. Use it only as a light orientation label.  
-The academic meaning is **learning how to evaluate interactive systems with users, tasks, metrics, accessibility checks, and clear claim limits**.
 
 Local means the real context around this project: **Universitatea de Vest din Timișoara**, the **Faculty of Informatics**, students, teachers, classroom expectations, Obsidian, GitHub, local devices, and local research routes.
 
@@ -86,7 +85,6 @@ flowchart TB
 | Scale | Meaning for this project | Evaluation question |
 |---|---|---|
 | Local UVT | The professor, students, faculty context, software setup, GitHub workflow, and local academic expectations | Does the HCI map work for the people and conditions that will actually use or judge it? |
-| Global HCI | International HCI methods, standards, venues, and validity concepts | Does the local evaluation use recognised methods and avoid overclaiming? |
 | Local evidence | Data from classmates, UVT students, professor review, clone tests, and local accessibility checks | What happened in this specific environment? |
 | Global evidence | CS2023, usability standards, accessibility standards, HCI venues, and published method guidance | How should the local results be interpreted? |
 
@@ -148,7 +146,6 @@ The safer question is:
 
 ## Local UVT evaluation routes
 
-This table is a bridge from local Computer Science work to HCI evaluation. It does not claim that every route is an HCI specialisation.
 
 | Local route | Public UVT basis | Evaluation connection |
 |---|---|---|
@@ -181,8 +178,6 @@ Use this table as a route map. It is not a list of official HCI evaluation super
 | Codruț Chiș | Virtual reality | Useful for evaluating VR interaction, presence, comfort, and spatial usability |
 | Roxana Dogaru | Knowledge discovery, medical data analysis | Useful for evaluation in medical data and decision-support contexts |
 
-> [!warning] Local people note
-> This table identifies public UVT routes that can support evaluation-related thinking. It does not claim that each person teaches HCI evaluation or supervises this topic.
 
 ## What to evaluate locally
 
@@ -211,7 +206,6 @@ flowchart TB
     C --> D[Record evidence]
     D --> E[Interpret findings]
     E --> F[Revise map]
-    F --> G[State claim limits]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -232,7 +226,6 @@ flowchart TB
 | Task five | Open the vault from GitHub or a copied folder |
 | Evidence | Record success, wrong turns, time, confusion, quotes, and confidence |
 | Accessibility check | Test keyboard movement, headings, font size, contrast, and diagram readability |
-| Claim boundary | Report the result as local formative evidence, not global proof |
 
 ## Local finding to global interpretation
 
@@ -241,7 +234,6 @@ flowchart LR
     A[Local finding] --> B[Evaluation concept]
     B --> C[Global source]
     C --> D[Design implication]
-    D --> E[Claim boundary]
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
@@ -331,7 +323,6 @@ A student should not only say “I made an HCI map.” They should save evidence
 | GitHub clone/setup test | Shows that you can evaluate system portability |
 | Before/after screenshots | Shows design iteration |
 | Short findings report | Shows that you can write defensible conclusions |
-| Claim-boundary table | Shows that you understand validity limits |
 
 ## Local and global comparison
 
@@ -341,8 +332,6 @@ A student should not only say “I made an HCI map.” They should save evidence
 | Users | UVT students, classmates, professor, local GitHub viewers | Learners, researchers, practitioners, disabled users, cross-cultural users, deployed-system users |
 | Methods | Local usability test, professor review, clone test, accessibility check | Usability testing, field studies, experiments, heuristic evaluation, analytics, WCAG evaluation |
 | Evidence | Task success, wrong turns, confusion, quotes, professor feedback, local setup results | Peer-reviewed research, standards, validated instruments, published method guidance |
-| Claims | “In this UVT setting, these users had these problems.” | “Across broader contexts, this type of design has these evaluation concerns.” |
-| Main risk | Overclaiming from classmates | Becoming too generic and ignoring the local academic project |
 | Best use | Start with local formative evidence | Interpret it through global methods and state limits clearly |
 
 ## Contact protocol
@@ -354,7 +343,6 @@ For **Evaluating the Design**, local contact should ask about evidence and metho
 | Software engineering / workflows | “How should I evaluate whether this GitHub/Obsidian workflow is maintainable and reproducible?” |
 | AI / ML | “What metrics or evaluation questions matter when a system produces predictions or recommendations?” |
 | E-health / medical informatics | “What makes evaluation stricter when a system affects health or monitoring?” |
-| Psychology/data route | “How should I avoid overclaiming from a small user test?” |
 | VR route | “What would be important to evaluate in an immersive version of this HCI map?” |
 | Teaching technology route | “How can I evaluate whether this map helps students learn, not just navigate?” |
 
@@ -367,20 +355,8 @@ For **Evaluating the Design**, local contact should ask about evidence and metho
 > Best regards,  
 > [Name]
 
-## What not to claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “These are the HCI evaluation professors at UVT.” | “These are UVT CS routes that can support evaluation-related questions.” |
-| “A test with classmates proves the map is usable.” | “A test with classmates gives local formative evidence.” |
-| “The professor liking it proves academic quality.” | “Professor review can support local academic fit, but source grounding still matters.” |
-| “The map is accessible because it looks readable.” | “Accessibility needs contrast, keyboard, structure, and assistive-technology checks.” |
-| “GitHub works because it works on my PC.” | “GitHub sharing needs clone and setup testing on another machine.” |
-| “Local UVT findings prove global HCI claims.” | “Local findings should be interpreted through global HCI theory and stated with limits.” |
-
 ## Application to the HCI map
 
-The HCI map should be evaluated locally before making broader claims.
 
 | Map decision | Local evaluation | Global interpretation |
 |---|---|---|
@@ -420,17 +396,6 @@ flowchart LR
 | Evidence | Success, time, wrong turns, comments, ratings, and screenshots |
 | Findings | The main problems, grouped by severity |
 | Revisions | What was changed after the test |
-| Limits | What cannot be claimed from this sample and context |
-
-## Synthesis
-
-Local and Global for **Evaluating the Design** means that the page starts from the real UVT project context and then connects it to global HCI evidence standards. Locally, the map must be tested with the people, tools, devices, and academic expectations around UVT. Globally, the evaluation must connect to CS2023 HCI-Evaluation, usability testing, accessibility evaluation, empirical methods, human factors, software-tool evaluation, and validity theory.
-
-The central question is:
-
-> What evidence shows that this HCI map works in the local UVT context, and how far can that evidence be interpreted using global HCI evaluation methods?
-
-This page connects to [[Activities/Theory]] because local-global evaluation is a validity problem. It connects to [[Activities/Design]] because protocols must define local participants, tasks, and tools. It connects to [[Activities/Experiment]] because the test must actually be run. It connects to [[Important People]] because local UVT routes and global evaluation researchers both matter. It connects to [[Important Venues]] because local research routes and global evaluation venues both define where the field is learned and reviewed.
 
 ## Academic anchors
 

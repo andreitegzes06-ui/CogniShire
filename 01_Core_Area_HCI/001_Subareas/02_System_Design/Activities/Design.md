@@ -16,7 +16,7 @@ tags:
   - accessibility
 status: polished-factchecked-draft
 ---
-
+![[cafi.gif|1000]]
 # Design
 
 Back to [[../Overview|The Interface Forge]].
@@ -24,9 +24,7 @@ Back to [[../Overview|The Interface Forge]].
 > [!abstract] Design Forge
 > Design is the chamber where HCI knowledge becomes interface form. Concepts from the [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Activities/Theory|Mind Library]] are shaped into layouts, controls, labels, navigation paths, feedback states, forms, error handling, responsive frames, design systems, and prototypes.
 
-The Interface Forge is different from the Mind Library. The Mind Library explains users, cognition, theory, and evidence. The Interface Forge builds the thing the user actually meets. It turns a mental model into a navigation structure. It turns an affordance into a control. It turns feedback into a status message. It turns accessibility into keyboard focus, semantic structure, contrast, captions, and adaptable layouts. It turns a design claim into a prototype that can be tested inside the [[../../03_Evaluating_the_Design/Overview|Observation Chamber]].
 
-A design is not just a visual choice. It is a structured claim about how people will understand and act. If the interface is unclear, the user must repair the design with extra thinking. If the interface is well made, the system guides attention, supports action, shows state, prevents avoidable errors, and makes recovery possible.
 
 > [!quote] Forge rule
 > Interface design makes possible actions visible, understandable, accessible, and testable.
@@ -211,7 +209,6 @@ The furnace connects to [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_Use
 
 The Feedback Furnace shapes system response. Every user action changes the interaction state. The interface must show that change clearly enough for the user to continue, stop, correct, or recover.
 
-Feedback is not only animation. It is the communication of state. A loading indicator tells the user to wait. A success message tells the user that an action worked. An error message tells the user what failed. A warning tells the user that an action has risk. A disabled state tells the user that an action is unavailable.
 
 ```mermaid
 flowchart LR
@@ -237,7 +234,6 @@ flowchart LR
 | Loading | The system is working | Progress, spinner, skeleton, or message |
 | Success | The action worked | Confirmation and next step |
 | Error | Something failed | Plain explanation and repair path |
-| Warning | Action has risk | Consequence shown before commitment |
 | Empty state | Nothing exists yet | Explain what can be done next |
 
 Nielsen Norman Group’s error-message guidance is useful here because effective error messages should be visible, constructive, and respectful of user effort. The same principle applies to other feedback states. Feedback should help the user act, not merely announce that something happened.
@@ -438,7 +434,6 @@ The forge does not end when a screen looks finished. It ends by returning to evi
 
 ```mermaid
 flowchart LR
-    A[Design claim] --> B[Prototype]
     B --> C[Observation]
     C --> D[Evidence]
     D --> E[Refinement]
@@ -474,12 +469,6 @@ This page can also guide the Cognishire vault itself. The vault is an interface,
 | Do callouts support learning? | Check whether users read them or skip them |
 | Is the vault accessible? | Keyboard navigation, readable contrast, image alternatives |
 | Can GitHub viewers understand the structure? | README, setup instructions, source links |
-
-## Forge Synthesis
-
-Design inside the Interface Forge is practical interface construction. It turns user goals into blueprints, structure into layout, theory into affordance, action into feedback, movement into navigation, errors into recovery, and prototypes into testable design claims.
-
-The strongest interface design is not the one with the most decoration. It is the one where the user can understand what matters, see what can be done, act safely, interpret system response, recover from failure, and move through the system with confidence. This chamber connects backward to [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Activities/Theory|Theory]], forward to [[../../03_Evaluating_the_Design/Overview|Observation Chamber]], across to [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], and outward to [[../../05_Human_AI_Interaction/Overview|Oracle Engine]] when intelligent systems become part of the interface.
 
 ## Academic anchors
 

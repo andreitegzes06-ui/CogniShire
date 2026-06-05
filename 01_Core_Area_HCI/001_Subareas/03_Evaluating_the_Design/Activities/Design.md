@@ -20,7 +20,7 @@ tags:
   - accessibility-evaluation
 status: expanded-polished-draft
 ---
-
+![[como.jpg|1000]]
 # Design
 
 Back to [[../Overview|The Observation Chamber]].
@@ -32,7 +32,6 @@ The fantasy name is **Protocol Design Table**.
 The real CS2023 label is **HCI-Evaluation: Evaluating the Design**.  
 The real-life meaning is **planning an evaluation before collecting data so the study can produce clear, ethical, and defensible findings**.
 
-This page is different from [[../../02_System_Design/Activities/Design|System Design / Interface Forge Design]]. The Interface Forge designs the interface. The Observation Chamber designs the **study that evaluates the interface**. That means deciding what question the study asks, what task the participant performs, what data is recorded, what instrument is used, what accessibility checks are required, and what claim the evidence can support.
 
 > [!quote] Protocol rule
 > A study does not become rigorous because it uses many metrics. It becomes rigorous when every task, measure, and instrument serves the evaluation question.
@@ -55,7 +54,6 @@ flowchart TB
     D --> D1[How evidence is collected]
     E --> E1[Surveys, rubrics, notes]
     F --> F1[What is measured]
-    G --> G1[How findings become claims]
 
     classDef center fill:#d8d7ff,stroke:#8b5cf6,color:#05051a,stroke-width:3px;
     classDef station fill:#101022,stroke:#8b5cf6,color:#ffffff,stroke-width:2px;
@@ -95,7 +93,6 @@ flowchart TB
     C --> C1[Expected relation]
     D --> D1[Match method to question]
     E --> E1[Collect usable evidence]
-    F --> F1[Claim matches data]
 
     classDef center fill:#d8d7ff,stroke:#8b5cf6,color:#05051a,stroke-width:3px;
     classDef stage fill:#101022,stroke:#8b5cf6,color:#ffffff,stroke-width:2px;
@@ -115,7 +112,6 @@ flowchart TB
 | Qualitative methods | Prepare observation notes, interview questions, and coding categories |
 | Quantitative methods | Define variables, measures, comparison logic, and data recording |
 | Heuristic evaluation | Prepare evaluator instructions, heuristics, severity ratings, and issue templates |
-| Defensible conclusions | Decide in advance what kind of claim the study can support |
 
 ## The Evaluation Question Gate
 
@@ -605,22 +601,12 @@ flowchart TB
 |---|---|
 | Research question | Is the evaluation question specific enough? |
 | Method | Does the method match the question? |
-| Participants | Are the participants appropriate for the claim? |
 | Tasks | Are tasks realistic and goal-based? |
 | Metrics | Does each metric measure something relevant? |
 | Instruments | Are scripts, sheets, and questionnaires prepared? |
 | Accessibility | Is keyboard, focus, contrast, and assistive technology considered? |
 | Ethics | Is consent, privacy, and non-blame framing included? |
 | Analysis | Is there a plan for turning evidence into findings? |
-| Claim boundary | Does the report state what the evidence cannot prove? |
-
-## Design Synthesis
-
-Design in the Observation Chamber means designing the evaluation. It is the work that happens before testing: selecting the method, writing the task, preparing the script, defining metrics, choosing instruments, building rubrics, planning accessibility checks, and deciding how findings will become design implications.
-
-A good evaluation protocol is not long because it is bureaucratic. It is clear because every part serves the research question. It makes the study fairer, more ethical, more repeatable, and more useful for design.
-
-This page connects to [[Theory]] because protocols depend on validity and measurement concepts. It connects to [[Experiment]] because the designed protocol becomes a real study. It connects to [[../Connections]] because evaluation design draws from psychology, statistics, empirical software engineering, ethics, accessibility, and product analytics. It connects to [[../Open Problems]] because no protocol perfectly solves bias, realism, long-term outcomes, or generalisation.
 
 ## Academic Anchors
 

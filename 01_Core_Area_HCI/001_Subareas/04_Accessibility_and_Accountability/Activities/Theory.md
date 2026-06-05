@@ -24,7 +24,7 @@ tags:
   - local-global
 status: academic-career-guide-draft
 ---
-
+![[poke.jpg|1000]]
 # Theory
 
 Back to [[../Overview|The Inclusive Gate]].
@@ -696,18 +696,6 @@ flowchart TB
 | GitHub/Obsidian setup | Can the viewer access content even if styling fails? |
 | Sources | Can the user distinguish official curriculum, standards, research, and practice sources? |
 | Long pages | Are summaries and routes provided so users do not get lost? |
-
-## Theory synthesis
-
-Accessibility and Inclusive Design theory starts from a simple but strict idea: barriers are created by mismatches between people and systems. A responsible design does not ask users to disappear, struggle silently, or adapt alone. It changes the system.
-
-The Inclusive Gate uses several theories together. WCAG gives the technical accessibility baseline through perceivable, operable, understandable, and robust design. Inclusive Design asks who is excluded and how diversity can guide better design. Universal Design asks how one system can work for the widest range of people. Ability-Based Design asks what a user can do now and how the system can adapt. Accountability asks who is responsible when the design excludes or harms.
-
-For the local UVT project, this means the HCI map must be readable, navigable, understandable, portable, and academically clear for the real people who will use it. For the global HCI field, it must connect to CS2023, W3C/WCAG, inclusive design, ability-based design, assistive technologies, and accessibility evaluation.
-
-The central question is:
-
-> Who is excluded by this design, what barrier excludes them, and how can the system change?
 
 ## Academic anchors
 

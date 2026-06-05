@@ -15,16 +15,13 @@ tags:
   - email
 status: corrected-roadmap-draft
 ---
-![[people1.webp|1000]]
+![[problems1.png|1000]]
 # Important People
 
 > [!abstract] Professor Roadmap
 > This page is a practical roadmap. It helps a student find current HCI professors, labs, and university routes. It is not a historical hall of fame.
 
 The goal of this chamber is orientation. If the Mind Library explains HCI concepts, this page shows where those concepts are taught, researched, and supervised. Each professor is treated as a route into a topic. The route includes an institution, a research focus, a public contact path, and a realistic way to study near that work.
-
-> [!warning] Contact rule
-> Use academic contact details carefully. Do not mass email professors. Choose a small number of people whose work genuinely matches your interests. Read their lab page and at least one paper first. Then write a short and specific message.
 
 ## Roadmap compass
 
@@ -400,12 +397,6 @@ flowchart LR
 | Recent papers | Recent papers show the current direction of the lab. |
 | Method fit | Some labs expect coding, statistics, design research, fabrication, or qualitative methods. |
 | Programme route | Many professors cannot supervise you unless you apply through the correct university programme. |
-
-## Roadmap synthesis
-
-Important People is a professor roadmap, not a ranking. It helps a student locate living academic routes into HCI. It shows which universities host relevant research groups, which professors work on which problems, how to study their work, and how to approach contact responsibly.
-
-This chamber connects to [[Important Venues]] because professors publish through conferences, journals, and labs. It connects to [[Activities/Theory]] because professors produce concepts. It connects to [[Activities/Design]] because they build interaction systems. It connects to [[Activities/Experiment]] because they define methods and evidence standards. It connects to [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] because current professors are actively working on accessibility, AI, trust, cognition, and sociotechnical systems.
 
 ## Academic anchors
 

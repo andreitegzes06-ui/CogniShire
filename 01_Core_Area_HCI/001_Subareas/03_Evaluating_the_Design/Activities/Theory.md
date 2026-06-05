@@ -19,13 +19,12 @@ tags:
   - research-frameworks
 status: polished-rpg-readable-draft
 ---
-
+![[waterfallll.jpg|1000]]
 # Theory
 
 Back to [[../Overview|The Observation Chamber]].
 
 > [!abstract] Evaluation Theory Chamber
-> **Theory** in the Observation Chamber explains what makes evaluation evidence meaningful. It defines usability, measurement, validity, method choice, accessibility evaluation, interpretation, and the limits of what a study can claim.
 
 **Fantasy name:** Evaluation Theory Chamber  
 **Real CS2023 label:** HCI-Evaluation: Evaluating the Design  
@@ -43,11 +42,9 @@ This page does not explain how to build an interface. That belongs to the [[../.
 | Usability Lens | Effectiveness, efficiency, satisfaction, and context | Define what “usable” actually means |
 | Measurement Forge | Construct to metric | Choose evidence that matches the concept |
 | Metric Shelf | Families of measures | Separate task success, time, errors, workload, satisfaction, and access |
-| Validity Watchtower | Trustworthiness of claims | Check whether the study supports its conclusion |
 | Method Hall | Qualitative, quantitative, mixed, and analytical methods | Match method to question |
 | Access Lens | Accessibility evaluation theory | Ask who can perceive, operate, understand, and use the system |
 | Interpretation Bridge | Evidence to design meaning | Turn raw data into design repair |
-| Claim Ladder | Strength of claims | Avoid jumping from small observations to universal conclusions |
 
 ## Theory map
 
@@ -64,7 +61,6 @@ flowchart TB
 
     B --> B1[What counts<br/>as usable]
     C --> C1[Concept to<br/>evidence]
-    D --> D1[Can the claim<br/>be trusted?]
     E --> E1[Which method<br/>fits?]
     F --> F1[Who is included<br/>or excluded?]
     G --> G1[Findings to<br/>design repair]
@@ -80,9 +76,7 @@ flowchart TB
 
 | Theory route | Real-life evaluation question | Why it matters |
 |---|---|---|
-| Usability model | What does it mean for the system to be usable? | Prevents vague claims like “good UX” |
 | Measurement model | Which metric or instrument captures the construct? | Prevents measuring the wrong thing |
-| Validity model | Can the study support its conclusion? | Prevents overclaiming |
 | Method model | Should the study be qualitative, quantitative, mixed, or analytical? | Matches method to question |
 | Accessibility model | Who can perceive, operate, understand, and use the system? | Prevents excluding users from the evaluation |
 | Interpretation model | How do findings become design knowledge? | Turns evidence into repair, not just reporting |
@@ -125,7 +119,6 @@ flowchart TB
 | Quantitative methods | How can performance, ratings, and comparisons be measured? |
 | Study planning | How can a study avoid weak evidence and biased conclusions? |
 | Heuristic evaluation | How can expert inspection identify usability problems before user testing? |
-| Defensible conclusions | What can the evidence honestly claim? |
 
 ## Usability Lens: the outcome of use
 
@@ -164,7 +157,6 @@ flowchart TB
 > [!important] Usability rule
 > A system is never simply “usable” in general. It is usable for specific users, goals, tasks, and contexts.
 
-This matters in student work because it prevents overclaiming. If five classmates complete a task in Obsidian, that supports a local claim about that group and task. It does not automatically prove that the system works for all students, devices, languages, or accessibility needs.
 
 ## Measurement Forge: from concept to evidence
 
@@ -193,7 +185,6 @@ flowchart LR
 | Accessibility | Keyboard path, focus order, screen reader output, WCAG checks | Automated checks alone miss real barriers |
 | Comprehension | Explanation task, recall, concept mapping | Users may complete a task without understanding |
 
-The theoretical danger is **construct mismatch**. If the study claims to measure “understanding” but only records completion time, the measurement model is weak. Time can support an efficiency claim, but not necessarily a comprehension claim.
 
 ## Metric Shelf
 
@@ -252,7 +243,6 @@ flowchart TB
     C --> C1[Did the design<br/>cause the effect?]
     D --> D1[Will findings<br/>generalise?]
     E --> E1[Does the study<br/>resemble real use?]
-    F --> F1[Does analysis<br/>support the claim?]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -269,13 +259,8 @@ flowchart TB
 | Internal validity | Interface B performs better because users in that condition were more experienced | A confound explains the result |
 | External validity | A study with three classmates is presented as evidence for all users | Sample and setting are too narrow |
 | Ecological validity | A quiet lab task is used to represent mobile use under stress | Study context differs from real context |
-| Statistical conclusion validity | A tiny sample is used for a strong quantitative claim | Analysis is not strong enough for the conclusion |
 | Interpretive validity | Researcher themes do not reflect participant meaning | Qualitative interpretation is biased or unsupported |
 
-> [!warning] Validity boundary
-> Weak validity does not always make a study useless. It limits what the study can claim.
-
-A formative usability test with five users can be useful for finding problems. It is not enough for a precise population-level performance claim. A controlled experiment can compare two versions more strongly, but it may miss real-world context. The method shapes the claim.
 
 ## Method Hall: qualitative, quantitative, mixed, analytical
 
@@ -490,19 +475,14 @@ flowchart LR
 
 Interpretation should be cautious. A researcher should not write “users are stupid” or “users did not pay attention.” The stronger HCI interpretation asks what the design made hard to perceive, understand, operate, or recover from.
 
-## Claim Ladder
 
-Not every evaluation supports the same strength of claim.
 
 ```mermaid
 flowchart TB
-    A((Claim Ladder))
 
     A --> B[Observation]
     B --> C[Pattern]
     C --> D[Finding]
-    D --> E[Supported Claim]
-    E --> F[Generalised Claim]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -513,19 +493,14 @@ flowchart TB
     class F final;
 ```
 
-| Claim level | Example |
 |---|---|
 | Observation | “Two participants hesitated before selecting the route.” |
 | Pattern | “Several users hesitated at the same navigation label.” |
 | Finding | “The label may not communicate the destination clearly.” |
-| Supported claim | “For this participant group and task, the current label caused navigation uncertainty.” |
-| Generalised claim | “This label is unclear for the wider target population.” This requires stronger evidence. |
 
-The ladder is important because many student reports jump too quickly from observation to generalisation. Good evaluation theory keeps claims proportional to evidence.
 
 ## Cognishire application
 
-The Cognishire HCI map can use evaluation theory to avoid weak claims about its own design.
 
 ```mermaid
 flowchart TB
@@ -534,7 +509,6 @@ flowchart TB
     A --> B[Construct]
     A --> C[Metric]
     A --> D[Validity]
-    A --> E[Claim]
 
     B --> B1[Navigation clarity]
     C --> C1[Wrong turns, time,<br/>explanation]
@@ -550,7 +524,6 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Project construct | Possible evidence | Validity warning |
 |---|---|---|
 | Room-name clarity | Ask users to explain Mind Library, Interface Forge, Observation Chamber | Users may repeat wording without understanding |
 | Navigation usability | Time, wrong turns, successful page finding | Small sample does not prove general usability |
@@ -558,27 +531,6 @@ flowchart TB
 | Source credibility | Ask users to identify official CS2023 source and trusted HCI links | Credibility may depend on prior academic experience |
 | Theme accessibility | Contrast checks, keyboard movement, font-size review, user feedback | Visual appeal is not accessibility evidence |
 | GitHub portability | Clone test on another machine | One successful clone does not prove all environments work |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Usability is one universal property.” | “Usability depends on specified users, goals, tasks, tools, and context.” |
-| “Task time proves understanding.” | “Task time can support an efficiency claim, but comprehension needs separate evidence.” |
-| “SUS proves the interface is good.” | “SUS supports a perceived-usability claim and should be interpreted with other evidence.” |
-| “Accessibility is just a checklist.” | “Accessibility evaluation needs standards, manual checks, assistive technology, and user evidence when possible.” |
-| “Five classmates prove global usability.” | “Five classmates can reveal local problems and support formative redesign.” |
-| “The user failed.” | “The design did not support the user’s task well enough.” |
-
-## Theory synthesis
-
-Theory in the Observation Chamber is the logic behind evaluation. It explains what usability means, how constructs become measurements, how methods shape evidence, how validity limits claims, how accessibility changes the definition of success, and how findings become design repair.
-
-The central question is not “Did users like it?” The stronger question is:
-
-> What evidence supports the claim that this design works for these users, goals, tasks, and contexts?
-
-This page connects to [[Design]] because evaluation theory must become protocol design. It connects to [[Experiment]] because methods must be executed carefully. It connects to [[../Connections]] because evaluation draws from statistics, psychology, social science, empirical software engineering, ethics, and product analytics. It connects to [[../Open Problems]] because validity, bias, ecological realism, metric selection, and long-term outcomes remain difficult.
 
 ## Academic anchors
 

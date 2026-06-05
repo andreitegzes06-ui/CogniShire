@@ -26,7 +26,7 @@ tags:
   - Romanian-HCI
 status: maximally-polished-academic-guide
 ---
-
+![[regularShow.jpg|1000]]
 # Local and Global
 
 Back to [[Overview|The Inclusive Gate]].
@@ -39,10 +39,7 @@ The official CS2023 label is **HCI-Accessibility: Accessibility and Inclusive De
 The connected responsibility route is **HCI-Accountability: Accountability and Responsibility in Design**.  
 The practical meaning is **learning how accessibility is shaped by local institutions, national research communities, and global HCI standards**.
 
-This page is careful about claims. It does not say that every local or Romanian person listed is an HCI accessibility researcher. Some are accessibility-specific. Some are special education or assistive-technology routes. Some are Computer Science routes that can support accessibility work. Some are national HCI routes where accessibility appears as part of broader research.
 
-> [!warning] Scope rule
-> Treat every person and institution here as a **route for learning**, not as a guaranteed supervisor, lab, or contact. Verify current roles, courses, availability, and research fit from official pages before writing to anyone.
 
 ## Scale Map
 
@@ -243,12 +240,9 @@ flowchart TB
 |---|---|---|
 | UVT Psychopedagogical Assistance and Integration Center | UVT public accessibility pages describe services for students with disabilities | Use as the main local institutional accessibility anchor |
 | Claudia-Vasilica Borca | UVT public staff and DPPD-related documents show an education / special-education route | Use as an education-focused route connected to special education, communication, and assistive-technology-adjacent topics |
-| Ioana Dârjan | Public UVT/DPPD documents show speech/language intervention and educational-support topics | Use as a communication and educational-support route, not as an HCI accessibility claim |
 | Anca Luștrea | Public UVT/DPPD documents show inclusive-education and disability-related education topics | Use as an inclusion and educational-support route |
 | Mihai-Florin Predescu | Public UVT/DPPD documents show special-education and communication/learning-related topics | Use as a special-education and learner-context route |
 
-> [!warning] Local-person caution
-> These people should be described as **UVT education or special-education routes relevant to accessibility**, not as HCI accessibility researchers unless an official source states that directly. The safest wording is “local routes that can inform accessibility and inclusive learning.”
 
 ## Local UVT Curriculum Routes
 
@@ -266,7 +260,6 @@ UVT curriculum and public documents show local routes that can inform Accessibil
 
 ## Local UVT Informatics Routes
 
-Inside Informatics, the safest claim is that several Computer Science routes can support accessibility-related work. The page should not claim that UVT Informatics has a dedicated HCI accessibility group unless an official source says so.
 
 ```mermaid
 flowchart TB
@@ -348,8 +341,6 @@ flowchart TB
 | RoCHI / Romanian Journal of Human-Computer Interaction | National HCI conference and publication routes | National route for HCI, usability, accessibility, interaction methods, and Romanian case studies |
 | A(I)BILITIES | Public project pages describe generative AI for personalised interactive solutions for users with disabilities | Current Romanian route for AI accessibility, adaptive interfaces, and ability-centered design |
 
-> [!warning] Romania-route caution
-> These routes are examples, not a complete national survey. The page should say “visible Romanian routes” or “useful Romanian starting points,” not “the Romanian accessibility field.”
 
 ## Romania Route I: Radu-Daniel Vatavu
 
@@ -398,7 +389,7 @@ RoCHI is the Romanian HCI community route. It matters because Cognishire is a Ro
 | Accessibility and usability papers | Useful national examples for evaluation and local context |
 | Community route | Makes the project less dependent on global sources alone |
 
-## Romania Route V: A(I)BILITIES
+## Romania Route V: ABILITIES
 
 A(I)BILITIES is a Romanian route connecting generative AI and disability. Public project pages describe generative AI for personalised interactive solutions for users with sensory and motor disabilities. Public pages also connect the project to ability-centered design, digital accessibility, and cloud-based services.
 
@@ -480,7 +471,6 @@ flowchart LR
 | GitHub/Obsidian setup fails | UVT Informatics workflow route | Robustness, WAI, software accessibility | Add fallback Markdown and setup notes |
 | Student may need adapted material | UVT accessibility support and special education routes | Inclusive Design, Universal Design, WCAG | Provide readable structure, alternative formats, and clear source paths |
 | AI guide may produce wrong accessibility advice | A(I)BILITIES and Romanian AI accessibility route | CHI, ASSETS, IUI, FAccT | Verify generated content and cite trusted sources |
-| Accessibility claim is based only on visual inspection | Pădure/Pribeanu accessibility evaluation route | WCAG-EM, W3C evaluation, TACCESS | Use structured audit and report limits |
 | Professor asks why the local layer matters | UVT Faculty context and RoCHI | CS2023 and global HCI | Add local UVT and Romanian research anchors |
 
 ## Local and Global Comparison Matrix
@@ -529,26 +519,8 @@ flowchart TB
 
 ### Example local email
 
-> [!example] UVT local email
-> Dear Professor [Name],  
-> I am building a CS2023-based Human-Computer Interaction map for a student project at UVT. I am currently working on **Accessibility and Inclusive Design**, and I want the local UVT dimension to be accurate.  
->  
-> I saw that your public route connects to [assistive technologies / inclusive education / software systems / AI / accessibility support]. Could you recommend one local source, course direction, or practical consideration that would help me represent accessibility more responsibly in this project?  
->  
-> Best regards,  
-> [Name]
 
-## What Not to Claim
 
-| Do not claim | Safer wording |
-|---|---|
-| “UVT has HCI accessibility professors in Informatics.” | “I found UVT accessibility-specific routes mainly through institutional support and special education, plus Informatics routes that can support technical accessibility.” |
-| “Every UVT person listed is an accessibility researcher.” | “These are local routes relevant to accessibility, assistive technology, inclusive education, software robustness, or human-related systems.” |
-| “Romania has no accessibility HCI research.” | “Romanian accessibility-HCI routes exist, especially through RoCHI, USV/MintViz, A(I)BILITIES, and web accessibility evaluation studies.” |
-| “WCAG is enough for inclusion.” | “WCAG is a baseline. Local users, disabled-user experience, assistive technology, and context still matter.” |
-| “A student test at UVT proves global accessibility.” | “A local UVT test gives local formative evidence.” |
-| “AI accessibility is automatically good.” | “AI may support access or automate barriers. It must be evaluated.” |
-| “A public document proves supervision availability.” | “A public document shows a possible route. Supervision availability must be checked through official channels.” |
 
 ## Cognishire Application
 
@@ -597,26 +569,7 @@ A student should not only say that the vault is accessible. They should collect 
 | WCAG-oriented issue log | Shows structured accessibility thinking |
 | Keyboard and zoom check | Shows basic access testing |
 | GitHub/Obsidian fallback test | Shows robustness thinking |
-| Source boundary note | Shows that the student avoided overclaiming people, institutions, and evidence |
 | Revision log | Shows that accessibility findings changed the design |
-
-## Synthesis
-
-Local and Global for **Accessibility and Inclusive Design** has three layers.
-
-The first layer is **UVT**. It includes institutional accessibility support, special education routes, assistive technologies, the Faculty of Informatics, students, professors, and the real Obsidian/GitHub project context.
-
-The second layer is **Romania**. It includes visible routes through RoCHI, the Romanian Journal of Human-Computer Interaction, Radu-Daniel Vatavu, Ovidiu-Andrei Schipor, Costin Pribeanu, Marian Pădure, Sabin-Corneliu Buraga, and A(I)BILITIES. These are starting points, not a full national map.
-
-The third layer is **global HCI**. It includes CS2023, WCAG, WAI, WAI-ARIA, ASSETS, SIGACCESS, TACCESS, Web4All, inclusive design, universal design, ability-based design, and accessibility policy.
-
-The central lesson is that accessibility should be grounded locally, connected nationally, and checked against global standards. A responsible page says what it knows, what it tested, and what it cannot yet claim.
-
-The central question is:
-
-> What does accessibility mean at UVT, which Romanian routes can inform it, and how does that connect to global HCI standards?
-
-This page connects to [[Activities/Theory]] because local and global routes shape the meaning of accessibility. It connects to [[Activities/Design]] because these routes become design requirements. It connects to [[Activities/Experiment]] because local and national evidence must be tested. It connects to [[Connections]] because accessibility crosses education, software engineering, disability studies, policy, AI, and HCI. It connects to [[Important People]] because people routes must be represented carefully.
 
 ## Academic Anchors
 

@@ -20,7 +20,7 @@ tags:
   - venues
 status: corrected-polished-draft
 ---
-![[important2.webp|1500]]
+![[street_japano.gif|1000]]
 # Important Venues
 
 Back to [[Overview|The Interface Forge]].
@@ -481,26 +481,6 @@ A project in the Interface Forge should choose venues according to what it actua
 | A wall display map for a classroom | ISS, UIST, CHI |
 | An AI guide inside the vault | IUI, TiiS, CHI, UIST, Oracle Engine resources |
 
-
-## What this page should not claim
-
-Because the atlas covers many communities, it should avoid treating one venue as the only valid source for a topic. System Design is distributed across HCI, design research, graphics, engineering, accessibility, XR, and physical computing.
-
-| Avoid this claim | Safer version |
-|---|---|
-| “UIST is the only place for interface systems.” | “UIST is a central route for UI software and interaction techniques.” |
-| “DIS is only about visual design.” | “DIS is useful for design-led interactive systems, artifacts, methods, and critique.” |
-| “SIGGRAPH is only animation.” | “SIGGRAPH is important for graphics and interactive techniques that often support interface work.” |
-| “A lab page proves a claim.” | “A lab page can show projects and research direction, but claims still need papers, methods, or evaluation.” |
-| “Professional design systems are academic evidence.” | “Design systems are useful practice references, but they should be separated from peer-reviewed research.” |
-
-## Venue Synthesis
-
-Important Venues for System Design is the atlas of where interface-building knowledge lives. It is broader than one HCI conference because system design crosses several worlds: software engineering, design research, physical interaction, spatial computing, visual computing, journals, labs, and professional design systems.
-
-The central CS2023 anchor is **HCI-Design: System Design**. The practical meaning is that a student should know where to search depending on what they are building. UI techniques often start with UIST. Engineered interactive systems often start with EICS. Design-led artifacts often start with DIS and design research venues. Tangible and embodied systems often start with TEI. Interactive surfaces often start with ISS. Spatial and immersive systems often start with SUI, IEEE VR, and ISMAR. Graphics-heavy systems often start with SIGGRAPH. Mature written research often starts with journals such as TOCHI, PACM HCI, and IJHCS.
-
-This page connects to [[Activities/Theory]] because venues define the concepts that system designers use. It connects to [[Activities/Design]] because venues publish design patterns, artifacts, systems, and methods. It connects to [[Activities/Experiment]] because many venues require evaluation. It connects to [[Connections]] because System Design is interdisciplinary by nature. It connects to [[Important People]] because professors and labs publish through these venues.
 
 ## Academic anchors
 

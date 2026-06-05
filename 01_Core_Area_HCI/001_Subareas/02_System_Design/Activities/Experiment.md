@@ -16,7 +16,7 @@ tags:
   - design-evidence
 status: corrected-polished-draft
 ---
-
+![[dojo.gif|1000]]
 # Experiment
 
 Back to [[../Overview|The Interface Forge]].
@@ -204,7 +204,6 @@ Useful routes: [NN/g A/B Testing 101](https://www.nngroup.com/articles/ab-testin
 
 ## The State Check Bay
 
-The State Check Bay tests whether users understand system status. Interfaces move through states: ready, loading, success, error, warning, empty, disabled, selected, and recovering.
 
 If the system is loading but gives no signal, the user may click repeatedly. If a save action succeeds without confirmation, the user may feel uncertain. If an error appears far from the relevant field, the user may not know what to fix.
 
@@ -220,11 +219,9 @@ flowchart LR
     F --> A
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
 
     class A,B,F node;
-    class D,E warning;
     class C final;
 ```
 
@@ -235,7 +232,6 @@ flowchart LR
 | Error | Does the user know what to fix? | Wrong repair, frustration, abandonment |
 | Empty | Does the user know why nothing is shown? | Confusion, search for missing content |
 | Disabled | Does the user know why the action is unavailable? | User tries unavailable path repeatedly |
-| Warning | Does the user understand the consequence? | User commits risky action unintentionally |
 
 Useful routes: [NN/g 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/), [NN/g Error-Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/), and [Apple HIG: Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback).
 
@@ -420,12 +416,6 @@ For Cognishire, the Experiment Bench should test whether the RPG structure helps
 | Does the page support revision? | Use a design decision log after each test |
 
 The important point is modesty. A test with a few classmates does not prove global usability. It gives local formative evidence. That evidence can still improve the vault.
-
-## Forge Synthesis
-
-Experiment inside the Interface Forge is practical design evidence. It tests prototypes, probes design possibilities, compares alternatives, checks interface states, verifies accessibility, and records design decisions. Its real meaning is disciplined evaluation before interface decisions become fixed.
-
-This page connects backward to [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Activities/Theory]], because every experiment needs a design concept. It connects across to [[Design|Design]], because every finding should become a design change. It connects outward to the [[../../03_Evaluating_the_Design/Overview|Observation Chamber]], where research methods become more formal, and to the [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], where accessibility and ethics are treated more deeply.
 
 ## Academic anchors
 

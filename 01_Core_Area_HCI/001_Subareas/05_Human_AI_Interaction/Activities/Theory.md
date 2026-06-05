@@ -31,7 +31,7 @@ tags:
   - local-global
 status: max-polished-factchecked-draft
 ---
-
+![[stretcyber.gif|1000]]
 # Theory
 
 Back to [[../Overview|The Oracle Engine]].
@@ -50,14 +50,10 @@ This page treats AI as a technical and social system. It does not treat AI as ma
 
 ## Fact-checked basis
 
-| Claim used in this page | Careful grounding |
 |---|---|
 | Human-AI design needs explicit interaction guidance | Microsoft Research published **18 Guidelines for Human-AI Interaction**. The HAX Toolkit organises them around initial interaction, interaction over time, AI failure, and system change. |
 | Human-centred AI is a recognised design route | Google PAIR gives practical guidance for designing human-centred AI products. Stanford HAI describes human-centred AI as AI that augments people, responds to societal needs, and draws inspiration from humans. |
 | AI risk should be managed as a process | NIST AI RMF uses the functions **Govern, Map, Measure, Manage**. |
-| Human oversight is formal in EU high-risk AI contexts | EU AI Act Article 14 requires high-risk AI systems to be designed so they can be effectively overseen by natural persons. This page uses that as a design principle, not as a claim that Cognishire is a legal high-risk system. |
-| CS2023 grounding should be cautious | This page does not claim that CS2023 contains one exact standalone unit named “Human-AI Interaction.” It treats the topic as a bridge across HCI, AI, software systems, accessibility, and ethics. |
-| The local UVT layer should be phrased carefully | UVT Faculty of Informatics publicly lists CSAI and DTSE. These are relevant local routes for AI, ML, software systems, workflows, and intelligent systems. This is not the same as claiming a dedicated UVT Human-AI Interaction lab. |
 | The Romanian layer has real HCI and AI-accessibility routes | RoCHI gives a Romanian HCI route. A(I)BILITIES is a Romanian generative AI project for personalised interactive solutions for users with disabilities. |
 
 ## Core theory map
@@ -181,8 +177,6 @@ flowchart TB
 | Professor review    | A local accountability point for academic quality                                                 |
 | GitHub and Obsidian | Practical infrastructure for versioning, sources, file structure, and repair logs                 |
 
-> [!warning] Local wording rule
-> Do not write that UVT has a dedicated Human-AI Interaction lab unless an official current source proves it. The safer claim is that UVT has AI, ML, software, recommender, e-health, and workflow routes that connect to Human-AI Interaction.
 
 ## Romanian layer
 
@@ -307,7 +301,6 @@ flowchart TB
 
 | Wrong mental model | Risk | Design repair |
 |---|---|---|
-| “The AI knows the truth.” | User accepts false claims | Show sources and verification steps |
 | “The AI understands my full context.” | User expects personal accuracy | Ask for missing context |
 | “The AI is neutral.” | User ignores bias | Explain data and representation limits |
 | “The AI is a search engine.” | User confuses generation with retrieval | Separate retrieval from generation |
@@ -349,7 +342,6 @@ flowchart TB
 
 | Trust state | Example | Design response |
 |---|---|---|
-| Overtrust | The user copies a false AI-generated claim | Add source checks, uncertainty labels, and claim status |
 | Undertrust | The user rejects useful drafting support without checking | Show evidence, scope, and examples of appropriate use |
 | Appropriate trust | The user uses AI for drafting but verifies facts | Keep verification easy |
 | Trust collapse | One error makes the user reject the whole system | Explain the failure and show the repair path |
@@ -423,7 +415,6 @@ flowchart TB
 | Transparency | The user knows AI is involved | “This section was AI-assisted and human reviewed.” |
 | Explainability | The user gets a reason that helps judgement | “This source is used because it defines Human-AI guidelines.” |
 | Interpretability | A human can inspect part of the model or logic | Feature importance, examples, traces, or model card |
-| Contestability | The user can challenge or correct the output | “Mark as unsupported,” “show source,” “reject claim” |
 | Traceability | The output can be linked to evidence or process | Prompt log, source list, model version, commit history |
 | Limitation disclosure | The system states where it may fail | “Current roles must be checked on official pages.” |
 
@@ -548,7 +539,6 @@ Adaptation is useful only when it remains understandable and controllable.
 
 ## Uncertainty design
 
-Uncertainty should be visible and actionable. A vague warning is usually not enough.
 
 ```mermaid
 flowchart TB
@@ -580,14 +570,10 @@ flowchart TB
 | Signal | Useful when | Risk |
 |---|---|---|
 | Confidence score | The user understands probability | Can create false precision |
-| Source citation | Evidence can be checked | Citation may not support the exact claim |
 | Alternative output | Several answers are plausible | Too many alternatives can overload the user |
-| Limitation statement | A known weakness exists | Generic warnings may be ignored |
 | Clarifying question | The input is ambiguous | Too many questions slow the task |
 | Verification checklist | Stakes are academic or factual | Users may skip it if it feels optional |
-| Claim status | A page mixes verified and unverified claims | Extra labels can clutter the page |
 
-In this project, uncertainty should lead to action: verify, weaken, remove, or mark the claim.
 
 ## Generative AI
 
@@ -623,10 +609,8 @@ flowchart TB
 |---|---|---|
 | Hallucination | AI invents a source, venue, person, or role | Check official sources |
 | Generic output | Page lacks UVT and Romanian relevance | Add local and national grounding |
-| Over-polished writing | Text sounds academic but is weak | Check claims and concepts |
 | Hidden dependency | Student cannot explain the page | Add explanation tasks |
 | Prompt sensitivity | Output changes too much with wording | Use stable prompt templates |
-| Citation weakness | Link does not support the claim | Verify exact source support |
 | Code risk | AI-generated CSS breaks accessibility | Test before using |
 
 ## Prompting as interaction design
@@ -637,11 +621,8 @@ A prompt is not just text. It is an interface between the user and the model. Th
 |---|---|---|
 | Task | Defines the work | “Rewrite this as a first-year HCI teaching note.” |
 | Context | Gives local and project background | “This is an Obsidian HCI vault called Cognishire.” |
-| Constraints | Protects quality | “Do not overclaim local UVT roles.” |
-| Evidence rule | Controls factuality | “Only include sources that directly support the claim.” |
 | Output format | Makes review easier | “Return Markdown with frontmatter preserved.” |
 | Style rule | Reduces generic AI prose | “Use short academic English.” |
-| Verification rule | Keeps uncertainty visible | “Mark claims that need checking.” |
 
 Good prompt design supports good human judgement. It cannot replace checking.
 
@@ -681,7 +662,6 @@ flowchart TB
 | Augmentation | AI helps the student structure, compare, and revise |
 | Control | Student can edit, reject, and verify |
 | Trust | AI output is treated as draft until checked |
-| Safety | Risky claims are marked and verified |
 | Fairness | Missing groups and local contexts are checked |
 | Accountability | Sources, prompts, edits, and limits remain visible |
 
@@ -773,7 +753,6 @@ flowchart TB
 | Generate accessible code | It may produce inaccessible interfaces |
 | Help disabled users | It may exclude disabled users from design and testing |
 
-A(I)BILITIES is a relevant Romanian route here, but each accessibility claim still needs evaluation.
 
 ## Risk management and accountability
 
@@ -841,7 +820,6 @@ flowchart TB
 | AI maps local people | Use official UVT or university sources |
 | AI gives confident wording | Add uncertainty and limits |
 | AI helps design | Keep human control |
-| AI may hallucinate | Use claim status and issue log |
 | Student may not learn | Add explanation in own words |
 
 ## Theory checklist
@@ -851,36 +829,11 @@ flowchart TB
 | What is the AI role? | Tutor, critic, drafting assistant, advisor, agent, or infrastructure |
 | What can the AI do? | Specific capability, not vague intelligence |
 | What can it not guarantee? | Truth, completeness, current facts, neutrality, or source support |
-| What must be verified? | People, institutions, current claims, sources, technical claims |
-| How is uncertainty shown? | Near the claim, with a clear next action |
 | Can the user intervene? | Edit, reject, verify, undo, stop, or report |
 | Can the student explain it? | Yes, without copying the AI text |
 | Is responsibility visible? | Sources, review status, prompt context, and limits are recorded |
 
-## Claim-status guide
 
-Use this small guide when improving Oracle Engine pages.
-
-| Claim type | Status before use | Best action |
-|---|---|---|
-| Current role, current project, current policy | Untrusted until checked | Verify on official or current source |
-| Foundational theory | Stable but still needs source | Use academic or primary source |
-| Local UVT claim | Sensitive to page updates | Use official UVT pages and cautious wording |
-| Romanian researcher or project route | Needs exact support | Use official project, university, or publication page |
-| AI capability claim | Context-dependent | State limits and test behaviour |
-| AI output claim | Draft only | Verify before publishing |
-
-## Synthesis
-
-Human-AI Interaction theory studies the relationship between AI output and human judgement. The central issue is not only whether the model can produce something useful. The central issue is whether the user can understand, verify, control, and take responsibility for what the system produces.
-
-For this project, the Oracle Engine should treat AI as a learning and drafting tool. It can help structure pages, suggest routes, explain ideas, and critique weak sections. It should not be treated as an authority. Source-dependent claims must be verified. Current claims must be checked. Local UVT and Romanian claims must be grounded in official or reliable sources.
-
-The central question is:
-
-> How can AI help a human think and work better without hiding uncertainty, weakening understanding, or moving responsibility away from the human?
-
-This page connects to [[Design]] because theory must become interface patterns. It connects to [[Experiment]] because trust, explanation, verification, and oversight must be tested. It connects to [[../Connections]] because Human-AI Interaction depends on HCI, AI, data, software, ethics, accessibility, education, and security.
 
 ## Academic anchors
 

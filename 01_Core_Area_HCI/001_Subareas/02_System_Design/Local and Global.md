@@ -25,7 +25,7 @@ tags:
   - global-HCI
 status: polished-rpg-readable-draft
 ---
-![[local11.jpg|1000]]
+![[whitecity.gif|1000]]
 # Local and Global
 
 Back to [[Overview|The Interface Forge]].
@@ -42,7 +42,6 @@ This page keeps the RPG map feeling, but every fantasy term has a practical tran
 The global side is the wider System Design field: CS2023 HCI-Design, interface software, engineered interactive systems, design research, tangible interaction, spatial interaction, design systems, accessibility standards, platform conventions, and international HCI venues.
 
 > [!quote] Twin Gate rule
-> Start with the local system you can actually test. Then use global HCI sources to explain what happened, improve the design, and state the limits of the claim.
 
 ## Quick route
 
@@ -53,7 +52,6 @@ The global side is the wider System Design field: CS2023 HCI-Design, interface s
 | Global Forge Road | International HCI route | Find venues, standards, and design-system practices |
 | Bridge Table | Local issue to global concept | Turn a local problem into a design lesson |
 | Portability Trial | Clone and setup test | Check whether the system works beyond your computer |
-| Boundary Seal | What not to claim | Avoid overclaiming local evidence |
 
 ## Scale map
 
@@ -140,10 +138,6 @@ The local institution for this page is the **Faculty of Informatics at UVT**. Th
 | Department of Computational Sciences and Artificial Intelligence | Local route into AI, data-driven systems, recommender systems, medical informatics, machine learning, multi-agent systems, and intelligent interfaces |
 | Department of Digital Technologies and Software Engineering | Local route into software engineering, web technologies, workflows, cloud systems, digital infrastructure, implementation, and maintainable tools |
 
-This distinction matters. The page should not claim that UVT has a named HCI System Design group unless an official source says so. The safer claim is:
-
-> [!warning] Local claim rule
-> UVT gives the local Computer Science context for this project. Its departments and research routes can support System Design questions, but they should not be relabelled as HCI labs without evidence.
 
 ## Local Forge Routes
 
@@ -208,9 +202,6 @@ Use this section as a **route board**, not a faculty label. It connects public U
 | Todor Ivașcu / e-health systems | DTSE staff route; AI and ML route lists multi-agent systems, e-health systems, and machine learning | How should monitoring and e-health systems show status, risk, and recovery? |
 | Codruț Chiș / virtual reality route | Researchers page lists virtual reality as a PhD route | How could the map become a spatial or immersive interface? |
 
-> [!warning] Route board rule
-> Do not write “these are UVT HCI professors.” Write: “these are UVT Computer Science routes that can support local System Design questions.”
-
 ## Local systems to test first
 
 The first System Design object is not an imaginary product. It is this vault.
@@ -233,7 +224,6 @@ flowchart LR
     A[Local issue] --> B[System Design concept]
     B --> C[Global source]
     C --> D[Local repair]
-    D --> E[Claim boundary]
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
@@ -368,17 +358,6 @@ Local contact should be specific. Do not ask a UVT staff member to “help with 
 > Best regards,  
 > [Name]
 
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “These are the HCI System Design professors at UVT.” | “These are UVT CS routes that can connect to System Design topics.” |
-| “UVT has the same System Design coverage as UIST or EICS.” | “UVT gives the local CS context; UIST and EICS give global HCI system-design routes.” |
-| “The Obsidian vault proves global usability.” | “The vault can be locally tested, then compared with global HCI principles.” |
-| “The theme works because it works on my PC.” | “The theme requires portability testing across machines and viewers.” |
-| “The local people table proves supervision fit.” | “The table identifies public research routes; supervision fit must be verified.” |
-| “Fantasy labels are enough.” | “Fantasy labels need real CS2023 translations.” |
-
 ## Cognishire application
 
 Cognishire’s Interface Forge should treat the vault itself as the first system.
@@ -421,21 +400,9 @@ Use this checklist when editing future Interface Forge pages.
 |---|---|
 | RPG clarity | The fantasy name is followed by a real HCI translation |
 | Local grounding | UVT appears as a real context, not a vague “local” label |
-| Global grounding | CS2023, venues, standards, or platform guides support the claim |
 | Cognitive load | Diagrams are compact and tables carry dense detail |
 | Portability | GitHub, Obsidian, CSS, links, and assets are tested across machines |
 | Accessibility | Text, contrast, focus, structure, and diagrams remain usable |
-| Claim boundary | Local evidence is not presented as global proof |
-
-## Synthesis
-
-Local and Global for **System Design** means that the Interface Forge starts with the real UVT Computer Science context and then expands to global HCI system-design research. Locally, the map must handle the Faculty of Informatics, DTSE, CSAI, student projects, software tools, GitHub, Obsidian, classroom use, and project submission. Globally, it must connect to CS2023 HCI-Design, UIST, EICS, DIS, TEI, SUI, design systems, accessibility standards, and platform conventions.
-
-The central question is:
-
-> How can the local UVT project be built as a working interactive system while still being grounded in global HCI System Design?
-
-This page connects to [[Activities/Theory]] because local system decisions need design principles. It connects to [[Activities/Design]] because local constraints become layouts, components, links, prototypes, and workflows. It connects to [[Activities/Experiment]] because the system must be tested locally. It connects to [[Important People]] because local UVT routes and global HCI professors both matter. It connects to [[Important Venues]] because local research routes and global HCI venues both define the field.
 
 ## Academic anchors
 

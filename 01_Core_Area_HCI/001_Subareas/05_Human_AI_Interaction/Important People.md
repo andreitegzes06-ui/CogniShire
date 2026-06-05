@@ -30,7 +30,7 @@ tags:
   - local-global
 status: max-polished-factchecked-draft
 ---
-
+![[cybercity.gif|1000]]
 # Important People
 
 Back to [[Overview|The Oracle Engine]].
@@ -43,21 +43,7 @@ The academic topic is **Human-AI Interaction**.
 The CS2023 bridge is **HCI + Artificial Intelligence + Society, Ethics, and Professionalism**.  
 The real-life meaning is **knowing whose work can help explain how people should understand, verify, control, trust, and remain responsible when using AI systems**.
 
-This page is not a celebrity list. It is a study route. Each person or team appears because their public work connects to a specific Human-AI question. The page avoids claiming that a person is a supervisor, contact, or specialist in this exact project unless the source clearly supports it.
 
-> [!warning] Reality rule
-> Treat names as **routes into literature**, not as personal endorsements or guaranteed contact points. A person can be relevant to Human-AI Interaction without being labelled as a “Human-AI professor.” Read the source first. Then write carefully.
-
-## What this page claims and does not claim
-
-| Claim type | Safe wording |
-|---|---|
-| Local UVT people | “UVT has AI, ML, software, recommender, XAI, formal verification, and e-health routes that can support Human-AI Interaction questions.” |
-| Romanian people | “Romanian routes exist through RoCHI, USV/MintViz, A(I)BILITIES, HCI, assistive technology, and accessible computing.” |
-| Global people | “These researchers and teams publish work useful for Human-AI Interaction.” |
-| Contact | “Use official profile or lab contact routes. Do not assume availability.” |
-| Supervision | “No supervision relationship is implied by this roadmap.” |
-| Current role | “Use current-role wording only when an official page supports it.” |
 
 ## People Map
 
@@ -108,7 +94,6 @@ flowchart TB
 
 ## Local Route First: UVT
 
-The local dimension is **UVT**, especially the **Faculty of Informatics**. The careful claim is not that UVT has a dedicated Human-AI Interaction lab. The careful claim is that UVT has local routes that support Human-AI questions: AI, machine learning, XAI, recommender systems, e-health, formal systems, software workflows, web technologies, and reliability.
 
 ```mermaid
 flowchart TB
@@ -183,21 +168,10 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1,I1 detail;
 ```
 
-| Local person / route | Careful use in this map | Avoid this overclaim |
 |---|---|---|
-| Darian Onchiș | Use as a local route for AI/ML, signal and image processing, and XAI infrastructure such as XAION/TRAIN | Do not claim he supervises this project or teaches Human-AI Interaction unless officially confirmed |
-| Flavia Costi | Use as a local route for machine learning and explainable AI | Do not turn an XAI route into a broad HCI claim |
-| Daniela Zaharie | Use for machine learning, evolutionary computing, data mining, optimisation, and AI method grounding | Do not claim a direct Human-AI focus without source support |
 | Horia Popa | Use for recommender systems, personalisation, ranking, and user-model questions | Do not imply recommender systems automatically equal Human-AI Interaction |
-| Todor Ivașcu | Use for multi-agent systems, e-health systems, machine learning, and healthcare-related AI contexts | Do not claim medical Human-AI expertise beyond the public route |
 | Gabriel Iuhasz | Use for multi-agent systems, machine learning, cloud computing, and intelligent system behaviour | Do not treat all multi-agent work as user-facing AI |
 | Mădălina Erașcu | Use for formal verification, automated theorem proving, and reliability around software/AI systems | Do not describe formal verification as explainable AI |
-| Cristina Mîndruță / Teodor Florin Fortiș | Use for workflows, web services, web technologies, ontologies, and robust digital processes | Do not claim direct AI interaction unless supported by the specific source |
-| Sebastian Ștefănigă | Use for image processing, medical informatics, ML, and high-stakes visual/medical AI contexts | Do not claim clinical Human-AI evaluation without direct evidence |
-| Alexandru Vlasiu | Use as a route toward ML, data mining, and psychology-related applications | Do not claim cognitive science supervision without confirmation |
-
-> [!important] Local claim boundary
-> The safest sentence is: **“These UVT routes can support Human-AI Interaction questions through AI, ML, XAI, recommender systems, software systems, e-health, formal methods, and workflows.”**
 
 ## Romanian Route: HCI and AI in Romania
 
@@ -493,12 +467,10 @@ flowchart TB
 | If your question is... | Read first | Small Cognishire test |
 |---|---|---|
 | How should an AI interface behave? | Amershi, Microsoft HAX, Google PAIR | Check whether the page states AI capability, limits, uncertainty, and correction options |
-| How can trust be calibrated? | Kamar, Liao, Shneiderman | Give one supported and one unsupported AI claim to a student and observe trust and verification |
 | What kind of explanation helps users? | Liao, Ehsan, Varshney | Compare no explanation, source explanation, and uncertainty explanation |
 | How do people collaborate with AI? | Wang, Inkpen, Weisz, Muller | Log where AI drafts, where the student verifies, and where the student edits |
 | How do we handle AI harm and bias? | Gebru, Buolamwini, Mitchell, Solaiman | Audit whose data, language, labour, or access needs are missing |
 | How can AI help accessibility? | Morris, Vatavu, Schipor, A(I)BILITIES | Test AI-generated alt text, summaries, and adaptive interface suggestions |
-| How do we ground this locally? | UVT CSAI, DTSE, AI/ML routes | Verify each UVT claim through official UVT sources |
 | How do we ground this nationally? | RoCHI, USV/MintViz, A(I)BILITIES | Add Romanian routes instead of relying only on US/UK sources |
 
 ## Contact Protocol
@@ -519,41 +491,20 @@ flowchart LR
     class G final;
 ```
 
-| Email part | What to include |
-|---|---|
-| Subject | “Question about Human-AI Interaction in a CS2023 HCI student project” |
-| Opening | Who you are and what you are building |
-| Specific fit | One sentence connecting your question to their published work |
-| Evidence | One paper, lab page, project page, or guideline you read |
-| Project context | The Cognishire HCI map, Obsidian/GitHub, CS2023, Human-AI room |
-| Ask | One narrow question about reading route, method, or concept |
-| Close | Thank them. Do not pressure. Do not mass email. |
+| Email part      | What to include                                                       |
+| --------------- | --------------------------------------------------------------------- |
+| Subject         | “Question about Human-AI Interaction in a CS2023 HCI student project” |
+| Opening         | Who you are and what you are building                                 |
+| Specific fit    | One sentence connecting your question to their published work         |
+| Evidence        | One paper, lab page, project page, or guideline you read              |
+| Project context | The Cognishire HCI map, Obsidian/GitHub, CS2023, Human-AI room        |
+| Ask             | One narrow question about reading route, method, or concept           |
+| Close           | Thank them. Do not pressure. Do not mass email.                       |
+|                 |                                                                       |
 
 ### Minimal email template
 
-> [!example] Human-AI research route email
-> Dear Professor [Name],  
-> I am building a CS2023-based HCI learning map for a student project. One section focuses on **Human-AI Interaction**: how users understand, verify, trust, and control AI outputs.  
->  
-> I read your work/page on [specific topic], especially [specific paper, project, or guideline]. My question is: [one precise question].  
->  
-> Would you recommend one paper, course page, or project route as a starting point?  
->  
-> Best regards,  
-> [Name]
 
-## What Not to Claim
-
-| Do not claim                                                | Safer wording                                                                                                           |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| “These UVT professors are Human-AI Interaction professors.” | “These are UVT AI, ML, XAI, software, recommender, formal methods, and e-health routes relevant to Human-AI questions.” |
-| “Romania has no Human-AI work.”                             | “Romanian routes exist through RoCHI, USV/MintViz, A(I)BILITIES, accessible computing, and HCI work.”                   |
-| “AI guidelines solve Human-AI Interaction.”                 | “Guidelines support design, but they still need local testing.”                                                         |
-| “Explainable AI means the user understands the model.”      | “An explanation is useful only if it helps the user make a better decision.”                                            |
-| “Human oversight is enough because a human is present.”     | “Oversight needs information, authority, time, training, control, and logs.”                                            |
-| “AI accessibility is automatically good.”                   | “AI can support access or automate barriers. It must be tested.”                                                        |
-| “A fluent AI answer is academic evidence.”                  | “Source-dependent claims require verification.”                                                                         |
-| “A researcher’s name proves the claim.”                     | “A claim needs a source and a careful interpretation of what that source supports.”                                     |
 
 ## Cognishire Application
 
@@ -596,18 +547,6 @@ flowchart TB
 | AI accessibility is assumed but not tested                | Morris, Vatavu, Schipor, ASSETS, A(I)BILITIES                |
 | Ethical risk is thin                                      | Gebru, Buolamwini, Mitchell, Solaiman, NIST/EU AI Act routes |
 | Agentic AI may edit files later                           | Amershi, Kamar, software engineering and oversight routes    |
-
-## Synthesis
-
-Important People for **Human-AI Interaction** is a local-global roadmap. It begins with UVT because the project is local: CSAI, DTSE, AI/ML research, XAI, recommender systems, e-health, software systems, GitHub, Obsidian, and professor review. It then moves to Romania through RoCHI, Radu-Daniel Vatavu, Ovidiu-Andrei Schipor, USV/MintViz, and A(I)BILITIES. It then connects to global researchers and teams who study human-centered AI, Human-AI guidelines, explainability, collaboration, responsible AI, accessibility, and AI literacy.
-
-The central lesson is that Human-AI Interaction cannot be learned from model accuracy alone. It needs people who study humans, interfaces, organisations, data, trust, explanation, access, power, and responsibility.
-
-The central question is:
-
-> Whose work helps us design AI systems that humans can understand, verify, correct, trust appropriately, and remain responsible for?
-
-This page connects to [[Activities/Theory]] because these routes define the concepts behind Human-AI Interaction. It connects to [[Activities/Design]] because their work becomes interface patterns. It connects to [[Activities/Experiment]] because their methods help test trust, understanding, explanation, verification, and oversight. It connects to [[Connections]] because each person belongs to several fields at once. It connects to [[Local and Global]] because UVT, Romania, and global HCI must all remain visible.
 
 ## Academic Anchors
 

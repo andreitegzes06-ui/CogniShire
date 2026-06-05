@@ -15,7 +15,7 @@ tags:
   - human-ai-interaction
 status: factchecked-polished-draft
 ---
-![[venue1.webp|1000]]
+![[experiments1.webp|1000]]
 # Important Venues
 
 > [!abstract] Academic Atlas
@@ -59,18 +59,15 @@ flowchart TB
 
 | Atlas territory | Best used for | What it contributes to the Mind Library |
 |---|---|---|
-| Academic research | Peer-reviewed studies, theories, prototypes, and methods | Scholarly grounding for claims |
 | Standards and accessibility | Requirements, criteria, and formal guidance | Stable design and evaluation checks |
 | Practice guides | Method explanations and applied design guidance | Practical tools for small projects |
 | Human-AI guidance | Trust, uncertainty, automation, explanation, and accountability | Safer thinking about AI systems |
 
 ## How to read this page
 
-Do not use venues as random links. Ask what kind of support your claim needs.
 
 ```mermaid
 flowchart LR
-    A[Design claim] --> B{What support<br/>is needed?}
     B --> C[Evidence]
     B --> D[Requirement]
     B --> E[Method]
@@ -130,7 +127,6 @@ flowchart TB
 | [ACM UIST](https://uist.acm.org/) | Interface software, interaction techniques, input/output devices, tools, and emerging interaction systems |
 | [ACM IUI](https://dl.acm.org/conference/iui) | Intelligent user interfaces, adaptive systems, recommender systems, and AI-supported interaction |
 
-The conference route connects most strongly to [[Activities/Experiment]]. Conferences often publish studies, prototypes, evaluation methods, and evidence-based design claims. It also connects to [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]], because recent conferences show what the field is still trying to solve.
 
 ## The journal archive
 
@@ -380,9 +376,6 @@ flowchart TB
     class F detail;
 ```
 
-> [!warning] Source rule
-> Do not treat every link as equal. A CHI paper, a W3C standard, and a blog post can all be useful, but they do different work. State what each source is being used for.
-
 ## Academic route examples
 
 | Research task | Route through the atlas |
@@ -392,14 +385,6 @@ flowchart TB
 | Study AI trust | Start with Microsoft HAX and Google PAIR. Then search CHI, IUI, and FAccT for current research. |
 | Explain collaboration tools | Start with CSCW. Then connect to CHI and organisational HCI literature. |
 | Justify a human-centred process | Start with ISO 9241-210 and NIST. Then connect to DIS or CHI design research. |
-
-## Venue synthesis
-
-The academic atlas gives the Mind Library its research infrastructure. It shows where user understanding is created, reviewed, standardised, and translated into practice. It also protects the project from unsupported opinion.
-
-A claim about users should connect to research. A claim about accessibility should connect to standards and testing. A claim about AI should connect to human-AI guidance, empirical evidence, and ethical risk analysis.
-
-The atlas matters for [[Activities/Theory]] because theory needs scholarly grounding. It matters for [[Activities/Experiment]] because methods require evidence norms. It matters for [[Activities/Design]] because design decisions should connect to principles, standards, and practice. It matters for [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] because recent venues show where the field is still unstable.
 
 ## Academic anchors
 

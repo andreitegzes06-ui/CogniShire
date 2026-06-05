@@ -20,7 +20,7 @@ tags:
   - AI-assisted-design
 status: corrected-polished-draft
 ---
-![[theory1.webp|1000]]
+![[toamna.gif|1000]]
 # Open Problems
 
 Back to [[Overview|The Interface Forge]].
@@ -179,11 +179,9 @@ flowchart LR
     I --> A
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
 
     class A,B,C,F,H node;
-    class D,E,G warning;
     class I final;
 ```
 
@@ -383,11 +381,9 @@ flowchart TB
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef gate fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
 
     class A center;
     class B,C,D,E,F gate;
-    class B1,C1,D1,E1,F1 warning;
 ```
 
 | Drift source | What breaks | Protection |
@@ -418,11 +414,9 @@ flowchart LR
     G --> H[Test with users]
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
 
     class A,B,C,G node;
-    class D,E,F warning;
     class H final;
 ```
 
@@ -437,7 +431,6 @@ flowchart LR
 
 Recent sketch-to-code research should be treated as a frontier route, not as settled guidance. It can show what researchers are testing, but a student project should still verify generated interfaces through accessibility checks and user tasks.
 
-## Frontier IX: Evidence for Design Claims
 
 System Design produces artifacts: prototypes, components, interaction techniques, design systems, patterns, and interface styles. The open problem is how to evaluate those artifacts without pretending that one metric explains everything.
 
@@ -466,7 +459,6 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Design claim | Weak evidence | Stronger evidence |
 |---|---|---|
 | “This layout is clearer.” | Personal preference | Task success, first-click paths, comprehension, user explanation |
 | “This component scales.” | It appears in many files | Reuse patterns, contribution process, accessibility audits |
@@ -474,7 +466,6 @@ flowchart TB
 | “This interaction is natural.” | It feels intuitive to the designer | New users discover, learn, and recover without instruction |
 | “This visual style motivates learning.” | It looks cool | Engagement, comprehension, recall, and navigation evidence |
 
-This frontier connects to [[Activities/Experiment]] and to [[../03_Evaluating_the_Design/Overview|Observation Chamber]]. A design artifact needs evidence that matches its claim.
 
 ## Tension Matrix
 
@@ -582,28 +573,8 @@ Use this checklist before adding or publishing a System Design page.
 | Cognitive load | Are sections short enough to scan? |
 | Mermaid readability | Are diagrams compact, light, and readable in the theme? |
 | Source fit | Do the anchors support this exact page? |
-| Design claim | Does each claim say what evidence would test it? |
 | Accessibility | Can the page be read, navigated, and understood without relying on style alone? |
 | Portability | Will the page still make sense if CSS or images fail? |
-
-## What This Page Should Not Claim
-
-| Avoid this claim | Safer wording |
-|---|---|
-| “These problems are unsolved forever.” | “These are active or recurring System Design problems.” |
-| “AI can now design interfaces reliably.” | “AI can assist interface making, but generated outputs still need review, testing, and accessibility checks.” |
-| “A high-fidelity prototype proves the design works.” | “A high-fidelity prototype can test realism, but it does not prove all system behaviour.” |
-| “A design system solves consistency.” | “A design system supports consistency, but it needs governance, documentation, and audits.” |
-| “Passing WCAG once means accessibility is solved.” | “Accessibility must be maintained as components, content, and contexts change.” |
-| “The RPG theme is automatically better for learning.” | “The RPG theme should be tested for motivation, comprehension, navigation, and accessibility.” |
-
-## Frontier Synthesis
-
-Open Problems in System Design are the unresolved tensions of the Interface Forge. The hard part is not drawing screens. The hard part is building interactive systems that remain understandable, scalable, testable, accessible, adaptable, and meaningful across real contexts.
-
-The CS2023 System Design topics give the official frame: prototyping, design patterns, constraints, interaction techniques, graphical interfaces, visual UI, immersive environments, fabrication, creativity support, and voice UI. The open problems appear when those topics meet real use. Prototypes can mislead. Components can drift. New interaction techniques can lack conventions. Accessibility can break over time. Context can change the meaning of the same design. Evidence can be too narrow for the claim.
-
-This chamber connects to [[Activities/Theory]] because open problems expose limits in interface principles. It connects to [[Activities/Design]] because those problems become design decisions. It connects to [[Activities/Experiment]] because every unresolved claim needs evidence. It connects to [[Connections]] because System Design crosses software engineering, visual communication, industrial design, graphics, ubiquitous computing, and human-centred systems. It connects outward to [[Local and Global]] because many design problems appear only when systems travel across contexts.
 
 ## Academic Anchors
 

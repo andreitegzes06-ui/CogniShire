@@ -154,7 +154,6 @@ The vault is still being refined. Some pages may continue to be improved for:
 
 This project is a learning map, not an official curriculum. It uses CS2023 and public HCI resources as academic anchors, but it should be read as a student-built guide.
 
-Claims about people, venues, methods, and institutions should be checked against official sources when used in formal academic work.
 
 ## License
 

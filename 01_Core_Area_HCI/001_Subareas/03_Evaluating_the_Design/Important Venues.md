@@ -21,7 +21,7 @@ tags:
   - reproducibility
 status: expanded-polished-draft
 ---
-
+![[gta.jpg|1000]]
 # Important Venues
 
 Back to [[Overview|The Observation Chamber]].
@@ -36,7 +36,6 @@ The practical question is simple: **Where should I search when I need evidence a
 This page is not a general list of HCI venues. It is a route map for evaluation. It helps you decide where to look for usability testing, accessibility evaluation, UX metrics, field studies, human factors, software-tool evaluation, behavioural data, and reproducible research.
 
 > [!quote] Atlas rule
-> A venue belongs here when it helps answer this question: **What evidence supports the claim that this design works?**
 
 ## Evaluation Venue Map
 
@@ -234,7 +233,6 @@ flowchart TB
 | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) | Testable web content accessibility success criteria. Use it when evaluating conformance. |
 | [WebAIM](https://webaim.org/) | Practical accessibility evaluation tools, surveys, articles, and checklists. |
 
-Use this route whenever a design claim says the interface **works for users**. A system that excludes disabled users has not been fully evaluated.
 
 ## Human Factors and Ergonomics: HFES and Human Factors
 
@@ -385,7 +383,6 @@ Use this route when the question is: **What do behavioural traces show about use
 
 ## Journal Archive: Evaluation Research That Lasts
 
-Journals are useful when you need deeper theory, method detail, and stable sources. They are also useful when a claim needs more support than a short conference paper or practice article can provide.
 
 ```mermaid
 flowchart TB
@@ -425,7 +422,6 @@ flowchart TB
 | [Journal of Usability Studies](https://uxpajournal.org/) | Applied usability research and professional UX evaluation. |
 | [Human Factors](https://journals.sagepub.com/home/hfs) | Human performance, workload, safety, ergonomics, and system evaluation. |
 
-Use this route when the question is: **What is the stronger academic basis for this evaluation claim?**
 
 ## Labs, Institutes, and Method Communities
 
@@ -527,7 +523,6 @@ flowchart LR
     A[Evaluation question] --> B[HCI framing]
     A --> C[Method standard]
     A --> D[Domain evidence]
-    B --> E[Defensible claim]
     C --> E
     D --> E
 
@@ -595,7 +590,6 @@ flowchart TB
 
 ## Cognishire Venue Route
 
-For this project, use the venue route that matches the claim being made.
 
 ```mermaid
 flowchart TB
@@ -622,7 +616,6 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Cognishire claim | Best venue route |
 |---|---|
 | Users can find the right HCI room | CHI, UXPA, JUS, NN/g methods |
 | The CSS theme is readable and accessible | W3C WAI, WCAG, WebAIM, ASSETS |
@@ -630,14 +623,6 @@ flowchart TB
 | The GitHub sharing workflow works | ESEM, MSR, software engineering practice |
 | Students use the vault over time | CSCW, IMWUT, field-study routes |
 | The evaluation protocol is defensible | TOCHI, PACM HCI, IJHCS, research-methods texts |
-
-## Venue Synthesis
-
-Important Venues for Evaluating the Design is a map of where evaluation knowledge lives. The page does not repeat the System Design venue map. System Design venues focus on how interaction is built. Evaluation venues focus on how interaction is judged with evidence.
-
-Start with CS2023 HCI-Evaluation for the official curriculum frame. Then choose the venue route by method and claim. CHI and INTERACT help with broad HCI evaluation. UXPA and JUS help with applied usability. ASSETS, W4A, W3C WAI, and WebAIM help with accessibility evaluation. HFES helps with workload, performance, and safety. ESEM and MSR help with software-tool evaluation. CSCW and EPIC help with field and social evaluation. ETRA, WebSci, and analytics documentation help with behavioural measurement. TOCHI, PACM HCI, IJHCS, IJHCI, Interacting with Computers, and Behaviour & Information Technology help when you need deeper academic support.
-
-This page connects to [[Activities/Theory]] because venues shape what counts as evidence. It connects to [[Activities/Design]] because protocols depend on method traditions. It connects to [[Activities/Experiment]] because studies are published and criticised through these communities. It connects to [[Connections]] because evaluation draws from statistics, psychology, accessibility, software engineering, human factors, ethics, and analytics. It connects to [[Important People]] because researchers and practitioners work through these venues.
 
 ## Academic Anchors
 

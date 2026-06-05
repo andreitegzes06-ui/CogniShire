@@ -29,7 +29,7 @@ tags:
   - local-global
 status: improved-academic-overview
 ---
-
+![[lofi.gif|1000]]
 # The Oracle Engine
 
 > [!abstract] Human-AI Interaction
@@ -54,7 +54,6 @@ The global dimension includes **Microsoft Human-AI guidelines**, **Google People
 
 Human-AI Interaction asks what happens when AI enters the interaction loop. The core issue is not only whether the AI output is accurate. The issue is how the output changes human judgement.
 
-A useful AI interface should help users form realistic expectations, ask better questions, inspect evidence, recognise uncertainty, correct errors, and keep control. A weak AI interface makes the output look final, hides limits, and encourages the user to accept claims too quickly.
 
 | Core concern | Simple meaning | Student question |
 |---|---|---|
@@ -99,7 +98,6 @@ flowchart TB
 |---|---|---|
 | Human | The user brings goals, prior knowledge, pressure, trust, and responsibility | What does the user think the AI is doing? |
 | AI system | The model predicts, ranks, classifies, recommends, generates, or acts | What can the system do, and where can it fail? |
-| Interface | The design frames prompts, outputs, explanations, warnings, and controls | Does the interface help the user judge the AI correctly? |
 | Evidence | The user needs sources, uncertainty, alternatives, and logs | What makes the output checkable? |
 | Control | The user needs edit, reject, undo, stop, and override routes | Can the human really intervene? |
 | Responsibility | Decisions need visible ownership and repair paths | Who is accountable when the output causes an error? |
@@ -148,7 +146,6 @@ flowchart TB
     A --> G[Accountability]
 
     B --> B1[User knows the<br/>AI role and limits]
-    C --> C1[Claims and sources<br/>can be checked]
     D --> D1[User can edit,<br/>reject, undo, stop]
     E --> E1[Trust matches<br/>actual reliability]
     F --> F1[AI supports thinking,<br/>not copying]
@@ -166,11 +163,9 @@ flowchart TB
 | Protection target | Design meaning | Cognishire example |
 |---|---|---|
 | Understanding | The user knows the AI role, capability, and limits | AI is a tutor and drafting assistant, not the final academic authority |
-| Verification | AI claims can be checked against sources | UVT, Romania, CS2023, Microsoft, NIST, EU, ACM, and paper claims must be verified |
 | Control | The user can change or reject output | Generated pages are drafts until human reviewed |
 | Trust | User confidence matches actual reliability | A confident AI answer without source support is treated as risky |
 | Learning | AI strengthens the student’s understanding | The student should be able to explain the page without copying |
-| Accountability | The process records what was generated, checked, repaired, and still uncertain | GitHub, issue logs, claim status, and academic anchors support traceability |
 
 ## The Human-AI loop
 
@@ -194,11 +189,7 @@ flowchart LR
 |---|---|---|
 | Human goal | The user may ask for output without knowing the real task | Clarify goal, audience, constraints, and risk |
 | Prompt | The prompt may omit context or source rules | Use prompt scaffolds and explicit source requirements |
-| AI output | The output may be fluent, wrong, unsupported, biased, or incomplete | Separate draft text from verified claims |
-| Human interpretation | The user may treat style as truth | Teach claim extraction and source checking |
 | Verification | The user may skip checking because the answer looks polished | Require source panels and uncertainty labels |
-| Repair or acceptance | The user may not know how to weaken or correct a claim | Provide edit, reject, and rewrite paths |
-| Logged decision | Errors may disappear instead of becoming learning evidence | Keep issue logs, commit notes, and claim boundaries |
 
 ## Local, Romanian, and global route
 
@@ -237,7 +228,6 @@ flowchart TB
 | Romania | RoCHI, A(I)BILITIES, USV/MintViz, Romanian HCI, assistive technology, Romanian-language AI interaction | The map should not erase national HCI and AI-accessibility routes |
 | Global Human-AI | Microsoft HAX, Google PAIR, Stanford HAI, NIST AI RMF, EU AI Act, CHI, IUI, HAI, FAccT, AIES | The map needs recognised methods for AI design, risk, oversight, and evaluation |
 | Design pattern | Prompt scaffold, source panel, uncertainty badge, output card, issue log | Theory must become visible interface structure |
-| Experiment | Trust calibration, source verification, explanation usefulness, automation bias, oversight | Claims about Human-AI quality need evidence |
 | Local repair | Obsidian page edits, GitHub commits, professor feedback, source corrections | Human-AI work improves through visible correction |
 
 ## Page route board
@@ -320,10 +310,8 @@ flowchart TB
 | Prompt scaffold | Helps the user give task, context, constraints, source rules, and format | Room, page type, UVT layer, Romania layer, global sources, diagram rules |
 | Output card | Makes AI output inspectable instead of final-looking | Draft, assumptions, sources, uncertainty, next actions |
 | Source panel | Separates official curriculum, local, national, research, policy, and practice sources | Academic anchors grouped by function |
-| Uncertainty label | Marks weak, current, inferred, or high-risk claims | Verified, partly supported, needs check, unsupported, do not use |
 | Explanation layer | Helps the user decide what to do next | Why this source, why this design, what to check |
 | Control panel | Preserves human agency | Edit, reject, regenerate, verify, undo |
-| Issue log | Turns failure into repair evidence | Unsupported source, overclaim, hallucination, broken local route |
 
 ## Trust and verification stack
 
@@ -332,7 +320,6 @@ flowchart TB
     A((Trust + Verification Stack))
 
     A --> B[AI Output]
-    B --> C[Claim Extraction]
     C --> D[Source Check]
     D --> E[Uncertainty Label]
     E --> F[Human Decision]
@@ -351,8 +338,6 @@ flowchart TB
 | Stack layer | What the user does |
 |---|---|
 | AI output | Reads the generated answer or page section |
-| Claim extraction | Marks factual claims, current claims, people, venues, departments, and source-dependent statements |
-| Source check | Opens official or trusted sources and compares the exact claim |
 | Uncertainty label | Marks verified, partly supported, needs check, unsupported, or do not use |
 | Human decision | Accepts, edits, weakens, rejects, or asks for repair |
 | Revision | Updates the page or design |
@@ -365,7 +350,6 @@ flowchart TB
     A((AI Failure Types))
 
     A --> B[Hallucination]
-    A --> C[Unsupported Claim]
     A --> D[Overconfidence]
     A --> E[Automation Bias]
     A --> F[Bias]
@@ -374,7 +358,6 @@ flowchart TB
     A --> I[Learning Failure]
 
     B --> B1[Invented source,<br/>person, venue, or fact]
-    C --> C1[Claim has<br/>no evidence]
     D --> D1[Uncertain output<br/>sounds final]
     E --> E1[User follows<br/>AI too quickly]
     F --> F1[Output misrepresents<br/>groups or contexts]
@@ -393,8 +376,6 @@ flowchart TB
 
 | Failure | Repair pattern |
 |---|---|
-| Hallucination | Verify official source, remove invented claim, log issue |
-| Unsupported claim | Add evidence or weaken wording |
 | Overconfidence | Add uncertainty and verification action |
 | Automation bias | Show alternatives, require source checking, slow down acceptance |
 | Bias | Check who is missing, harmed, stereotyped, or misrepresented |
@@ -429,7 +410,6 @@ flowchart TB
 | Oversight layer | Meaning |
 |---|---|
 | Notice AI involvement | The user knows AI shaped the output |
-| Understand output | The user can interpret what the output claims |
 | See uncertainty | The user knows what may be wrong or weak |
 | Check evidence | The user can inspect sources or supporting data |
 | Intervene | The user can edit, reject, or redirect |
@@ -446,12 +426,10 @@ flowchart TB
     A((Minimal Oracle Trial))
 
     A --> B[Generate one AI section]
-    B --> C[Extract ten claims]
     C --> D[Verify five sources]
     D --> E[Ask one student<br/>to explain]
     E --> F[Ask what they<br/>would trust]
     F --> G[Repair weak parts]
-    G --> H[Record claim boundary]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -465,12 +443,9 @@ flowchart TB
 | Trial step | Concrete action |
 |---|---|
 | Generate one AI section | Ask AI to draft a short Human-AI page part |
-| Extract ten claims | Mark all factual, source-dependent, current, and local claims |
 | Verify five sources | Check official or trusted sources |
 | Ask one student to explain | Test whether the content supports learning |
 | Ask what they would trust | Detect overtrust and unchecked copying |
-| Repair weak parts | Fix unsupported claims, unclear diagrams, or overconfident wording |
-| Record claim boundary | State what the trial can and cannot prove |
 
 ## Source compass
 
@@ -520,7 +495,6 @@ flowchart TB
     A((Cognishire Oracle Targets))
 
     A --> B[AI-assisted writing]
-    A --> C[Source claims]
     A --> D[Local UVT layer]
     A --> E[Romanian layer]
     A --> F[Diagrams]
@@ -528,7 +502,6 @@ flowchart TB
     A --> H[Student learning]
 
     B --> B1[Mark draft,<br/>verify, revise]
-    C --> C1[Claim status<br/>and source panel]
     D --> D1[Official UVT<br/>grounding]
     E --> E1[RoCHI, AIBILITIES,<br/>USV routes]
     F --> F1[Readable and<br/>conceptually useful]
@@ -547,29 +520,11 @@ flowchart TB
 | Cognishire issue | Oracle requirement |
 |---|---|
 | AI writes text | Treat it as draft until verified and understood |
-| AI gives sources | Check whether each source supports the exact claim |
 | AI maps local people or departments | Use official UVT pages and cautious wording |
 | AI maps Romania | Use RoCHI, A(I)BILITIES, USV, and verified Romanian sources |
 | AI creates diagrams | Test whether diagrams improve understanding |
 | AI helps with GitHub | Preview commands, track changes, and keep rollback possible |
 | AI supports learning | The student must explain the content without copying |
-| AI acts confidently | Add uncertainty labels and claim boundaries |
-
-## Local and global synthesis
-
-The Oracle Engine exists to keep AI from becoming invisible authority inside the HCI map. It asks whether the user understands the AI role, whether sources support the claims, whether uncertainty is visible, whether the human can intervene, and whether final responsibility remains human.
-
-Locally, this means UVT: Faculty of Informatics, CSAI, DTSE, TRAIN, AI and ML routes, software workflows, student use, professor review, Obsidian, GitHub, and source verification.
-
-Nationally, this means Romania: RoCHI, A(I)BILITIES, USV/MintViz, Romanian HCI, Romanian AI accessibility, assistive technologies, and Romanian-language AI interaction.
-
-Globally, this means CS2023, Microsoft Human-AI guidelines, Google PAIR, Stanford HAI, NIST AI RMF, EU AI Act human oversight, CHI, IUI, HAI, TiiS, FAccT, AIES, ASSETS, and Web4All.
-
-The central question of this room is:
-
-> How can AI help the human think, design, verify, and learn without hiding uncertainty, reducing agency, or shifting responsibility away from humans?
-
-Back to [[00_Index/Human-Computer Interaction|The five rooms of HCI]].
 
 ## Academic anchors
 

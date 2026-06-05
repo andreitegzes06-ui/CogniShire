@@ -26,7 +26,7 @@ tags:
   - local-global
 status: academic-career-guide-draft
 ---
-
+![[moon.jpg|1000]]
 # Design
 
 Back to [[../Overview|The Inclusive Gate]].
@@ -392,7 +392,6 @@ flowchart TB
 | Button or action | The user should know what will happen before activation |
 | Table | Use a header row and keep comparisons simple |
 | Diagram | Keep it compact and repeat the core idea in text |
-| Callout | Use callouts for purpose, warning, example, or synthesis |
 | Source block | Group sources by role: curriculum, standard, research, local UVT, practice |
 | Page route | Use a consistent route board so users know where to go next |
 
@@ -701,18 +700,6 @@ flowchart TB
 | Accessibility | Are basic access barriers avoided in the actual project? | WCAG and WAI give a baseline for perceivable, operable, understandable, and robust content |
 | Robustness | Does the vault work after clone or download? | Content should not depend on one environment |
 | Accountability | Are limits and remaining risks stated? | Responsible design documents what was considered and what remains untested |
-
-## Design synthesis
-
-Design in **Accessibility and Inclusive Design** is the work of building access into the system before evaluation begins. It turns accessibility theory into decisions about structure, contrast, typography, keyboard paths, focus states, semantic headings, understandable labels, repairable errors, readable diagrams, reusable components, source clarity, and fallback content.
-
-Locally, this means the Cognishire HCI map must work inside the UVT project context: Obsidian, GitHub, professor review, student reading, CSS, Mermaid, and local accessibility responsibilities. Globally, it means the design should connect to CS2023, WCAG, W3C WAI, inclusive design, universal design, ability-based design, and accessibility-focused HCI research.
-
-The central design question is:
-
-> What barrier could this design create, and how can the interface be shaped so that the barrier is reduced before testing begins?
-
-This page connects to [[Theory]] because design decisions come from accessibility concepts. It connects to [[Experiment]] because the design must be tested. It connects to [[../Overview|Overview]] because the Inclusive Gate protects the whole map. It connects outward to [[../../02_System_Design/Overview|Interface Forge]] because inclusive design must be implemented in the actual system.
 
 ## Academic anchors
 

@@ -24,7 +24,7 @@ tags:
   - local-global
 status: max-polished-academic-guide
 ---
-
+![[turtle.jpg|1000]]
 # Important People
 
 Back to [[Overview|The Inclusive Gate]].
@@ -39,8 +39,6 @@ The real-life meaning is **knowing who and what to study when the question is ho
 
 This page is not a celebrity list. It is not a list of confirmed supervisors. It is a learning map. A person is included only when their public work gives a useful route into one part of accessibility: accessible computing, assistive technology, disability-centered design, accessibility education, AI and accessibility, or policy.
 
-> [!warning] Accuracy and contact rule
-> Roles, affiliations, and email addresses can change. Use the official profile linked in the Academic Anchors before contacting anyone. Do not mass email. Read one paper, project, or lab page first. Then ask one focused question.
 
 ## People Map
 
@@ -93,13 +91,11 @@ Use the page as a route map, not as a directory of guaranteed contacts.
 | Global researcher | A person with public work in accessible computing, disability-centered HCI, assistive technology, or related areas |
 | Public basis | A profile, lab page, publication route, or institutional page that supports the inclusion |
 | Best use | The kind of question a student can study through this person’s work |
-| Caution | A limit on the claim, especially where the person is not an HCI accessibility supervisor or where a role may change |
 
 ## Local Route First: UVT Accessibility and Informatics Context
 
 The local dimension for this project is **UVT**, especially the **Faculty of Informatics / Computer Science context**. Accessibility also connects to the wider university context: student support, accommodations, assistive technologies, accessible educational materials, teaching adaptation, and institutional inclusion.
 
-The safest local claim is this:
 
 > UVT provides institutional accessibility routes, and the Faculty of Informatics provides local Computer Science routes. These can support accessibility-related thinking, but they should not be described as a dedicated HCI accessibility lab unless an official source says so.
 
@@ -186,8 +182,6 @@ flowchart TB
 | Codruț Chiș | UVT research route lists virtual reality | How can VR be evaluated for spatial usability, comfort, and embodied access? |
 | Eduard Hogea, Fabian Galiș, Flavia Costi | UVT research route lists explainable AI topics for these names | How can explainability help users judge AI behaviour, limits, and trust? |
 
-> [!warning] Local route rule
-> Write “public UVT Computer Science routes that can connect to accessibility questions.” Do not write “these are UVT HCI accessibility supervisors” unless a current official page explicitly states that.
 
 ## Global Route I: Accessible Computing Foundations
 
@@ -313,7 +307,6 @@ This route is for AI systems that can support access or create new barriers. It 
 | Why she matters | Her work is a strong route into accessibility datasets, AI-infused systems, disability data, and the evaluation of AI tools for disabled users |
 | Study first | Human-centered AI for accessibility, teachable AI, audio description, accessibility datasets, privacy and participation |
 | Good student question | “How can AI accessibility systems be evaluated with disabled people’s data without creating new risks?” |
-| Caution | AI accessibility claims require correctness, privacy, bias, and user-control checks |
 
 ### Shaun K. Kane
 
@@ -340,7 +333,6 @@ This route is for AI systems that can support access or create new barriers. It 
 | Field | Details |
 |---|---|
 | Evaluation role | Disability, responsible AI, justice-oriented design, community-led evaluation |
-| Why repeated here | Her work helps question AI systems that claim to help disabled people but may encode power, bias, or shallow representation |
 | Study direction | Use this route when evaluating AI systems that describe, represent, classify, or support disabled users |
 | Caution | Avoid “AI solves accessibility” framing. Use evidence and user agency |
 
@@ -436,18 +428,6 @@ flowchart LR
 | Ask | One precise question about a reading path, method, or study direction |
 | Close | Thank them and include a GitHub/portfolio link only if relevant |
 
-### Minimal email template
-
-> [!example] Accessibility-method email
-> Dear Professor [Name],  
-> I am building a CS2023-based HCI map for a student project. I am currently improving the section on **HCI-Accessibility: Accessibility and Inclusive Design**.  
->  
-> I read your public work/page on [specific topic]. I am trying to understand how to evaluate [specific barrier, tool, or method] in a small student project.  
->  
-> Could you recommend one or two papers, courses, or lab resources that would be a good starting point?  
->  
-> Best regards,  
-> [Name]
 
 ## Local UVT Contact Protocol
 
@@ -462,71 +442,6 @@ For UVT routes, ask about the connection between your project and a method, not 
 | Health/e-health route | “What makes accessibility stricter when users rely on health or monitoring information?” |
 | VR route | “What accessibility barriers should be checked in an immersive or spatial version of this map?” |
 | Teaching route | “How can I test whether the map helps students learn without increasing cognitive load?” |
-
-## What Not to Claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “These are UVT accessibility professors.” | “These are public UVT routes that can connect to accessibility questions.” |
-| “This person is definitely available to supervise this project.” | “This person’s public work is relevant to this learning route.” |
-| “A famous researcher proves this claim.” | “This researcher gives a useful source route for studying the claim.” |
-| “Accessible computing is only about screen readers.” | “Accessible computing includes disability, assistive technology, interaction, education, AI, and policy.” |
-| “AI will solve accessibility.” | “AI can support accessibility, but it needs evidence, user control, correctness checks, privacy care, and bias analysis.” |
-| “A checklist proves inclusion.” | “A checklist is one evidence layer. Lived access, assistive technology, task success, and repair still matter.” |
-| “Disabled users are one group.” | “Access needs vary across disability, context, tools, language, time, and situation.” |
-
-## Cognishire Application
-
-The Inclusive People Roadmap should help this project make better decisions, not just add names.
-
-```mermaid
-flowchart TB
-    A((Cognishire People Routes))
-
-    A --> B[Local evidence]
-    A --> C[Accessible structure]
-    A --> D[Disability-centered framing]
-    A --> E[Assistive tools]
-    A --> F[AI accessibility]
-    A --> G[Accountability]
-
-    B --> B1[UVT support<br/>and Faculty routes]
-    C --> C1[Wobbrock<br/>Findlater]
-    D --> D1[Bennett<br/>Shinohara<br/>Mankoff]
-    E --> E1[Azenkot<br/>Hurst<br/>Ladner]
-    F --> F1[Kacorri<br/>Kane<br/>Morris]
-    G --> G1[Lazar<br/>Mankoff]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G node;
-    class B1,C1,D1,E1,F1,G1 detail;
-```
-
-| Cognishire problem | Best people route |
-|---|---|
-| Fantasy names may hide the academic meaning | Shinohara, Bennett, UVT local review route |
-| Mermaid diagrams may be hard to read or interpret | Wobbrock, Findlater, Web accessibility routes |
-| Obsidian/GitHub setup may break access | UVT software/workflow routes, Mankoff, Lazar |
-| Keyboard and screen-reader structure need testing | Wobbrock, Lazar, WebAIM/W3C routes |
-| AI-generated help may hallucinate or exclude users | Kacorri, Kane, Morris, Bennett |
-| Accessibility might become a checklist only | Mankoff, Bennett, Shinohara, Lazar |
-| The local project may overclaim from limited evidence | UVT local routes, Lazar, HCI evaluation methods |
-
-## Synthesis
-
-Important People for **Accessibility and Inclusive Design** is a roadmap for learning from real public work without overclaiming. Locally, the safest route is to connect the Cognishire project to UVT accessibility support and to public Faculty of Informatics research routes. These routes can help frame accessibility as a local university responsibility, a software issue, an AI issue, a data issue, and a teaching-material issue.
-
-Globally, accessible computing is shaped by researchers who study interaction techniques, disability-centered design, assistive technology, accessibility education, AI accessibility, and policy. Wobbrock, Mankoff, Ladner, Bennett, Shinohara, Morris, Findlater, Azenkot, Hurst, Kacorri, Kane, and Lazar offer different routes into the field. They should not be treated as interchangeable names. Each route answers a different question.
-
-The central question is:
-
-> Which person or lab gives the best route for the specific accessibility problem I am trying to understand?
-
-This page connects to [[Activities/Theory]] because people define the concepts and debates. It connects to [[Activities/Design]] because their work informs components, methods, and tools. It connects to [[Activities/Experiment]] because accessibility claims need evidence. It connects to [[Connections]] because accessibility depends on disability studies, software engineering, law, AI, education, and policy. It connects to [[Important Venues]] because these people publish through accessibility and HCI communities.
 
 ## Academic Anchors
 

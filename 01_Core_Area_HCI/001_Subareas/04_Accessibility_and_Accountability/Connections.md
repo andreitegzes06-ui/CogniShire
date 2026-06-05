@@ -27,7 +27,7 @@ tags:
   - local-global
 status: expanded-polished-draft
 ---
-
+![[cart.jpg|1000]]
 # Connections
 
 Back to [[Overview|The Inclusive Gate]].
@@ -40,7 +40,6 @@ The real CS2023 label is **HCI-Accessibility: Accessibility and Inclusive Design
 The connected responsibility route is **HCI-Accountability: Accountability and Responsibility in Design**.  
 The real-life meaning is **understanding that accessibility is a technical, social, institutional, and ethical design problem**.
 
-This page is not a checklist. It is a bridge map. It explains which fields must be connected when a design claims that more people can perceive it, operate it, understand it, trust it, and participate through it.
 
 > [!quote] Bridge rule
 > Accessibility becomes stronger when it is treated as a system of relations: people, tools, code, standards, institutions, evidence, and responsibility.
@@ -414,7 +413,6 @@ flowchart TB
 | Institutional policy | Local procedures for students, staff, services, teaching, and assessment |
 | Procurement | Accessibility becomes a requirement when choosing or building systems |
 
-For a student project, this does not mean making legal claims. It means recognising that accessibility is an institutional responsibility and that technical decisions can affect rights, assessment, and participation.
 
 ## Education Bridge
 
@@ -516,7 +514,6 @@ flowchart TB
     B --> B1[High-stakes decisions]
     C --> C1[Forms must be usable]
     D --> D1[Authentication can exclude]
-    E --> E1[Warnings must be clear]
     F --> F1[Alternative access routes]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
@@ -530,10 +527,8 @@ flowchart TB
 
 | Public or health context | Accessibility concern |
 |---|---|
-| Medical portal | Users must understand results, warnings, appointments, and actions |
 | Public form | Users must complete steps without inaccessible fields or time pressure |
 | Identity verification | Authentication can exclude users with cognitive, sensory, or motor barriers |
-| Emergency or health warning | Meaning cannot depend on colour, sound, or dense text alone |
 | E-health monitoring | Data must be interpretable and not create false trust |
 | Public university service | Students must access information without needing private workarounds |
 
@@ -754,28 +749,6 @@ flowchart TB
 | 7 | Ground the local layer in UVT accessibility services and Faculty of Informatics context |
 | 8 | Apply the connections to Cognishire through a barrier, repair, and retest cycle |
 
-## What This Page Should Not Claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Accessibility is solved by following WCAG.” | “WCAG gives a necessary baseline, but real access also needs testing and user evidence.” |
-| “Assistive technology users are one group.” | “Assistive technology use varies by person, task, tool, and context.” |
-| “A design system is automatically accessible.” | “A design system can support accessibility if its components are tested and maintained.” |
-| “AI makes accessibility automatic.” | “AI can support access, but its outputs must be checked for correctness, bias, uncertainty, and control.” |
-| “UVT support pages prove this project is accessible.” | “UVT support pages give local context; the project still needs its own accessibility checks.” |
-| “Blogs are enough for academic grounding.” | “Practice guides help implementation, but academic pages need standards and research anchors.” |
-
-## Synthesis
-
-Connections in **Accessibility and Inclusive Design** show that accessibility is not a small technical afterthought. It is a bridge between disability studies, assistive technology, web standards, software engineering, design systems, law, education, ethics, health, public services, AI, human factors, and institutional responsibility.
-
-Locally, the Inclusive Gate must speak to the UVT project context: students, professors, learning materials, GitHub, Obsidian, CSS, Markdown, diagrams, and university support for students with disabilities. Globally, it must connect to CS2023, WCAG, WAI-ARIA, EN 301 549, inclusive design, ACM SIGACCESS, ASSETS, Web4All, and accessibility-focused HCI research.
-
-The central question is:
-
-> Which fields must connect so that access is designed, tested, maintained, and repaired instead of left to chance?
-
-This page connects to [[Activities/Theory]] because each bridge explains why accessibility matters. It connects to [[Activities/Design]] because each bridge becomes a design rule. It connects to [[Activities/Experiment]] because each bridge needs evidence. It connects to [[Overview|Overview]] because the Inclusive Gate protects the whole HCI map.
 
 ## Academic Anchors
 

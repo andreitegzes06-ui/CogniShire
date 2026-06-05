@@ -18,7 +18,7 @@ tags:
   - design-systems
 status: expanded-polished-draft
 ---
-
+![[people_japan.gif|1000]]
 # Connections
 
 Back to [[Overview|The Interface Forge]].
@@ -414,24 +414,6 @@ flowchart TB
 | Diagrams must help learning | Graphics | Keep diagrams compact and readable |
 | Theme must not exclude users | Accessibility | Test contrast, focus, motion, and screen readability |
 | Pages must improve through feedback | Human-centred systems | Test with students and revise based on evidence |
-
-## What this page should not claim
-
-Because this page draws from several disciplines, it must avoid overstating the relationship between them.
-
-| Avoid this claim | Safer version |
-|---|---|
-| Interface design is the same as graphic design. | Visual communication is one contributor to interface design. |
-| Software engineering only implements the designer's idea. | Engineering decisions shape what the interface can reliably do. |
-| Architecture directly explains all navigation. | Architecture gives useful analogies for wayfinding and structure. |
-| Ubiquitous computing solves context awareness. | Context-aware systems create new problems of visibility, privacy, and control. |
-| Design systems automatically create good UX. | Design systems can support consistency, but they still need evidence and accessibility checks. |
-
-## Foundry synthesis
-
-Connections inside the Interface Forge maps the disciplines behind interface construction. Software engineering makes the interface implementable. Visual communication makes it legible. Industrial design connects it to bodies and devices. Architecture teaches wayfinding and spatial organisation. Graphics make ideas visible. Ubiquitous computing expands the interface into environments. Human-centred systems keep the forge accountable to people.
-
-This page connects to [[Activities/Theory|Theory]] because each discipline contributes concepts. It connects to [[Activities/Design|Design]] because those concepts become interface decisions. It connects to [[Activities/Experiment|Experiment]] because decisions must be tested. It connects outward to [[../01_Understanding_the_User/Overview|Mind Library]], [[../03_Evaluating_the_Design/Overview|Observation Chamber]], [[../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], and [[../05_Human_AI_Interaction/Overview|Oracle Engine]]. Interface construction depends on concepts, evidence, inclusion, and intelligent systems.
 
 ## Academic anchors
 

@@ -17,7 +17,7 @@ tags:
   - accessibility
 status: polished-cognishire-draft
 ---
-
+![[lake.gif|1000]]
 # Theory
 
 Back to [[../Overview|The Interface Forge]].
@@ -63,14 +63,12 @@ flowchart TB
 |---|---|---|
 | Structure theory | How should information be organised? | Layout, grouping, hierarchy, spacing, and information architecture |
 | Action theory | How does the user know what can be done? | Controls, affordances, signifiers, labels, and interaction cues |
-| State theory | How does the system show what is happening? | Loading, success, error, disabled, empty, and warning states |
 | Navigation theory | How does the user move and stay oriented? | Menus, breadcrumbs, active states, internal links, and labels |
 | Component theory | How does the interface stay consistent? | Components, variants, states, tokens, and documentation |
 | Access theory | How does the interface work across abilities and technologies? | Keyboard access, contrast, focus order, semantics, and assistive technology support |
 
 ## Structure Theory: The Screen as an Organised Field
 
-Structure theory begins with a simple claim: a screen is not a container for objects. It is an organised field of attention. Placement, grouping, scale, alignment, contrast, and spacing all tell users what matters and what belongs together.
 
 Visual hierarchy guides the eye toward important elements. In interface design, this is not only aesthetic. It affects whether users find the main action, understand the page, and predict the next step.
 
@@ -144,7 +142,6 @@ Useful routes: [NN/g signifiers topic](https://www.nngroup.com/topic/signifiers/
 
 ## State Theory: Interfaces Are Always Changing
 
-State theory explains that an interface is not a static picture. A screen can be idle, loading, successful, empty, disabled, warning, failed, recovering, or updated. Users need to understand those states to act safely.
 
 Apple’s feedback guidance explains that clear, consistent feedback helps people understand what happens as they interact with an app. This is central to the Interface Forge because state is often invisible unless the designer expresses it through feedback.
 
@@ -176,7 +173,6 @@ flowchart LR
 | Error | What failed, and how do I repair it? | Message is visible, constructive, and specific |
 | Empty | Why is nothing here? | Explain the state and offer the next action |
 | Disabled | Why can I not do this? | Show the condition or requirement when useful |
-| Warning | What risk am I about to take? | Explain consequence before commitment |
 
 State theory prevents silent change. If a system changes without clear feedback, the user must guess. That can create repeated clicking, duplicate submissions, anxiety, and mistrust.
 
@@ -475,12 +471,6 @@ The Cognishire vault is itself an interface. The theory on this page can be used
 | Accessibility | Can the theme be read with enough contrast and used with keyboard navigation? |
 
 This gives the Interface Forge a practical role inside the project. It is not only a chapter about interface design. It is also a checklist for improving the vault as a learning system.
-
-## Forge Synthesis
-
-Theory in the Interface Forge is practical theory. It explains how interface form should be constructed. Structure theory organises attention. Action theory makes possible actions visible. State theory shows system behaviour. Navigation theory supports wayfinding. Component theory creates consistency. Accessibility theory protects inclusion. Responsive and platform theory preserve usability across conditions.
-
-The Interface Forge does not replace the Mind Library. It applies it. The Mind Library explains why users need clear mental models, low cognitive load, feedback, and accessible interaction. The Interface Forge turns those ideas into components, states, flows, layouts, and prototypes that can be tested.
 
 ## Academic anchors
 

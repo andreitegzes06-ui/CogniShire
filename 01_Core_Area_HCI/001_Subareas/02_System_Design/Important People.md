@@ -20,7 +20,7 @@ tags:
   - university-roadmap
 status: polished-rpg-readable-draft
 ---
-![[people2.webp|1500]]
+![[street_japan.gif|1000]]
 # Important People
 
 Back to [[Overview|The Interface Forge]].
@@ -33,9 +33,6 @@ Back to [[Overview|The Interface Forge]].
 **Real meaning:** a practical guide to current academic routes in interface construction.
 
 This is not a hall of fame. It is a route map. Each person represents a path through the Interface Forge: prototyping, design tools, interaction techniques, tangible interfaces, fabrication, AR/VR, spatial interaction, or broad interaction design.
-
-> [!warning] Contact rule
-> Use public academic contact routes respectfully. Do not mass email professors. Choose one or two people whose work matches your project, read their lab page first, and ask one specific question.
 
 ## Quick route compass
 
@@ -308,16 +305,6 @@ flowchart LR
 > Best regards,  
 > [Name]
 
-## What this page should not claim
-
-| Avoid this claim | Safer wording |
-|---|---|
-| “These are the only important people in System Design.” | “These are useful routes into System Design.” |
-| “Every person here is currently recruiting.” | “Check current supervision and programme pages before writing.” |
-| “A famous professor is automatically the best fit.” | “Choose fit by topic, lab, and project match.” |
-| “System Design means visual design only.” | “System Design includes prototypes, interaction techniques, tools, systems, accessibility, and platform constraints.” |
-| “A generic email is enough.” | “Read first, build small evidence, then ask a focused question.” |
-
 ## Venue routes for these people
 
 | Venue | Why it matters for this roadmap |
@@ -328,12 +315,6 @@ flowchart LR
 | [ACM TEI](https://tei.acm.org/) | Tangible, embedded, and embodied interaction |
 | [ACM CHI](https://dl.acm.org/conference/chi) | Broad HCI research, including design, evaluation, accessibility, interaction, and systems |
 | [CS2023 Knowledge Areas](https://csed.acm.org/knowledge-areas/) | Official curriculum route that places HCI inside computer science |
-
-## Roadmap synthesis
-
-The Forge Masters Roadmap shows how **CS2023 HCI-Design: System Design** becomes a set of academic routes. For prototyping and design tools, begin with Landay, Klemmer, and Mackay. For interaction techniques and UI systems, begin with Grossman, Wigdor, Vogel, and Beaudouin-Lafon. For tangible interfaces and fabrication, begin with Ishii and Baudisch. For immersive systems, begin with Feiner and Billinghurst. For broad interaction design and ubiquitous human-centred systems, begin with Rogers.
-
-This page connects to [[Activities/Theory]] because these researchers provide models and principles. It connects to [[Activities/Design]] because their work produces tools, artifacts, patterns, and prototypes. It connects to [[Activities/Experiment]] because system-design claims require evaluation. It connects to [[Connections]] because System Design crosses software engineering, design, graphics, fabrication, spatial computing, and human-centred systems.
 
 ## Academic anchors
 

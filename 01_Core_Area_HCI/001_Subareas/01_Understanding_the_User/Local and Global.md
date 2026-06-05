@@ -23,7 +23,7 @@ tags:
   - global-HCI
 status: polished-factchecked-draft
 ---
-![[locala1.webp|1000]]
+![[local1.jpg|1000]]
 # Local and Global
 
 Back to [[Overview|The Mind Library]].
@@ -175,12 +175,8 @@ flowchart TB
 | Adrian Spătaru | Listed on the UVT department staff page. | Digital technology teaching routes can support local project positioning and tool-building context. |
 | Alexandra Fortiș | Listed on the UVT department staff page. | Local teaching and CS context can help make the map understandable to student users. |
 
-> [!warning] Local people note
-> This table does not claim that these people are HCI specialists. It identifies local CS routes that can support user-related questions such as recommender systems, e-health, software tools, data, infrastructure, and trustworthy systems.
-
 ## Local User Groups at UVT
 
-The Mind Library should identify real local users before making broad claims.
 
 ```mermaid
 flowchart TB
@@ -232,14 +228,12 @@ These are the questions the Mind Library should ask first inside the UVT setting
 
 ## Local-to-Global Bridge
 
-The local UVT study becomes useful when it is connected to global HCI theory. Local evidence tells us what happens here. Global HCI helps explain why it happens, how it relates to prior work, and where the claim should stop.
 
 ```mermaid
 flowchart LR
     A[Local UVT<br/>observation] --> B[HCI<br/>concept]
     B --> C[Global<br/>source]
     C --> D[Revised<br/>local design]
-    D --> E[Claim<br/>boundary]
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
@@ -365,18 +359,6 @@ The local contact protocol should be respectful and limited. Do not ask a UVT pr
 > Best regards,  
 > [Name]
 
-## What Not to Claim
-
-Because the page includes local UVT people, the map must avoid overclaiming.
-
-| Do not claim | Safer wording |
-|---|---|
-| “These are the HCI professors at UVT.” | “These are UVT CS local routes that may connect to HCI-User concerns.” |
-| “This person studies users.” | “This person’s public research route can support user-related questions such as data, e-health, recommender systems, software tools, or trustworthy systems.” |
-| “UVT represents all Romanian HCI.” | “UVT is the local institutional context for this project.” |
-| “A test with classmates proves global usability.” | “A test with classmates gives local formative evidence.” |
-| “The map is globally valid.” | “The map is globally grounded through CS2023 and HCI sources, but local evidence remains UVT-specific.” |
-
 ## Cognishire Application
 
 In Cognishire, the Mind Library should not float in abstract fantasy. It should begin from UVT, then connect outward.
@@ -408,17 +390,6 @@ flowchart TB
 | User examples | Should include student and project examples from UVT | Should still connect to general HCI user types |
 | People pages | Should include UVT local routes where relevant | Should also include global professors, labs, and research groups |
 | Venue pages | Should include local seminars or research routes where relevant | Should include CHI, CSCW, TOCHI, PACM HCI, UXPA, W3C, and standards |
-| Evaluation | Should test with local users first | Should state limits before making broader claims |
-
-## Synthesis
-
-Local and Global for **Understanding the User** means that the map starts with the real UVT setting and expands outward to global HCI. The local dimension is the faculty context, the students, the teacher, the language, the tools, and the project expectations. The global dimension is CS2023, HCI research, user-centred methods, accessibility standards, and international user diversity.
-
-The central question is:
-
-> How do UVT users understand and use this HCI map, and how can global HCI theory explain and improve that local experience?
-
-This page connects to [[Activities/Theory]] because local observations need concepts. It connects to [[Activities/Design]] because user findings shape the map’s structure. It connects to [[Activities/Experiment]] because local user tests produce evidence. It connects to [[Important People]] because the local people route must include UVT as well as global HCI researchers. It connects to [[Important Venues]] because local seminars and global HCI venues both matter.
 
 ## Academic Anchors
 

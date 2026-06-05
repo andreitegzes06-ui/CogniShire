@@ -20,7 +20,7 @@ tags:
   - professor-roadmap
 status: expanded-polished-draft
 ---
-
+![[suns.jpg|1000]]
 # Important People
 
 Back to [[Overview|The Observation Chamber]].
@@ -32,10 +32,7 @@ The fantasy label is **Researcher Roadmap**.
 The academic label is **HCI-Evaluation: Evaluating the Design**.  
 The practical question is simple: **Who should I read if I want to learn how interactive systems are evaluated?**
 
-This is not a celebrity list. It is a route map. Each person is included because their work helps answer one evaluation question: How do we test usability? How do we measure experience? How do we evaluate accessibility? How do we interpret field evidence? How do we make claims that match the data?
 
-> [!warning] Contact rule
-> Use public contact details only when they appear on official university, lab, or organisation pages. Do not mass email. Read the person’s work first. Then send one short, specific question.
 
 ## Roadmap Compass
 
@@ -70,7 +67,6 @@ flowchart TB
 |---|---|---|
 | Usability testing | How to observe users, record problems, and report findings | Jakob Nielsen, Rolf Molich, Morten Hertzum |
 | UX metrics | How to measure task success, time, errors, satisfaction, and confidence | Jeff Sauro, James R. Lewis, Effie Law |
-| Validity and methods | How to design studies and limit unsupported claims | Kasper Hornbæk, Jonathan Lazar, Jacob Wobbrock |
 | Accessibility evaluation | How to test systems with disabled users, assistive technologies, and standards | Jonathan Lazar, Jacob Wobbrock, Leah Findlater |
 | Field evaluation | How to study technology in real settings | Yvonne Rogers, Geraldine Fitzpatrick |
 | Experience evaluation | How to study meaning, affect, motivation, and social acceptability | Marc Hassenzahl, Effie Law |
@@ -87,13 +83,11 @@ flowchart TB
     A --> C[Summative evaluation]
     A --> D[Qualitative evidence]
     A --> E[Quantitative evidence]
-    A --> F[Defensible claims]
 
     B --> B1[Improve during design]
     C --> C1[Judge a finished design]
     D --> D1[Explain user behaviour]
     E --> E1[Measure and compare]
-    F --> F1[Match claim to data]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -148,7 +142,6 @@ Usability testing examines how people use an interface to complete tasks. It hel
 
 ## Route II: UX Metrics and Quantitative Evaluation
 
-UX metrics turn parts of user behaviour and perception into numbers. Examples include task success, completion time, error rate, confidence, perceived usability, and workload. Metrics help HCI researchers compare designs, but they must match the claim being made.
 
 ### Jeff Sauro
 
@@ -188,7 +181,6 @@ UX metrics turn parts of user behaviour and perception into numbers. Examples in
 
 ## Route III: Validity, HCI Methods, and Study Design
 
-Validity asks whether the study supports the claim. A study can collect real data and still make a weak claim if the construct, task, sample, or analysis is wrong. This route is central for academic HCI because evaluation is evidence-based argument.
 
 ### Kasper Hornbæk
 
@@ -198,7 +190,6 @@ Validity asks whether the study supports the claim. A study can collect real dat
 | Public email | `kash@di.ku.dk` |
 | Current role | Professor, Human-Centred Computing |
 | Evaluation focus | HCI, usability research, empirical methods, interaction theory, measurement |
-| Why to read him | Hornbæk is useful for thinking carefully about usability measures and HCI claims |
 | Best first reading | Papers on usability measurement, HCI theory, empirical methods, and interaction research |
 | Before contacting | Ask a precise question about measures, theory, or study validity |
 | Official sources | [University of Copenhagen staff profile](https://di.ku.dk/english/staff/?pure=en%2Fpersons%2F141851), [personal research page](https://www.kasperhornbaek.dk/) |
@@ -349,7 +340,6 @@ flowchart TB
 |---|---|---|
 | How to run a usability test | Nielsen, Hertzum, Molich | A 3-user think-aloud test with an issue log and severity ratings |
 | How to quantify UX | Sauro, Lewis, Law | A small benchmark with task success, time, SUS, and confidence intervals |
-| How to design valid HCI studies | Hornbæk, Lazar, Wobbrock | A protocol that defines constructs, variables, threats, and claim limits |
 | How to evaluate accessibility | Lazar, Wobbrock, Findlater | A keyboard test, screen reader check, WCAG issue log, and user-impact summary |
 | How to study real use | Rogers, Fitzpatrick | A field observation or diary study in a real setting |
 | How to evaluate experience | Hassenzahl, Law | A study that combines task evidence, experience ratings, and short interviews |
@@ -382,16 +372,6 @@ flowchart LR
 | Ask | One precise question about method choice, reading path, or study design |
 | Close | Thank them. Add a portfolio or GitHub link only if it helps the question |
 
-### Minimal email template
-
-> [!example] Evaluation-method email
-> Dear Professor [Name],  
-> I am building a CS2023-based HCI map and I am studying **HCI-Evaluation: Evaluating the Design**. I read your work on [specific topic], especially [method, paper, or project].  
->  
-> I am designing a small evaluation of [interface/project]. I want to choose better methods for [specific issue]. Would you recommend one or two papers, courses, or lab resources as a starting point?  
->  
-> Best regards,  
-> [Name]
 
 ## Reading Sequence
 
@@ -444,14 +424,6 @@ flowchart TB
 | Is the vault accessible? | Lazar, Wobbrock, Findlater, W3C/WCAG |
 | Does the vault work in classroom use? | Rogers, Fitzpatrick |
 | Does the light RPG layer help or distract? | Hassenzahl, Law |
-
-## Roadmap Synthesis
-
-Important People for Evaluating the Design is a methods roadmap. It shows that HCI evaluation is not one method. Usability testing, UX metrics, validity analysis, accessibility evaluation, field research, and experience evaluation answer different questions.
-
-Nielsen, Molich, and Hertzum help with practical usability testing. Sauro, Lewis, and Law help with measurement. Hornbæk, Lazar, and Wobbrock help with method validity. Lazar, Wobbrock, and Findlater help with accessibility evaluation. Rogers and Fitzpatrick help with field and qualitative evaluation. Hassenzahl and Law help with experience and meaning.
-
-This page connects to [[Activities/Theory]] because evaluation depends on constructs and assumptions. It connects to [[Activities/Design]] because evaluation protocols must be designed before data collection. It connects to [[Activities/Experiment]] because methods become concrete studies. It connects to [[Connections]] because evaluation uses statistics, psychology, accessibility, ethics, software engineering, and social science. It connects to [[Important Venues]] because these routes lead to conferences, journals, and communities where HCI evaluation research is published.
 
 ## Academic Anchors
 

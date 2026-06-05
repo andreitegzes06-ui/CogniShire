@@ -24,7 +24,7 @@ tags:
   - accountability
 status: maximum-polished-academic-guide
 ---
-
+![[house.png|1000]]
 # The Inclusive Gate
 
 > [!abstract] CS2023 Accessibility and Inclusive Design
@@ -52,7 +52,6 @@ Accessibility and Inclusive Design asks a direct question: **who is blocked by t
 
 The answer is rarely a single item. A barrier may come from colour contrast, font size, link text, keyboard access, reading order, missing captions, unclear language, broken source structure, inaccessible diagrams, plugin dependence, poor error recovery, or an AI feature that gives unreliable help.
 
-In this Cognishire vault, the Inclusive Gate has a practical job. It checks whether the HCI map can be read, opened, navigated, understood, shared, and repaired by real students and evaluators. It also checks whether the academic claims are grounded in recognised standards and research.
 
 ```mermaid
 flowchart TB
@@ -81,7 +80,6 @@ flowchart TB
 |---|---|---|
 | Access | People can reach and use the content | Links, headings, diagrams, and sources can be used by keyboard and read clearly |
 | Inclusion | Human variation is expected from the start | The vault does not assume perfect vision, perfect English, perfect Git knowledge, or mouse-only use |
-| Evidence | Claims need checks, tests, or observations | A local user can explain the page and complete navigation tasks |
 | Accountability | Barriers must be recorded and repaired | The project keeps an issue log and states what was not tested |
 
 ## Gate Entrance
@@ -143,7 +141,6 @@ flowchart LR
 | [[../01_Understanding_the_User/Overview|Mind Library]] | User diversity, cognitive load, language, mental models, context | A stricter definition of user diversity, disability, access needs, and exclusion |
 | [[../02_System_Design/Overview|Interface Forge]] | Interface structure, components, CSS, links, diagrams, interaction patterns | Accessibility rules for structure, contrast, focus, fallbacks, and implementation |
 | [[../03_Evaluating_the_Design/Overview|Observation Chamber]] | Methods, evidence, validity, local testing, issue logs | Accessibility-specific evaluation through keyboard tests, screen reader checks, WCAG mapping, and cognitive access tasks |
-| [[../05_Human_AI_Interaction/Overview|Oracle Engine]] | AI, prediction, generation, uncertainty, trust | A warning that AI can support access or automate new barriers |
 
 ## What this room protects
 
@@ -181,7 +178,6 @@ flowchart TB
 | Perceive | Information must be available through readable, visible, audible, or alternative forms | Mermaid diagrams need readable text and nearby explanations |
 | Operate | Users must be able to move, click, tab, open, and complete tasks | Pages and links should work by keyboard |
 | Understand | Labels, instructions, sources, and metaphors must be clear | “Inclusive Gate” must be paired with “Accessibility and Inclusive Design” |
-| Trust | Users must know what sources, claims, and AI outputs are reliable | Academic anchors separate standards, research, practice, UVT, and Romanian routes |
 | Participate | Users should not be silently excluded from learning, reviewing, or contributing | GitHub and Obsidian setup must not hide the content |
 | Recover | Users need fallback routes when something breaks | Plain Markdown should remain useful even if CSS or Mermaid fails |
 
@@ -313,7 +309,6 @@ This room uses several theories together. None of them is enough alone.
 | Inclusive Design | Find exclusion early and learn from human diversity | Helps the map treat access needs as design knowledge |
 | Universal Design | Design for the widest practical range of users | Supports flexible routes, readable content, and recovery |
 | Ability-Based Design | Focus on what users can do in context, then adapt the interface | Helps avoid treating disabled users as one fixed group |
-| Accountability | Designers and institutions must own risks, exclusions, and repairs | Forces the project to record limits and not overclaim |
 
 ## The Inclusive Evidence Stack
 
@@ -329,7 +324,6 @@ flowchart TB
     D --> E[Assistive Tech Check]
     E --> F[Cognitive Task]
     F --> G[Local UVT Review]
-    G --> H[Claim Boundary]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -348,7 +342,6 @@ flowchart TB
 | Assistive technology check | Real tool behaviour for selected tools | All disabled-user experiences |
 | Cognitive task | Understanding, memory load, label clarity | Full population-level generalisation |
 | Local UVT review | Project-specific evidence from students and professor context | Global accessibility |
-| Claim boundary | Honest statement of limits | It must be updated after changes |
 
 ## What this room must fix in Cognishire
 
@@ -430,7 +423,6 @@ flowchart TB
 
 ## Source compass
 
-This page uses different source types for different purposes. Keep them separate so the reader can see what kind of evidence supports each claim.
 
 ```mermaid
 flowchart TB
@@ -476,41 +468,11 @@ Accessibility and Inclusive Design can lead to several academic and professional
 | Route | Skills to build | Portfolio evidence |
 |---|---|---|
 | Accessibility evaluator | WCAG, keyboard testing, screen reader basics, issue reporting | Accessibility audit, issue log, repair and retest notes |
-| Inclusive UX researcher | Interviews, usability testing, disability-aware recruitment, cognitive access tasks | Protocol, participant tasks, findings report, claim-boundary table |
 | Front-end accessibility developer | Semantic HTML, ARIA when needed, focus management, responsive layout | Accessible component examples and before/after fixes |
 | Design systems contributor | Tokens, component states, documentation, accessibility rules | Accessible button, link, table, form, and diagram patterns |
 | Assistive technology researcher | AT use, human abilities, interaction adaptation, user studies | Small prototype or literature map connected to ASSETS/TACCESS |
 | Human-AI accessibility researcher | AI bias, explanations, uncertainty, verification, user control | AI accessibility evaluation protocol and source-check tasks |
 | Education technology evaluator | Learning access, cognitive load, accessible materials, classroom use | Local learning task, accessibility checklist, revision report |
-
-## What not to claim
-
-This room should be careful with wording. Strong accessibility claims need strong evidence.
-
-| Do not claim | Safer wording |
-|---|---|
-| “The map is accessible for everyone.” | “The map was checked for selected accessibility barriers in the tested context.” |
-| “WCAG compliance proves full inclusion.” | “WCAG is a baseline. Real access may need assistive technology checks and user evidence.” |
-| “A classmate test proves accessibility.” | “A classmate test can reveal local barriers, but it cannot represent all disabled users.” |
-| “The CSS looks readable, so it is accessible.” | “Readability needs contrast, zoom, keyboard, structure, and device checks.” |
-| “Romanian accessibility research is fully covered here.” | “This page gives selected Romanian routes that should be expanded with further search.” |
-| “AI automatically improves accessibility.” | “AI may support access, but it also needs checks for correctness, bias, uncertainty, and user control.” |
-
-## Local and global synthesis
-
-The Inclusive Gate exists to keep the HCI map from being beautiful but exclusionary. It asks whether the project can actually be read, navigated, understood, trusted, shared, and repaired by people with different abilities, devices, contexts, and needs.
-
-Locally, this means UVT accessibility support, the Faculty of Informatics, students, professor review, special education routes, Obsidian, GitHub, CSS, Markdown, Mermaid, and classroom presentation.
-
-Nationally, this means connecting cautiously to Romanian HCI and accessibility routes, including RoCHI, Romanian accessibility evaluation studies, accessible computing research, assistive technology work, and inclusive AI projects.
-
-Globally, this means using CS2023, W3C/WCAG, WAI-ARIA, SIGACCESS, ASSETS, TACCESS, Web4All, inclusive design, universal design, ability-based design, accessibility policy, and disability-centered HCI.
-
-The central question of this room is:
-
-> Who is excluded by this design, what barrier excludes them, and what evidence shows that the repair worked?
-
-Back to [[00_Index/Human-Computer Interaction|The five rooms of HCI]].
 
 ## Academic Anchors
 

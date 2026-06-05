@@ -16,7 +16,7 @@ tags:
   - sociotechnical-systems
 status: corrected-polished-draft
 ---
-![[problemo1.webp|1000]]
+![[theory1.jpg|1000]]
 # Open Problems
 
 > [!abstract] Frontier Map
@@ -24,9 +24,7 @@ status: corrected-polished-draft
 
 Open problems are not empty spaces. They are questions that remain difficult because people, technology, institutions, and social norms change together. In HCI, a problem often stays open when a design affects users in ways that are hard to measure, explain, or repair.
 
-This page treats open problems as research directions. It does not claim that these problems have no answers. It shows where current HCI knowledge still needs careful design, stronger evidence, and more responsible practice.
 
-This frontier connects to [[Activities/Theory]], because unresolved problems expose limits in existing concepts. It connects to [[Activities/Design]], because open problems require new interaction forms. It connects to [[Activities/Experiment]], because uncertain claims need better evidence. It connects to [[Connections]], because the hardest problems cross cognition, computing, accessibility, AI, ethics, institutions, and culture.
 
 > [!quote] Frontier rule
 > An open problem in HCI appears when a system changes what users can understand, trust, access, control, or contest faster than existing design knowledge can explain.
@@ -186,9 +184,6 @@ flowchart TB
 | Misplaced trust | User trusts the system in the wrong context. | Match confidence cues to risk level. |
 | Automation dependence | User stops checking the system. | Preserve meaningful human review. |
 | Contestability failure | User cannot challenge a system decision. | Provide appeal, correction, and escalation paths. |
-
-> [!warning] Trust frontier
-> The goal of human-AI interaction is not maximum trust. The goal is appropriate trust.
 
 This frontier links to [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] because it combines cognition, design, data, power, explanation, accountability, and social consequence.
 
@@ -418,14 +413,6 @@ flowchart TB
 | Is the visual theme accessible enough? | Contrast checks, keyboard use, readability, assistive technology feedback. |
 
 This protocol matters because a learning vault is still an interface. It should be evaluated with the same care as any other interactive system.
-
-## Synthesis
-
-The Mind Library’s frontier is the problem of representing users without simplifying them into convenient myths. Future HCI must explain cognition without ignoring culture. It must design for usability without ignoring power. It must measure behaviour without erasing experience. It must build AI systems that support human judgement rather than replacing it with opaque authority.
-
-Open problems are not failures of the map. They are the edges of the map. They show where HCI must continue to test, revise, and expand its concepts.
-
-This chamber therefore returns to [[Activities/Theory]], [[Activities/Design]], and [[Activities/Experiment]] as a loop: theory explains, design materialises, experiment tests, and open problems force the map to grow.
 
 ## Academic anchors
 

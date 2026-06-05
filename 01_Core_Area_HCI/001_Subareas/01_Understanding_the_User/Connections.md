@@ -15,7 +15,7 @@ tags:
   - sociotechnical-systems
 status: visual-academic-factchecked
 ---
-![[connections11.webp|1000]]
+![[assets/backgrounds/poze_github/1/people1.webp|1000]]
 # Connections
 
 > [!abstract] Bridge Map
@@ -98,7 +98,6 @@ flowchart LR
     class B1,C1,D1,E1 trace;
 ```
 
-The key move in this bridge is from isolated cognition to situated cognition. HCI does not study memory or attention as abstract laboratory objects only. It studies how memory and attention operate while a person works with a designed artefact. A calendar app supports memory. A progress bar supports expectation. A warning supports decision-making. A navigation structure supports orientation.
 
 | Cognitive idea | Interface translation | Possible experimental trace |
 |---|---|---|
@@ -196,9 +195,6 @@ flowchart LR
     class D,E,F choice;
     class G result;
 ```
-
-> [!warning] Trust calibration
-> The goal of human-AI interaction is not maximum trust. The goal is appropriate trust. Users should neither blindly accept nor automatically reject system output.
 
 This gate connects directly to [[Open Problems]], because explainability, accountability, contestability, bias, automation dependence, and human agency remain difficult research and design problems.
 
@@ -326,12 +322,6 @@ flowchart LR
 ```
 
 For example, limited working memory becomes an interface assumption about how much information users can hold. That assumption appears in navigation, form design, onboarding, and error recovery. Evaluation then shows whether the assumption holds. The design consequence may be a change in layout, feedback, labels, grouping, or task flow.
-
-## Chamber synthesis
-
-Connections makes the Mind Library more than a psychology shelf. It becomes a bridge system linking cognition to design form, design form to technical implementation, technical implementation to social context, and social context to ethical responsibility.
-
-The central demand of the chamber is careful translation. Concepts should not remain abstract. They must move into design choices, experimental methods, accessibility checks, ethical questions, and sociotechnical analysis. A strong HCI project does not ask only what users think. It asks how systems shape thinking, how design shapes action, how context shapes interpretation, and how evidence should reshape the system.
 
 ## Academic anchors
 

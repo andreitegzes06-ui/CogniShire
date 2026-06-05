@@ -27,18 +27,16 @@ tags:
   - local-global
 status: max-polished-academic-draft
 ---
-
+![[samurai.jpg|1000]]
 # Open Problems
 
 Back to [[Overview|The Inclusive Gate]].
 
 > [!abstract] Inclusive Frontier Map
-> Open Problems in the **Inclusive Gate** maps unresolved problems in **Accessibility and Inclusive Design**. It starts with the local UVT project context, then connects that context to Romanian accessibility-related HCI work and to global accessibility research. The page focuses on evidence, not slogans: what remains difficult when a design claims to be accessible, inclusive, or responsible.
 
 The fantasy name is **Inclusive Frontier Map**.  
 The real CS2023 label is **HCI-Accessibility: Accessibility and Inclusive Design**.  
 The connected responsibility route is **HCI-Accountability: Accountability and Responsibility in Design**.  
-The real-life meaning is **a map of what remains difficult when a system claims to include people with different abilities, technologies, contexts, languages, and needs**.
 
 This page is not a checklist. A checklist says what to inspect. An open-problems page asks why accessibility still fails even when designers know that accessibility matters. It examines why accessible design can become late, partial, under-tested, over-automated, compliance-only, or disconnected from disabled people’s lived experience.
 
@@ -94,19 +92,15 @@ flowchart TB
 
 ## How to read this page
 
-Use this page as a research map. Each frontier is a place where a student should slow down before making a strong claim. The goal is not to say that accessibility is impossible. The goal is to make accessibility claims more honest.
 
 | Use this page when... | What to do |
 |---|---|
-| A page claims to be accessible | Ask what evidence supports the claim |
 | A tool reports a high accessibility score | Check what the tool cannot detect |
 | A design follows WCAG criteria | Test whether users can complete real tasks |
 | A local UVT test looks positive | state the local limits of the evidence |
 | AI produces accessibility advice | verify the advice with standards and human judgement |
 | A page looks visually polished | check whether the polish creates access barriers |
 
-> [!warning] Claim boundary
-> Do not write “this system is accessible” unless the evidence is broad enough to support that claim. Prefer narrower wording: “selected accessibility barriers were checked in this context,” “the tested pages passed these checks,” or “this local test found these barriers and these repairs.”
 
 ## CS2023 Frontier Gate
 
@@ -181,9 +175,7 @@ flowchart TB
 | Does the professor see the accessibility logic? | Fantasy names and visual style can hide the official CS2023 meaning | Professor review of labels, sources, and route structure |
 | Does the vault survive setup changes? | Obsidian themes, CSS, Mermaid, and GitHub views can behave differently | Clone test and fallback Markdown inspection |
 | Does the map respect UVT accessibility context? | Local accessibility services are institutional, not only technical | Local source anchoring and cautious wording |
-| Does a student project have enough evidence? | Small local tests cannot prove full accessibility | Claim-boundary report |
 
-A safe claim is: “The map was checked for selected accessibility barriers in the UVT project context.” An unsafe claim is: “The map is accessible for everyone.”
 
 ## Local Frontier II: Accessibility Is Not Only Informatics
 
@@ -540,7 +532,6 @@ flowchart TB
 | Local language | Romanian accessibility support from AI may be weaker than English support |
 | Accountability | It may be unclear who repairs AI-caused exclusion |
 
-For Cognishire, future AI pages should include source checking, uncertainty, user control, and warnings against treating AI output as automatic accessibility expertise.
 
 ## Frontier VIII: Accessible XR and Spatial Interfaces
 
@@ -813,7 +804,7 @@ flowchart TB
     C --> C1[WebAIM / WCAG-EM / Pădure-Pribeanu]
     D --> D1[Inclusive design / education / HCI methods]
     E --> E1[CHI workshops / disability-centered HCI]
-    F --> F1[A(I)BILITIES / CHI / IUI / FAccT]
+    F --> F1[AIBILITIES / CHI / IUI / FAccT]
     G --> G1[RoCHI / Vatavu / Schipor / Romanian HCI]
     H --> H1[UVT accessibility support / special education / Informatics]
     I --> I1[EAA / EN 301 549 / WAI / accountability]
@@ -827,18 +818,18 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1,I1 route;
 ```
 
-| Open problem | Best search route |
-|---|---|
-| Compliance versus inclusion | W3C WAI, WCAG, ASSETS, TACCESS, disability-centered HCI |
-| Automated accessibility tools | WebAIM, WCAG-EM, Pădure and Pribeanu, W4A |
-| Cognitive accessibility | Inclusive design, education accessibility, plain language, HCI user studies |
-| Accessible prototyping | CHI accessibility workshops, disability-centered design, participatory design |
-| Cross-disability tradeoffs | ASSETS, TACCESS, Universal Design, Ability-Based Design |
-| Accessibility drift | Software engineering, design systems, regression testing, WCAG monitoring |
-| AI accessibility | A(I)BILITIES, CHI, ASSETS, IUI, FAccT, AI accessibility papers |
-| XR accessibility | Vatavu, XR Access, ASSETS, CHI, IEEE VR, ISMAR |
-| UVT local grounding | UVT accessibility support, DPPD/PPS routes, Faculty of Informatics |
-| Romanian national grounding | RoCHI, RRIoC, USV/MintViz, web accessibility evaluation papers |
+| Open problem                  | Best search route                                                             |
+| ----------------------------- | ----------------------------------------------------------------------------- |
+| Compliance versus inclusion   | W3C WAI, WCAG, ASSETS, TACCESS, disability-centered HCI                       |
+| Automated accessibility tools | WebAIM, WCAG-EM, Pădure and Pribeanu, W4A                                     |
+| Cognitive accessibility       | Inclusive design, education accessibility, plain language, HCI user studies   |
+| Accessible prototyping        | CHI accessibility workshops, disability-centered design, participatory design |
+| Cross-disability tradeoffs    | ASSETS, TACCESS, Universal Design, Ability-Based Design                       |
+| Accessibility drift           | Software engineering, design systems, regression testing, WCAG monitoring     |
+| AI accessibility              | A(I)BILITIES, CHI, ASSETS, IUI, FAccT, AI accessibility papers                |
+| XR accessibility              | Vatavu, XR Access, ASSETS, CHI, IEEE VR, ISMAR                                |
+| UVT local grounding           | UVT accessibility support, DPPD/PPS routes, Faculty of Informatics            |
+| Romanian national grounding   | RoCHI, RRIoC, USV/MintViz, web accessibility evaluation papers                |
 
 
 ## Evidence Quality Ladder
@@ -852,7 +843,6 @@ flowchart TB
     C --> D[Assistive technology check]
     D --> E[Task-based user evidence]
     E --> F[Long-term or repeated evidence]
-    F --> G[Bounded accessibility claim]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -868,13 +858,10 @@ flowchart TB
 | Automated signal | Some detectable issues were found or not found | Full accessibility |
 | Manual inspection | Structure, labels, focus, contrast, and content logic were checked | Lived access for all users |
 | Assistive technology check | The tested tools can or cannot use the page structure | All assistive technologies |
-| Task-based user evidence | Specific users could or could not complete specific tasks | Global claims about everyone |
 | Long-term or repeated evidence | Accessibility survives some updates and repeated use | Permanent accessibility |
-| Bounded accessibility claim | A careful claim tied to method, users, pages, and limits | A universal claim |
 
 ## What to avoid in the final project report
 
-| Avoid this claim | Use this wording instead |
 |---|---|
 | “The vault is fully accessible.” | “The tested pages were checked for selected accessibility barriers.” |
 | “WCAG passed, so inclusion is solved.” | “WCAG is a baseline; task evidence and user experience still matter.” |
@@ -882,18 +869,6 @@ flowchart TB
 | “Romania has no accessibility-HCI work.” | “Romanian routes are more scattered and require careful searching.” |
 | “The UVT test proves global accessibility.” | “The UVT test gives local formative evidence.” |
 | “Disabled users can ask for help.” | “The design should reduce the need for extra disclosure and special requests.” |
-
-## Synthesis
-
-Open Problems in **Accessibility and Inclusive Design** show why accessibility remains difficult even when standards exist. WCAG gives a baseline, but real inclusion still depends on assistive technologies, disabled-user experience, cognitive access, maintenance, accessible prototyping, local institutions, national context, language, AI risks, and accountability.
-
-Locally, the Inclusive Gate must ask what the UVT project can honestly prove: can students read and navigate it, can the professor inspect it, can it survive GitHub and Obsidian setup changes, and does it respect UVT accessibility support and inclusive education routes? Nationally, it should connect to publicly visible Romanian HCI and accessibility-related routes such as RoCHI, work associated with Radu-Daniel Vatavu and Ovidiu-Andrei Schipor, Pădure and Pribeanu’s accessibility-evaluation work, and the A(I)BILITIES project. These examples should be presented as routes for further study, not as a complete map of Romania. Globally, it must connect to CS2023, W3C/WCAG, WAI, ASSETS, TACCESS, Web4All, inclusive design, ability-based design, AI accessibility, and policy.
-
-The central question is:
-
-> What still prevents accessibility from becoming real access, and what evidence is needed before the design can claim inclusion?
-
-This page connects to [[Activities/Theory]] because open problems expose the limits of accessibility concepts. It connects to [[Activities/Design]] because barriers must become design repairs. It connects to [[Activities/Experiment]] because each frontier needs evidence. It connects to [[Connections]] because accessibility crosses education, software engineering, disability studies, AI, law, and policy. It connects to [[Local and Global]] because every accessibility claim has a UVT, Romanian, and global scale.
 
 ## Academic Anchors
 

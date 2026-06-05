@@ -23,12 +23,10 @@ status: factchecked-visual-polished
 
 Design in HCI is not decoration added after engineering. It is the disciplined shaping of possible action. A design tells users what matters, what can be done, what has changed, what is risky, and how they can recover from mistakes.
 
-If [[Theory]] explains human interaction, and [[Experiment]] tests it, then Design makes those claims visible in an interface.
 
 A visual style can make a system memorable, but style is not enough. In HCI, a design choice is stronger when it can be connected to a user need, a theoretical concept, an accessibility requirement, or empirical evidence.
 
 > [!quote] Chamber rule
-> A good HCI design is not only attractive. It is a testable claim about how people can understand, act, recover, and participate.
 
 ## Chamber map
 
@@ -117,7 +115,6 @@ The key academic idea is traceability. A design choice should not appear as pers
 flowchart LR
     A["HCI concept"] --> B["Design principle"]
     B --> C["Interface decision"]
-    C --> D["Testable claim"]
     D --> E["Evaluation result"]
     E --> F["Redesign"]
 
@@ -230,7 +227,6 @@ flowchart LR
 | Confirmation | Shows success | “Your changes were saved.” |
 | Progress | Shows ongoing process | Upload percentage or progress indicator |
 | Error | Shows what failed and how to fix it | “Password must include at least 8 characters.” |
-| Warning | Shows risk before action | “This action cannot be undone.” |
 | Empty state | Shows what to do next | “No files yet. Upload your first document.” |
 
 Feedback should be visible, specific, and timed appropriately. It should help the user decide what to do next.
@@ -360,16 +356,11 @@ flowchart LR
     class B,C,D,E node;
 ```
 
-> [!warning] Aesthetic boundary
-> A style is successful only if it strengthens the interaction. If users admire the page but cannot understand the structure, the design has failed.
-
 ## The Design Evaluation Loop
 
-Design should return to evidence. A design is a claim. A prototype makes the claim visible. Evaluation tests whether the claim works for users.
 
 ```mermaid
 flowchart LR
-    A["User insight"] --> B["Design claim"]
     B --> C["Prototype"]
     C --> D["Evaluation"]
     D --> E["Evidence"]
@@ -429,7 +420,6 @@ flowchart LR
 
 ## Fact-check notes
 
-| Claim checked | Status | Grounding |
 |---|---|---|
 | Human-centred design focuses on users, their needs, usability, human factors, and evaluation. | Supported | ISO 9241-210 and NIST HCD descriptions. |
 | WCAG 2.2 is organised around perceivable, operable, understandable, and robust. | Supported | W3C WCAG 2 overview. |
@@ -437,16 +427,6 @@ flowchart LR
 | Microsoft’s Human-AI Interaction Guidelines organise guidance around initial interaction, regular interaction, errors, and behaviour over time. | Supported | Microsoft Research HAI Guidelines. |
 | The Google People + AI Guidebook is a practical guide for human-centred AI products. | Supported | Google PAIR Guidebook. |
 | ACM SIGCHI is a central HCI research community and CHI is its flagship conference. | Supported | ACM SIGCHI and CHI conference materials. |
-
-## Synthesis
-
-Design is the Mind Library’s form-making chamber. It translates user understanding into interface structure. It turns theory into something users can perceive, operate, and judge.
-
-A good design is not simply attractive. It is a testable claim about human action. It should reduce unnecessary effort, support accessibility, make feedback clear, help users recover, and prepare evidence for [[Experiment]].
-
-This chamber connects back to [[Theory]], because design decisions need conceptual grounding. It connects forward to [[Experiment]], because design claims need evidence.
-
-It also connects outward to [[../Connections]], [[../Important People]], [[../Important Venues]], [[../Local and Global]], and [[../Open Problems]]. Design is shaped by research communities, cultures, ethics, technologies, and unresolved problems.
 
 ## Academic anchors
 

@@ -27,7 +27,7 @@ tags:
   - mixed-methods
 status: polished-rpg-readable-draft
 ---
-
+![[wild.png|1000]]
 # Open Problems
 
 Back to [[Overview|The Observation Chamber]].
@@ -41,9 +41,7 @@ The light orientation name is **Evaluation Frontier Map**.
 
 In practical terms, this page asks:
 
-> What evidence is enough to support a design claim, and where does that evidence stop?
 
-This matters for the Cognishire HCI vault because a small student project can collect useful evidence, but it must not overclaim. A test with three classmates can reveal local usability problems. It cannot prove that the vault is usable for every student, accessible for every user, or effective as a long-term learning tool.
 
 The main student skill is **bounded interpretation**. You should learn to say what your evaluation showed, what it did not show, and what the next test should check.
 
@@ -52,7 +50,6 @@ The main student skill is **bounded interpretation**. You should learn to say wh
 | Open problem | Student question | Local Cognishire example |
 |---|---|---|
 | Local evidence | What can a UVT test honestly prove? | Three students test the vault and reveal confusing room names |
-| Validity | Does the method support the claim? | A navigation test is used to claim learning, even though learning was not measured |
 | Realism | Does the study resemble real use enough? | A clean laptop test is used to represent GitHub download, Obsidian use, and classroom reading |
 | Metric choice | Are the measures matched to the concept? | Time on task is used when the real question is comprehension |
 | Bias | Who is missing or misread? | Friends, advanced users, or English-comfortable students dominate the sample |
@@ -60,7 +57,6 @@ The main student skill is **bounded interpretation**. You should learn to say wh
 | Accessibility evidence | Does the design work across real access needs? | Automated checks are treated as full accessibility proof |
 | Long-term use | What happens after the first session? | Students like the map once but never return to it |
 | AI-mediated evaluation | How do we evaluate systems that generate, adapt, or change? | An AI guide sounds useful but gives unsupported or changing answers |
-| Mixed methods | How do numbers and comments support one claim? | Task times and interview quotes are reported separately without integration |
 
 ## Problem map
 
@@ -79,7 +75,6 @@ flowchart TB
     A --> J[AI Evaluation]
 
     B --> B1[What does the<br/>local test prove?]
-    C --> C1[Does the method<br/>support the claim?]
     D --> D1[Does the test<br/>fit real use?]
     E --> E1[Are we measuring<br/>the right concept?]
     F --> F1[Who is missing<br/>or misread?]
@@ -99,8 +94,6 @@ flowchart TB
 
 | Problem area | Core issue | Why it matters in HCI |
 |---|---|---|
-| Local evidence | A local test gives local findings | Small student samples support formative claims, not universal claims |
-| Validity | Evidence must match the claim | A study can collect data and still answer the wrong question |
 | Realism | A study must match the intended use context | Lab success may not transfer to classroom, GitHub, or independent study contexts |
 | Metric choice | Measures must fit the construct | Easy metrics can hide confusion, effort, anxiety, trust, and exclusion |
 | Bias | Evaluation can privilege some users | Recruitment, language, device, and ability differences affect results |
@@ -129,7 +122,6 @@ flowchart TB
     C --> C1[What context<br/>is realistic?]
     D --> D1[How are comments<br/>interpreted?]
     E --> E1[What does the<br/>metric measure?]
-    F --> F1[How far can<br/>the claim travel?]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -189,10 +181,7 @@ flowchart TB
 | Does GitHub sharing work? | Theme files, CSS snippets, assets, and links may fail after download | Clone test on another computer |
 | Are diagrams helpful? | A diagram can look good but fail to teach | Comprehension questions after diagram use |
 | Is the vault readable locally? | Projector, screen size, theme, and font settings change the reading experience | Readability check on local devices |
-| Is the local test enough? | Small samples are useful for repair, but weak for broad proof | Claim-boundary table |
 
-> [!warning] Local claim rule
-> Write “This local test found these problems in this context.” Do not write “This proves the system is usable.”
 
 ## Local UVT research routes
 
@@ -210,15 +199,12 @@ UVT Informatics pages can support evaluation thinking through Computer Science r
 | Trust in prediction systems | UVT publication route | Studying trust, interpretation, and reliance in AI-supported decisions |
 
 > [!important] Local route rule
-> Use the wording **UVT CS routes that connect to evaluation questions**. Avoid claiming a formal HCI-evaluation lab unless you have a direct official source.
 
 ## Problem 2: Validity
 
-Validity is the most important problem in evaluation. A study can be organised and still support the wrong claim.
 
 The core question is:
 
-> Valid for what claim, about which users, under which conditions?
 
 ```mermaid
 flowchart TB
@@ -228,7 +214,6 @@ flowchart TB
     A --> C[Method]
     A --> D[Participants]
     A --> E[Context]
-    A --> F[Claim]
 
     B --> G[Supported<br/>conclusion]
     C --> G
@@ -247,11 +232,9 @@ flowchart TB
 
 | Validity problem | Cognishire example | Better handling |
 |---|---|---|
-| Construct mismatch | The report claims learning but measures only navigation speed | Add comprehension or recall tasks |
 | Internal validity weakness | Users perform well because they already know the folder structure | Include users unfamiliar with the vault |
 | External validity weakness | Three classmates are used to represent all students | State that findings are local and formative |
 | Ecological validity weakness | A quiet test on the author’s laptop is used to represent classroom and GitHub use | Test in the target setting or state the limitation |
-| Statistical conclusion weakness | A strong percentage claim is made from a tiny sample | Report counts and uncertainty instead of broad statistical claims |
 | Interpretive validity weakness | Quotes are selected only when they support the preferred conclusion | Report contradictions and negative cases |
 
 ## Problem 3: Realism
@@ -289,7 +272,6 @@ flowchart TB
 | Classroom use | Local learning context and social conditions | Clean causal comparison |
 | Long-term check | Return use, retention, and maintenance issues | Fast design iteration |
 
-The open problem is matching realism to the claim. A setup claim needs clone testing. A learning claim needs comprehension or retention evidence. An accessibility claim needs accessibility checks and, where possible, evidence from users with relevant access needs.
 
 ## Problem 4: Metric choice
 
@@ -329,9 +311,7 @@ flowchart TB
 | Workload score | Felt effort | Which page element caused the effort |
 | Analytics | Behavioural traces at scale | Motivation, comprehension, and missing users |
 
-For Cognishire, the metric must match the claim.
 
-| Claim | Weak metric | Better metric |
 |---|---|---|
 | Students understand the five HCI areas | Page views | Short explanation task |
 | Navigation is clear | Personal opinion | Task success, wrong turns, and confidence |
@@ -454,7 +434,6 @@ flowchart TB
 |---|---|---|
 | Automated tools are incomplete | Many barriers need human judgment | Use tools as a first pass, not final proof |
 | WCAG conformance is not full usability | A user may still struggle with a conforming interface | Add task-based checks where possible |
-| Disabled users are diverse | Access needs differ across people and tools | Avoid claiming “accessible for all” |
 | Visual themes can break access | CSS, contrast, and diagrams may change readability | Test contrast, headings, zoom, and diagram text |
 | Updates can create new barriers | New pages and Mermaid diagrams may regress | Repeat checks after major edits |
 | AI-generated content can break structure | Generated headings, alt text, or summaries may be inconsistent | Review structure manually |
@@ -543,7 +522,6 @@ flowchart TB
 | Drift | The system or user behaviour changes over time |
 | Accountability | Responsibility for wrong output can become unclear |
 
-For a local UVT project, an AI guide should be evaluated for usability, factual correctness, citation quality, uncertainty, and whether users know when to verify claims.
 
 ## Problem 10: Mixed methods
 
@@ -555,11 +533,9 @@ flowchart TB
 
     A --> B[Quantitative pattern]
     A --> C[Qualitative explanation]
-    A --> D[Integrated claim]
 
     B --> B1[What happened?]
     C --> C1[Why might it<br/>have happened?]
-    D --> D1[How do both<br/>forms of evidence<br/>change the claim?]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -629,7 +605,6 @@ flowchart TB
     A --> B[Metaphor vs CS2023]
     A --> C[Visual style vs<br/>comprehension]
     A --> D[GitHub vs Obsidian]
-    A --> E[Local evidence vs<br/>broad claim]
     A --> F[Accessibility drift]
     A --> G[Source quality]
 
@@ -654,24 +629,10 @@ flowchart TB
 | Metaphor vs academic clarity | Do users understand both the room name and the CS2023 label? | Explanation task and professor review |
 | Visual style vs comprehension | Does the style help reading or distract from content? | Compare comprehension after styled and simpler sections |
 | GitHub vs Obsidian | Does the project work after download or clone? | Clone test, theme check, and link check |
-| Local evidence vs broad claim | What can UVT users prove about the map? | Claim-boundary table |
 | Accessibility drift | Do CSS, Mermaid, or theme edits reduce readability? | Repeated accessibility checklist |
 | Source quality | Does each page use sources specific to its topic? | Source audit against CS2023, standards, and HCI venues |
 | Long-term learning | Does the map help students remember HCI structure? | Delayed recall and concept explanation task |
 | Professor evaluation | Does the academic structure remain visible? | Expert review checklist |
-
-## Frontier log template
-
-Use this table in the final report or in project notes.
-
-| Open problem | Local evidence | Global source route | Current risk | Next test |
-|---|---|---|---|---|
-| Room-name clarity | Students explain or fail to explain each room | Mental models, information scent, CS2023 labels | Metaphor hides academic meaning | Explanation task with three students |
-| Diagram usefulness | Users answer concept questions after reading | Visual hierarchy, cognitive load, HCI evaluation | Diagrams decorate more than teach | Compare with a simpler version |
-| GitHub portability | Another machine clones and opens the vault | Reproducibility and empirical software evaluation | Theme/settings fail outside local PC | Clone test and setup checklist |
-| Accessibility | Keyboard, contrast, headings, and diagram text are checked | WCAG, W3C evaluation, WebAIM | Visual style excludes users | Basic accessibility review |
-| Long-term learning | Users remember rooms after a delay | Learning and longitudinal HCI evaluation | One-session success fades | Follow-up task after one week |
-| AI guidance | AI answers are checked for correctness and sources | Human-AI evaluation and AI risk management | Users overtrust generated text | Verification task and source check |
 
 ## Where to search
 
@@ -714,32 +675,6 @@ flowchart TB
 | Long-term outcomes | Diary studies, longitudinal field studies, product analytics |
 | Accessibility evidence | W3C WAI, WCAG-EM, ASSETS, WebAIM, user evidence |
 | AI-mediated evaluation | CHI, IUI, TiiS, Microsoft HAI guidelines, NIST AI RMF |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| A local UVT test proves the map is globally usable | A local UVT test can reveal local usability issues and support bounded claims |
-| More realism is always better | Realism must match the claim; control and realism involve tradeoffs |
-| Task time proves learning | Task time can support efficiency claims; learning needs comprehension or retention evidence |
-| WCAG conformance proves full accessibility | WCAG conformance is important, but lived usability and assistive-technology evidence may also matter |
-| Analytics explains user motivation | Analytics shows behavioural traces; qualitative follow-up helps explain motivation |
-| AI evaluation is ordinary usability testing | AI evaluation also needs correctness, uncertainty, trust, reproducibility, bias, and drift checks |
-| A positive rating proves success | Ratings need task evidence, comments, and claim boundaries |
-
-## Synthesis
-
-Open Problems in **Evaluating the Design** are problems of evidence. The main issue is not whether a usability test can be run. The main issue is what that test proves.
-
-For Cognishire, the local UVT context matters. Students must understand the room names, the professor must see the CS2023 structure, GitHub and Obsidian must work outside the author’s machine, and the visual style must remain readable and accessible.
-
-Global HCI methods help interpret that local evidence. They give language for validity, ecological realism, metric selection, accessibility evaluation, reproducibility, long-term outcomes, and AI-mediated interaction.
-
-The central question is:
-
-> What can the local UVT evaluation honestly prove, and what further evidence is needed before the claim becomes broader?
-
-This page connects to [[Activities/Theory]] because open problems reveal limits in validity and measurement. It connects to [[Activities/Design]] because better protocols can reduce many of these problems. It connects to [[Activities/Experiment]] because the problems appear during real studies. It connects to [[Connections]] because statistics, psychology, software engineering, ethics, accessibility, and analytics all help interpret uncertain evidence. It connects to [[Local and Global]] because every finding has a scale boundary.
 
 ## Academic anchors
 

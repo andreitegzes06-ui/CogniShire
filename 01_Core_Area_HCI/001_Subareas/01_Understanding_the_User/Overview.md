@@ -12,7 +12,7 @@ tags:
   - interaction
 status: polished-draft
 ---
-![[allview1.webp|1000]]
+![[purple_banner.gif|1000]]
 # Mind Library
 
 > [!abstract] Entrance Map
@@ -20,7 +20,6 @@ status: polished-draft
 
 The Mind Library is the part of the HCI map that asks what a person brings into an encounter with technology. Users bring goals, habits, expectations, prior experience, cultural knowledge, language, bodily ability, uncertainty, and trust. A system can work technically and still fail as an interaction if people cannot understand it, access it, control it, or recover from mistakes.
 
-This entrance page links the major routes through the chamber. [[Activities/Theory|Theory]] explains concepts such as perception, mental models, affordances, feedback, memory, and cognitive load. [[Activities/Design|Design]] turns user understanding into labels, flows, constraints, feedback, and prototypes. [[Activities/Experiment|Experiment]] tests whether claims about users survive contact with evidence. [[Connections]] shows how user understanding connects psychology, computing, design, accessibility, ethics, and AI.
 
 The chamber also needs scholarly orientation. [[Important People]] points to researchers and academic routes. [[Important Venues]] shows where HCI research is published, reviewed, and standardised. [[Local and Global]] explains why user experience depends on place, language, culture, infrastructure, and institution. [[Open Problems]] marks the parts of user understanding that remain unsettled.
 
@@ -36,7 +35,6 @@ flowchart TB
 
     B --> B1[Explain users]
     C --> C1[Shape interaction]
-    D --> D1[Test claims]
     E --> E1[Locate meaning]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
@@ -48,7 +46,6 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-The compass has four directions. Theory asks why interaction succeeds or fails. Design asks how cognition and action can be supported by visible structure. Experiment asks what evidence can justify a claim about usability, comprehension, accessibility, or trust. Context asks whose user experience is being described, and under which social, cultural, organisational, and infrastructural conditions.
 
 ## What the chamber studies
 
@@ -81,7 +78,6 @@ flowchart LR
     class E,F final;
 ```
 
-The route begins with a human situation rather than a screen. A student searches for course requirements. A patient reads a medical result. A driver receives an automated warning. A worker uses a dashboard under time pressure. Each situation contains goals, risks, language, expectations, and constraints. HCI research translates that situation into concepts, design decisions, and evaluation methods.
 
 This is why the Mind Library connects to the other rooms of the map. The [[../02_System_Design/Overview|Interface Forge]] needs user understanding because visual and interactive form must support perception and action. The [[../03_Evaluating_the_Design/Overview|Observation Chamber]] needs it because evidence must be interpreted through human behaviour. The [[../04_Accessibility_and_Accountability/Overview|Inclusive Gate]] depends on it because sensory, cognitive, and motor diversity are part of user understanding. The [[../05_Human_AI_Interaction/Overview|Oracle Engine]] needs it because AI systems create new problems of explanation, trust, control, and error.
 
@@ -145,14 +141,3 @@ The Mind Library should use academic and professional sources rather than intuit
 | Usability heuristics | [Nielsen Norman Group: 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) |
 | HCI evidence and literature | [ACM Digital Library](https://dl.acm.org/) |
 
-## Synthesis
-
-The Mind Library is the entrance to user understanding in the Map of HCI. It gives the rest of the project its human foundation. It explains why users interpret systems as they do, why design decisions help or harm action, why evidence matters, and why local context cannot be erased by universal interface patterns.
-
-The library is not a side room before computing begins. It is the chamber that explains why computing must be studied as interaction.
-
-> [!tip] Return Path
-> [[00_Index/Human-Computer Interaction|Return to the Five Rooms of HCI]]  
-> [[../../../00_Index/Human-Computer Interaction|Return to the Main Room]]
-
-^mind-library-overview-end

@@ -26,7 +26,7 @@ tags:
   - local-global
 status: academic-polished-draft
 ---
-
+![[chrono.jpg|1000]]
 # Experiment
 
 Back to [[../Overview|The Inclusive Gate]].
@@ -81,7 +81,6 @@ flowchart TB
 | Manual review | Headings, link text, reading order, contrast, structure, visible focus | Depends on evaluator skill |
 | Keyboard trial | Whether tasks can be completed without a mouse | Does not cover all assistive technologies |
 | Screen reader structure check | Whether content is announced with useful structure | Needs real tool testing and careful interpretation |
-| Cognitive access trial | Whether users understand labels, structure, instructions, and diagrams | Small local samples support local claims only |
 | Local UVT study | Whether the map works for students, professor, and local project context | Does not automatically generalise globally |
 | Repair and retest | Whether fixes actually remove barriers | Must be repeated after design changes |
 
@@ -227,9 +226,6 @@ flowchart TB
 | Location | Page title, section, component, diagram, navigation area |
 | Severity | Blocks use, creates serious friction, creates moderate confusion, or cosmetic |
 | Manual verification | Whether the issue is real and how it affects a user |
-
-> [!warning] Automated scan boundary
-> A scan result is evidence of detectable issues. It does not prove that the system is accessible. W3C and WebAIM both treat quick checks and automated tools as starting points that need manual review and user-aware interpretation.
 
 ## Experiment II: Keyboard-Only Navigation Trial
 
@@ -565,7 +561,6 @@ flowchart TB
 
 ## Evidence Matrix
 
-| Experiment | Evidence collected | Strong claim | Weak claim to avoid |
 |---|---|---|---|
 | Automated scan | Detected issues and manual verification | Some detectable barriers were found and repaired | The system is fully accessible |
 | Keyboard trial | Completion, focus problems, traps, unreachable controls | The tested tasks can or cannot be completed by keyboard | All motor access needs are solved |
@@ -625,18 +620,6 @@ flowchart TB
 | GitHub sharing | Does the content remain accessible when cloned or viewed outside the author’s machine? |
 | Academic anchors | Can users identify official standards and trusted sources? |
 | Long pages | Do users find section summaries and route maps, or get lost? |
-
-## Experiment Synthesis
-
-Experiment in Accessibility and Inclusive Design is the process of making barriers visible. It begins with theory but must end with evidence: what was tested, who was included, what failed, what was repaired, and what remains uncertain.
-
-A strong experiment path is layered. Start with automated and manual checks. Then test keyboard access, screen-reader structure, visual readability, and cognitive comprehension. Run a local UVT trial with students, professor context, Obsidian, GitHub, CSS, and diagrams. Report the limits clearly and retest after repairs.
-
-The central question is:
-
-> What barrier did the experiment reveal, who does it affect, and how did the design change?
-
-This page connects to [[Theory]] because experiments operationalise accessibility concepts. It connects to [[Design]] because every finding must become a design repair. It connects to [[../Overview|Overview]] because the Inclusive Gate protects the whole HCI map. It connects outward to [[../../03_Evaluating_the_Design/Overview|Observation Chamber]] because accessibility experiments are also evaluation methods.
 
 ## Academic Anchors
 

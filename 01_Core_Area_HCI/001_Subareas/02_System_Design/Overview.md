@@ -19,7 +19,7 @@ tags:
   - accessibility
 status: polished-low-cognitive-load-draft
 ---
-![[overview2.jpg|1000]]
+![[train.gif|1000]]
 # The Interface Forge
 
 > [!abstract] Forge Entrance
@@ -40,7 +40,6 @@ This room keeps the RPG map style, but every metaphor has a direct real-life mea
 The [[../01_Understanding_the_User/Overview|Mind Library]] explains users. The Interface Forge turns that understanding into interface form. The [[../03_Evaluating_the_Design/Overview|Observation Chamber]] tests whether the form works. The [[../04_Accessibility_and_Accountability/Overview|Inclusive Gate]] checks access, ethics, and accountability. The [[../05_Human_AI_Interaction/Overview|Oracle Engine]] extends the map toward intelligent and AI-mediated systems.
 
 > [!quote] Forge rule
-> A good interface is a built argument. It claims that users can understand the system, act safely, recover from problems, and complete their goals.
 
 ## Quick route through the forge
 
@@ -207,7 +206,6 @@ Each station is a fantasy name with a practical role.
 | State Lantern | Showing system status | Loading, success, error, empty, disabled states |
 | Path Rail | Supporting wayfinding | Menus, breadcrumbs, links, active states |
 | Component Vault | Keeping patterns consistent | Design systems, tokens, reusable components |
-| Trial Bench | Testing design claims | Prototype tests, comparison studies, accessibility checks |
 
 This keeps the RPG atmosphere, but it also gives a study route. A reader can move station by station without holding the whole room in memory.
 
@@ -226,7 +224,6 @@ The Interface Forge overlaps with several fields. Its role is specific.
 | Accessibility | Inclusive operation | Prevents components and flows from excluding users |
 | User research | Evidence from use | Shows what the forge must repair |
 
-The room should not claim that interface design is only visual style. It should also not claim that software engineering alone solves design. System Design sits between implementation, visual meaning, human action, accessibility, and evidence.
 
 ## Page route
 
@@ -300,9 +297,6 @@ The Interface Forge uses three source layers.
 | Standards and practice | ISO 9241-210, WCAG 2.2, Material Design, Apple HIG, Fluent 2, NN/g | Practical design, accessibility, and platform guidance |
 | Journals | TOCHI, PACM HCI, IJHCS, TiiS | Longer-form and archival research |
 
-> [!warning] Source rule
-> Use practice guides for practical design language. Use standards for requirements. Use venues and papers for research claims. Do not treat every link as the same kind of evidence.
-
 ## Cognishire self-test
 
 The vault itself is an interface. Its RPG style, links, diagrams, CSS, files, GitHub setup, and reading flow are all System Design decisions.
@@ -339,27 +333,6 @@ flowchart TB
 | CSS theme | Does the RPG identity remain readable? | Use strong contrast and avoid cramped text |
 | Obsidian links | Can users move without getting lost? | Add return paths and clear page names |
 | GitHub sharing | Does the vault work after download? | Document setup and keep folders stable |
-| Source-heavy pages | Do sources support claims without overwhelming readers? | Put anchors at the end and explain only key sources |
-
-## What this overview should not claim
-
-| Avoid claiming | Safer wording |
-|---|---|
-| “The Interface Forge is the whole of HCI.” | “The Interface Forge is the System Design part of HCI.” |
-| “Design means making things look good.” | “Design means shaping usable, accessible, testable interaction.” |
-| “A beautiful interface is a good interface.” | “A good interface must support understanding, action, recovery, and access.” |
-| “A prototype proves the design works.” | “A prototype gives evidence only for the question it was built to test.” |
-| “The RPG style automatically improves learning.” | “The RPG style should be tested for motivation, comprehension, and accessibility.” |
-
-## Synthesis
-
-The Interface Forge is the System Design room of the HCI map. It turns user understanding into interface materials: layouts, controls, states, flows, components, prototypes, and design-system rules. It keeps the Cognishire fantasy identity, but it stays academically grounded through CS2023, HCI venues, standards, and evidence.
-
-The central question is:
-
-> How do we construct interactive systems that are understandable, usable, accessible, scalable, adaptable, and testable?
-
-Back to [[00_Index/Human-Computer Interaction|The five rooms of HCI]].
 
 ## Academic anchors
 

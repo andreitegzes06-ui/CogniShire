@@ -20,7 +20,7 @@ tags:
   - reproducibility
 status: polished-rpg-readable-draft
 ---
-
+![[conectiones.jpg|1000]]
 # Connections
 
 Back to [[Overview|The Observation Chamber]].
@@ -84,7 +84,6 @@ flowchart TB
 
 | Connected field | What it gives HCI evaluation | What can go wrong if ignored |
 |---|---|---|
-| Statistics | Study design, uncertainty, comparison, sampling, effect size, error | Quantitative claims become weak or misleading |
 | Psychology | Validated constructs, workload, attention, perception, cognition, trust | The study measures human experience poorly |
 | Social science methods | Interviewing, ethnography, field observation, qualitative interpretation | Context and meaning are flattened |
 | Empirical software engineering | Rigorous empirical study of software systems, tools, processes, developers | Technical systems are evaluated without empirical discipline |
@@ -137,7 +136,6 @@ flowchart TB
 
 The Statistics Tower connects evaluation to experimental design, measurement uncertainty, comparison, sampling, and data analysis. It helps HCI researchers avoid treating numbers as self-explanatory.
 
-A usability score, task time, error count, or success rate is not automatically meaningful. It depends on sample size, task design, data distribution, variability, measurement error, and the claim being made.
 
 ```mermaid
 flowchart TB
@@ -169,12 +167,10 @@ flowchart TB
 | Variable | Defines what changes and what is measured | Navigation version as independent variable, task time as dependent variable |
 | Sampling | Defines who evidence represents | First-year students versus expert designers |
 | Descriptive statistics | Summarises what happened | Median task time, success rate, error count |
-| Inferential statistics | Supports cautious population claims | Testing whether one condition differs from another |
 | Effect size | Shows practical magnitude | A faster version may not be meaningfully faster |
 | Confidence interval | Shows uncertainty around an estimate | Task success estimate is not exact |
 | Power | Helps plan sample size for quantitative comparison | Avoids underpowered experiments |
 
-Statistics is most relevant when the evaluation makes a quantitative claim. It is less central when the goal is formative discovery, but even formative studies need careful summaries and honest boundaries.
 
 ## Psychology Hall
 
@@ -485,7 +481,6 @@ flowchart TB
 | Coding scheme | Shows how qualitative themes were generated |
 | Versioned prototype | Shows what interface was actually evaluated |
 
-ACM provides artifact review and badging terminology for publications that choose to review research artifacts. This matters because evaluation claims are stronger when materials and analysis can be inspected.
 
 ## Connection pattern
 
@@ -557,25 +552,6 @@ flowchart TB
 | Does the vault work after GitHub sharing? | Empirical software engineering | Reproducible clone test and issue log |
 | Does the map remain accessible? | Accessibility evaluation | Keyboard, focus, contrast, screen reader checks |
 | Which pages are actually used? | Product analytics | Link tracking or local navigation logs, only with ethical setup |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Statistics proves the design is good.” | “Statistics can support specific quantitative claims when the study is designed well.” |
-| “Qualitative work is less rigorous.” | “Qualitative work is rigorous when sampling, procedure, analysis, and interpretation are explicit.” |
-| “Analytics replaces user research.” | “Analytics shows behavioural traces at scale, but usually does not explain why.” |
-| “Accessibility is a final checklist.” | “Accessibility evaluation combines standards, manual checks, assistive technology, and user evidence when possible.” |
-| “Ethics is only for medical research.” | “Any study involving people needs consent, privacy, and participant dignity.” |
-| “Artifacts are optional decoration.” | “Protocols, materials, data dictionaries, and code help others inspect the evidence.” |
-
-## Bridge synthesis
-
-Connections in the Observation Chamber show that HCI evaluation is not one isolated technique. It is a method ecosystem. Statistics helps evaluation compare and quantify. Psychology helps define human constructs. Social science methods reveal context and meaning. Empirical software engineering studies technical systems and tools. Product analytics reveals real-world behavioural traces. Research ethics protects participants. Accessibility evaluation expands what “works” means. Reproducibility makes evidence inspectable.
-
-The central lesson is that evaluation is not just collecting data. It is building a bridge from method to evidence to design action.
-
-This page connects to [[Activities/Theory]] because every connection depends on measurement and validity. It connects to [[Activities/Design]] because protocols must choose methods, instruments, and ethics. It connects to [[Activities/Experiment]] because those methods become real studies. It connects to [[Important Venues]] because each connected field has its own publication homes. It connects to [[Open Problems]] because bias, validity, reproducibility, ecological realism, and long-term outcomes remain unresolved.
 
 ## Academic anchors
 

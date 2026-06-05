@@ -30,7 +30,7 @@ tags:
   - local-global
 status: maximum-polished-factchecked-draft
 ---
-
+![[broda.gif|1000]]
 # Connections
 
 Back to [[Overview|The Oracle Engine]].
@@ -49,15 +49,12 @@ The practical meaning is simple: an AI system becomes meaningful only when a per
 
 ## Fact-checked basis
 
-| Claim used in this page | Safer grounding |
 |---|---|
 | Human-AI Interaction is a bridge topic | CS2023 includes HCI, AI, software engineering, security, data, accessibility, and society/ethics areas. This page treats Human-AI Interaction as an interdisciplinary bridge, not as a single isolated CS2023 unit. |
 | Human-AI design needs explicit interaction guidance | Microsoft Research published Guidelines for Human-AI Interaction and the HAX Toolkit as practical design resources for AI systems. |
 | Human-centered AI design is an established design route | Google PAIR and Stanford HAI both present human-centered AI as a design and research direction. |
 | AI risk management needs process and governance | NIST AI RMF organises AI risk work through Govern, Map, Measure, and Manage. |
 | Human oversight is a formal concern in AI governance | The EU AI Act includes human oversight requirements for high-risk AI systems. |
-| Local UVT claims must be cautious | UVT has public routes in AI, machine learning, software systems, workflows, recommender systems, e-health, XAI-related seminars, and Computer Science. This does not automatically prove a dedicated Human-AI Interaction lab. |
-| Romanian grounding exists but should not be overclaimed | RoCHI, USV/MintViz, A(I)BILITIES, and Romanian accessibility/HCI routes give national context. They should be used as routes, not inflated into a complete national field map. |
 
 ## Main connection map
 
@@ -157,7 +154,6 @@ flowchart TB
 
 ## Local UVT layer
 
-The local layer is the **UVT Faculty of Informatics**. The strongest local connection is not a claim that UVT has a dedicated Human-AI Interaction lab. The stronger and safer claim is this:
 
 > UVT has AI, ML, software systems, recommender, e-health, XAI-related, workflow, and Computer Science routes that can support Human-AI Interaction questions.
 
@@ -315,7 +311,6 @@ flowchart TB
 | AI type | Interaction problem | Interface requirement |
 |---|---|---|
 | Machine learning predictor | Users need to understand probability, limits, and uncertainty | Show confidence carefully, explain input factors, support review |
-| Generative AI | Users must verify fluent outputs | Add source routes, claim labels, edit controls, and uncertainty prompts |
 | Recommender system | Users need to know why something was ranked | Show reason codes, alternatives, and control over preferences |
 | Classifier | Users need to understand label uncertainty | Show ambiguity, allow correction, explain label meaning |
 | Agent | Users need permission, preview, undo, and logs | Require confirmation before high-impact actions |
@@ -354,7 +349,6 @@ flowchart TB
 
 | Human factor | AI risk | Design response |
 |---|---|---|
-| Fluency bias | Smooth answers feel true | Add source checks and unsupported-claim labels |
 | Cognitive overload | Too many outputs confuse the user | Group information and prioritise what needs review |
 | Anchoring | The first AI answer dominates thinking | Show alternatives and encourage comparison |
 | Automation bias | User accepts AI too quickly | Add verification prompts before high-impact use |
@@ -440,7 +434,6 @@ flowchart TB
 | Prompt versioning | Preserve the instruction that shaped a major section |
 | Logs | Record source checks, fact checks, and repairs |
 | Testing | Evaluate trust, clarity, source support, accessibility, and usability |
-| Monitoring | Watch for stale facts, broken links, unsupported claims, and repeated errors |
 | Rollback | Undo bad AI edits, broken Mermaid, or broken CSS |
 | Documentation | Explain how AI was used responsibly and what remains human-authored or human-verified |
 
@@ -506,7 +499,6 @@ flowchart TB
     D --> D1[AI creates accessible<br/>or inaccessible content]
     E --> E1[Data and output can<br/>misrepresent disability]
     F --> F1[User edits, rejects,<br/>personalises]
-    G --> G1[AI access claims<br/>must be checked]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
@@ -561,7 +553,6 @@ flowchart TB
 |---|---|
 | Student copies AI output | Add source verification and comprehension checks |
 | AI hides weak understanding | Ask the student to explain the idea in their own words |
-| Professor cannot inspect process | Keep sources, claim status, and version history visible |
 | AI gives generic content | Require UVT and Romanian grounding where relevant |
 | AI replaces practice | Use AI as tutor, critic, and editor, not as final author |
 | Academic integrity risk | Make AI-assisted work transparent where required by the course |
@@ -643,7 +634,6 @@ flowchart TB
 | Uncertainty display | Shows where doubt, incompleteness, or risk appears  | False precision can mislead users                    |
 | Alternative outputs | Reduces anchoring on the first answer               | Too many alternatives can overload users             |
 | Decision trace      | Shows how input, model, and interface shaped output | Trace may be incomplete or too technical             |
-| Risk dashboard      | Highlights unsupported or high-risk claims          | Users may ignore it if it becomes routine            |
 | Version history     | Shows what changed after review                     | Needs discipline to maintain                         |
 
 ## Cognishire connection board
@@ -681,7 +671,6 @@ flowchart TB
 |---|---|---|
 | AI-generated pages | Human-AI collaboration, academic writing, source verification | The student must verify and understand the final page |
 | Prompt templates | HCI design, cognitive scaffolding, AI literacy | Prompts should request sources, limits, and simple academic language |
-| Source anchors | Data provenance, evidence design, accountability | Every important claim should have a credible route |
 | Mermaid diagrams | Visualisation, accessibility, cognitive load | Diagrams should clarify one idea and have a text/table route |
 | GitHub commits | Software engineering, traceability, responsibility | Commit messages should show what changed and why |
 | Local UVT sections | Institutional context and local AI research | Use cautious wording and official sources |
@@ -697,12 +686,10 @@ flowchart TB
 | AI | Capability statement, model limitation note, uncertainty label, failure examples |
 | Cognitive science | Short outputs, explanation prompts, comparison views, assumption reminders |
 | Psychology | Trust calibration cues, verification reminders, anti-automation-bias friction |
-| Data science | Source provenance, data-limit labels, missing-context warnings |
 | Software engineering | Version history, prompt log, model/version note, rollback path |
 | Ethics and law | Risk category, human review requirement, accountability note, contestability route |
 | Accessibility | Keyboard support, screen reader structure, editable generated content, plain-language output |
 | Education | Comprehension check, reflection prompt, source-check task, AI-use disclosure |
-| Security | Untrusted-content warning, tool confirmation, permissions, audit log |
 | Visualisation | Evidence map, uncertainty display, alternatives, decision trace |
 
 ## Study route
@@ -738,34 +725,6 @@ flowchart TB
 | 6 | ASSETS, Web4All, A(I)BILITIES, inclusive AI | AI accessibility notes |
 | 7 | UVT CSAI, DTSE, TRAIN, RoCHI, USV routes | Local and Romanian grounding |
 | 8 | Cognishire prompt scaffold, source panel, issue log | Practical design repair |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Human-AI Interaction is only AI.” | “Human-AI Interaction studies how AI behaviour is interpreted and controlled through human use.” |
-| “A good model guarantees a good user experience.” | “Model quality is necessary, but interface design, trust, verification, and control also matter.” |
-| “UVT has a Human-AI Interaction lab.” | “UVT has AI, ML, software, workflow, recommender, e-health, and XAI-related routes that can support Human-AI Interaction questions.” |
-| “Romania has a complete Human-AI field map here.” | “This page gives selected Romanian routes relevant to HCI, AI accessibility, and Human-AI questions.” |
-| “AI explanations solve trust.” | “Explanations help only when they improve user judgement and are tested with users.” |
-| “AI improves accessibility automatically.” | “AI can support access, but generated accessibility must be verified and user-controlled.” |
-| “Security is separate from UX.” | “In AI systems, natural-language interaction can create security risks that affect user trust and safety.” |
-
-## Synthesis
-
-Connections in **Human-AI Interaction** show that the Oracle Engine is a sociotechnical system. It connects HCI, AI, cognitive science, psychology, data science, software engineering, ethics, law, accessibility, education, security, and visualisation.
-
-Locally, the Oracle Engine connects to UVT’s Faculty of Informatics, CSAI, DTSE, AI and ML research, student learning, professor review, GitHub, Obsidian, and source verification. These are relevant local routes, not proof of a dedicated Human-AI Interaction lab.
-
-Nationally, the Oracle Engine connects to RoCHI, A(I)BILITIES, USV/MintViz, Radu-Daniel Vatavu, Ovidiu-Andrei Schipor, Romanian-language interaction, and Romanian accessibility or AI contexts.
-
-Globally, it connects to CS2023, Microsoft Human-AI guidelines, Google PAIR, Stanford HAI, NIST AI RMF, the EU AI Act, CHI, IUI, FAccT, ASSETS, CSCW, and TiiS.
-
-The central question is:
-
-> Which fields must connect so that AI output becomes understandable, controllable, verifiable, fair, accessible, and useful for real humans?
-
-This page connects to [[Activities/Theory]] because each bridge explains a concept behind Human-AI Interaction. It connects to [[Activities/Design]] because each bridge becomes an interface requirement. It connects to [[Activities/Experiment]] because each bridge needs evidence. It connects to [[Overview|Overview]] because the Oracle Engine coordinates the Human-AI room.
 
 ## Academic anchors
 
