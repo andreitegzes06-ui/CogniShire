@@ -34,53 +34,40 @@ You should get a folder similar to:
 CogniShire-2.0
 ```
 
-### 4. Open Obsidian
+### 4. Open (for the first time)
 
-Start Obsidian.
-
-If this screen appears, choose **Open folder as vault**.
-
+If it is your first time using obsidian select open folder as vault. Then select the folder you extracted. Enjoy :)
 <p align="center">
   <img src="assets/photos/openvault.png" alt="Open folder as vault in Obsidian" width="500">
 </p>
 
-If Obsidian already opened another vault, click the vault name in the bottom left corner and choose **Manage vaults...**.
-
+### 5. If you are already using obsidian
+Open obsidian.
 <p align="center">
-  <img src="assets/photos/manage_vault.png" alt="Manage vaults button in Obsidian" width="500">
+  <img src="assets/photos/mains.png" alt="Open folder as vault in Obsidian" width="1000">
 </p>
 
-### 5. Select the CogniShire folder
-
-Choose the extracted folder:
-
-```text
-CogniShire-2.0
-```
-
-Then click **Open**.
+Select this bottom left corner button: (here you will have another vault open but it's the same button)
 
 <p align="center">
   <img src="assets/photos/vault.png" alt="CogniShire vault opened in Obsidian" width="700">
 </p>
 
-### 6. Start using the vault
+Then manage vaults
+
+<p align="center">
+  <img src="assets/photos/manage_vault.png" alt="Manage vaults button in Obsidian" width="300">
+</p>
+
+then open folder as vault.
+
+### 5. Start using the vault
 
 Start from the main navigation page and follow the links between the rooms.
 
 <p align="center">
   <img src="assets/photos/navi.png" alt="CogniShire navigation page" width="950">
 </p>
-
-The main rooms are:
-
-```text
-Room I: The Mind Library
-Room II: The Interface Forge
-Room III: The Observation Chamber
-Room IV: The Inclusive Gate
-Room V: The Oracle Engine
-```
 
 Each room introduces one important area of Human-Computer Interaction.
 
