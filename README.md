@@ -1,4 +1,7 @@
-![Cognishire preview](assets/photos/Screenshot From 2026-06-05 22-07-57.png)
+<p align="center">
+  <img src="assets/photos/Screenshot%20From%202026-06-05%2022-07-57.png" alt="Cognishire preview" width="800">
+</p>
+
 # Human-Computer Interaction
 
 Human-Computer Interaction studies how people understand, use, design, evaluate, and live with interactive computer systems.
