@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/photos/Screenshot%20From%202026-06-05%2022-07-57.png" alt="Cognishire preview" width="1600">
+  <img src="assets/photos/Screenshot%20From%202026-06-05%2022-07-57.png" alt="Cognishire preview">
 </p>
 
 # Human-Computer Interaction
