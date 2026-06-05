@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "#00bfff",
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "rpg-map-styles"
+  ],
+  "baseFontSize": 24
+}

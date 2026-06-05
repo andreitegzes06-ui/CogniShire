@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "388fcab5fccc2880",
+    "type": "split",
+    "children": [
+      {
+        "id": "e669d38e2fbe83db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "647026995a133a41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Index/Human-Computer Interaction.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Human-Computer Interaction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b6e1dced8122cdb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0d25edeec08a81b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9be96da1c536f29f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7f6d6f553f9e987a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5fe832928073bc6c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 723.5
+  },
+  "right": {
+    "id": "bd9fe0d350ce076c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3754a9da6a816f90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f99a8b67ac83470",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_Index/Human-Computer Interaction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Human-Computer Interaction"
+            }
+          },
+          {
+            "id": "e47291cf1105603d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_Index/Human-Computer Interaction.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Human-Computer Interaction"
+            }
+          },
+          {
+            "id": "4c3d7ef15edb1a99",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d987415e9aa16872",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ab1384dbd552e55a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_Index/Human-Computer Interaction.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Human-Computer Interaction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "647026995a133a41",
+  "lastOpenFiles": [
+    "01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Important Venues.md",
+    "01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Local and Global.md",
+    "01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Important People.md",
+    "01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Open Problems.md",
+    "01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Connections.md",
+    "01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Overview.md",
+    "00_Index/Human-Computer Interaction.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Activities/Theory.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Activities/Experiment.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Connections.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Important People.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Important Venues.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Local and Global.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Overview.md",
+    "01_Core_Area_HCI/001_Subareas/02_System_Design/Open Problems.md",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/Important People.md",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/Connections.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Overview.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Local and Global.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Important People.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Connections.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Activities/Theory.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Activities/Experiment.md",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Activities/Design.md",
+    "01_Core_Area_HCI/001_Subareas/04_Accessibility_and_Accountability/Overview.md",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/XX1lmo2A",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/XXjF58gb",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/XXzpJqWf",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/XXU3sFIR",
+    "01_Core_Area_HCI/001_Subareas/03_Evaluating_the_Design/XX1Zcfbk",
+    "01_Core_Area_HCI/001_Subareas/04_Accessibility_and_Accountability/Activities/XX7LGCYF",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/XXsmUMCS",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/XXEg9ij8",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/XX72QyZY",
+    "01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/XXFXo9Kf",
+    "assets/banners/natural.jpg",
+    "assets/banners/wild.png",
+    "assets/banners/colos.jpg",
+    "assets/banners/gta.jpg",
+    "assets/banners/suns.jpg",
+    "assets/banners/conectiones.jpg",
+    "assets/banners/waterfallll.jpg",
+    "assets/banners/grasss.jpg",
+    "assets/banners/scenary.png",
+    "assets/banners/blossom.png",
+    "Untitled.canvas"
+  ]
+}
