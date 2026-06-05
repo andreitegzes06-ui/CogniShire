@@ -1,39 +1,14 @@
----
-title: Open Problems
-area: Mind Library
-category: Frontier Map
-cssclasses:
-  - mind-library
-tags:
-  - HCI
-  - open-problems
-  - accessibility
-  - AI
-  - cognition
-  - ethics
-  - evidence
-  - trust
-  - sociotechnical-systems
-status: corrected-polished-draft
----
 ![[problemo1.webp|1000]]
 # Open Problems
 
-> [!abstract] Frontier Map
-> This chamber marks the unresolved frontiers of the Mind Library. HCI has strong concepts for cognition, usability, accessibility, and human-centred design. At the same time, interactive systems keep changing. New systems create new problems for understanding, access, trust, control, and evidence.
-
 Open problems are not empty spaces. They are questions that remain difficult because people, technology, institutions, and social norms change together. In HCI, a problem often stays open when a design affects users in ways that are hard to measure, explain, or repair.
-
-This page treats open problems as research directions. It does not claim that these problems have no answers. It shows where current HCI knowledge still needs careful design, stronger evidence, and more responsible practice.
-
-This frontier connects to [[Activities/Theory]], because unresolved problems expose limits in existing concepts. It connects to [[Activities/Design]], because open problems require new interaction forms. It connects to [[Activities/Experiment]], because uncertain claims need better evidence. It connects to [[Connections]], because the hardest problems cross cognition, computing, accessibility, AI, ethics, institutions, and culture.
 
 > [!quote] Frontier rule
 > An open problem in HCI appears when a system changes what users can understand, trust, access, control, or contest faster than existing design knowledge can explain.
 
 ## Frontier compass
 
-The main frontiers in this chamber are cognitive overload, mental model mismatch, calibrated trust, dynamic accessibility, evidence quality, user representation, and local-global fit.
+The main frontiers in this section are cognitive overload, mental model mismatch, calibrated trust, dynamic accessibility, evidence quality, user representation, and local-global fit.
 
 ```mermaid
 flowchart TB
@@ -62,15 +37,13 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Frontier | Why it remains difficult | Connected chamber |
-|---|---|---|
-| Cognitive overload | Interfaces place many choices, alerts, and interpretations inside limited attention. | [[Activities/Theory]] |
-| Mental model mismatch | Systems hide complex behaviour behind simple interface surfaces. | [[Activities/Design]] |
-| Human-AI trust | Users may overtrust fluent output or reject useful automation. | [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] |
-| Dynamic accessibility | Personalised, animated, and AI-generated interfaces can create changing barriers. | [[Local and Global]] |
-| Evidence quality | Task success and time do not fully show understanding, dignity, or effort. | [[Activities/Experiment]] |
-| User representation | Personas, analytics, and AI profiles can flatten diverse users into averages. | [[Connections]] |
-| Local-global fit | Global systems may ignore language, infrastructure, law, culture, and social risk. | [[Local and Global]] |
+- **Cognitive overload:** why it remains difficult: Interfaces place many choices, alerts, and interpretations inside limited attention.; connected section: [[Activities/Theory]]
+- **Mental model mismatch:** why it remains difficult: Systems hide complex behaviour behind simple interface surfaces.; connected section: [[Activities/Design]]
+- **Human-AI trust:** why it remains difficult: Users may overtrust fluent output or reject useful automation.; connected section: [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]]
+- **Dynamic accessibility:** why it remains difficult: Personalised, animated, and AI-generated interfaces can create changing barriers.; connected section: [[Local and Global]]
+- **Evidence quality:** why it remains difficult: Task success and time do not fully show understanding, dignity, or effort.; connected section: [[Activities/Experiment]]
+- **User representation:** why it remains difficult: Personas, analytics, and AI profiles can flatten diverse users into averages.; connected section: [[Connections]]
+- **Local-global fit:** why it remains difficult: Global systems may ignore language, infrastructure, law, culture, and social risk.; connected section: [[Local and Global]]
 
 ## Frontier one: cognitive overload and attention scarcity
 
@@ -135,13 +108,11 @@ The design challenge is not to expose every technical detail. That would create 
 
 A user booking a train ticket may need clear availability, price, time, and cancellation rules. A user receiving an automated medical, financial, academic, or legal recommendation needs stronger explanation, uncertainty, and control.
 
-| System type | Hidden behaviour | Mental model risk |
-|---|---|---|
-| Search | Ranking and filtering | User mistakes rank for truth. |
-| Recommendation | Personalisation criteria | User cannot tell why content appears. |
-| AI assistant | Probabilistic generation | User mistakes fluency for certainty. |
-| Smart device | Sensing and inference | User does not know what is being captured. |
-| Platform moderation | Rule enforcement | User cannot predict or contest outcomes. |
+- **Search:** hidden behaviour: Ranking and filtering; mental model risk: User mistakes rank for truth.
+- **Recommendation:** hidden behaviour: Personalisation criteria; mental model risk: User cannot tell why content appears.
+- **AI assistant:** hidden behaviour: Probabilistic generation; mental model risk: User mistakes fluency for certainty.
+- **Smart device:** hidden behaviour: Sensing and inference; mental model risk: User does not know what is being captured.
+- **Platform moderation:** hidden behaviour: Rule enforcement; mental model risk: User cannot predict or contest outcomes.
 
 This frontier connects to human-AI design guidance from Microsoft and Google PAIR, because AI systems often require users to judge output that is uncertain or incomplete. It also connects to broader HCI research communities such as ACM SIGCHI and ACM CHI.
 
@@ -179,16 +150,11 @@ flowchart TB
     class H,J final;
 ```
 
-| Trust failure | What happens | Possible design response |
-|---|---|---|
-| Overtrust | User accepts output without enough evidence. | Show uncertainty, sources, and verification steps. |
-| Undertrust | User rejects useful automation. | Explain capability, reliability, and boundaries. |
-| Misplaced trust | User trusts the system in the wrong context. | Match confidence cues to risk level. |
-| Automation dependence | User stops checking the system. | Preserve meaningful human review. |
-| Contestability failure | User cannot challenge a system decision. | Provide appeal, correction, and escalation paths. |
-
-> [!warning] Trust frontier
-> The goal of human-AI interaction is not maximum trust. The goal is appropriate trust.
+- **Overtrust:** User accepts output without enough evidence. (response: Show uncertainty, sources, and verification steps.)
+- **Undertrust:** User rejects useful automation. (response: Explain capability, reliability, and boundaries.)
+- **Misplaced trust:** User trusts the system in the wrong context. (response: Match confidence cues to risk level.)
+- **Automation dependence:** User stops checking the system. (response: Preserve meaningful human review.)
+- **Contestability failure:** User cannot challenge a system decision. (response: Provide appeal, correction, and escalation paths.)
 
 This frontier links to [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] because it combines cognition, design, data, power, explanation, accountability, and social consequence.
 
@@ -224,13 +190,11 @@ flowchart TB
 > [!important] Frontier rule
 > Accessibility is not solved when a system passes a checklist once. It must be maintained as content changes, components evolve, and user contexts shift.
 
-| Dynamic feature | Accessibility risk | Evaluation need |
-|---|---|---|
-| Live updates | Screen reader users may miss changes. | Test announcements and focus behaviour. |
-| Personalisation | Users may receive different interface paths. | Test multiple user states and profiles. |
-| Animation | Motion may distract or harm users. | Provide reduced-motion options. |
-| AI-generated content | Text may be unclear, biased, or unstructured. | Test readability, structure, and alternatives. |
-| Custom controls | Native semantics may be lost. | Test keyboard and assistive technology support. |
+- **Live updates:** accessibility risk: Screen reader users may miss changes.; evaluation need: Test announcements and focus behaviour.
+- **Personalisation:** accessibility risk: Users may receive different interface paths.; evaluation need: Test multiple user states and profiles.
+- **Animation:** accessibility risk: Motion may distract or harm users.; evaluation need: Provide reduced-motion options.
+- **AI-generated content:** accessibility risk: Text may be unclear, biased, or unstructured.; evaluation need: Test readability, structure, and alternatives.
+- **Custom controls:** accessibility risk: Native semantics may be lost.; evaluation need: Test keyboard and assistive technology support.
 
 The strongest anchors for this frontier are the W3C Web Accessibility Initiative, WCAG 2.2, WAI-ARIA, the ARIA Authoring Practices Guide, and WebAIM.
 
@@ -263,16 +227,12 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Evidence type | Why it matters | Why it is difficult |
-|---|---|---|
-| Completion time | Shows efficiency. | Can hide confusion and stress. |
-| Error rate | Shows breakdowns. | May not explain cause. |
-| Confidence | Shows perceived understanding. | Hard to compare across users. |
-| Dignity | Shows whether the experience respects the user. | Often missing from metrics. |
-| Accessibility | Shows inclusion or exclusion. | Requires diverse testing and tools. |
-| Long-term adaptation | Shows habits and dependency. | Requires time and repeated observation. |
-
-The Mind Library therefore needs richer evidence practices. [[Activities/Experiment]] should combine behavioural traces with interpretation, accessibility checks, and participant experience. [[Activities/Theory]] should explain why an outcome occurred. [[Activities/Design]] should turn that explanation into revised interaction form.
+- **Completion time:** Shows efficiency. (difficulty: Can hide confusion and stress.)
+- **Error rate:** Shows breakdowns. (difficulty: May not explain cause.)
+- **Confidence:** Shows perceived understanding. (difficulty: Hard to compare across users.)
+- **Dignity:** Shows whether the experience respects the user. (difficulty: Often missing from metrics.)
+- **Accessibility:** Shows inclusion or exclusion. (difficulty: Requires diverse testing and tools.)
+- **Long-term adaptation:** Shows habits and dependency. (difficulty: Requires time and repeated observation.)
 
 ## Frontier six: representing users without flattening them
 
@@ -303,12 +263,10 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Representation method | Useful when | Dangerous when |
-|---|---|---|
-| Persona | Grounded in real research. | Invented from assumptions. |
-| Analytics | Combined with qualitative evidence. | Treated as complete truth. |
-| User segment | Used to detect different needs. | Used to stereotype behaviour. |
-| AI profile | Transparent and correctable. | Hidden, inaccurate, or hard to challenge. |
+- **Persona:** useful when: Grounded in real research.; dangerous when: Invented from assumptions.
+- **Analytics:** useful when: Combined with qualitative evidence.; dangerous when: Treated as complete truth.
+- **User segment:** useful when: Used to detect different needs.; dangerous when: Used to stereotype behaviour.
+- **AI profile:** useful when: Transparent and correctable.; dangerous when: Hidden, inaccurate, or hard to challenge.
 
 The open problem is how to represent users without reducing them to convenient myths. This frontier connects strongly to [[Connections]], [[Local and Global]], and [[Important People]] because representation has intellectual, social, and ethical history.
 
@@ -341,13 +299,11 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Global assumption | Local complication | HCI response |
-|---|---|---|
-| Everyone has stable internet. | Rural or low-resource contexts may not. | Design offline, low-bandwidth, or resilient flows. |
-| English labels are enough. | Meaning changes across languages. | Test terminology locally. |
-| One privacy model fits all. | Laws and norms differ. | Adapt consent and data explanations. |
-| Users trust institutions similarly. | Trust varies by history and context. | Study local trust conditions. |
-| Devices are modern and powerful. | Hardware differs widely. | Design for performance and compatibility. |
+- **Everyone has stable internet:** local complication: Rural or low-resource contexts may not.; hci response: Design offline, low-bandwidth, or resilient flows.
+- **English labels are enough:** local complication: Meaning changes across languages.; hci response: Test terminology locally.
+- **One privacy model fits all:** local complication: Laws and norms differ.; hci response: Adapt consent and data explanations.
+- **Users trust institutions similarly:** local complication: Trust varies by history and context.; hci response: Study local trust conditions.
+- **Devices are modern and powerful:** local complication: Hardware differs widely.; hci response: Design for performance and compatibility.
 
 This frontier is one reason [[Local and Global]] must exist as a separate route. HCI cannot study the user outside place.
 
@@ -372,60 +328,7 @@ flowchart TB
     class B,C,D,E,F node;
 ```
 
-| Tension | Why it is hard |
-|---|---|
-| Personalisation vs privacy | Better adaptation often requires more data. |
-| Automation vs control | Automation can reduce effort but weaken agency. |
-| Efficiency vs understanding | Fast systems may hide important reasoning. |
-| Engagement vs attention | Engaging systems may become manipulative. |
-| Global scale vs local fit | Scalable systems often ignore local context. |
-
 These tensions show why open problems cannot always be solved by a single design rule. They require judgement, evidence, ethics, and repeated evaluation.
-
-## Frontier protocol for Cognishire
-
-The Cognishire HCI map can itself be tested as an HCI object. It uses fantasy design, Obsidian navigation, academic writing, diagrams, CSS, and external links. The research question is whether this rich style supports learning or creates extra cognitive load.
-
-```mermaid
-flowchart TB
-    A((Cognishire<br/>Frontier Test))
-
-    A --> B[Motivation]
-    A --> C[Comprehension]
-    A --> D[Navigation]
-    A --> E[Accessibility]
-
-    B --> B1[Does the theme<br/>invite exploration?]
-    C --> C1[Does the content<br/>remain academic?]
-    D --> D1[Can users find<br/>routes?]
-    E --> E1[Can all users read<br/>and operate it?]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E node;
-    class B1,C1,D1,E1 detail;
-```
-
-| Study question | Possible evidence |
-|---|---|
-| Does the RPG map style improve motivation without reducing comprehension? | Engagement comments, recall, task success. |
-| Do chamber names help orientation or confuse users? | Navigation errors, explanation quality. |
-| Do diagrams support understanding or distract from text? | Comprehension questions, reading comments, task performance. |
-| Are links and sources easy to follow? | Time to find a trusted source, wrong turns, user explanation. |
-| Is the visual theme accessible enough? | Contrast checks, keyboard use, readability, assistive technology feedback. |
-
-This protocol matters because a learning vault is still an interface. It should be evaluated with the same care as any other interactive system.
-
-## Synthesis
-
-The Mind Library’s frontier is the problem of representing users without simplifying them into convenient myths. Future HCI must explain cognition without ignoring culture. It must design for usability without ignoring power. It must measure behaviour without erasing experience. It must build AI systems that support human judgement rather than replacing it with opaque authority.
-
-Open problems are not failures of the map. They are the edges of the map. They show where HCI must continue to test, revise, and expand its concepts.
-
-This chamber therefore returns to [[Activities/Theory]], [[Activities/Design]], and [[Activities/Experiment]] as a loop: theory explains, design materialises, experiment tests, and open problems force the map to grow.
 
 ## Academic anchors
 
@@ -448,8 +351,3 @@ This chamber therefore returns to [[Activities/Theory]], [[Activities/Design]], 
 | Usability testing | [Nielsen Norman Group: Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/) |
 | Computing ethics | [ACM Code of Ethics](https://www.acm.org/code-of-ethics) |
 
-## Connected chambers
-
-This chamber connects to [[Overview]] because it defines the unfinished edge of the Mind Library. It connects to [[Activities/Theory]] because open problems expose where concepts are incomplete. It connects to [[Activities/Design]] because frontiers demand new design patterns. It connects to [[Activities/Experiment]] because uncertainty requires evidence. It connects to [[Connections]] because the hardest problems cross disciplines. It connects to [[Local and Global]] because many problems only appear when systems travel across contexts. It connects to [[Important Venues]] because research communities are where these frontiers are debated.
-
-^open-problems-end

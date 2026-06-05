@@ -1,40 +1,20 @@
----
-title: Design
-area: Mind Library
-category: Activities
-cssclasses:
-  - mind-library
-tags:
-  - HCI
-  - design
-  - interaction-design
-  - human-centred-design
-  - prototyping
-  - accessibility
-  - trust
-  - cognition
-status: factchecked-visual-polished
----
 ![[deisgn.jpg|1000]]
 # Design
 
-> [!abstract] Form-Making Chamber
+> [!abstract] Form-Making Section
 > Design is the part of HCI where knowledge about people becomes interaction form. It turns theory, evidence, and constraints into layouts, labels, flows, feedback, prototypes, accessibility decisions, and recoverable actions.
 
 Design in HCI is not decoration added after engineering. It is the disciplined shaping of possible action. A design tells users what matters, what can be done, what has changed, what is risky, and how they can recover from mistakes.
 
-If [[Theory]] explains human interaction, and [[Experiment]] tests it, then Design makes those claims visible in an interface.
-
 A visual style can make a system memorable, but style is not enough. In HCI, a design choice is stronger when it can be connected to a user need, a theoretical concept, an accessibility requirement, or empirical evidence.
 
-> [!quote] Chamber rule
-> A good HCI design is not only attractive. It is a testable claim about how people can understand, act, recover, and participate.
+> [!quote] Section rule
 
-## Chamber map
+## Section map
 
 ```mermaid
 flowchart LR
-    A["Design<br/>Chamber"] --> B["User model<br/>Who is this for?"]
+    A["Design<br/>Section"] --> B["User model<br/>Who is this for?"]
     A --> C["Structure<br/>How is information organised?"]
     A --> D["Interaction<br/>What can users do?"]
     A --> E["Prototype<br/>How can the idea be tested?"]
@@ -55,14 +35,6 @@ flowchart LR
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Chamber gate | Academic function | Design output |
-|---|---|---|
-| User model | Understand who the system is for | Needs, goals, constraints, context |
-| Structure | Organise information and navigation | Categories, hierarchy, labels |
-| Interaction | Define actions and system responses | Controls, states, feedback, recovery |
-| Prototype | Make the idea testable | Sketch, wireframe, clickable or coded prototype |
-| Evaluation | Connect design to evidence | Usability findings and redesign priorities |
-
 ## The User Model Gate
 
 The first design act is interpretation. A designer studies users, tasks, environments, constraints, and evidence. Then the designer decides what the interface must make easier.
@@ -71,13 +43,11 @@ This follows the logic of human-centred design. ISO 9241-210 defines human-centr
 
 In practice, the user model asks simple but important questions.
 
-| Question | Why it matters for design |
-|---|---|
-| Who uses the system? | Different users have different knowledge, abilities, devices, and expectations. |
-| What are they trying to do? | The interface should support real goals, not only internal categories. |
-| Where does use happen? | Context affects attention, stress, time, lighting, mobility, and device choice. |
-| What can go wrong? | Good design supports prevention, feedback, and recovery. |
-| What counts as success? | Design decisions need measurable evaluation criteria. |
+- **Who uses the system?:** Different users have different knowledge, abilities, devices, and expectations.
+- **What are they trying to do?:** The interface should support real goals, not only internal categories.
+- **Where does use happen?:** Context affects attention, stress, time, lighting, mobility, and device choice.
+- **What can go wrong?:** Good design supports prevention, feedback, and recovery.
+- **What counts as success?:** Design decisions need measurable evaluation criteria.
 
 ```mermaid
 flowchart LR
@@ -99,15 +69,13 @@ flowchart LR
     class A1,B1,C1,E1 detail;
 ```
 
-| User insight | Design decision | Evidence to check |
-|---|---|---|
-| Users search by goal, not by department | Reorganise navigation around user tasks | Fewer wrong turns and faster finding |
-| Users hesitate before clicking | Improve labels, signifiers, and button placement | Less hesitation and fewer misclicks |
-| Users forget prior state | Keep progress and selected options visible | Fewer repeated actions |
-| Users cannot recover from errors | Add undo, prevention, and plain-language error messages | Better recovery and lower frustration |
-| Users rely on assistive technologies | Use semantic headings, labels, and logical focus order | Successful keyboard and screen reader navigation |
+- **Users search by goal, not by department:** design decision: Reorganise navigation around user tasks (check: Fewer wrong turns and faster finding)
+- **Users hesitate before clicking:** design decision: Improve labels, signifiers, and button placement (check: Less hesitation and fewer misclicks)
+- **Users forget prior state:** design decision: Keep progress and selected options visible (check: Fewer repeated actions)
+- **Users cannot recover from errors:** design decision: Add undo, prevention, and plain-language error messages (check: Better recovery and lower frustration)
+- **Users rely on assistive technologies:** design decision: Use semantic headings, labels, and logical focus order (check: Successful keyboard and screen reader navigation)
 
-## The Translation Forge
+## The Translation System Design
 
 Design translates ideas into form. A mental model becomes navigation. Cognitive load becomes grouping and progressive disclosure. Feedback becomes visible system status. Accessibility becomes semantic structure, contrast, keyboard support, and clear error recovery.
 
@@ -117,7 +85,6 @@ The key academic idea is traceability. A design choice should not appear as pers
 flowchart LR
     A["HCI concept"] --> B["Design principle"]
     B --> C["Interface decision"]
-    C --> D["Testable claim"]
     D --> E["Evaluation result"]
     E --> F["Redesign"]
 
@@ -133,14 +100,12 @@ flowchart LR
     class A1,C1,E1 detail;
 ```
 
-| Theoretical idea | Design translation | Possible test |
-|---|---|---|
-| Mental models | Structure the interface around user expectations | Do users choose the expected path? |
-| Affordances and signifiers | Make possible actions visible and understandable | Do users notice and use controls correctly? |
-| Feedback | Show the result of actions clearly | Do users stop repeating actions unnecessarily? |
-| Cognitive load | Reduce memory demand and unnecessary clutter | Do users complete tasks with less hesitation? |
-| Accessibility | Support diverse modes of perception and action | Can users operate the system with keyboard and assistive technology? |
-| Trust | Show limits, uncertainty, and user control | Do users rely on the system appropriately? |
+- **Mental models:** design translation: Structure the interface around user expectations (test: Do users choose the expected path?)
+- **Affordances and signifiers:** design translation: Make possible actions visible and understandable (test: Do users notice and use controls correctly?)
+- **Feedback:** design translation: Show the result of actions clearly (test: Do users stop repeating actions unnecessarily?)
+- **Cognitive load:** design translation: Reduce memory demand and unnecessary clutter (test: Do users complete tasks with less hesitation?)
+- **Accessibility:** design translation: Support diverse modes of perception and action (test: Can users operate the system with keyboard and assistive technology?)
+- **Trust:** design translation: Show limits, uncertainty, and user control (test: Do users rely on the system appropriately?)
 
 > [!important] Translation rule
 > A design choice becomes academically strong when it can be traced back to a user problem, a theory, or evidence.
@@ -172,13 +137,11 @@ flowchart LR
     class B1,C1,D1,E1 detail;
 ```
 
-| Structural problem | User experience | Design repair |
-|---|---|---|
-| Categories follow internal departments | Users open the wrong section | Group around user goals |
-| Labels use institutional jargon | Users cannot predict content | Use plain, user-centred language |
-| Hierarchy is visually flat | Users do not know what matters | Strengthen headings, spacing, and priority |
-| Navigation hides current location | Users lose orientation | Show active states, breadcrumbs, or progress |
-| Related information is separated | Users scan repeatedly | Place related content and actions near each other |
+- **Categories follow internal departments:** user experience: Users open the wrong section (repair: Group around user goals)
+- **Labels use institutional jargon:** user experience: Users cannot predict content (repair: Use plain, user-centred language)
+- **Hierarchy is visually flat:** user experience: Users do not know what matters (repair: Strengthen headings, spacing, and priority)
+- **Navigation hides current location:** user experience: Users lose orientation (repair: Show active states, breadcrumbs, or progress)
+- **Related information is separated:** user experience: Users scan repeatedly (repair: Place related content and actions near each other)
 
 Nielsen Norman Group's usability heuristics are useful here. Visibility of system status, consistency, recognition rather than recall, error prevention, and recovery from errors all depend on clear structure.
 
@@ -225,13 +188,10 @@ flowchart LR
     class E,F detail;
 ```
 
-| Feedback type | Design purpose | Example |
-|---|---|---|
-| Confirmation | Shows success | “Your changes were saved.” |
-| Progress | Shows ongoing process | Upload percentage or progress indicator |
-| Error | Shows what failed and how to fix it | “Password must include at least 8 characters.” |
-| Warning | Shows risk before action | “This action cannot be undone.” |
-| Empty state | Shows what to do next | “No files yet. Upload your first document.” |
+- **Confirmation:** design purpose: Shows success (example: “Your changes were saved.”)
+- **Progress:** design purpose: Shows ongoing process (example: Upload percentage or progress indicator)
+- **Error:** design purpose: Shows what failed and how to fix it (example: “Password must include at least 8 characters.”)
+- **Empty state:** design purpose: Shows what to do next (example: “No files yet. Upload your first document.”)
 
 Feedback should be visible, specific, and timed appropriately. It should help the user decide what to do next.
 
@@ -262,13 +222,11 @@ flowchart LR
 > [!important] Prototype rule
 > The prototype should be only as detailed as the question requires. Extra polish can hide conceptual weakness. Too little structure can make evaluation meaningless.
 
-| Prototype type | Best question | Risk |
-|---|---|---|
-| Paper sketch | Does the structure make sense? | Cannot test real interaction states |
-| Wireframe | Is the layout and hierarchy understandable? | May underrepresent content and feedback |
-| Clickable prototype | Can users follow the flow? | May fake system behaviour |
-| Coded prototype | Does the interaction work with real constraints? | Takes more effort to revise |
-| Accessibility prototype | Can diverse users operate it? | Requires assistive technology checks |
+- **Paper sketch:** best question: Does the structure make sense?; risk: Cannot test real interaction states
+- **Wireframe:** best question: Is the layout and hierarchy understandable?; risk: May underrepresent content and feedback
+- **Clickable prototype:** best question: Can users follow the flow?; risk: May fake system behaviour
+- **Coded prototype:** best question: Does the interaction work with real constraints?; risk: Takes more effort to revise
+- **Accessibility prototype:** best question: Can diverse users operate it?; risk: Requires assistive technology checks
 
 ## The Accessibility Gate
 
@@ -325,20 +283,16 @@ flowchart LR
     class D,E,F detail;
 ```
 
-| Trust problem | Design risk | Design response |
-|---|---|---|
-| The system sounds confident when uncertain | Overtrust | Show uncertainty and verification paths |
-| The system gives unexplained recommendations | Suspicion or blind acceptance | Explain relevant factors in plain language |
-| The system automates high-stakes action | Loss of agency | Provide review, override, and escalation |
-| The system personalises content invisibly | Hidden influence | Show data use and user controls |
+- **The system sounds confident when uncertain:** design risk: Overtrust; design response: Show uncertainty and verification paths
+- **The system gives unexplained recommendations:** design risk: Suspicion or blind acceptance; design response: Explain relevant factors in plain language
+- **The system automates high-stakes action:** design risk: Loss of agency; design response: Provide review, override, and escalation
+- **The system personalises content invisibly:** design risk: Hidden influence; design response: Show data use and user controls
 
 Trust should not mean blind belief. In academic HCI, a better goal is appropriate reliance: users should know when to trust, when to verify, and when to take control.
 
 ## The Aesthetic Gate
 
 Aesthetics matter, but they must serve interaction. Visual atmosphere can guide attention, create identity, support memory, and increase motivation. It can also damage usability if it lowers contrast, hides structure, overloads the page, or makes controls unclear.
-
-In this vault, the RPG style is not only decoration. It frames the user as a traveller through a knowledge map. That can make the system more memorable, but the page must remain readable, navigable, and academically clear.
 
 ```mermaid
 flowchart LR
@@ -360,16 +314,10 @@ flowchart LR
     class B,C,D,E node;
 ```
 
-> [!warning] Aesthetic boundary
-> A style is successful only if it strengthens the interaction. If users admire the page but cannot understand the structure, the design has failed.
-
 ## The Design Evaluation Loop
-
-Design should return to evidence. A design is a claim. A prototype makes the claim visible. Evaluation tests whether the claim works for users.
 
 ```mermaid
 flowchart LR
-    A["User insight"] --> B["Design claim"]
     B --> C["Prototype"]
     C --> D["Evaluation"]
     D --> E["Evidence"]
@@ -383,53 +331,14 @@ flowchart LR
     class E detail;
 ```
 
-| Evaluation question | Evidence to collect | Possible redesign |
-|---|---|---|
-| Can users find the right area? | Wrong turns, time, hesitation | Rename sections or change navigation |
-| Can users understand system status? | Repeated clicks, uncertainty, comments | Add clearer feedback states |
-| Can users recover from mistakes? | Error repetition and repair time | Improve error messages and undo |
-| Can users use assistive technology? | Keyboard path and screen reader output | Repair semantics, focus order, and labels |
-| Does the style support learning? | Recall, engagement, comprehension | Adjust visual hierarchy and density |
-
-## Mini Design Protocol: Cognishire Map
-
-This protocol applies the Design chamber to the Cognishire project itself. It treats the HCI vault as an interface that should be designed and evaluated.
-
-| Design layer | Cognishire decision | Evidence to check |
-|---|---|---|
-| User model | A first-year student exploring HCI concepts | Can the student explain the main idea after reading? |
-| Structure | Fantasy map divided into conceptual regions | Can the student find related pages without confusion? |
-| Interaction form | Obsidian links, callouts, diagrams, chambers, gates | Are links and diagrams useful rather than decorative? |
-| Visual identity | RPG map, pixel atmosphere, readable academic blocks | Does the style improve memory without lowering clarity? |
-| Accessibility need | Strong contrast, readable headings, controlled diagrams | Can the page be scanned and navigated comfortably? |
-| Evidence path | Test with users and revise | What misunderstandings repeat across readers? |
-
-```mermaid
-flowchart LR
-    A["Cognishire<br/>Design"] --> B["Academic clarity"]
-    A --> C["Map identity"]
-    A --> D["Navigation"]
-    A --> E["Accessibility"]
-    A --> F["Evaluation"]
-
-    B --> B1["HCI concepts stay precise"]
-    C --> C1["RPG atmosphere supports memory"]
-    D --> D1["Internal links guide movement"]
-    E --> E1["Readable, operable pages"]
-    F --> F1["Test with real readers"]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F node;
-    class B1,C1,D1,E1,F1 detail;
-```
+- **Can users find the right area?:** evidence to collect: Wrong turns, time, hesitation; possible redesign: Rename sections or change navigation
+- **Can users understand system status?:** evidence to collect: Repeated clicks, uncertainty, comments; possible redesign: Add clearer feedback states
+- **Can users recover from mistakes?:** evidence to collect: Error repetition and repair time; possible redesign: Improve error messages and undo
+- **Can users use assistive technology?:** evidence to collect: Keyboard path and screen reader output; possible redesign: Repair semantics, focus order, and labels
+- **Does the style support learning?:** evidence to collect: Recall, engagement, comprehension; possible redesign: Adjust visual hierarchy and density
 
 ## Fact-check notes
 
-| Claim checked | Status | Grounding |
 |---|---|---|
 | Human-centred design focuses on users, their needs, usability, human factors, and evaluation. | Supported | ISO 9241-210 and NIST HCD descriptions. |
 | WCAG 2.2 is organised around perceivable, operable, understandable, and robust. | Supported | W3C WCAG 2 overview. |
@@ -437,16 +346,6 @@ flowchart LR
 | Microsoft’s Human-AI Interaction Guidelines organise guidance around initial interaction, regular interaction, errors, and behaviour over time. | Supported | Microsoft Research HAI Guidelines. |
 | The Google People + AI Guidebook is a practical guide for human-centred AI products. | Supported | Google PAIR Guidebook. |
 | ACM SIGCHI is a central HCI research community and CHI is its flagship conference. | Supported | ACM SIGCHI and CHI conference materials. |
-
-## Synthesis
-
-Design is the Mind Library’s form-making chamber. It translates user understanding into interface structure. It turns theory into something users can perceive, operate, and judge.
-
-A good design is not simply attractive. It is a testable claim about human action. It should reduce unnecessary effort, support accessibility, make feedback clear, help users recover, and prepare evidence for [[Experiment]].
-
-This chamber connects back to [[Theory]], because design decisions need conceptual grounding. It connects forward to [[Experiment]], because design claims need evidence.
-
-It also connects outward to [[../Connections]], [[../Important People]], [[../Important Venues]], [[../Local and Global]], and [[../Open Problems]]. Design is shaped by research communities, cultures, ethics, technologies, and unresolved problems.
 
 ## Academic anchors
 

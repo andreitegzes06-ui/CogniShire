@@ -1,46 +1,14 @@
----
-title: Important People
-area: Accessibility and Inclusive Design
-display-name: The Inclusive Gate
-category: Researcher Roadmap
-cs2023_unit: HCI-Accessibility
-secondary_unit: HCI-Accountability
-cssclasses:
-  - inclusive-gate
-tags:
-  - HCI
-  - CS2023
-  - HCI-Accessibility
-  - accessibility
-  - inclusive-design
-  - important-people
-  - disability
-  - assistive-technology
-  - ability-based-design
-  - accessible-computing
-  - inclusive-AI
-  - accessibility-education
-  - UVT
-  - local-global
-status: max-polished-academic-guide
----
-
+![[broda.gif|1000]]
 # Important People
-
-Back to [[Overview|The Inclusive Gate]].
 
 > [!abstract] Inclusive People Roadmap
 > This page maps reliable routes into **Accessibility and Inclusive Design**. It starts with the local UVT context, then moves to international researchers and labs in accessible computing, disability-centered HCI, assistive technology, accessibility education, AI accessibility, and policy.
 
-The fantasy name is **Inclusive People Roadmap**.  
 The real CS2023 label is **HCI-Accessibility: Accessibility and Inclusive Design**.  
 The connected responsibility route is **HCI-Accountability: Accountability and Responsibility in Design**.  
 The real-life meaning is **knowing who and what to study when the question is how technology can include more people instead of creating barriers**.
 
 This page is not a celebrity list. It is not a list of confirmed supervisors. It is a learning map. A person is included only when their public work gives a useful route into one part of accessibility: accessible computing, assistive technology, disability-centered design, accessibility education, AI and accessibility, or policy.
-
-> [!warning] Accuracy and contact rule
-> Roles, affiliations, and email addresses can change. Use the official profile linked in the Academic Anchors before contacting anyone. Do not mass email. Read one paper, project, or lab page first. Then ask one focused question.
 
 ## People Map
 
@@ -73,68 +41,18 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1 detail;
 ```
 
-| Route | What it teaches | Start with |
-|---|---|---|
-| Local UVT routes | How accessibility appears in this project’s real university context | UVT accessibility support, Faculty of Informatics, CSAI, DTSE |
-| Accessible computing | How HCI designs and evaluates systems for disabled people | Jacob Wobbrock, Jennifer Mankoff, Richard Ladner |
-| Disability-centered HCI | How disabled people’s agency and experience change HCI research | Cynthia L. Bennett, Kristen Shinohara, Meredith Ringel Morris |
-| Assistive technology | How tools support access in real settings | Leah Findlater, Shiri Azenkot, Amy Hurst |
-| Accessibility education | How accessibility becomes part of computing education | Richard Ladner, Kristen Shinohara, Jonathan Lazar |
-| AI and accessibility | How AI can support access or reproduce barriers | Hernisa Kacorri, Shaun K. Kane, Meredith Ringel Morris, Cynthia L. Bennett |
-| Policy and accountability | How institutions, law, and responsibility shape accessibility | Jonathan Lazar, Jennifer Mankoff |
-
 ## How to read this page
 
 Use the page as a route map, not as a directory of guaranteed contacts.
 
-| Label in this page | Meaning |
-|---|---|
-| Local route | A UVT institutional, department, or research route that can connect to accessibility questions |
-| Global researcher | A person with public work in accessible computing, disability-centered HCI, assistive technology, or related areas |
-| Public basis | A profile, lab page, publication route, or institutional page that supports the inclusion |
-| Best use | The kind of question a student can study through this person’s work |
-| Caution | A limit on the claim, especially where the person is not an HCI accessibility supervisor or where a role may change |
+- **Local route:** A UVT institutional, department, or research route that can connect to accessibility questions
+- **Global researcher:** A person with public work in accessible computing, disability-centered HCI, assistive technology, or related areas
+- **Public basis:** A profile, lab page, publication route, or institutional page that supports the inclusion
+- **Best use:** The kind of question a student can study through this person’s work
 
 ## Local Route First: UVT Accessibility and Informatics Context
 
-The local dimension for this project is **UVT**, especially the **Faculty of Informatics / Computer Science context**. Accessibility also connects to the wider university context: student support, accommodations, assistive technologies, accessible educational materials, teaching adaptation, and institutional inclusion.
-
-The safest local claim is this:
-
 > UVT provides institutional accessibility routes, and the Faculty of Informatics provides local Computer Science routes. These can support accessibility-related thinking, but they should not be described as a dedicated HCI accessibility lab unless an official source says so.
-
-```mermaid
-flowchart TB
-    A((Local UVT Inclusion Layer))
-
-    A --> B[Institutional Support]
-    A --> C[Faculty of Informatics]
-    A --> D[CSAI]
-    A --> E[DTSE]
-    A --> F[Student Project]
-
-    B --> B1[Accessibility support<br/>and accommodations]
-    C --> C1[Computer Science<br/>teaching and projects]
-    D --> D1[AI, data,<br/>medical informatics]
-    E --> E1[Software systems,<br/>workflows, web tools]
-    F --> F1[Obsidian, GitHub,<br/>CSS, diagrams]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F node;
-    class B1,C1,D1,E1,F1 detail;
-```
-
-| Local route | Public basis | Why it belongs here |
-|---|---|---|
-| UVT accessibility support | UVT describes services for students with disabilities and institutional support procedures | Gives the local accessibility context for students, materials, teaching, and assessment |
-| Faculty of Informatics | UVT Faculty of Informatics is the local Computer Science home of the project | Places the vault inside a real CS learning environment |
-| CSAI department | UVT lists the Department of Computational Sciences and Artificial Intelligence | Connects accessibility to AI, data, medical informatics, recommender systems, and human-related data |
-| DTSE department | UVT lists the Department of Digital Technologies and Software Engineering | Connects accessibility to software systems, workflows, web technologies, robustness, and maintainability |
-| Cognishire project route | The vault uses Markdown, Obsidian, GitHub, CSS, and Mermaid | Provides a concrete artifact for local accessibility testing |
 
 ## Local UVT People and Routes
 
@@ -186,82 +104,67 @@ flowchart TB
 | Codruț Chiș | UVT research route lists virtual reality | How can VR be evaluated for spatial usability, comfort, and embodied access? |
 | Eduard Hogea, Fabian Galiș, Flavia Costi | UVT research route lists explainable AI topics for these names | How can explainability help users judge AI behaviour, limits, and trust? |
 
-> [!warning] Local route rule
-> Write “public UVT Computer Science routes that can connect to accessibility questions.” Do not write “these are UVT HCI accessibility supervisors” unless a current official page explicitly states that.
-
 ## Global Route I: Accessible Computing Foundations
 
 This route is useful when you want to understand accessible computing as a research field. It focuses on interaction techniques, assistive technologies, accessible systems, disability inclusion in computing, and rigorous HCI methods.
 
 ### Jacob O. Wobbrock
 
-| Field | Details |
-|---|---|
-| Public route | University of Washington Information School and personal page |
-| Stable description | HCI researcher associated with mobile and accessible computing, input techniques, human performance measurement, and accessible interaction |
-| Why he matters | His work is central for ability-based design, accessible interaction techniques, and rigorous HCI evaluation methods |
-| Study first | Ability-Based Design; accessible interaction techniques; HCI statistics and empirical methods |
-| Good student question | “How should I evaluate an accessible interaction technique instead of only describing it?” |
-| Caution | Use official UW pages for current role and contact details |
+- **Public route:** University of Washington Information School and personal page
+- **Stable description:** HCI researcher associated with mobile and accessible computing, input techniques, human performance measurement, and accessible interaction
+- **Why he matters:** His work is central for ability-based design, accessible interaction techniques, and rigorous HCI evaluation methods
+- **Study first:** Ability-Based Design; accessible interaction techniques; HCI statistics and empirical methods
+- **Good student question:** “How should I evaluate an accessible interaction technique instead of only describing it?”
+- **Caution:** Use official UW pages for current role and contact details
 
 ### Jennifer Mankoff
 
-| Field | Details |
-|---|---|
-| Public route | University of Washington Allen School, UW CREATE |
-| Stable description | Accessibility researcher whose work connects disability, agency, advocacy, intersectionality, and accessible technology |
-| Why she matters | Her work is a strong route into accessibility as both technical and social responsibility |
-| Study first | Accessibility, disability studies in HCI, environmental sustainability and access, AI accessibility concerns |
-| Good student question | “How can disabled people have more agency in the design and evaluation of technology?” |
-| Caution | Avoid reducing her work to “assistive tools.” It is also about structure, agency, and power |
+- **Public route:** University of Washington Allen School, UW CREATE
+- **Stable description:** Accessibility researcher whose work connects disability, agency, advocacy, intersectionality, and accessible technology
+- **Why she matters:** Her work is a strong route into accessibility as both technical and social responsibility
+- **Study first:** Accessibility, disability studies in HCI, environmental sustainability and access, AI accessibility concerns
+- **Good student question:** “How can disabled people have more agency in the design and evaluation of technology?”
+- **Caution:** Avoid reducing her work to “assistive tools.” It is also about structure, agency, and power
 
 ### Richard E. Ladner
 
-| Field | Details |
-|---|---|
-| Public route | University of Washington Allen School, AccessComputing, CREATE |
-| Stable description | Professor Emeritus known for accessible computing research and for promoting inclusion of disabled people in computing education |
-| Why he matters | His route is important for accessibility education and for access to computing fields, especially for blind, deaf, deaf-blind, and hard-of-hearing people |
-| Study first | AccessComputing, AccessCSforAll, accessibility technology, computing education inclusion |
-| Good student question | “How can accessibility become part of computing education instead of a small optional topic?” |
-| Caution | Describe him as professor emeritus unless an official source says otherwise |
+- **Public route:** University of Washington Allen School, AccessComputing, CREATE
+- **Stable description:** Professor Emeritus known for accessible computing research and for promoting inclusion of disabled people in computing education
+- **Why he matters:** His route is important for accessibility education and for access to computing fields, especially for blind, deaf, deaf-blind, and hard-of-hearing people
+- **Study first:** AccessComputing, AccessCSforAll, accessibility technology, computing education inclusion
+- **Good student question:** “How can accessibility become part of computing education instead of a small optional topic?”
+- **Caution:** Describe him as professor emeritus unless an official source says otherwise
 
 ## Global Route II: Disability-Centered and Justice-Oriented HCI
 
-This route is for learning how disabled people’s lived experience, creativity, agency, and critique reshape HCI. It is useful when the project must avoid treating disabled users as passive test subjects.
+This route is for learning how disabled people’s lived experience, creativity, agency, and critique reshape HCI. It is useful when the study must avoid treating disabled users as passive test subjects.
 
 ### Cynthia L. Bennett
 
-| Field | Details |
-|---|---|
-| Public route | Google Research profile, Google Scholar, published work |
-| Stable description | Researcher working across accessibility, disability, design, responsible AI, and disability justice-oriented technology questions |
-| Why she matters | Her work helps students understand that accessibility is about power, representation, and participation, not only interface repair |
-| Study first | Disability and AI justice; accessible prototyping; community-led evaluation; image description and disability representation |
-| Good student question | “How can accessibility research avoid speaking for disabled people without their agency?” |
-| Caution | Role titles can change in industry research. Use current official Google Research or Scholar pages before citing a role |
+- **Public route:** Google Research profile, Google Scholar, published work
+- **Stable description:** Researcher working across accessibility, disability, design, responsible AI, and disability justice-oriented technology questions
+- **Why she matters:** Her work helps students understand that accessibility is about power, representation, and participation, not only interface repair
+- **Study first:** Disability and AI justice; accessible prototyping; community-led evaluation; image description and disability representation
+- **Good student question:** “How can accessibility research avoid speaking for disabled people without their agency?”
+- **Caution:** Role titles can change in industry research. Use current official Google Research or Scholar pages before citing a role
 
 ### Kristen Shinohara
 
-| Field | Details |
-|---|---|
-| Public route | Rochester Institute of Technology profile and personal research page |
-| Stable description | Accessibility and HCI researcher working on disability, computing education, accessible prototyping, and disabled student experiences |
-| Why she matters | Her work is useful for connecting accessibility to computing education and to the barriers disabled students face in academic environments |
-| Study first | Accessibility in computing education; accessibility of prototyping tools; disabled graduate student barriers |
-| Good student question | “How can a computing course teach accessibility without treating it as a late checklist?” |
-| Caution | Use official RIT profile for current title and contact details |
+- **Public route:** Rochester Institute of Technology profile and personal research page
+- **Stable description:** Accessibility and HCI researcher working on disability, computing education, accessible prototyping, and disabled student experiences
+- **Why she matters:** Her work is useful for connecting accessibility to computing education and to the barriers disabled students face in academic environments
+- **Study first:** Accessibility in computing education; accessibility of prototyping tools; disabled graduate student barriers
+- **Good student question:** “How can a computing course teach accessibility without treating it as a late checklist?”
+- **Caution:** Use official RIT profile for current title and contact details
 
 ### Meredith Ringel Morris
 
-| Field | Details |
-|---|---|
-| Public route | UW iSchool profile, personal page, Google Scholar |
-| Stable description | HCI researcher working across accessibility, social technologies, human-centered AI, and human-AI interaction |
-| Why she matters | Her route is useful for accessibility in social platforms, intelligent systems, and AI-mediated interaction |
-| Study first | AI and accessibility; accessibility in social technologies; generative AI and HCI |
-| Good student question | “How can AI systems be evaluated for accessibility without assuming automation is always helpful?” |
-| Caution | Industry and academic affiliations may change. Cite the profile you actually checked |
+- **Public route:** UW iSchool profile, personal page, Google Scholar
+- **Stable description:** HCI researcher working across accessibility, social technologies, human-centered AI, and human-AI interaction
+- **Why she matters:** Her route is useful for accessibility in social platforms, intelligent systems, and AI-mediated interaction
+- **Study first:** AI and accessibility; accessibility in social technologies; generative AI and HCI
+- **Good student question:** “How can AI systems be evaluated for accessibility without assuming automation is always helpful?”
+- **Caution:** Industry and academic affiliations may change. Cite the profile you actually checked
 
 ## Global Route III: Assistive Technology and Inclusive Systems
 
@@ -269,36 +172,30 @@ This route focuses on systems that support access in practice. It includes mobil
 
 ### Leah Findlater
 
-| Field | Details |
-|---|---|
-| Public route | UW Human Centered Design & Engineering, UW CREATE, Inclusive Design Lab |
-| Stable description | HCI and accessibility researcher working on inclusive technologies, adaptive interaction, accessible computing, and human-centered AI |
-| Why she matters | Her work is useful for studying how interfaces can adapt to user needs while still preserving access and control |
-| Study first | Inclusive Design Lab projects, adaptive interaction, accessible technologies, human-centered machine learning |
-| Good student question | “How can a system adapt to different users without becoming confusing or excluding?” |
-| Caution | Use official UW or lab pages for current role and affiliations |
+- **Public route:** UW Human Centered Design & Engineering, UW CREATE, Inclusive Design Lab
+- **Stable description:** HCI and accessibility researcher working on inclusive technologies, adaptive interaction, accessible computing, and human-centered AI
+- **Why she matters:** Her work is useful for studying how interfaces can adapt to user needs while still preserving access and control
+- **Study first:** Inclusive Design Lab projects, adaptive interaction, accessible technologies, human-centered machine learning
+- **Good student question:** “How can a system adapt to different users without becoming confusing or excluding?”
+- **Caution:** Use official UW or lab pages for current role and affiliations
 
 ### Shiri Azenkot
 
-| Field | Details |
-|---|---|
-| Public route | Cornell Bowers / Cornell Tech profile, personal page, XR Access route |
-| Stable description | HCI and accessibility researcher focused on mobile, wearable, AR/VR, orientation, information access, education, and employment for people with disabilities |
-| Why she matters | Her route is strong for accessible emerging technology, especially blind and low-vision access in mobile, wearable, and XR settings |
-| Study first | XR accessibility, smart glasses, mobile accessibility, orientation and mobility |
-| Good student question | “What does accessibility mean when the interface is spatial, wearable, or immersive?” |
-| Caution | Do not generalise all visual impairment experiences from one technology area |
+- **Public route:** Cornell Bowers / Cornell Tech profile, personal page, XR Access route
+- **Stable description:** HCI and accessibility researcher focused on mobile, wearable, AR/VR, orientation, information access, education, and employment for people with disabilities
+- **Why she matters:** Her route is strong for accessible emerging technology, especially blind and low-vision access in mobile, wearable, and XR settings
+- **Study first:** XR accessibility, smart glasses, mobile accessibility, orientation and mobility
+- **Good student question:** “What does accessibility mean when the interface is spatial, wearable, or immersive?”
+- **Caution:** Do not generalise all visual impairment experiences from one technology area
 
 ### Amy Hurst
 
-| Field | Details |
-|---|---|
-| Public route | NYU Tandon profile, personal research route |
-| Stable description | Accessibility researcher working with end users on accessibility challenges and novel assistive technologies, including DIY and fabrication routes |
-| Why she matters | Her work helps students see assistive technology as something users may adapt, make, personalise, and repair |
-| Study first | DIY assistive technology, digital fabrication, accessible design tools, end-user empowerment |
-| Good student question | “How can users be supported to adapt or build assistive tools for their own needs?” |
-| Caution | Study the user-centred and participatory aspect, not only the devices |
+- **Public route:** NYU Tandon profile, personal research route
+- **Stable description:** Accessibility researcher working with end users on accessibility challenges and novel assistive technologies, including DIY and fabrication routes
+- **Why she matters:** Her work helps students see assistive technology as something users may adapt, make, personalise, and repair
+- **Study first:** DIY assistive technology, digital fabrication, accessible design tools, end-user empowerment
+- **Good student question:** “How can users be supported to adapt or build assistive tools for their own needs?”
+- **Caution:** Study the user-centred and participatory aspect, not only the devices
 
 ## Global Route IV: AI, Data, and Accessibility
 
@@ -306,43 +203,33 @@ This route is for AI systems that can support access or create new barriers. It 
 
 ### Hernisa Kacorri
 
-| Field | Details |
-|---|---|
-| Public route | University of Maryland College of Information, IAM Lab, TRACE-related projects |
-| Stable description | Researcher working on accessibility and human-centered AI, often using participatory and experimental methods |
-| Why she matters | Her work is a strong route into accessibility datasets, AI-infused systems, disability data, and the evaluation of AI tools for disabled users |
-| Study first | Human-centered AI for accessibility, teachable AI, audio description, accessibility datasets, privacy and participation |
-| Good student question | “How can AI accessibility systems be evaluated with disabled people’s data without creating new risks?” |
-| Caution | AI accessibility claims require correctness, privacy, bias, and user-control checks |
+- **Public route:** University of Maryland College of Information, IAM Lab, TRACE-related projects
+- **Stable description:** Researcher working on accessibility and human-centered AI, often using participatory and experimental methods
+- **Why she matters:** Her work is a strong route into accessibility datasets, AI-infused systems, disability data, and the evaluation of AI tools for disabled users
+- **Study first:** Human-centered AI for accessibility, teachable AI, audio description, accessibility datasets, privacy and participation
+- **Good student question:** “How can AI accessibility systems be evaluated with disabled people’s data without creating new risks?”
 
 ### Shaun K. Kane
 
-| Field | Details |
-|---|---|
-| Public route | Personal site, Google Research profile, ACM profile |
-| Stable description | Accessibility and HCI researcher whose public site describes work using HCI, AI, and machine learning to support people with disabilities |
-| Why he matters | His route is useful for accessible AI, wearable accessibility, tactile and nonvisual interaction, and accessibility in emerging systems |
-| Study first | AI for accessibility, wearable accessibility, nonvisual interaction, public touchscreens, accessible VR or emerging interfaces |
-| Good student question | “How can AI support independence without replacing user agency?” |
-| Caution | Use his personal site or Google Research profile for current role, because affiliations can change |
+- **Public route:** Personal site, Google Research profile, ACM profile
+- **Stable description:** Accessibility and HCI researcher whose public site describes work using HCI, AI, and machine learning to support people with disabilities
+- **Why he matters:** His route is useful for accessible AI, wearable accessibility, tactile and nonvisual interaction, and accessibility in emerging systems
+- **Study first:** AI for accessibility, wearable accessibility, nonvisual interaction, public touchscreens, accessible VR or emerging interfaces
+- **Good student question:** “How can AI support independence without replacing user agency?”
+- **Caution:** Use his personal site or Google Research profile for current role, because affiliations can change
 
 ### Meredith Ringel Morris
 
-| Field | Details |
-|---|---|
-| Evaluation role | Accessibility, social technology, human-centered AI, generative AI, and human-AI interaction |
-| Why repeated here | Her work bridges accessibility and AI, so she belongs both in disability-centered HCI and AI accessibility |
-| Study direction | Use this route when the system includes AI-generated content, recommendations, or social interaction |
-| Caution | Do not treat AI output quality as accessibility unless real access tasks are tested |
+- **Evaluation role:** Accessibility, social technology, human-centered AI, generative AI, and human-AI interaction
+- **Why repeated here:** Her work bridges accessibility and AI, so she belongs both in disability-centered HCI and AI accessibility
+- **Study direction:** Use this route when the system includes AI-generated content, recommendations, or social interaction
+- **Caution:** Do not treat AI output quality as accessibility unless real access tasks are tested
 
 ### Cynthia L. Bennett
 
-| Field | Details |
-|---|---|
-| Evaluation role | Disability, responsible AI, justice-oriented design, community-led evaluation |
-| Why repeated here | Her work helps question AI systems that claim to help disabled people but may encode power, bias, or shallow representation |
-| Study direction | Use this route when evaluating AI systems that describe, represent, classify, or support disabled users |
-| Caution | Avoid “AI solves accessibility” framing. Use evidence and user agency |
+- **Evaluation role:** Disability, responsible AI, justice-oriented design, community-led evaluation
+- **Study direction:** Use this route when evaluating AI systems that describe, represent, classify, or support disabled users
+- **Caution:** Avoid “AI solves accessibility” framing. Use evidence and user agency
 
 ## Global Route V: Policy, Law, and Institutional Responsibility
 
@@ -350,23 +237,19 @@ This route explains why accessibility is not only a design preference. It is als
 
 ### Jonathan Lazar
 
-| Field | Details |
-|---|---|
-| Public route | University of Maryland College of Information, Maryland Initiative for Digital Accessibility, HCIL |
-| Stable description | HCI and accessibility researcher working across web accessibility, user-centred design, assistive technology, law, and policy |
-| Why he matters | His route is central for understanding accessibility as research, method, law, and institutional responsibility |
-| Study first | Research Methods in HCI; web accessibility; accessibility law and policy; MIDA resources |
-| Good student question | “How should accessibility evaluation connect to law, policy, and institutional duty?” |
-| Caution | Legal context differs by country. Use law-related material carefully outside the U.S. context |
+- **Public route:** University of Maryland College of Information, Maryland Initiative for Digital Accessibility, HCIL
+- **Stable description:** HCI and accessibility researcher working across web accessibility, user-centred design, assistive technology, law, and policy
+- **Why he matters:** His route is central for understanding accessibility as research, method, law, and institutional responsibility
+- **Study first:** Research Methods in HCI; web accessibility; accessibility law and policy; MIDA resources
+- **Good student question:** “How should accessibility evaluation connect to law, policy, and institutional duty?”
+- **Caution:** Legal context differs by country. Use law-related material carefully outside the U.S. context
 
 ### Jennifer Mankoff
 
-| Field | Details |
-|---|---|
-| Policy role | Accessibility research, disability agency, structural barriers, AI accessibility concerns |
-| Why repeated here | Her work helps connect individual interface barriers to larger structures and accountability |
-| Study direction | Use this route when asking how institutions and design systems can avoid placing extra labour on disabled users |
-| Caution | Do not reduce structural accessibility to individual accommodation only |
+- **Policy role:** Accessibility research, disability agency, structural barriers, AI accessibility concerns
+- **Why repeated here:** Her work helps connect individual interface barriers to larger structures and accountability
+- **Study direction:** Use this route when asking how institutions and design systems can avoid placing extra labour on disabled users
+- **Caution:** Do not reduce structural accessibility to individual accommodation only
 
 ## Study Route by Interest
 
@@ -399,16 +282,6 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1 detail;
 ```
 
-| If you want to learn... | Start with... | Build this small project |
-|---|---|---|
-| How to design accessible interaction | Wobbrock, Findlater | Redesign one page so keyboard, structure, and labels work better |
-| How disability changes design theory | Bennett, Shinohara, Mankoff | Write a barrier analysis that starts from exclusion, not from the “average user” |
-| How assistive technology works | Azenkot, Hurst, Ladner | Test one page with keyboard, zoom, screen reader structure, and fallback Markdown |
-| How to teach accessibility in CS | Ladner, Shinohara, Lazar | Make a mini lesson that connects WCAG, HCI, and a local student project |
-| How to evaluate AI accessibility | Kacorri, Kane, Morris, Bennett | Test AI-generated descriptions for correctness, context, uncertainty, and user usefulness |
-| How to connect access to responsibility | Lazar, Mankoff | Write a short accountability report: what was tested, who was missing, and what remains risky |
-| How to ground the project at UVT | UVT accessibility support, Faculty of Informatics, CSAI, DTSE | Create a local evidence log for Obsidian, GitHub, CSS, diagrams, and professor review |
-
 ## Contact Protocol
 
 ```mermaid
@@ -426,107 +299,9 @@ flowchart LR
     class F final;
 ```
 
-| Email part | What to include |
-|---|---|
-| Subject | “Question about accessibility research / inclusive design / AI accessibility” |
-| Opening | Who you are and what you are studying |
-| Specific fit | One sentence connecting your question to their public work |
-| Evidence | One paper, project page, lab page, or course route you actually read |
-| Your project | A short description of Cognishire or the HCI map |
-| Ask | One precise question about a reading path, method, or study direction |
-| Close | Thank them and include a GitHub/portfolio link only if relevant |
-
-### Minimal email template
-
-> [!example] Accessibility-method email
-> Dear Professor [Name],  
-> I am building a CS2023-based HCI map for a student project. I am currently improving the section on **HCI-Accessibility: Accessibility and Inclusive Design**.  
->  
-> I read your public work/page on [specific topic]. I am trying to understand how to evaluate [specific barrier, tool, or method] in a small student project.  
->  
-> Could you recommend one or two papers, courses, or lab resources that would be a good starting point?  
->  
-> Best regards,  
-> [Name]
-
 ## Local UVT Contact Protocol
 
-For UVT routes, ask about the connection between your project and a method, not for general approval.
-
-| Local route | Better question |
-|---|---|
-| Accessibility support | “What should I consider when making digital study materials more accessible?” |
-| Faculty of Informatics | “How can I make this Computer Science project easier to inspect, open, and evaluate?” |
-| Software/workflow route | “How can I evaluate whether the Obsidian/GitHub workflow remains usable after download?” |
-| AI/data route | “What accessibility risks appear when a system uses prediction, recommendation, or generated content?” |
-| Health/e-health route | “What makes accessibility stricter when users rely on health or monitoring information?” |
-| VR route | “What accessibility barriers should be checked in an immersive or spatial version of this map?” |
-| Teaching route | “How can I test whether the map helps students learn without increasing cognitive load?” |
-
-## What Not to Claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “These are UVT accessibility professors.” | “These are public UVT routes that can connect to accessibility questions.” |
-| “This person is definitely available to supervise this project.” | “This person’s public work is relevant to this learning route.” |
-| “A famous researcher proves this claim.” | “This researcher gives a useful source route for studying the claim.” |
-| “Accessible computing is only about screen readers.” | “Accessible computing includes disability, assistive technology, interaction, education, AI, and policy.” |
-| “AI will solve accessibility.” | “AI can support accessibility, but it needs evidence, user control, correctness checks, privacy care, and bias analysis.” |
-| “A checklist proves inclusion.” | “A checklist is one evidence layer. Lived access, assistive technology, task success, and repair still matter.” |
-| “Disabled users are one group.” | “Access needs vary across disability, context, tools, language, time, and situation.” |
-
-## Cognishire Application
-
-The Inclusive People Roadmap should help this project make better decisions, not just add names.
-
-```mermaid
-flowchart TB
-    A((Cognishire People Routes))
-
-    A --> B[Local evidence]
-    A --> C[Accessible structure]
-    A --> D[Disability-centered framing]
-    A --> E[Assistive tools]
-    A --> F[AI accessibility]
-    A --> G[Accountability]
-
-    B --> B1[UVT support<br/>and Faculty routes]
-    C --> C1[Wobbrock<br/>Findlater]
-    D --> D1[Bennett<br/>Shinohara<br/>Mankoff]
-    E --> E1[Azenkot<br/>Hurst<br/>Ladner]
-    F --> F1[Kacorri<br/>Kane<br/>Morris]
-    G --> G1[Lazar<br/>Mankoff]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G node;
-    class B1,C1,D1,E1,F1,G1 detail;
-```
-
-| Cognishire problem | Best people route |
-|---|---|
-| Fantasy names may hide the academic meaning | Shinohara, Bennett, UVT local review route |
-| Mermaid diagrams may be hard to read or interpret | Wobbrock, Findlater, Web accessibility routes |
-| Obsidian/GitHub setup may break access | UVT software/workflow routes, Mankoff, Lazar |
-| Keyboard and screen-reader structure need testing | Wobbrock, Lazar, WebAIM/W3C routes |
-| AI-generated help may hallucinate or exclude users | Kacorri, Kane, Morris, Bennett |
-| Accessibility might become a checklist only | Mankoff, Bennett, Shinohara, Lazar |
-| The local project may overclaim from limited evidence | UVT local routes, Lazar, HCI evaluation methods |
-
-## Synthesis
-
-Important People for **Accessibility and Inclusive Design** is a roadmap for learning from real public work without overclaiming. Locally, the safest route is to connect the Cognishire project to UVT accessibility support and to public Faculty of Informatics research routes. These routes can help frame accessibility as a local university responsibility, a software issue, an AI issue, a data issue, and a teaching-material issue.
-
-Globally, accessible computing is shaped by researchers who study interaction techniques, disability-centered design, assistive technology, accessibility education, AI accessibility, and policy. Wobbrock, Mankoff, Ladner, Bennett, Shinohara, Morris, Findlater, Azenkot, Hurst, Kacorri, Kane, and Lazar offer different routes into the field. They should not be treated as interchangeable names. Each route answers a different question.
-
-The central question is:
-
-> Which person or lab gives the best route for the specific accessibility problem I am trying to understand?
-
-This page connects to [[Activities/Theory]] because people define the concepts and debates. It connects to [[Activities/Design]] because their work informs components, methods, and tools. It connects to [[Activities/Experiment]] because accessibility claims need evidence. It connects to [[Connections]] because accessibility depends on disability studies, software engineering, law, AI, education, and policy. It connects to [[Important Venues]] because these people publish through accessibility and HCI communities.
+For UVT routes, ask about the connection between your study and a method, not for general approval.
 
 ## Academic Anchors
 

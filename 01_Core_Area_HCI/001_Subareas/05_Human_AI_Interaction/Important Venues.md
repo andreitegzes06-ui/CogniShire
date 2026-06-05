@@ -1,69 +1,25 @@
----
-title: Important Venues
-area: Human-AI Interaction
-display-name: The Oracle Engine
-category: Venue Atlas
-cs2023_unit: HCI-Human-AI-Interaction
-secondary_units:
-  - HCI-Design
-  - HCI-Evaluation
-  - HCI-Accountability
-  - AI-Society-Ethics
-cssclasses:
-  - oracle-engine
-tags:
-  - HCI
-  - CS2023
-  - Human-AI-Interaction
-  - human-centered-AI
-  - important-venues
-  - intelligent-user-interfaces
-  - responsible-AI
-  - explainable-AI
-  - human-agent-interaction
-  - AI-ethics
-  - FAccT
-  - IUI
-  - CHI
-  - HAI
-  - TiiS
-  - UVT
-  - Romania
-  - local-global
-status: max-polished-factchecked
----
-
+![[shopcyber.gif|1000]]
 # Important Venues
-
-Back to [[Overview|The Oracle Engine]].
 
 > [!abstract] Oracle Venue Atlas
 > This page maps the places where **Human-AI Interaction** is studied, designed, tested, criticised, and governed. It includes local UVT routes, Romanian HCI and AI-accessibility routes, international conferences, journals, research institutes, standards bodies, design toolkits, and policy sources.
 
-The fantasy name is **Oracle Venue Atlas**.  
 The real academic topic is **Human-AI Interaction**.  
 The CS2023 bridge is **Human-Computer Interaction + Artificial Intelligence + Society, Ethics, and Professionalism**.  
 The real-life meaning is **knowing where to search when the question is how people should understand, verify, trust, correct, control, and remain responsible when using AI systems**.
 
-This page is not a generic AI conference list. A technical machine-learning venue may be useful, but the Oracle Engine focuses on the meeting point between AI and people. The best sources for this page study intelligent user interfaces, human-centred AI, explainable AI, Human-AI collaboration, human-agent interaction, trust calibration, AI accessibility, AI literacy, and responsible AI governance.
-
-> [!quote] Atlas rule
-> A venue belongs in the Oracle Engine when it helps answer this question: **what happens to human judgement, trust, control, access, and responsibility when AI becomes part of the interaction?**
-
 ## How to use this page
 
-| If your question is about... | Start with... | Then check... |
-|---|---|---|
-| AI interface behaviour | IUI, CHI, Microsoft HAX, Google PAIR | TiiS, TOCHI |
-| Trust, verification, and uncertainty | CHI, IUI, TiiS | FAccT, NIST AI RMF, VIS |
-| Explainable AI for users | IUI, CHI, TiiS | VIS, FAccT, AIES |
-| AI in work and organisations | CSCW, CHIWORK, CHI | ICSE, DIS |
-| Agents, chatbots, robots, or assistants | HAI, HRI, IVA, ICMI | ACL/EMNLP, CHI |
-| AI accessibility | ASSETS, Web4All, A(I)BILITIES | CHI, IUI, XR Access |
-| AI education and AI literacy | SIGCSE, AIED, Learning at Scale | CHI, LAK, EDM |
-| Responsible AI and governance | FAccT, AIES, NIST AI RMF, EU AI Act | AI Incident Database, Partnership on AI |
-| Local UVT grounding | UVT Faculty of Informatics, CSAI, DTSE, TRAIN | UVT seminar and AI/ML routes |
-| Romanian grounding | RoCHI, A(I)BILITIES, USV/MintViz | Romanian accessibility and HCI work |
+- **AI interface behaviour:** start with...: IUI, CHI, Microsoft HAX, Google PAIR; then check...: TiiS, TOCHI
+- **Trust, verification, and uncertainty:** start with...: CHI, IUI, TiiS; then check...: FAccT, NIST AI RMF, VIS
+- **Explainable AI for users:** start with...: IUI, CHI, TiiS; then check...: VIS, FAccT, AIES
+- **AI in work and organisations:** start with...: CSCW, CHIWORK, CHI; then check...: ICSE, DIS
+- **Agents, chatbots, robots, or assistants:** start with...: HAI, HRI, IVA, ICMI; then check...: ACL/EMNLP, CHI
+- **AI accessibility:** start with...: ASSETS, Web4All, A(I)BILITIES; then check...: CHI, IUI, XR Access
+- **AI education and AI literacy:** start with...: SIGCSE, AIED, Learning at Scale; then check...: CHI, LAK, EDM
+- **Responsible AI and governance:** start with...: FAccT, AIES, NIST AI RMF, EU AI Act; then check...: AI Incident Database, Partnership on AI
+- **Local UVT grounding:** start with...: UVT Faculty of Informatics, CSAI, DTSE, TRAIN; then check...: UVT seminar and AI/ML routes
+- **Romanian grounding:** start with...: RoCHI, A(I)BILITIES, USV/MintViz; then check...: Romanian accessibility and HCI work
 
 ## Venue Atlas Map
 
@@ -83,7 +39,7 @@ flowchart TB
     A --> K[Journals + Toolkits]
 
     B --> B1[CSAI, DTSE,<br/>TRAIN, seminars]
-    C --> C1[RoCHI, A(I)BILITIES,<br/>USV / MintViz]
+    C --> C1[RoCHI, AIBILITIES,<br/>USV / MintViz]
     D --> D1[CHI, IUI,<br/>HAI, TiiS]
     E --> E1[FAccT, AIES,<br/>NIST, EU AI Act]
     F --> F1[IUI, CHI,<br/>VIS, TiiS]
@@ -101,19 +57,6 @@ flowchart TB
     class B,C,D,E,F,G,H,I,J,K node;
     class B1,C1,D1,E1,F1,G1,H1,I1,J1,K1 detail;
 ```
-
-| Venue territory | Real meaning | Use it when the question is about... |
-|---|---|---|
-| Local UVT routes | The local university context where AI, ML, software systems, seminars, and student projects exist | grounding the project in the place where it is built and reviewed |
-| Romanian HCI + AI routes | National HCI, AI accessibility, assistive technology, and Romanian-language context | avoiding a page that is only imported from global sources |
-| Core Human-AI venues | International HCI venues focused on AI-facing interfaces | design, evaluation, trust, explanation, and intelligent interaction |
-| Responsible AI venues | Fairness, accountability, transparency, risk, policy, and social impact | harms, oversight, audit, governance, and power |
-| Explainable AI + visualisation | Explanations, interpretability, evidence displays, and uncertainty | helping users judge AI output |
-| Work + collaboration | AI in teams, organisations, software work, and knowledge work | how AI changes human work practices |
-| Agents + conversation | Human-agent, robot, virtual-agent, multimodal, and dialogue interaction | chatbots, assistants, robots, embodied systems, and agentic AI |
-| Accessibility + inclusive AI | AI for disabled users and AI systems that affect access | whether AI supports or blocks participation |
-| Education + AI literacy | AI tutoring, student use, learning analytics, and academic integrity | whether AI helps students learn or only produce work |
-| Journals + toolkits | Long-form research and practical design guidance | deeper literature and design patterns |
 
 ## CS2023 Venue Gate
 
@@ -146,68 +89,19 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| CS2023 route | Best venue route | What to look for |
-|---|---|---|
-| HCI Design | CHI, IUI, DIS, UIST, HAI | interface patterns, feedback, prompt design, controls |
-| HCI Evaluation | CHI, IUI, CSCW, TiiS, TOCHI | user studies, trust measures, explanation studies, oversight tests |
-| Artificial Intelligence | AAAI, IJCAI, NeurIPS, ICML, ICLR, ACL | model capability, uncertainty, language systems, safety, technical limits |
-| Ethics and Accountability | FAccT, AIES, NIST AI RMF, EU AI Act | risk, harm, fairness, governance, human oversight |
-| Software Engineering | ICSE, FSE, CHIWORK, CSCW | AI as deployed software, code assistants, logs, monitoring, reliability |
-| Accessibility | ASSETS, Web4All, XR Access, A(I)BILITIES | inclusive AI, assistive AI, access barriers, disabled-user experience |
-| Education | SIGCSE, AIED, Learning at Scale, LAK, EDM | AI literacy, tutoring, student-AI use, learning analytics |
+- **HCI Design:** best venue route: CHI, IUI, DIS, UIST, HAI (look for: interface patterns, feedback, prompt design, controls)
+- **HCI Evaluation:** best venue route: CHI, IUI, CSCW, TiiS, TOCHI (look for: user studies, trust measures, explanation studies, oversight tests)
+- **Artificial Intelligence:** best venue route: AAAI, IJCAI, NeurIPS, ICML, ICLR, ACL (look for: model capability, uncertainty, language systems, safety, technical limits)
+- **Ethics and Accountability:** best venue route: FAccT, AIES, NIST AI RMF, EU AI Act (look for: risk, harm, fairness, governance, human oversight)
+- **Software Engineering:** best venue route: ICSE, FSE, CHIWORK, CSCW (look for: AI as deployed software, code assistants, logs, monitoring, reliability)
+- **Accessibility:** best venue route: ASSETS, Web4All, XR Access, A(I)BILITIES (look for: inclusive AI, assistive AI, access barriers, disabled-user experience)
+- **Education:** best venue route: SIGCSE, AIED, Learning at Scale, LAK, EDM (look for: AI literacy, tutoring, student-AI use, learning analytics)
 
 ## Local UVT Venue Layer
 
-The local layer begins with UVT. These are not all Human-AI research venues in a strict sense. They are local routes that can support Human-AI questions inside the real project context.
-
-```mermaid
-flowchart TB
-    A((Local UVT Venue Layer))
-
-    A --> B[Faculty of Informatics]
-    A --> C[CSAI]
-    A --> D[DTSE]
-    A --> E[AI + ML Research Route]
-    A --> F[TRAIN]
-    A --> G[Scientific Seminar]
-    A --> H[Student Project Venue]
-
-    B --> B1[Local CS home]
-    C --> C1[AI, ML,<br/>intelligent systems]
-    D --> D1[Software, workflows,<br/>web and cloud systems]
-    E --> E1[Researcher and topic map]
-    F --> F1[Timișoara AI network]
-    G --> G1[Talks and academic exchange]
-    H --> H1[Obsidian, GitHub,<br/>professor review]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G,H node;
-    class B1,C1,D1,E1,F1,G1,H1 detail;
-```
-
-| Local UVT route | Why it matters for Human-AI Interaction |
-|---|---|
-| UVT Faculty of Informatics | Local Computer Science home of the project |
-| CSAI | Local route for artificial intelligence, machine learning, intelligent systems, data, prediction, and AI education |
-| DTSE | Local route for AI as software: workflows, web systems, distributed systems, cloud, implementation, and maintainability |
-| UVT AI and ML research route | Local map for AI/ML researchers and topics |
-| TRAIN | Local AI network route for Timișoara and UVT AI visibility |
-| Scientific Seminar | Local academic exchange route, useful for AI and explainable-AI topics when relevant talks appear |
-| Artificial Intelligence bachelor programme | Local teaching route for AI foundations relevant to Human-AI Interaction |
-| Artificial Intelligence and Distributed Computing master | Local route for AI, distributed systems, cloud, and reliable intelligent systems |
-| Obsidian/GitHub project context | The immediate venue where AI-assisted source verification, design, and accountability are tested |
-| Professor review | The local evaluation venue where the AI-assisted project must be academically inspectable |
-
-> [!warning] Local wording rule
-> Do not claim that UVT has a dedicated Human-AI Interaction venue unless an official source says so. Use the safer phrase: **UVT routes that can support Human-AI Interaction questions**.
+The local layer begins with UVT. These are not all Human-AI research venues in a strict sense. They are local routes that can support Human-AI questions inside the real study context.
 
 ## Romanian Venue Layer
-
-The Romanian layer keeps the Oracle Engine grounded in national HCI and accessibility-related AI work. It should be used carefully. Some routes are direct HCI routes. Some are adjacent routes that become relevant when the topic is AI accessibility, assistive technology, or Romanian-language interaction.
 
 ```mermaid
 flowchart TB
@@ -224,7 +118,7 @@ flowchart TB
     C --> C1[Published Romanian HCI work]
     D --> D1[Generative AI for accessibility]
     E --> E1[HCI, XR,<br/>accessible computing]
-    F --> F1[Applied project partner]
+    F --> F1[Applied research partner]
     G --> G1[Web and tool evaluation]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
@@ -236,19 +130,15 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Romanian route | What it contributes |
-|---|---|
-| RoCHI proceedings | National HCI route for Romanian interactive systems, usability, accessibility, and HCI education |
-| Romanian HCI community | Keeps the project from being only global and imported |
-| A(I)BILITIES | Romanian route for generative AI and personalised digital accessibility |
-| USV / MintViz | Route for HCI, XR, accessible computing, gesture interaction, and intelligent interaction |
-| ASSIST Software A(I)BILITIES page | Applied Romanian project route for generative AI and digital accessibility |
-| Romanian accessibility evaluation papers | Evidence route for web accessibility, tools, public systems, and university websites |
-| Romanian language context | Localisation, terminology, translation accuracy, and cognitive access |
+- **RoCHI proceedings:** National HCI route for Romanian interactive systems, usability, accessibility, and HCI education
+- **Romanian HCI community:** Keeps the study from being only global and imported
+- **A(I)BILITIES:** Romanian route for generative AI and personalised digital accessibility
+- **USV / MintViz:** Route for HCI, XR, accessible computing, gesture interaction, and intelligent interaction
+- **ASSIST Software A(I)BILITIES page:** Applied Romanian research route for generative AI and digital accessibility
+- **Romanian accessibility evaluation papers:** Evidence route for web accessibility, tools, public systems, and university websites
+- **Romanian language context:** Localisation, terminology, translation accuracy, and cognitive access
 
 ## Core Human-AI Venues
-
-These are the central international routes for the Oracle Engine.
 
 ```mermaid
 flowchart TB
@@ -287,7 +177,7 @@ flowchart TB
 | [Google People + AI Guidebook](https://pair.withgoogle.com/guidebook/) | Practical guidance for designing human-centered AI products |
 | [Stanford HAI](https://hai.stanford.edu/) | Institute route for human-centered AI research, education, policy, and public discussion |
 
-**Real-life translation:** use this gate when the page is about prompts, AI outputs, uncertainty, trust, explanations, source verification, AI roles, user control, and intelligent interface design.
+**Practical use:** use this route when the page is about prompts, AI outputs, uncertainty, trust, explanations, source verification, AI roles, user control, and intelligent interface design.
 
 ## Responsible AI and Accountability Venues
 
@@ -330,7 +220,7 @@ flowchart TB
 | [AI Incident Database](https://incidentdatabase.ai/) | Case evidence about AI failures and harms |
 | [Partnership on AI](https://partnershiponai.org/) | Multi-stakeholder guidance and responsible AI practice |
 
-**Real-life translation:** use this gate when an AI system can affect fairness, trust, power, privacy, safety, human oversight, or responsibility.
+**Practical use:** use this route when an AI system can affect fairness, trust, power, privacy, safety, human oversight, or responsibility.
 
 ## Explainable AI and Visualisation Venues
 
@@ -375,7 +265,7 @@ flowchart TB
 | FAccT | Explanations tied to fairness, accountability, transparency, and social impact |
 | AIES | Explanations tied to ethics, policy, and governance |
 
-**Real-life translation:** use this gate when the question is: **how should the system explain itself so a human can make a better decision?**
+**Practical use:** use this route when the question is: **how should the system explain itself so a human can make a better decision?**
 
 ## Human-AI Work and Collaboration Venues
 
@@ -417,7 +307,7 @@ flowchart TB
 | UIST | AI-powered interaction techniques and interface tools |
 | ICSE / FSE | AI-assisted software engineering, developer tools, code generation, and reliability |
 
-**Real-life translation:** use this gate when AI changes how people write, code, make decisions, organise tasks, or cooperate.
+**Practical use:** use this route when AI changes how people write, code, make decisions, organise tasks, or cooperate.
 
 ## Human-Agent and Conversational AI Venues
 
@@ -459,11 +349,9 @@ flowchart TB
 | ACL / EMNLP | Language models, dialogue systems, summarisation, NLP behaviour, and evaluation |
 | CHI | Human-centred evaluation of agents and conversational systems |
 
-**Real-life translation:** use this gate when the AI is not only giving an output, but appearing as a social, conversational, or semi-autonomous actor.
+**Practical use:** use this route when the AI is not only giving an output, but appearing as a social, conversational, or semi-autonomous actor.
 
 ## AI Accessibility and Inclusive AI Venues
-
-This gate connects the Oracle Engine to the Inclusive Gate.
 
 ```mermaid
 flowchart TB
@@ -500,8 +388,6 @@ flowchart TB
 | XR Access | AI and accessibility in immersive environments |
 | CHI | Human-centred AI accessibility studies |
 | IUI | Intelligent interfaces for access, adaptation, and personalisation |
-
-**Real-life translation:** use this gate when AI claims to help disabled users, adapt interfaces, generate alt text, summarise content, personalise access, or make digital systems more usable.
 
 ## AI Education and AI Literacy Venues
 
@@ -543,7 +429,7 @@ flowchart TB
 | LAK | Learning analytics and educational data |
 | EDM | Educational data mining and adaptive learning systems |
 
-**Real-life translation:** use this gate when the question is whether AI helps the student learn, reason, verify, and revise, rather than simply complete a task.
+**Practical use:** use this route when the question is whether AI helps the student learn, reason, verify, and revise, rather than simply complete a task.
 
 ## Technical AI Venues to Use Carefully
 
@@ -620,16 +506,14 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1,I1 detail;
 ```
 
-| Journal / archive | Why it matters |
-|---|---|
-| ACM Transactions on Interactive Intelligent Systems | Strong archive for systems that combine interaction and machine intelligence |
-| ACM Transactions on Computer-Human Interaction | Core archival HCI journal |
-| Proceedings of the ACM on Human-Computer Interaction | Major HCI proceedings journal, including CSCW and other HCI communities |
-| Human-Computer Interaction | Long-form HCI research journal |
-| International Journal of Human-Computer Interaction | Broad HCI journal including AI interaction, UX, usability, and human factors |
-| AI & Society | Social, ethical, philosophical, and policy dimensions of AI |
-| Interacting with Computers | HCI research methods, theory, and applied interaction |
-| Behaviour & Information Technology | Human factors, usability, and technology in real contexts |
+- **ACM Transactions on Interactive Intelligent Systems:** Strong archive for systems that combine interaction and machine intelligence
+- **ACM Transactions on Computer-Human Interaction:** Core archival HCI journal
+- **Proceedings of the ACM on Human-Computer Interaction:** Major HCI proceedings journal, including CSCW and other HCI communities
+- **Human-Computer Interaction:** Long-form HCI research journal
+- **International Journal of Human-Computer Interaction:** Broad HCI journal including AI interaction, UX, usability, and human factors
+- **AI & Society:** Social, ethical, philosophical, and policy dimensions of AI
+- **Interacting with Computers:** HCI research methods, theory, and applied interaction
+- **Behaviour & Information Technology:** Human factors, usability, and technology in real contexts
 
 ## Toolkit and Institute Gate
 
@@ -662,14 +546,12 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Toolkit / institute | Use it for |
-|---|---|
-| Microsoft HAX Toolkit | Human-AI design guidelines, checklists, cards, and failure-aware design |
-| Google PAIR Guidebook | Practical patterns for human-centered AI products |
-| Stanford HAI | Research, policy, education, and public reports about human-centered AI |
-| NIST AI RMF | Risk management vocabulary and governance structure |
-| Partnership on AI | Responsible AI practice and multi-stakeholder guidance |
-| AI Incident Database | Concrete cases of AI failure and harm |
+- **Microsoft HAX Toolkit:** Human-AI design guidelines, checklists, cards, and failure-aware design
+- **Google PAIR Guidebook:** Practical patterns for human-centered AI products
+- **Stanford HAI:** Research, policy, education, and public reports about human-centered AI
+- **NIST AI RMF:** Risk management vocabulary and governance structure
+- **Partnership on AI:** Responsible AI practice and multi-stakeholder guidance
+- **AI Incident Database:** Concrete cases of AI failure and harm
 
 ## Venue Selection Route
 
@@ -739,17 +621,6 @@ flowchart LR
     class F final;
 ```
 
-| Project problem | Venue combination |
-|---|---|
-| AI invented or overstated a local UVT claim | UVT official page + HAX/PAIR verification pattern + issue log |
-| AI generated an impressive but unsupported page | CHI/IUI + source verification + NIST risk framing |
-| AI explanation did not help judgement | IUI + CHI + TiiS + VIS |
-| AI changed how the student works | CHIWORK + CSCW + SIGCSE |
-| AI accessibility claim is untested | ASSETS + Web4All + A(I)BILITIES + WCAG/WAI if web-based |
-| AI agent might edit project files | HAI + software engineering + HAX + GitHub workflow |
-| AI output may be biased or harmful | FAccT + AIES + AI Incident Database + NIST AI RMF |
-| AI source support is weak | Official source + Human-AI method + claim-boundary table |
-
 ## Venue Reliability Ladder
 
 ```mermaid
@@ -785,86 +656,17 @@ flowchart TB
 
 ## Broad Oracle Venue Atlas
 
-| Territory                   | Main routes                                                         | What they map                                                                   |
-| --------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Local UVT                   | Faculty of Informatics, CSAI, DTSE, TRAIN, seminars, project review | Local AI, software, workflow, and student-project context                       |
-| Romania                     | RoCHI, A(I)BILITIES, USV/MintViz, Romanian accessibility evaluation | National HCI, AI accessibility, assistive technology, Romanian-language context |
-| Core Human-AI               | IUI, CHI, HAI, TiiS                                                 | AI interfaces, intelligent systems, user studies, agents                        |
-| Responsible AI              | FAccT, AIES, NIST, EU AI Act, AI Incident Database                  | Accountability, fairness, risk, oversight, governance                           |
-| Explanation + visualisation | IUI, CHI, TiiS, IEEE VIS, FAccT                                     | Explainability, uncertainty, evidence displays                                  |
-| Work + collaboration        | CSCW, CHIWORK, ICSE, DIS, UIST                                      | AI in organisations, teams, software, workflows                                 |
-| Agents + conversation       | HAI, HRI, IVA, ICMI, ACL/EMNLP                                      | Chatbots, robots, virtual agents, multimodal AI                                 |
-| Accessibility               | ASSETS, Web4All, A(I)BILITIES, XR Access                            | AI for access and disabled-user experience                                      |
-| Education                   | SIGCSE, AIED, Learning at Scale, LAK, EDM                           | AI literacy, tutoring, learning analytics                                       |
-| Journals                    | TiiS, TOCHI, PACM HCI, HCI Journal, IJHCI, AI & Society             | Deep literature and archival references                                         |
-| Toolkits                    | Microsoft HAX, Google PAIR, Stanford HAI, NIST AI RMF               | Practical design, risk, policy, and public guidance                             |
-
-## Cognishire Venue Route
-
-```mermaid
-flowchart TB
-    A((Cognishire Oracle Route))
-
-    A --> B[Local source]
-    A --> C[Romanian source]
-    A --> D[Human-AI method]
-    A --> E[Risk method]
-    A --> F[Design toolkit]
-    A --> G[Evaluation venue]
-    A --> H[Repair page]
-
-    B --> B1[CSAI / DTSE / TRAIN]
-    C --> C1[RoCHI / AIBILITIES]
-    D --> D1[IUI / CHI / HAI / TiiS]
-    E --> E1[FAccT / AIES / NIST]
-    F --> F1[HAX / PAIR]
-    G --> G1[CHI / IUI / CSCW / ASSETS]
-    H --> H1[Update Obsidian page<br/>and issue log]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G,H node;
-    class B1,C1,D1,E1,F1,G1,H1 final;
-```
-
-| Cognishire issue | Best venue route |
-|---|---|
-| AI wrote content that needs verification | HAX, PAIR, CHI, IUI |
-| AI source support is weak | Official source + IUI/CHI method + issue log |
-| AI role is unclear | Microsoft Human-AI guidelines, Google PAIR |
-| AI trust is miscalibrated | CHI, IUI, TiiS, FAccT |
-| AI changes student workflow | CHIWORK, CSCW, SIGCSE |
-| AI affects accessibility | ASSETS, Web4All, A(I)BILITIES |
-| AI output needs local grounding | UVT CSAI/DTSE, TRAIN, RoCHI |
-| AI output needs national Romanian grounding | RoCHI, USV/MintViz, A(I)BILITIES |
-| AI agent might act across files | HAI, software engineering, HAX, NIST AI RMF |
-| AI explanation is unclear | IUI, CHI, TiiS, VIS |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Human-AI Interaction is a single official CS2023 unit.” | “Human-AI Interaction is treated here as a bridge between HCI, AI, software, accessibility, and ethics.” |
-| “UVT has a dedicated Human-AI Interaction venue.” | “UVT has local AI, ML, software, seminar, and project routes relevant to Human-AI questions.” |
-| “A technical AI benchmark proves good Human-AI Interaction.” | “Technical AI evidence must be paired with HCI evidence about user understanding, control, and trust.” |
-| “A toolkit is a peer-reviewed venue.” | “Toolkits are practical design sources. They should be used with research and official standards.” |
-| “FAccT or AIES replaces interface evaluation.” | “Responsible AI venues frame risk and accountability. Interface behaviour still needs HCI evaluation.” |
-| “AI accessibility is solved by an AI feature.” | “AI accessibility claims need evidence from accessibility venues, standards, and user testing.” |
-
-## Venue Synthesis
-
-Important Venues for **Human-AI Interaction** form a local-global atlas. Locally, the Oracle Engine starts with UVT: Faculty of Informatics, CSAI, DTSE, AI and ML research routes, TRAIN, scientific seminars, AI programmes, and the real Obsidian/GitHub project context. Nationally, it connects to RoCHI, A(I)BILITIES, USV/MintViz, ASSIST Software, Romanian accessibility evaluation, and Romanian-language interaction. Globally, it connects to IUI, CHI, HAI, TiiS, FAccT, AIES, CSCW, CHIWORK, ASSETS, Web4All, SIGCSE, AIED, NIST AI RMF, EU AI Act, Microsoft HAX, Google PAIR, and Stanford HAI.
-
-The central lesson is that there is no single Human-AI venue. If the question is interface behaviour, search IUI and CHI. If the question is responsibility, search FAccT, AIES, NIST, and the EU AI Act. If the question is agent behaviour, search HAI, HRI, IVA, and ACL/EMNLP. If the question is accessibility, search ASSETS and Web4All. If the question is work, search CSCW and CHIWORK. If the question is learning, search SIGCSE and AIED. If the question is local, start from UVT and Romania before expanding globally.
-
-The central question is:
-
-> Where should I search for evidence, standards, methods, and examples when AI changes what humans believe, decide, trust, verify, and control?
-
-This page connects to [[Activities/Theory]] because venues shape the concepts used in Human-AI Interaction. It connects to [[Activities/Design]] because toolkits and Human-AI venues become interface patterns. It connects to [[Activities/Experiment]] because venues define how trust, verification, explanation, oversight, and collaboration are tested. It connects to [[Connections]] because each venue belongs to several fields. It connects to [[Important People]] because researchers publish and organise work through these venues.
+- **Local UVT:** main routes: Faculty of Informatics, CSAI, DTSE, TRAIN, seminars, academic review; what they map: Local AI, software, workflow, and student-work context
+- **Romania:** main routes: RoCHI, A(I)BILITIES, USV/MintViz, Romanian accessibility evaluation; what they map: National HCI, AI accessibility, assistive technology, Romanian-language context
+- **Core Human-AI:** main routes: IUI, CHI, HAI, TiiS; what they map: AI interfaces, intelligent systems, user studies, agents
+- **Responsible AI:** main routes: FAccT, AIES, NIST, EU AI Act, AI Incident Database; what they map: Accountability, fairness, risk, oversight, governance
+- **Explanation + visualisation:** main routes: IUI, CHI, TiiS, IEEE VIS, FAccT; what they map: Explainability, uncertainty, evidence displays
+- **Work + collaboration:** main routes: CSCW, CHIWORK, ICSE, DIS, UIST; what they map: AI in organisations, teams, software, workflows
+- **Agents + conversation:** main routes: HAI, HRI, IVA, ICMI, ACL/EMNLP; what they map: Chatbots, robots, virtual agents, multimodal AI
+- **Accessibility:** main routes: ASSETS, Web4All, A(I)BILITIES, XR Access; what they map: AI for access and disabled-user experience
+- **Education:** main routes: SIGCSE, AIED, Learning at Scale, LAK, EDM; what they map: AI literacy, tutoring, learning analytics
+- **Journals:** main routes: TiiS, TOCHI, PACM HCI, HCI Journal, IJHCI, AI & Society; what they map: Deep literature and archival references
+- **Toolkits:** main routes: Microsoft HAX, Google PAIR, Stanford HAI, NIST AI RMF; what they map: Practical design, risk, policy, and public guidance
 
 ## Academic Anchors
 
@@ -881,7 +683,7 @@ This page connects to [[Activities/Theory]] because venues shape the concepts us
 | UVT Scientific Seminar | [Scientific Seminar](https://research.info.uvt.ro/scientific-seminar/) |
 | UVT AI and Distributed Computing master | [Artificial Intelligence and Distributed Computing](https://info.uvt.ro/en/master/artificial-intelligence-distributed-computing/) |
 | RoCHI proceedings | [Romanian HCI proceedings](https://rochi.utcluj.ro/proceedings/en/) |
-| A(I)BILITIES project | [A(I)BILITIES](https://aibilities.ro/en/about/) |
+| A(I)BILITIES route | [A(I)BILITIES](https://aibilities.ro/en/about/) |
 | MintViz A(I)BILITIES route | [MintViz A(I)BILITIES](https://mintviz.usv.ro/projects/A%28I%29BILITIES/index.php) |
 | ASSIST Software A(I)BILITIES | [A(I)BILITIES at ASSIST Software](https://assist-software.net/project/aibilities) |
 | Radu-Daniel Vatavu route | [Radu-Daniel Vatavu homepage](https://raduvatavu.usv.ro/) |

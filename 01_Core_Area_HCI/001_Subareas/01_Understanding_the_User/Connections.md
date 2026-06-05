@@ -1,27 +1,5 @@
----
-title: Connections
-area: Mind Library
-category: Connections
-cssclasses:
-  - mind-library
-tags:
-  - HCI
-  - cognition
-  - psychology
-  - design
-  - accessibility
-  - ethics
-  - AI
-  - sociotechnical-systems
-status: visual-academic-factchecked
----
 ![[connections11.webp|1000]]
 # Connections
-
-> [!abstract] Bridge Map
-> Connections maps how the Mind Library links HCI concepts to the wider field of Human-Computer Interaction. HCI draws from cognition, psychology, design, computer science, accessibility, ethics, artificial intelligence, organisational practice, and social life.
-
-The Mind Library becomes useful when its concepts travel. A mental model matters because it changes how an interface should be structured. Cognitive load matters because it changes task performance and perceived effort. Accessibility matters because it changes who can participate. Trust matters because automated systems increasingly ask users to accept, question, correct, or override machine output.
 
 Connections is therefore the bridge atlas of this area. It shows how ideas move from [[Activities/Theory]] into [[Activities/Design]], how they are tested in [[Activities/Experiment]], and how they expand into [[Important People]], [[Important Venues]], [[Local and Global]], and [[Open Problems]].
 
@@ -30,46 +8,10 @@ Connections is therefore the bridge atlas of this area. It shows how ideas move 
 
 ## Bridge compass
 
-The first map shows the four main directions of the Mind Library. Cognition explains the user's limits and interpretations. Design turns those interpretations into visible form. Computing creates the system behaviour that users experience. Society shapes the values, institutions, cultures, and power relations around the interaction.
-
-```mermaid
-flowchart LR
-    A["Mind Library"] --> B["Cognition"]
-    A --> C["Design"]
-    A --> D["Computing"]
-    A --> E["Society"]
-
-    B --> B1["Perception"]
-    B --> B2["Memory"]
-    B --> B3["Attention"]
-
-    C --> C1["Form"]
-    C --> C2["Feedback"]
-    C --> C3["Navigation"]
-
-    D --> D1["Systems"]
-    D --> D2["AI"]
-    D --> D3["Data"]
-
-    E --> E1["Ethics"]
-    E --> E2["Culture"]
-    E --> E3["Access"]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef bridge fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E bridge;
-    class B1,B2,B3,C1,C2,C3,D1,D2,D3,E1,E2,E3 detail;
-```
-
-| Bridge realm | Central question | HCI consequence |
-|---|---|---|
-| Cognition | How do users perceive, remember, decide, and learn? | Interfaces must respect attention, memory, and mental models. |
-| Design | How should interaction become visible and usable? | Systems need structure, signifiers, feedback, and recovery paths. |
-| Computing | How does system behaviour become interpretable? | Users need transparency, control, reliability, and understandable outcomes. |
-| Society | Who is included, excluded, influenced, or harmed? | HCI must address accessibility, ethics, culture, and power. |
+- **Cognition:** central question: How do users perceive, remember, decide, and learn?; hci consequence: Interfaces must respect attention, memory, and mental models.
+- **Design:** central question: How should interaction become visible and usable?; hci consequence: Systems need structure, signifiers, feedback, and recovery paths.
+- **Computing:** central question: How does system behaviour become interpretable?; hci consequence: Users need transparency, control, reliability, and understandable outcomes.
+- **Society:** central question: Who is included, excluded, influenced, or harmed?; hci consequence: HCI must address accessibility, ethics, culture, and power.
 
 ## The cognitive bridge
 
@@ -98,20 +40,14 @@ flowchart LR
     class B1,C1,D1,E1 trace;
 ```
 
-The key move in this bridge is from isolated cognition to situated cognition. HCI does not study memory or attention as abstract laboratory objects only. It studies how memory and attention operate while a person works with a designed artefact. A calendar app supports memory. A progress bar supports expectation. A warning supports decision-making. A navigation structure supports orientation.
-
-| Cognitive idea | Interface translation | Possible experimental trace |
-|---|---|---|
-| Mental model | System structure should match user expectation. | Users choose the expected route more quickly. |
-| Cognitive load | Interfaces should reduce unnecessary mental effort. | Users complete tasks with fewer pauses and corrections. |
-| Attention | Important actions should be visually discoverable. | Users notice primary actions without searching. |
-| Feedback | System response should make action outcomes clear. | Users stop repeating actions after receiving confirmation. |
+- **Mental model:** interface translation: System structure should match user expectation.; possible experimental trace: Users choose the expected route more quickly.
+- **Cognitive load:** interface translation: Interfaces should reduce unnecessary mental effort.; possible experimental trace: Users complete tasks with fewer pauses and corrections.
+- **Attention:** interface translation: Important actions should be visually discoverable.; possible experimental trace: Users notice primary actions without searching.
+- **Feedback:** interface translation: System response should make action outcomes clear.; possible experimental trace: Users stop repeating actions after receiving confirmation.
 
 Useful anchors for this bridge include [NN/g on mental models](https://www.nngroup.com/articles/mental-models/), [NN/g on recognition rather than recall](https://www.nngroup.com/articles/recognition-and-recall/), and the [Interaction Design Foundation overview of HCI](https://www.interaction-design.org/literature/topics/human-computer-interaction).
 
 ## The design bridge
-
-The design bridge connects knowledge about users to visible interaction form. If the Mind Library explains how users think, Design asks how that explanation should become structure, layout, navigation, signifier, feedback, constraint, and prototype.
 
 A design is not just a visual layer. It is a theory of the user made visible. A layout implies what matters first. A menu implies how information is grouped. A button implies what action is possible. An error message implies how the system understands failure. A prototype implies what kind of interaction is being imagined.
 
@@ -162,12 +98,10 @@ flowchart LR
     class F result;
 ```
 
-| System behaviour | User interpretation problem | Design responsibility |
-|---|---|---|
-| Delay | Is the system broken or still working? | Show progress, status, and recovery. |
-| Recommendation | Why was this shown to me? | Explain relevance and allow control. |
-| Error | What happened and how do I fix it? | Provide clear, actionable recovery. |
-| Automation | Should I trust this decision? | Show uncertainty, limits, and override paths. |
+- **Delay:** user interpretation problem: Is the system broken or still working?; design responsibility: Show progress, status, and recovery.
+- **Recommendation:** user interpretation problem: Why was this shown to me?; design responsibility: Explain relevance and allow control.
+- **Error:** user interpretation problem: What happened and how do I fix it?; design responsibility: Provide clear, actionable recovery.
+- **Automation:** user interpretation problem: Should I trust this decision?; design responsibility: Show uncertainty, limits, and override paths.
 
 This bridge is especially important for human-AI interaction. AI systems can be probabilistic, adaptive, and opaque. Users may overtrust them, undertrust them, misunderstand their limits, or treat generated output as more certain than it is.
 
@@ -197,10 +131,7 @@ flowchart LR
     class G result;
 ```
 
-> [!warning] Trust calibration
-> The goal of human-AI interaction is not maximum trust. The goal is appropriate trust. Users should neither blindly accept nor automatically reject system output.
-
-This gate connects directly to [[Open Problems]], because explainability, accountability, contestability, bias, automation dependence, and human agency remain difficult research and design problems.
+This route connects directly to [[Open Problems]], because explainability, accountability, contestability, bias, automation dependence, and human agency remain difficult research and design problems.
 
 ## The accessibility and inclusion bridge
 
@@ -229,8 +160,6 @@ flowchart LR
     class B1,C1,D1,E1 practice;
 ```
 
-The main external anchors for this bridge are the [W3C Web Accessibility Initiative](https://www.w3.org/WAI/), the [W3C Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/), and [WebAIM](https://webaim.org/). In the vault, this route connects strongly to [[Local and Global]], because accessibility is shaped by language, infrastructure, device availability, education, disability, and institutional power.
-
 ## The ethical bridge
 
 The ethical bridge appears whenever a system shapes attention, action, access, privacy, or judgement. HCI cannot treat the user as a data point alone. The user is a person situated in a social world, and interaction design can support or weaken autonomy, dignity, safety, fairness, and trust.
@@ -256,12 +185,10 @@ flowchart LR
     class B1,C1,D1,E1 action;
 ```
 
-| Ethical concern | HCI question | Design implication |
-|---|---|---|
-| Privacy | Does the user understand what data is collected? | Make data practices visible and controllable. |
-| Autonomy | Can the user refuse, undo, or override? | Provide meaningful exits and alternatives. |
-| Fairness | Who receives poorer outcomes? | Test across groups and contexts. |
-| Accountability | Who is responsible when the system harms? | Make responsibility and escalation paths clear. |
+- **Privacy:** hci question: Does the user understand what data is collected? (implication: Make data practices visible and controllable.)
+- **Autonomy:** hci question: Can the user refuse, undo, or override? (implication: Provide meaningful exits and alternatives.)
+- **Fairness:** hci question: Who receives poorer outcomes? (implication: Test across groups and contexts.)
+- **Accountability:** hci question: Who is responsible when the system harms? (implication: Make responsibility and escalation paths clear.)
 
 The [ACM Code of Ethics](https://www.acm.org/code-of-ethics) is a strong professional anchor for this bridge. For AI-mediated systems, the ethical bridge also connects to the [ACM FAccT Conference](https://facctconference.org/), where fairness, accountability, and transparency are treated as sociotechnical research problems.
 
@@ -293,21 +220,19 @@ This route connects directly to [[Local and Global]], where the same design may 
 
 ## Bridge atlas
 
-The following atlas summarises the major crossings inside the Connections chamber.
+The following atlas summarises the major crossings inside the Connections section.
 
-| Crossing | Connected discipline | What enters HCI | What HCI transforms it into |
-|---|---|---|---|
-| Cognitive bridge | Cognitive science | Attention, memory, perception | Interface structure and mental model support |
-| Psychological bridge | Psychology | Error, motivation, learning | Task design, feedback, and evaluation |
-| Design bridge | Design studies | Form, prototyping, visual hierarchy | Interaction flows and usability principles |
-| Computing bridge | Computer science | Algorithms, systems, data | Interpretable and controllable user experience |
-| Accessibility bridge | Disability studies and standards | Human diversity and assistive technology | Inclusive interaction and WCAG-based evaluation |
-| Ethical bridge | Applied ethics | Autonomy, privacy, fairness, accountability | Responsible design and transparent systems |
-| Social bridge | Sociology and organisational studies | Institutions, roles, practices | Sociotechnical analysis of real-world use |
+- **Cognitive bridge:** connected discipline: Cognitive science; what enters hci: Attention, memory, perception; what hci transforms it into: Interface structure and mental model support
+- **Psychological bridge:** connected discipline: Psychology; what enters hci: Error, motivation, learning; what hci transforms it into: Task design, feedback, and evaluation
+- **Design bridge:** connected discipline: Design studies; what enters hci: Form, prototyping, visual hierarchy; what hci transforms it into: Interaction flows and usability principles
+- **Computing bridge:** connected discipline: Computer science; what enters hci: Algorithms, systems, data; what hci transforms it into: Interpretable and controllable user experience
+- **Accessibility bridge:** connected discipline: Disability studies and standards; what enters hci: Human diversity and assistive technology; what hci transforms it into: Inclusive interaction and WCAG-based evaluation
+- **Ethical bridge:** connected discipline: Applied ethics; what enters hci: Autonomy, privacy, fairness, accountability; what hci transforms it into: Responsible design and transparent systems
+- **Social bridge:** connected discipline: Sociology and organisational studies; what enters hci: Institutions, roles, practices; what hci transforms it into: Sociotechnical analysis of real-world use
 
 ## Connection patterns
 
-This chamber does not connect ideas randomly. Most HCI bridges follow recurring patterns.
+This section does not connect ideas randomly. Most HCI bridges follow recurring patterns.
 
 ```mermaid
 flowchart LR
@@ -327,12 +252,6 @@ flowchart LR
 
 For example, limited working memory becomes an interface assumption about how much information users can hold. That assumption appears in navigation, form design, onboarding, and error recovery. Evaluation then shows whether the assumption holds. The design consequence may be a change in layout, feedback, labels, grouping, or task flow.
 
-## Chamber synthesis
-
-Connections makes the Mind Library more than a psychology shelf. It becomes a bridge system linking cognition to design form, design form to technical implementation, technical implementation to social context, and social context to ethical responsibility.
-
-The central demand of the chamber is careful translation. Concepts should not remain abstract. They must move into design choices, experimental methods, accessibility checks, ethical questions, and sociotechnical analysis. A strong HCI project does not ask only what users think. It asks how systems shape thinking, how design shapes action, how context shapes interpretation, and how evidence should reshape the system.
-
 ## Academic anchors
 
 | Route | Trusted source | Why it supports this page |
@@ -350,8 +269,3 @@ The central demand of the chamber is careful translation. Concepts should not re
 | Computing ethics | [ACM Code of Ethics](https://www.acm.org/code-of-ethics) | Supports the ethical bridge through public good, harm reduction, privacy, honesty, and responsibility. |
 | Fairness and accountability | [ACM FAccT](https://facctconference.org/) | Connects AI and computing systems to fairness, accountability, transparency, and sociotechnical analysis. |
 
-## Connected chambers
-
-This chamber connects to [[Overview]] because it explains why the Mind Library exists as a bridge system. It connects to [[Activities/Theory]] because theory supplies the concepts that travel across the map. It connects to [[Activities/Design]] because design gives those concepts visible form. It connects to [[Activities/Experiment]] because experiments test whether the bridges actually hold. It connects to [[Important People]] and [[Important Venues]] because HCI knowledge is built by communities, conferences, laboratories, and scholars. It connects to [[Local and Global]] because interaction changes across cultures and infrastructures. It connects to [[Open Problems]] because many bridges remain unstable, contested, and unfinished.
-
-^connections-end

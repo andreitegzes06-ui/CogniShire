@@ -3,7 +3,6 @@ title: Open Problems
 area: System Design
 category: Frontier Map
 cssclasses:
-  - interface-forge
 tags:
   - HCI
   - CS2023
@@ -20,19 +19,15 @@ tags:
   - AI-assisted-design
 status: corrected-polished-draft
 ---
-![[theory1.webp|1000]]
-# Open Problems
 
-Back to [[Overview|The Interface Forge]].
+![[toamna.gif|1000]]
+# Open Problems
 
 > [!abstract] Frontier Workbench
 > The Frontier Workbench tracks unresolved problems in **CS2023 HCI-Design: System Design**. It focuses on the hard questions that appear when interface ideas become real systems: tradeoffs, complexity, scale, prototype fidelity, new interaction techniques, accessibility drift, changing contexts, and AI-assisted design.
 
-**Fantasy name:** Frontier Workbench.  
 **Real CS2023 label:** HCI-Design: System Design.  
 **Real-life meaning:** a research map of what remains difficult when people build, scale, adapt, and evaluate interactive systems.
-
-This page does not repeat [[Activities/Theory]], [[Activities/Design]], or [[Activities/Experiment]]. Those chambers explain the principles, construction work, and testing methods of the Interface Forge. This chamber asks where those principles break, where design decisions become unstable, and where evidence is still incomplete.
 
 > [!quote] Workbench rule
 > A System Design open problem appears when an interface can be built, but it is still unclear how to make it understandable, scalable, accessible, adaptable, and defensible across real contexts.
@@ -66,16 +61,6 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Frontier | Real problem | Design danger |
-|---|---|---|
-| Tradeoffs | One design quality can damage another | The team treats value choices as visual taste |
-| Complexity | Interfaces contain many states and dependencies | Users face uncertainty, delay, or error |
-| Scale | Components and patterns spread across teams | Design systems drift or become too rigid |
-| Prototype fidelity | Each prototype reveals only some evidence | The team tests the wrong question |
-| New interaction techniques | New input and output methods lack stable conventions | Users cannot discover or recover actions |
-| Changing contexts | Interfaces move across devices, languages, and institutions | A design works in one place but fails elsewhere |
-| Accessibility drift | Accessibility breaks as the system changes | Inclusion disappears after redesigns and updates |
-
 ## CS2023 Gate
 
 CS2023 places System Design inside the HCI knowledge area. The topics include prototyping, design patterns, design constraints, participatory and co-design processes, interaction techniques, graphical user interfaces, hardware design, error handling, visual UI design, layout, Gestalt principles, immersive environments, fabrication, creativity support tools, and voice UI.
@@ -107,21 +92,17 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| CS2023 topic | Open question |
-|---|---|
-| Prototyping | How much fidelity is enough to test the right thing? |
-| Design patterns | How can a pattern stay reusable without becoming too generic? |
-| Design constraints | How should designers balance access, performance, platform rules, brand, cost, and context? |
-| Interaction techniques | How can new input methods be evaluated before users know the convention? |
-| GUI and visual UI design | How can clarity survive dense data, small screens, dark mode, and localisation? |
-| Error handling | How can systems prevent failure while still showing system limits? |
-| Hardware, haptics, XR, and fabrication | How can physical and spatial interfaces stay usable, safe, and inclusive? |
+- **Prototyping:** How much fidelity is enough to test the right thing?
+- **Design patterns:** How can a pattern stay reusable without becoming too generic?
+- **Design constraints:** How should designers balance access, performance, platform rules, brand, cost, and context?
+- **Interaction techniques:** How can new input methods be evaluated before users know the convention?
+- **GUI and visual UI design:** How can clarity survive dense data, small screens, dark mode, and localisation?
+- **Error handling:** How can systems prevent failure while still showing system limits?
+- **Hardware, haptics, XR, and fabrication:** How can physical and spatial interfaces stay usable, safe, and inclusive?
 
 ## Frontier I: Tradeoff Crucible
 
 The **Tradeoff Crucible** is the place where competing design qualities meet. A designer rarely optimises one value. Most real interface decisions balance clarity, speed, accessibility, aesthetics, engineering cost, privacy, platform convention, and business pressure.
-
-A faster flow may explain less. A cleaner layout may hide actions. A rich fantasy theme may motivate learners but increase reading effort. A highly personalised system may adapt well but make data use harder to understand.
 
 ```mermaid
 flowchart TB
@@ -148,14 +129,12 @@ flowchart TB
     class G final;
 ```
 
-| Tradeoff | Design danger | Research question |
-|---|---|---|
-| Efficiency vs understanding | Users move fast but do not know what happened | When does speed reduce comprehension? |
-| Minimalism vs discoverability | The interface looks clean but hides actions | Which controls must remain visible? |
-| Personalisation vs privacy | The system adapts but the user loses data control | How much explanation and control is enough? |
-| Consistency vs local fit | A global pattern ignores local conditions | What can vary without breaking the system? |
-| Visual identity vs accessibility | Style weakens readability or contrast | How can visual character remain inclusive? |
-| Automation vs control | The system helps but reduces agency | Where should review, undo, and override appear? |
+- **Efficiency vs understanding:** design danger: Users move fast but do not know what happened; research question: When does speed reduce comprehension?
+- **Minimalism vs discoverability:** design danger: The interface looks clean but hides actions; research question: Which controls must remain visible?
+- **Personalisation vs privacy:** design danger: The system adapts but the user loses data control; research question: How much explanation and control is enough?
+- **Consistency vs local fit:** design danger: A global pattern ignores local conditions; research question: What can vary without breaking the system?
+- **Visual identity vs accessibility:** design danger: Style weakens readability or contrast; research question: How can visual character remain inclusive?
+- **Automation vs control:** design danger: The system helps but reduces agency; research question: Where should review, undo, and override appear?
 
 The open problem is documentation. If a tradeoff is not written down, it becomes invisible. A strong system-design page should record the decision, the reason, the risk, and the test used to check it.
 
@@ -179,11 +158,9 @@ flowchart LR
     I --> A
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
 
     class A,B,C,F,H node;
-    class D,E,G warning;
     class I final;
 ```
 
@@ -227,14 +204,12 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Scalability problem | What happens | Open question |
-|---|---|---|
-| Component drift | Buttons, forms, or dialogs behave differently across products | How can teams detect and repair divergence? |
-| Governance tension | Teams need flexibility and shared control | Who decides when a component changes? |
-| Accessibility debt | One inaccessible component spreads everywhere | How can access be tested at component level? |
-| Token misuse | Colour, spacing, and type become inconsistent | How should tokens be documented and audited? |
-| Pattern rigidity | Old components block new needs | How can systems evolve without chaos? |
-| Local contribution | A product invents a useful local variant | When should a local pattern become global? |
+- **Component drift:** Buttons, forms, or dialogs behave differently across products (question: How can teams detect and repair divergence?)
+- **Governance tension:** Teams need flexibility and shared control (question: Who decides when a component changes?)
+- **Accessibility debt:** One inaccessible component spreads everywhere (question: How can access be tested at component level?)
+- **Token misuse:** Colour, spacing, and type become inconsistent (question: How should tokens be documented and audited?)
+- **Pattern rigidity:** Old components block new needs (question: How can systems evolve without chaos?)
+- **Local contribution:** A product invents a useful local variant (question: When should a local pattern become global?)
 
 NN/g defines design systems as standards for managing design at scale. That makes scalability a core System Design frontier, not a cosmetic issue.
 
@@ -267,13 +242,11 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Prototype choice | Good for | Danger |
-|---|---|---|
-| Low fidelity | Early concept, structure, and rough flow | May miss interaction-state problems |
-| Mid fidelity | Layout, hierarchy, and navigation | May hide accessibility and performance issues |
-| High fidelity | Realistic visual and interaction feel | May freeze the design too early |
-| Coded prototype | Real behaviour, responsiveness, access, and performance | Costs more and may become accidental production |
-| Wizard-of-Oz prototype | Future behaviour before full implementation | May hide automation feasibility problems |
+- **Low fidelity:** good for: Early concept, structure, and rough flow; danger: May miss interaction-state problems
+- **Mid fidelity:** good for: Layout, hierarchy, and navigation; danger: May hide accessibility and performance issues
+- **High fidelity:** good for: Realistic visual and interaction feel; danger: May freeze the design too early
+- **Coded prototype:** good for: Real behaviour, responsiveness, access, and performance; danger: Costs more and may become accidental production
+- **Wizard-of-Oz prototype:** good for: Future behaviour before full implementation; danger: May hide automation feasibility problems
 
 A useful rule is simple: ask what the prototype is meant to prove before building it. If the question is about navigation labels, a polished animation may add noise. If the question is about keyboard access, a static image is not enough.
 
@@ -306,16 +279,14 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Technique | Open problem |
-|---|---|
-| Gesture | Users may not know which movements are available or recognised |
-| Voice | Accents, privacy, turn-taking, ambiguity, and repair remain difficult |
-| Haptics | Designers lack stable languages for tactile meaning |
-| AR and MR | Interfaces must align with space, attention, safety, and body movement |
-| VR | Comfort, orientation, fatigue, and accessibility remain difficult |
-| Tangible interfaces | Physical affordances and digital behaviour must match |
-| Fabricated devices | Novel prototypes may be hard to maintain, scale, or evaluate |
-| AI-assisted interfaces | Generated suggestions need correctness, control, and review |
+- **Gesture:** Users may not know which movements are available or recognised
+- **Voice:** Accents, privacy, turn-taking, ambiguity, and repair remain difficult
+- **Haptics:** Designers lack stable languages for tactile meaning
+- **AR and MR:** Interfaces must align with space, attention, safety, and body movement
+- **VR:** Comfort, orientation, fatigue, and accessibility remain difficult
+- **Tangible interfaces:** Physical affordances and digital behaviour must match
+- **Fabricated devices:** Novel prototypes may be hard to maintain, scale, or evaluate
+- **AI-assisted interfaces:** Generated suggestions need correctness, control, and review
 
 Useful venue routes include UIST for interface techniques, TEI for tangible and embodied interaction, ISS for surfaces and spaces, SUI for spatial interaction, IEEE VR and ISMAR for immersive systems, and SIGGRAPH for graphics-heavy interaction.
 
@@ -350,14 +321,12 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Context shift | Interface risk | Open question |
-|---|---|---|
-| Mobile to desktop | Layout stretches but workflow does not improve | How should task structure adapt across screens? |
-| Touch to keyboard | Controls become unreachable or inefficient | How can input modes be equally supported? |
-| Online to offline | Data and actions become uncertain | How should offline limits be communicated? |
-| Localisation | Text expands or changes meaning | How should components survive language change? |
-| Reduced motion | Animations need alternatives | How can motion be meaningful but optional? |
-| Shared device | Account and privacy state become unclear | How should identity and data safety be shown? |
+- **Mobile to desktop:** interface risk: Layout stretches but workflow does not improve (question: How should task structure adapt across screens?)
+- **Touch to keyboard:** interface risk: Controls become unreachable or inefficient (question: How can input modes be equally supported?)
+- **Online to offline:** interface risk: Data and actions become uncertain (question: How should offline limits be communicated?)
+- **Localisation:** interface risk: Text expands or changes meaning (question: How should components survive language change?)
+- **Reduced motion:** interface risk: Animations need alternatives (question: How can motion be meaningful but optional?)
+- **Shared device:** interface risk: Account and privacy state become unclear (question: How should identity and data safety be shown?)
 
 This frontier connects directly to [[Local and Global]]. A system can be globally structured and still locally fragile.
 
@@ -383,11 +352,9 @@ flowchart TB
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
     classDef gate fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
 
     class A center;
     class B,C,D,E,F gate;
-    class B1,C1,D1,E1,F1 warning;
 ```
 
 | Drift source | What breaks | Protection |
@@ -403,8 +370,6 @@ WCAG 2.2 is organised around perceivable, operable, understandable, and robust p
 
 ## Frontier VIII: AI-Assisted Interface Making
 
-**AI-assisted interface making** changes the Interface Forge. AI tools can generate layout ideas, code, copy, icons, components, variants, and summaries of feedback. The designer’s work shifts toward prompting, reviewing, correcting, testing, and governing generated proposals.
-
 ```mermaid
 flowchart LR
     A[Design intention] --> B[AI proposal]
@@ -418,26 +383,18 @@ flowchart LR
     G --> H[Test with users]
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
 
     class A,B,C,G node;
-    class D,E,F warning;
     class H final;
 ```
 
-| AI-assisted action | Open problem |
-|---|---|
-| Sketch to interface | Does the model understand layout intention or only surface appearance? |
-| Text prompt to UI | How can vague prompts become usable interaction? |
-| Component recommendation | Does the suggestion respect the design system? |
-| Microcopy generation | Is the text accessible, localisable, and appropriate? |
-| Automatic variants | How should variants be compared and governed? |
-| AI-generated code | Is the implementation semantic, accessible, secure, and maintainable? |
-
-Recent sketch-to-code research should be treated as a frontier route, not as settled guidance. It can show what researchers are testing, but a student project should still verify generated interfaces through accessibility checks and user tasks.
-
-## Frontier IX: Evidence for Design Claims
+- **Sketch to interface:** Does the model understand layout intention or only surface appearance?
+- **Text prompt to UI:** How can vague prompts become usable interaction?
+- **Component recommendation:** Does the suggestion respect the design system?
+- **Microcopy generation:** Is the text accessible, localisable, and appropriate?
+- **Automatic variants:** How should variants be compared and governed?
+- **AI-generated code:** Is the implementation semantic, accessible, secure, and maintainable?
 
 System Design produces artifacts: prototypes, components, interaction techniques, design systems, patterns, and interface styles. The open problem is how to evaluate those artifacts without pretending that one metric explains everything.
 
@@ -466,7 +423,6 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Design claim | Weak evidence | Stronger evidence |
 |---|---|---|
 | “This layout is clearer.” | Personal preference | Task success, first-click paths, comprehension, user explanation |
 | “This component scales.” | It appears in many files | Reuse patterns, contribution process, accessibility audits |
@@ -474,22 +430,18 @@ flowchart TB
 | “This interaction is natural.” | It feels intuitive to the designer | New users discover, learn, and recover without instruction |
 | “This visual style motivates learning.” | It looks cool | Engagement, comprehension, recall, and navigation evidence |
 
-This frontier connects to [[Activities/Experiment]] and to [[../03_Evaluating_the_Design/Overview|Observation Chamber]]. A design artifact needs evidence that matches its claim.
-
 ## Tension Matrix
 
 Some open problems remain hard because both sides matter.
 
-| Tension | Why it is difficult |
-|---|---|
-| Low fidelity vs high fidelity | Low fidelity encourages change, high fidelity tests realism |
-| Local fit vs global consistency | Local users need adaptation, systems need coherence |
-| Novelty vs learnability | New techniques can be powerful but unfamiliar |
-| Aesthetics vs accessibility | Strong visual identity can weaken contrast or clarity |
-| Automation vs human control | Automation reduces effort but can reduce agency |
-| Speed vs explanation | Fast interfaces may hide why something happened |
-| Reuse vs specificity | Components scale, but local tasks need nuance |
-| Immersion vs safety | XR systems can be engaging but physically and cognitively risky |
+- **Low fidelity vs high fidelity:** Low fidelity encourages change, high fidelity tests realism
+- **Local fit vs global consistency:** Local users need adaptation, systems need coherence
+- **Novelty vs learnability:** New techniques can be powerful but unfamiliar
+- **Aesthetics vs accessibility:** Strong visual identity can weaken contrast or clarity
+- **Automation vs human control:** Automation reduces effort but can reduce agency
+- **Speed vs explanation:** Fast interfaces may hide why something happened
+- **Reuse vs specificity:** Components scale, but local tasks need nuance
+- **Immersion vs safety:** XR systems can be engaging but physically and cognitively risky
 
 ## Research Routes
 
@@ -520,90 +472,25 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Frontier | Best research route |
-|---|---|
-| Prototyping fidelity | NN/g prototyping guidance, UIST, DIS, design research literature |
-| Engineered complexity | EICS, UIST, TOCHI, software architecture for UI systems |
-| Design-system scale | NN/g design systems, Material Design, Fluent, design-system research |
-| Novel interaction techniques | UIST, TEI, ISS, SUI, IEEE VR, ISMAR |
-| Changing contexts | Material adaptive design, platform guides, W3C internationalisation |
-| Accessibility drift | WCAG 2.2, W3C WAI, WebAIM, component-level accessibility testing |
-| AI-assisted interface making | UIST, CHI, IUI, TiiS, recent UI generation research |
-| Evidence for artifacts | DIS, CHI, TOCHI, research-through-design literature |
-
-## Mini Application: Cognishire System Design Problems
-
-The Cognishire HCI map is itself a system-design object. It uses Obsidian, Markdown, Mermaid, CSS, GitHub, academic sources, and a fantasy navigation layer. Its RPG style is valuable only if it helps orientation rather than hiding the academic structure.
-
-```mermaid
-flowchart TB
-    A((Cognishire<br/>Workbench))
-
-    A --> B[Fantasy clarity]
-    A --> C[Diagram readability]
-    A --> D[Source depth]
-    A --> E[GitHub portability]
-    A --> F[Accessibility]
-
-    B --> B1[Do users understand<br/>the room names?]
-    C --> C1[Do diagrams help<br/>or distract?]
-    D --> D1[Are sources<br/>area-specific?]
-    E --> E1[Does the theme<br/>survive download?]
-    F --> F1[Can everyone read<br/>and navigate?]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef gate fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F gate;
-    class B1,C1,D1,E1,F1 detail;
-```
-
-| Cognishire problem | Real System Design issue | Possible test |
-|---|---|---|
-| “Interface Forge” sounds fantasy-like | Metaphor may hide the CS2023 label | Ask users to explain the room after the first callout |
-| Diagrams look impressive but may distract | Visual form may not support comprehension | Compare a diagram version with a text/table version |
-| CSS works locally but not after cloning | System portability and dependency problem | Clone on a different machine and inspect appearance |
-| Links use relative paths | Navigation can break after restructuring | Run link checks and manual navigation tasks |
-| Pages are dense | Cognitive load and reading flow problem | Ask students to locate answers under a short time limit |
-| Mermaid varies across renderers | Tool and platform constraint | Test Obsidian, GitHub, and exported formats |
-| Sources repeat across pages | Knowledge map becomes shallow | Require area-specific venue and source routes |
-| Fantasy theme affects access | Visual identity may compete with inclusion | Test contrast, keyboard, font size, and screen reader path |
+- **Prototyping fidelity:** NN/g prototyping guidance, UIST, DIS, design research literature
+- **Engineered complexity:** EICS, UIST, TOCHI, software architecture for UI systems
+- **Design-system scale:** NN/g design systems, Material Design, Fluent, design-system research
+- **Novel interaction techniques:** UIST, TEI, ISS, SUI, IEEE VR, ISMAR
+- **Changing contexts:** Material adaptive design, platform guides, W3C internationalisation
+- **Accessibility drift:** WCAG 2.2, W3C WAI, WebAIM, component-level accessibility testing
+- **AI-assisted interface making:** UIST, CHI, IUI, TiiS, recent UI generation research
+- **Evidence for artifacts:** DIS, CHI, TOCHI, research-through-design literature
 
 ## Workbench Checklist
 
 Use this checklist before adding or publishing a System Design page.
 
-| Check | Question |
-|---|---|
-| RPG translation | Does every fantasy term quickly show its real HCI meaning? |
-| Official anchor | Is the CS2023 label visible near the top? |
-| Cognitive load | Are sections short enough to scan? |
-| Mermaid readability | Are diagrams compact, light, and readable in the theme? |
-| Source fit | Do the anchors support this exact page? |
-| Design claim | Does each claim say what evidence would test it? |
-| Accessibility | Can the page be read, navigated, and understood without relying on style alone? |
-| Portability | Will the page still make sense if CSS or images fail? |
-
-## What This Page Should Not Claim
-
-| Avoid this claim | Safer wording |
-|---|---|
-| “These problems are unsolved forever.” | “These are active or recurring System Design problems.” |
-| “AI can now design interfaces reliably.” | “AI can assist interface making, but generated outputs still need review, testing, and accessibility checks.” |
-| “A high-fidelity prototype proves the design works.” | “A high-fidelity prototype can test realism, but it does not prove all system behaviour.” |
-| “A design system solves consistency.” | “A design system supports consistency, but it needs governance, documentation, and audits.” |
-| “Passing WCAG once means accessibility is solved.” | “Accessibility must be maintained as components, content, and contexts change.” |
-| “The RPG theme is automatically better for learning.” | “The RPG theme should be tested for motivation, comprehension, navigation, and accessibility.” |
-
-## Frontier Synthesis
-
-Open Problems in System Design are the unresolved tensions of the Interface Forge. The hard part is not drawing screens. The hard part is building interactive systems that remain understandable, scalable, testable, accessible, adaptable, and meaningful across real contexts.
-
-The CS2023 System Design topics give the official frame: prototyping, design patterns, constraints, interaction techniques, graphical interfaces, visual UI, immersive environments, fabrication, creativity support, and voice UI. The open problems appear when those topics meet real use. Prototypes can mislead. Components can drift. New interaction techniques can lack conventions. Accessibility can break over time. Context can change the meaning of the same design. Evidence can be too narrow for the claim.
-
-This chamber connects to [[Activities/Theory]] because open problems expose limits in interface principles. It connects to [[Activities/Design]] because those problems become design decisions. It connects to [[Activities/Experiment]] because every unresolved claim needs evidence. It connects to [[Connections]] because System Design crosses software engineering, visual communication, industrial design, graphics, ubiquitous computing, and human-centred systems. It connects outward to [[Local and Global]] because many design problems appear only when systems travel across contexts.
+- **Official anchor:** Is the CS2023 label visible near the top?
+- **Cognitive load:** Are sections short enough to scan?
+- **Mermaid readability:** Are diagrams compact, light, and readable in the theme?
+- **Source fit:** Do the anchors support this exact page?
+- **Accessibility:** Can the page be read, navigated, and understood without relying on style alone?
+- **Portability:** Will the page still make sense if CSS or images fail?
 
 ## Academic Anchors
 

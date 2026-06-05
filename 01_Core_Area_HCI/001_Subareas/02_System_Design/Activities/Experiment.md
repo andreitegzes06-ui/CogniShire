@@ -1,35 +1,7 @@
----
-title: Experiment
-area: Interface Forge
-category: Activities
-cssclasses:
-  - interface-forge
-tags:
-  - HCI
-  - interface-forge
-  - experiment
-  - prototype-testing
-  - design-probes
-  - comparative-studies
-  - usability
-  - accessibility
-  - design-evidence
-status: corrected-polished-draft
----
-
+![[overvieww.gif|1000]]
 # Experiment
 
-Back to [[../Overview|The Interface Forge]].
-
-> [!abstract] Experiment Bench
-> Experiment in the Interface Forge is the testing bench for interface ideas. It is where sketches, wireframes, clickable prototypes, coded components, design probes, and interaction patterns are checked against real user behaviour before they become final design decisions.
-
-The [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Activities/Experiment|Mind Library experiment page]] explains evidence at a general HCI level. This page is narrower. It asks how interface builders test the things they are making: layout alternatives, navigation structures, feedback states, form designs, component behaviour, visual hierarchy, responsive patterns, and prototype flows.
-
-In the Cognishire metaphor, the forge is a workshop. In real HCI, this page is about usability testing, prototype evaluation, design probes, comparative studies, accessibility checks, and evidence-based interface revision. The goal is not to prove that the first design was correct. The goal is to learn what the interface helps, what it blocks, and what must change.
-
 > [!quote] Real-world translation
-> **Fantasy name:** Experiment Bench.  
 > **Real-life meaning:** a structured process for testing interface ideas before final implementation.
 
 ## Experiment Bench Map
@@ -59,15 +31,6 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Forge term | Real HCI method | What it tests |
-|---|---|---|
-| Prototype Trial | Moderated or unmoderated usability test | Whether users can complete tasks with a prototype |
-| Design Probe | Cultural probe, technology probe, or design elicitation artefact | How users respond to possible futures, contexts, and values |
-| Comparison Rig | A/B test or controlled design comparison | Whether one interface version performs better on defined outcomes |
-| State Check | Feedback, loading, error, empty, and success-state evaluation | Whether users understand what the system is doing |
-| Access Check | Accessibility audit and assistive technology test | Whether the interface works across abilities, devices, and technologies |
-| Refinement Loop | Evidence-based iteration | What design must change next |
-
 ## The Prototype Trial Bench
 
 The Prototype Trial Bench is the usability test of an interface prototype. It asks users to attempt realistic tasks with a sketch, wireframe, clickable mockup, or coded prototype. The goal is to expose friction while the design is still cheap to change.
@@ -88,13 +51,11 @@ flowchart LR
     class E final;
 ```
 
-| Prototype level | Best experimental question | Risk if used badly |
-|---|---|---|
-| Sketch | Does the basic idea make sense? | Users may react to missing detail rather than structure |
-| Wireframe | Is layout, hierarchy, and navigation understandable? | Visual style and interaction states remain untested |
-| Clickable prototype | Can users follow the task flow? | System behaviour may be fake or incomplete |
-| Coded prototype | Does the interface work under real constraints? | It costs more to revise |
-| Accessibility prototype | Can users operate it with keyboard and assistive technology? | It needs careful setup and testing tools |
+- **Sketch:** best experimental question: Does the basic idea make sense?; risk if used badly: Users may react to missing detail rather than structure
+- **Wireframe:** best experimental question: Is layout, hierarchy, and navigation understandable?; risk if used badly: Visual style and interaction states remain untested
+- **Clickable prototype:** best experimental question: Can users follow the task flow?; risk if used badly: System behaviour may be fake or incomplete
+- **Coded prototype:** best experimental question: Does the interface work under real constraints?; risk if used badly: It costs more to revise
+- **Accessibility prototype:** best experimental question: Can users operate it with keyboard and assistive technology?; risk if used badly: It needs careful setup and testing tools
 
 A useful prototype test has a clear task, a clear observation plan, and a reason for choosing that prototype fidelity. Too much polish can hide structural weakness. Too little fidelity can make the test unrealistic.
 
@@ -118,12 +79,10 @@ flowchart LR
     class E final;
 ```
 
-| Weak task | Stronger task |
-|---|---|
-| Click the blue button to continue. | You want to submit your application. Show me how you would continue. |
-| Open the accessibility page. | Find one trusted source that explains keyboard navigation. |
-| Use the filter panel. | Find a course that matches your interest and explain why you chose it. |
-| Press save. | You changed your settings. Make sure the changes are kept. |
+- **Click the blue button to continue:** You want to submit your application. Show me how you would continue.
+- **Open the accessibility page:** Find one trusted source that explains keyboard navigation.
+- **Use the filter panel:** Find a course that matches your interest and explain why you chose it.
+- **Press save:** You changed your settings. Make sure the changes are kept.
 
 A good task creates a realistic reason to use the interface. The researcher then watches whether the user finds the route, understands labels, notices feedback, and repairs mistakes.
 
@@ -156,14 +115,6 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Probe type | Real use | Example in Cognishire |
-|---|---|---|
-| Cultural probe | Explore user context, values, and feelings | Ask students to mark where they feel lost while learning HCI |
-| Technology probe | Introduce a simple technology to study use and inspire design | Give users a small interactive map page and observe exploration |
-| Visual design probe | Compare possible visual directions | Compare academic style, RPG style, and hybrid style |
-| Data probe | Elicit how users want to inspect or correct data | Ask users how they would challenge an AI recommendation |
-| Diary probe | Capture experience over time | Ask users to record when the vault helps or confuses them |
-
 > [!important] Probe rule
 > A probe is not a normal usability test. It is a way to provoke responses, reveal context, and generate design direction.
 
@@ -190,21 +141,17 @@ flowchart LR
     class F final;
 ```
 
-| Comparison target | Possible measure | Interpretation caution |
-|---|---|---|
-| Navigation label A vs B | Wrong turns, task completion, time | Better wording may depend on user group |
-| Button placement A vs B | First-click accuracy, hesitation | Position may interact with visual hierarchy |
-| Error message A vs B | Recovery time, repeated errors | Faster recovery is not the same as lower frustration |
-| Layout density A vs B | Scanning time, comprehension | Dense layouts may help experts but harm beginners |
-| AI confidence cue A vs B | Verification behaviour, trust calibration | The goal is appropriate trust, not maximum trust |
+- **Navigation label A vs B:** possible measure: Wrong turns, task completion, time; interpretation caution: Better wording may depend on user group
+- **Button placement A vs B:** possible measure: First-click accuracy, hesitation; interpretation caution: Position may interact with visual hierarchy
+- **Error message A vs B:** possible measure: Recovery time, repeated errors; interpretation caution: Faster recovery is not the same as lower frustration
+- **Layout density A vs B:** possible measure: Scanning time, comprehension; interpretation caution: Dense layouts may help experts but harm beginners
+- **AI confidence cue A vs B:** possible measure: Verification behaviour, trust calibration; interpretation caution: The goal is appropriate trust, not maximum trust
 
 The Comparison Rig works best when the target variable is clear. If two versions change layout, colour, wording, and task instructions at the same time, the result becomes hard to interpret.
 
 Useful routes: [NN/g A/B Testing 101](https://www.nngroup.com/articles/ab-testing/) and [NN/g A/B Testing, Usability Engineering, Radical Innovation](https://www.nngroup.com/articles/ab-testing-usability-engineering/).
 
 ## The State Check Bay
-
-The State Check Bay tests whether users understand system status. Interfaces move through states: ready, loading, success, error, warning, empty, disabled, selected, and recovering.
 
 If the system is loading but gives no signal, the user may click repeatedly. If a save action succeeds without confirmation, the user may feel uncertain. If an error appears far from the relevant field, the user may not know what to fix.
 
@@ -220,22 +167,17 @@ flowchart LR
     F --> A
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef warning fill:#f7d4cd,stroke:#c27a63,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
 
     class A,B,F node;
-    class D,E warning;
     class C final;
 ```
 
-| State | Experimental check | Evidence of failure |
-|---|---|---|
-| Loading | Does the user know the system is processing? | Repeated clicking, verbal uncertainty |
-| Success | Does the user know the action worked? | User checks again or repeats action |
-| Error | Does the user know what to fix? | Wrong repair, frustration, abandonment |
-| Empty | Does the user know why nothing is shown? | Confusion, search for missing content |
-| Disabled | Does the user know why the action is unavailable? | User tries unavailable path repeatedly |
-| Warning | Does the user understand the consequence? | User commits risky action unintentionally |
+- **Loading:** experimental check: Does the user know the system is processing?; evidence of failure: Repeated clicking, verbal uncertainty
+- **Success:** experimental check: Does the user know the action worked?; evidence of failure: User checks again or repeats action
+- **Error:** experimental check: Does the user know what to fix?; evidence of failure: Wrong repair, frustration, abandonment
+- **Empty:** experimental check: Does the user know why nothing is shown?; evidence of failure: Confusion, search for missing content
+- **Disabled:** experimental check: Does the user know why the action is unavailable?; evidence of failure: User tries unavailable path repeatedly
 
 Useful routes: [NN/g 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/), [NN/g Error-Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/), and [Apple HIG: Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback).
 
@@ -268,22 +210,18 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Accessibility check | Real action | What it reveals |
-|---|---|---|
-| Keyboard test | Navigate without a mouse | Whether controls are reachable and ordered |
-| Focus order test | Move through interactive elements | Whether the path makes sense |
-| Screen reader test | Listen to headings, labels, buttons, and states | Whether semantic meaning exists |
-| Contrast check | Inspect text and UI contrast | Whether information is perceivable |
-| Error recovery check | Try to repair invalid input | Whether error messages are understandable |
-| Reduced motion check | Test motion-sensitive settings | Whether animation respects user needs |
-
-The Access Check Bay belongs in the Interface Forge because accessibility is built into components and states. If a button, dialog, form, or navigation component is inaccessible, every screen using it repeats the barrier.
+- **Keyboard test:** real action: Navigate without a mouse; what it reveals: Whether controls are reachable and ordered
+- **Focus order test:** real action: Move through interactive elements; what it reveals: Whether the path makes sense
+- **Screen reader test:** real action: Listen to headings, labels, buttons, and states; what it reveals: Whether semantic meaning exists
+- **Contrast check:** real action: Inspect text and UI contrast; what it reveals: Whether information is perceivable
+- **Error recovery check:** real action: Try to repair invalid input; what it reveals: Whether error messages are understandable
+- **Reduced motion check:** real action: Test motion-sensitive settings; what it reveals: Whether animation respects user needs
 
 Useful routes: [W3C Evaluating Web Accessibility Overview](https://www.w3.org/WAI/test-evaluate/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/), [W3C WCAG overview](https://www.w3.org/WAI/standards-guidelines/wcag/), and [WebAIM](https://webaim.org/).
 
 ## The Instrument Panel
 
-The Instrument Panel defines what will be recorded. A prototype experiment without measures can become a loose conversation. Conversation can still help, but the Forge needs evidence that can guide design repair.
+The Instrument Panel defines what will be recorded. A prototype experiment without measures can become a loose conversation. Conversation can still help, but the System Design needs evidence that can guide design repair.
 
 ```mermaid
 flowchart TB
@@ -308,13 +246,11 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Evidence layer | Example measure | What it helps decide |
-|---|---|---|
-| Performance | task success, time, errors | Whether the flow works efficiently |
-| Behaviour | hesitation, backtracking, repeated clicks | Where the interface creates friction |
-| Experience | confidence, satisfaction, frustration | How the interface feels to use |
-| Accessibility | focus order, labels, contrast, screen reader output | Whether the interface includes diverse users |
-| Interpretation | user explanation after task | Whether the user’s mental model is accurate |
+- **Performance:** example measure: task success, time, errors; what it helps decide: Whether the flow works efficiently
+- **Behaviour:** example measure: hesitation, backtracking, repeated clicks; what it helps decide: Where the interface creates friction
+- **Experience:** example measure: confidence, satisfaction, frustration; what it helps decide: How the interface feels to use
+- **Accessibility:** example measure: focus order, labels, contrast, screen reader output; what it helps decide: Whether the interface includes diverse users
+- **Interpretation:** example measure: user explanation after task; what it helps decide: Whether the user’s mental model is accurate
 
 The instrument panel should not collect everything. It should collect what the design question requires. If the question is about navigation, wrong turns and route choice matter. If the question is about error messages, recovery time and repeated failures matter. If the question is about AI trust, verification behaviour and confidence matter.
 
@@ -336,57 +272,15 @@ flowchart LR
     class E final;
 ```
 
-| Log entry | Example |
-|---|---|
-| Tested idea | Two navigation labels for the same route |
-| Observed problem | Users chose the wrong label three times |
-| HCI explanation | The label matched internal vocabulary, not user vocabulary |
-| Design change | Replace institutional label with task-based label |
-| Retest plan | Run a small prototype check with revised labels |
+- **Tested idea:** Two navigation labels for the same route
+- **Observed problem:** Users chose the wrong label three times
+- **HCI explanation:** The label matched internal vocabulary, not user vocabulary
+- **Design change:** Replace institutional label with task-based label
+- **Retest plan:** Run a small prototype check with revised labels
 
 This log prevents design changes from becoming random. It makes the interface easier to defend because each revision has a reason.
 
-## Mini Experiment: Testing the Interface Forge Page
-
-This vault can test itself. The Interface Forge is content, but it is also an interface. A simple classroom experiment could evaluate whether the page helps students understand how interface design is tested.
-
-| Protocol element | Study decision |
-|---|---|
-| Research aim | Test whether students can use the Interface Forge to understand interface evaluation |
-| Participant group | First-year students unfamiliar with the vault |
-| Prototype | Current Obsidian page with diagrams, links, and forge structure |
-| Task one | Find the difference between prototype testing and design probes |
-| Task two | Locate one accessibility check and explain why it matters |
-| Task three | Choose which method would test a button placement change |
-| Evidence | Time, wrong turns, comments, confidence, and link use |
-| Output | Redesign priorities for headings, diagrams, links, and examples |
-
-```mermaid
-flowchart TB
-    A((Forge Page Test))
-
-    A --> B[Find method]
-    A --> C[Explain check]
-    A --> D[Choose test]
-    A --> E[Report friction]
-
-    B --> B1[Prototype vs probe]
-    C --> C1[Accessibility meaning]
-    D --> D1[Comparison rig]
-    E --> E1[Redesign page]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef task fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef result fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E task;
-    class B1,C1,D1,E1 result;
-```
-
 ## Refinement Loop
-
-The final step is refinement. The Interface Forge should not treat experiments as judgement from outside. Experiment is part of making.
 
 ```mermaid
 flowchart LR
@@ -404,28 +298,7 @@ flowchart LR
     class F final;
 ```
 
-When an interface idea fails, the failure is not wasted work. It shows which assumption was wrong: the label, layout, feedback, affordance, navigation structure, accessibility condition, or task model. The Forge improves when those failures become better interface form.
-
-## Cognishire application
-
-For Cognishire, the Experiment Bench should test whether the RPG structure helps learning or adds extra work.
-
-| Design question | Possible method |
-|---|---|
-| Do students understand the forge metaphor? | Short explanation task |
-| Do diagrams clarify the page? | Compare page section with and without diagram |
-| Can users find the right HCI room? | Navigation task |
-| Do source links improve trust? | Ask users to identify the most academic source |
-| Is the visual style readable? | Contrast check, keyboard check, and user feedback |
-| Does the page support revision? | Use a design decision log after each test |
-
-The important point is modesty. A test with a few classmates does not prove global usability. It gives local formative evidence. That evidence can still improve the vault.
-
-## Forge Synthesis
-
-Experiment inside the Interface Forge is practical design evidence. It tests prototypes, probes design possibilities, compares alternatives, checks interface states, verifies accessibility, and records design decisions. Its real meaning is disciplined evaluation before interface decisions become fixed.
-
-This page connects backward to [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Activities/Theory]], because every experiment needs a design concept. It connects across to [[Design|Design]], because every finding should become a design change. It connects outward to the [[../../03_Evaluating_the_Design/Overview|Observation Chamber]], where research methods become more formal, and to the [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], where accessibility and ethics are treated more deeply.
+When an interface idea fails, the failure is not wasted work. It shows which assumption was wrong: the label, layout, feedback, affordance, navigation structure, accessibility condition, or task model. The System Design improves when those failures become better interface form.
 
 ## Academic anchors
 
@@ -447,4 +320,3 @@ This page connects backward to [[01_Core_Area_HCI/001_Subareas/01_Understanding_
 | Accessibility practice | [WebAIM](https://webaim.org/) |
 | Interface feedback | [Apple HIG: Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback) |
 
-^experiment-interface-forge-end

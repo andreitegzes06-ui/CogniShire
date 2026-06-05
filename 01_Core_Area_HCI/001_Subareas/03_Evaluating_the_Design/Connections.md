@@ -4,7 +4,6 @@ area: Evaluating the Design
 category: Method Bridge
 cs2023_unit: HCI-Evaluation
 cssclasses:
-  - observation-chamber
 tags:
   - HCI
   - CS2023
@@ -20,36 +19,14 @@ tags:
   - reproducibility
 status: polished-rpg-readable-draft
 ---
-
+![[conectiones.jpg|1000]]
 # Connections
 
-Back to [[Overview|The Observation Chamber]].
-
-> [!abstract] Method Bridge
-> **Connections** in the Observation Chamber maps the disciplines that support HCI evaluation: statistics, psychology, social science methods, empirical software engineering, measurement, product analytics, research ethics, accessibility, and reproducibility.
-
-**Fantasy name:** Method Bridge  
 **Real CS2023 label:** HCI-Evaluation: Evaluating the Design  
 **Real-life meaning:** connect HCI evaluation to the fields that make evidence credible, ethical, interpretable, and reusable.
 
-The Observation Chamber should not treat usability testing as an isolated trick. Evaluation becomes stronger when it borrows carefully from other fields. Statistics helps with comparison and uncertainty. Psychology helps define human constructs. Social science methods help interpret context. Empirical software engineering helps evaluate technical systems and tools. Ethics protects participants. Accessibility evaluation expands who is included. Reproducibility makes evidence inspectable.
-
 > [!quote] Bridge rule
 > Evaluation is interdisciplinary because evidence is interdisciplinary. A good HCI study needs both design knowledge and method discipline.
-
-## Quick route
-
-| Bridge station | Real meaning | Use it when you need to |
-|---|---|---|
-| Statistics Tower | Quantitative reasoning | Compare conditions, summarise data, handle uncertainty |
-| Psychology Hall | Human constructs | Study workload, trust, attention, memory, learning, and satisfaction |
-| Social Science Field | Context and meaning | Use interviews, observation, diary studies, and thematic analysis |
-| Software Evidence Workshop | Empirical software engineering | Evaluate tools, repositories, workflows, and developer systems |
-| Measurement Vault | Instruments and constructs | Choose SUS, NASA-TLX, UEQ, rubrics, or custom measures carefully |
-| Analytics Tower | Behaviour at scale | Study funnels, events, retention, cohorts, and deployed use |
-| Ethics Gate | Human-subject protection | Plan consent, privacy, dignity, and risk reduction |
-| Access Bridge | Accessibility evidence | Combine standards, manual checks, assistive technology, and users |
-| Artifact Room | Reproducibility | Preserve protocols, data, code, materials, and documentation |
 
 ## Method Bridge map
 
@@ -63,7 +40,7 @@ flowchart TB
     A --> E[Software Evidence<br/>Workshop]
     A --> F[Analytics Tower]
     A --> G[Ethics Gate]
-    A --> H[Artifact Room]
+    A --> H[Artifact Area]
 
     B --> B1[Design, analysis,<br/>uncertainty]
     C --> C1[Workload, trust,<br/>perception]
@@ -81,17 +58,6 @@ flowchart TB
     class B,C,D,E,F,G,H node;
     class B1,C1,D1,E1,F1,G1,H1 detail;
 ```
-
-| Connected field | What it gives HCI evaluation | What can go wrong if ignored |
-|---|---|---|
-| Statistics | Study design, uncertainty, comparison, sampling, effect size, error | Quantitative claims become weak or misleading |
-| Psychology | Validated constructs, workload, attention, perception, cognition, trust | The study measures human experience poorly |
-| Social science methods | Interviewing, ethnography, field observation, qualitative interpretation | Context and meaning are flattened |
-| Empirical software engineering | Rigorous empirical study of software systems, tools, processes, developers | Technical systems are evaluated without empirical discipline |
-| Product analytics | Logs, funnels, cohorts, retention, behavioural traces at scale | Evaluation misses long-term and deployed-use patterns |
-| Research ethics | Consent, privacy, risk, fairness, participant dignity | Studies can harm or pressure participants |
-| Accessibility evaluation | Inclusive evidence about diverse users and assistive technologies | “Works” becomes true only for a narrow default user |
-| Reproducibility | Data, artifacts, protocols, analysis scripts, documentation | Results become hard to inspect or repeat |
 
 ## CS2023 Connection Gate
 
@@ -122,22 +88,18 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| CS2023 evaluation skill | Supporting discipline |
-|---|---|
-| Plan a usability evaluation | Research design, HCI methods, ethics |
-| Justify study goals | HCI theory, measurement, validity |
-| Design hypotheses | Experimental design, statistics, psychology |
-| Conduct usability evaluation | HCI practice, observation, protocol design |
-| Use qualitative methods | Social science methods, psychology, ethnography |
-| Use quantitative methods | Statistics, psychometrics, analytics |
-| Draw defensible conclusions | Validity theory, reproducibility, ethics |
-| Discuss broader impacts | Ethics, accessibility, CSCW, policy, society |
+- **Plan a usability evaluation:** Research design, HCI methods, ethics
+- **Justify study goals:** HCI theory, measurement, validity
+- **Design hypotheses:** Experimental design, statistics, psychology
+- **Conduct usability evaluation:** HCI practice, observation, protocol design
+- **Use qualitative methods:** Social science methods, psychology, ethnography
+- **Use quantitative methods:** Statistics, psychometrics, analytics
+- **Draw defensible conclusions:** Validity theory, reproducibility, ethics
+- **Discuss broader impacts:** Ethics, accessibility, CSCW, policy, society
 
 ## Statistics Tower
 
 The Statistics Tower connects evaluation to experimental design, measurement uncertainty, comparison, sampling, and data analysis. It helps HCI researchers avoid treating numbers as self-explanatory.
-
-A usability score, task time, error count, or success rate is not automatically meaningful. It depends on sample size, task design, data distribution, variability, measurement error, and the claim being made.
 
 ```mermaid
 flowchart TB
@@ -164,17 +126,12 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Statistical idea | HCI evaluation use | Example |
-|---|---|---|
-| Variable | Defines what changes and what is measured | Navigation version as independent variable, task time as dependent variable |
-| Sampling | Defines who evidence represents | First-year students versus expert designers |
-| Descriptive statistics | Summarises what happened | Median task time, success rate, error count |
-| Inferential statistics | Supports cautious population claims | Testing whether one condition differs from another |
-| Effect size | Shows practical magnitude | A faster version may not be meaningfully faster |
-| Confidence interval | Shows uncertainty around an estimate | Task success estimate is not exact |
-| Power | Helps plan sample size for quantitative comparison | Avoids underpowered experiments |
-
-Statistics is most relevant when the evaluation makes a quantitative claim. It is less central when the goal is formative discovery, but even formative studies need careful summaries and honest boundaries.
+- **Variable:** hci evaluation use: Defines what changes and what is measured (example: Navigation version as independent variable, task time as dependent variable)
+- **Sampling:** hci evaluation use: Defines who evidence represents (example: First-year students versus expert designers)
+- **Descriptive statistics:** hci evaluation use: Summarises what happened (example: Median task time, success rate, error count)
+- **Effect size:** hci evaluation use: Shows practical magnitude (example: A faster version may not be meaningfully faster)
+- **Confidence interval:** hci evaluation use: Shows uncertainty around an estimate (example: Task success estimate is not exact)
+- **Power:** hci evaluation use: Helps plan sample size for quantitative comparison (example: Avoids underpowered experiments)
 
 ## Psychology Hall
 
@@ -205,15 +162,13 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Psychological construct | Evaluation connection |
-|---|---|
-| Attention | Eye movement, first-click behaviour, noticing feedback, missing controls |
-| Working memory | Recall burden, multi-step tasks, hidden state |
-| Cognitive workload | NASA-TLX, perceived difficulty, hesitation, fatigue |
-| Trust | Reliance, verification behaviour, confidence, overtrust and undertrust |
-| Learning | First-use success, repeated-task improvement, error reduction |
-| Satisfaction | SUS, UEQ, post-task ratings, interviews |
-| Perception | Contrast, visual hierarchy, icons, motion sensitivity |
+- **Attention:** Eye movement, first-click behaviour, noticing feedback, missing controls
+- **Working memory:** Recall burden, multi-step tasks, hidden state
+- **Cognitive workload:** NASA-TLX, perceived difficulty, hesitation, fatigue
+- **Trust:** Reliance, verification behaviour, confidence, overtrust and undertrust
+- **Learning:** First-use success, repeated-task improvement, error reduction
+- **Satisfaction:** SUS, UEQ, post-task ratings, interviews
+- **Perception:** Contrast, visual hierarchy, icons, motion sensitivity
 
 Psychology also contributes reporting standards. APA’s Journal Article Reporting Standards help structure qualitative, quantitative, and mixed-method research reports. That matters for HCI because evaluation reports need to explain participants, measures, procedure, analysis, findings, and limitations.
 
@@ -246,15 +201,13 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Social science method | What it adds to HCI evaluation |
-|---|---|
-| Interview | Reveals explanations, expectations, values, and interpretation |
-| Observation | Shows behaviour in natural or semi-natural settings |
-| Ethnography | Studies technology inside culture, work, and everyday practice |
-| Diary study | Captures experience across time rather than one session |
-| Focus group | Shows shared attitudes and group discussion |
-| Thematic analysis | Turns qualitative data into structured patterns |
-| Case study | Gives depth for one setting, team, tool, or deployment |
+- **Interview:** Reveals explanations, expectations, values, and interpretation
+- **Observation:** Shows behaviour in natural or semi-natural settings
+- **Ethnography:** Studies technology inside culture, work, and everyday practice
+- **Diary study:** Captures experience across time rather than one session
+- **Focus group:** Shows shared attitudes and group discussion
+- **Thematic analysis:** Turns qualitative data into structured patterns
+- **Case study:** Gives depth for one setting, team, tool, or deployment
 
 CSCW is an important neighbouring field here because it studies collaboration, social computing, work, communication, coordination, and sociotechnical settings. Evaluation of collaborative systems cannot be reduced to one user completing one task.
 
@@ -287,14 +240,12 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| ESE contribution | HCI evaluation use |
-|---|---|
-| Empirical method discipline | Helps evaluate software tools with rigorous qualitative, quantitative, or mixed methods |
-| Field studies of developers | Useful for programming tools, IDEs, dashboards, and work systems |
-| Repository mining | Reveals large-scale behaviour in code, issues, pull requests, and collaboration |
-| Controlled comparisons | Tests whether a tool or workflow changes performance |
-| Replication packages | Supports reproducibility and inspection |
-| Industrial realism | Connects lab findings to software practice |
+- **Empirical method discipline:** Helps evaluate software tools with rigorous qualitative, quantitative, or mixed methods
+- **Field studies of developers:** Useful for programming tools, IDEs, dashboards, and work systems
+- **Repository mining:** Reveals large-scale behaviour in code, issues, pull requests, and collaboration
+- **Controlled comparisons:** Tests whether a tool or workflow changes performance
+- **Replication packages:** Supports reproducibility and inspection
+- **Industrial realism:** Connects lab findings to software practice
 
 ESEM is a useful venue route here because it focuses on empirical software engineering and measurement. It is relevant when the evaluated object is a software process, development tool, repository workflow, or technical system.
 
@@ -327,13 +278,11 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Instrument | Measures | Use carefully because |
-|---|---|---|
-| SUS | Global perceived usability | It gives a broad score, not exact design diagnosis |
-| NASA-TLX | Subjective workload | Workload source still needs interpretation |
-| UEQ | User experience dimensions such as attractiveness and efficiency | Translation and context affect interpretation |
-| Post-task confidence rating | Perceived certainty after a task | Confidence may be inaccurate |
-| Custom rubric | Project-specific quality judgement | Rubric must define levels and evidence clearly |
+- **SUS:** measures: Global perceived usability; use carefully because: It gives a broad score, not exact design diagnosis
+- **NASA-TLX:** measures: Subjective workload; use carefully because: Workload source still needs interpretation
+- **UEQ:** measures: User experience dimensions such as attractiveness and efficiency; use carefully because: Translation and context affect interpretation
+- **Post-task confidence rating:** measures: Perceived certainty after a task; use carefully because: Confidence may be inaccurate
+- **Custom rubric:** measures: Project-specific quality judgement; use carefully because: Rubric must define levels and evidence clearly
 
 Measurement connects to [[Activities/Theory]] because constructs must be defined before they are measured. It connects to [[Activities/Design]] because instruments must be prepared in the protocol. It connects to [[Activities/Experiment]] because measurement happens during the study.
 
@@ -366,14 +315,12 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Analytics concept | HCI evaluation use | Limitation |
-|---|---|---|
-| Event | Records a user action | Does not explain motivation |
-| Funnel | Shows where users drop out | Drop-off cause needs qualitative follow-up |
-| Cohort | Compares groups over time | Group definition can bias interpretation |
-| Retention | Shows repeated use | Continued use is not always satisfaction |
-| Segmentation | Reveals different user patterns | Can stereotype or oversimplify users |
-| A/B result | Compares deployed variants | Local metric gains may hurt broader experience |
+- **Event:** hci evaluation use: Records a user action; limitation: Does not explain motivation
+- **Funnel:** hci evaluation use: Shows where users drop out; limitation: Drop-off cause needs qualitative follow-up
+- **Cohort:** hci evaluation use: Compares groups over time; limitation: Group definition can bias interpretation
+- **Retention:** hci evaluation use: Shows repeated use; limitation: Continued use is not always satisfaction
+- **Segmentation:** hci evaluation use: Reveals different user patterns; limitation: Can stereotype or oversimplify users
+- **A/B result:** hci evaluation use: Compares deployed variants; limitation: Local metric gains may hurt broader experience
 
 Product analytics should not replace usability testing. Logs can show what happened at scale, but they rarely explain why. Strong evaluation often combines analytics with interviews, usability tests, and contextual evidence.
 
@@ -396,14 +343,12 @@ flowchart LR
     class F final;
 ```
 
-| Ethics concept | HCI evaluation meaning |
-|---|---|
-| Respect for persons | Users should participate voluntarily and understand what is happening |
-| Beneficence | The study should minimise harm and unnecessary risk |
-| Justice | Participant selection should not unfairly burden or exclude groups |
-| Privacy | Data should be limited, protected, and reported responsibly |
-| Non-blame framing | Participants must know the design is being tested, not their intelligence |
-| Accessibility accommodation | Participants should be able to use necessary tools and support |
+- **Respect for persons:** Users should participate voluntarily and understand what is happening
+- **Beneficence:** The study should minimise harm and unnecessary risk
+- **Justice:** Participant selection should not unfairly burden or exclude groups
+- **Privacy:** Data should be limited, protected, and reported responsibly
+- **Non-blame framing:** Participants must know the design is being tested, not their intelligence
+- **Accessibility accommodation:** Participants should be able to use necessary tools and support
 
 The Belmont Report is a major ethics source for human-subject research. The ACM Code of Ethics is also relevant because HCI evaluation is computing work with social consequences.
 
@@ -444,15 +389,13 @@ flowchart TB
 | Assistive technology testing | Evidence about screen readers, keyboard navigation, magnification, voice input |
 | Disabled-user testing | Evidence from lived experience, strategies, and barriers |
 
-Accessibility evaluation is connected to [[../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], but it also belongs inside this room because “evaluating the design” is incomplete without evaluating who can use it.
+## Artifact Area
 
-## Artifact Room
-
-The Artifact Room connects HCI evaluation to open science and computational reproducibility. If a study uses software, scripts, datasets, logs, coding schemes, or analysis notebooks, those artifacts shape whether the result can be inspected and repeated.
+The Artifact Area connects HCI evaluation to open science and computational reproducibility. If a study uses software, scripts, datasets, logs, coding schemes, or analysis notebooks, those artifacts shape whether the result can be inspected and repeated.
 
 ```mermaid
 flowchart TB
-    A((Artifact Room))
+    A((Artifact Area))
 
     A --> B[Protocol]
     A --> C[Data]
@@ -475,21 +418,15 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Artifact | Why it matters |
-|---|---|
-| Protocol | Shows exactly how participants were tested |
-| Task list | Shows what users were asked to do |
-| Survey instrument | Shows how constructs were measured |
-| Data dictionary | Explains variables and coding |
-| Analysis script | Makes quantitative or qualitative processing inspectable |
-| Coding scheme | Shows how qualitative themes were generated |
-| Versioned prototype | Shows what interface was actually evaluated |
-
-ACM provides artifact review and badging terminology for publications that choose to review research artifacts. This matters because evaluation claims are stronger when materials and analysis can be inspected.
+- **Protocol:** Shows exactly how participants were tested
+- **Task list:** Shows what users were asked to do
+- **Survey instrument:** Shows how constructs were measured
+- **Data dictionary:** Explains variables and coding
+- **Analysis script:** Makes quantitative or qualitative processing inspectable
+- **Coding scheme:** Shows how qualitative themes were generated
+- **Versioned prototype:** Shows what interface was actually evaluated
 
 ## Connection pattern
-
-The Observation Chamber uses a repeated pattern: each connected field contributes a method material, HCI translates it into an evaluation decision, and the result becomes evidence.
 
 ```mermaid
 flowchart LR
@@ -506,76 +443,14 @@ flowchart LR
     class F final;
 ```
 
-| External field | Method material | HCI evaluation decision |
-|---|---|---|
-| Statistics | Variables, uncertainty, effect size | Choose metrics and analysis strategy |
-| Psychology | Constructs, workload, trust, perception | Choose instruments and interpret human response |
-| Social science | Interviews, observation, fieldwork | Capture context and meaning |
-| Empirical software engineering | Tool evaluation, repository mining, replication | Evaluate technical systems and developer tools |
-| Product analytics | Logs, funnels, cohorts | Study deployed behaviour at scale |
-| Research ethics | Consent, privacy, justice | Protect participants and data |
-| Accessibility | Standards, assistive technology, disabled-user evidence | Evaluate inclusion and barriers |
-| Reproducibility | Artifacts, scripts, protocols | Make study evidence inspectable |
-
-## Cognishire application
-
-The Cognishire HCI map can use this bridge directly.
-
-```mermaid
-flowchart TB
-    A((Cognishire<br/>Method Bridge))
-
-    A --> B[Statistics]
-    A --> C[Psychology]
-    A --> D[Social science]
-    A --> E[Analytics]
-    A --> F[Ethics]
-    A --> G[Accessibility]
-
-    B --> B1[Summarise task<br/>success]
-    C --> C1[Measure workload<br/>or confidence]
-    D --> D1[Interview users<br/>about room names]
-    E --> E1[Track navigation<br/>paths]
-    F --> F1[Consent and<br/>privacy]
-    G --> G1[Keyboard and<br/>contrast checks]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G node;
-    class B1,C1,D1,E1,F1,G1 detail;
-```
-
-| Project question | Connected field | Method choice |
-|---|---|---|
-| Do users understand the five room names? | Psychology and social science | Explanation task plus short interview |
-| Can users find the System Design page? | Usability and statistics | Task success, time, wrong turns |
-| Does the theme improve motivation? | Psychology | Self-report plus behavioural engagement |
-| Do diagrams help comprehension? | Experimental design | Compare diagram version with text/table version |
-| Does the vault work after GitHub sharing? | Empirical software engineering | Reproducible clone test and issue log |
-| Does the map remain accessible? | Accessibility evaluation | Keyboard, focus, contrast, screen reader checks |
-| Which pages are actually used? | Product analytics | Link tracking or local navigation logs, only with ethical setup |
-
-## What this page should not claim
-
-| Do not claim | Safer wording |
-|---|---|
-| “Statistics proves the design is good.” | “Statistics can support specific quantitative claims when the study is designed well.” |
-| “Qualitative work is less rigorous.” | “Qualitative work is rigorous when sampling, procedure, analysis, and interpretation are explicit.” |
-| “Analytics replaces user research.” | “Analytics shows behavioural traces at scale, but usually does not explain why.” |
-| “Accessibility is a final checklist.” | “Accessibility evaluation combines standards, manual checks, assistive technology, and user evidence when possible.” |
-| “Ethics is only for medical research.” | “Any study involving people needs consent, privacy, and participant dignity.” |
-| “Artifacts are optional decoration.” | “Protocols, materials, data dictionaries, and code help others inspect the evidence.” |
-
-## Bridge synthesis
-
-Connections in the Observation Chamber show that HCI evaluation is not one isolated technique. It is a method ecosystem. Statistics helps evaluation compare and quantify. Psychology helps define human constructs. Social science methods reveal context and meaning. Empirical software engineering studies technical systems and tools. Product analytics reveals real-world behavioural traces. Research ethics protects participants. Accessibility evaluation expands what “works” means. Reproducibility makes evidence inspectable.
-
-The central lesson is that evaluation is not just collecting data. It is building a bridge from method to evidence to design action.
-
-This page connects to [[Activities/Theory]] because every connection depends on measurement and validity. It connects to [[Activities/Design]] because protocols must choose methods, instruments, and ethics. It connects to [[Activities/Experiment]] because those methods become real studies. It connects to [[Important Venues]] because each connected field has its own publication homes. It connects to [[Open Problems]] because bias, validity, reproducibility, ecological realism, and long-term outcomes remain unresolved.
+- **Statistics:** method material: Variables, uncertainty, effect size; hci evaluation decision: Choose metrics and analysis strategy
+- **Psychology:** method material: Constructs, workload, trust, perception; hci evaluation decision: Choose instruments and interpret human response
+- **Social science:** method material: Interviews, observation, fieldwork; hci evaluation decision: Capture context and meaning
+- **Empirical software engineering:** method material: Tool evaluation, repository mining, replication; hci evaluation decision: Evaluate technical systems and developer tools
+- **Product analytics:** method material: Logs, funnels, cohorts; hci evaluation decision: Study deployed behaviour at scale
+- **Research ethics:** method material: Consent, privacy, justice; hci evaluation decision: Protect participants and data
+- **Accessibility:** method material: Standards, assistive technology, disabled-user evidence; hci evaluation decision: Evaluate inclusion and barriers
+- **Reproducibility:** method material: Artifacts, scripts, protocols; hci evaluation decision: Make study evidence inspectable
 
 ## Academic anchors
 

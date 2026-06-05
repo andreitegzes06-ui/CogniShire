@@ -1,42 +1,16 @@
----
-title: Theory
-area: Interface Forge
-category: Activities
-cssclasses:
-  - interface-forge
-tags:
-  - HCI
-  - interface-theory
-  - interaction-design
-  - interface-principles
-  - visual-hierarchy
-  - affordances
-  - feedback
-  - navigation
-  - design-systems
-  - accessibility
-status: polished-cognishire-draft
----
-
+![[regularShow.jpg|1000]]
 # Theory
-
-Back to [[../Overview|The Interface Forge]].
-
-> [!abstract] Theory Forge
-> Theory in the Interface Forge explains how interface form is built. It connects user understanding to layout, controls, states, navigation, components, design systems, responsiveness, and accessibility.
-
-The [[01_Core_Area_HCI/001_Subareas/01_Understanding_the_User/Activities/Theory|Mind Library]] studies the user. It asks how people perceive, remember, learn, trust, recover, and act. The Interface Forge asks a more practical question: how should those human limits become interface structure?
 
 This page is therefore about design-facing theory. It does not replace general HCI theory. It applies it to screens, flows, components, feedback, and systems. It explains why layout guides attention, why controls need signifiers, why system state must be visible, why navigation must support wayfinding, and why accessibility must be built into interface components.
 
-> [!quote] Forge theory rule
+> [!quote] System Design theory rule
 > Interface theory is useful when it tells the designer what to make visible, what to constrain, what to test, and what to repair.
 
-## Theory Forge Map
+## Theory System Design Map
 
 ```mermaid
 flowchart TB
-    A((Theory Forge))
+    A((Theory System Design))
 
     A --> B[Structure]
     A --> C[Action]
@@ -59,18 +33,7 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Theory route | Interface question | Design consequence |
-|---|---|---|
-| Structure theory | How should information be organised? | Layout, grouping, hierarchy, spacing, and information architecture |
-| Action theory | How does the user know what can be done? | Controls, affordances, signifiers, labels, and interaction cues |
-| State theory | How does the system show what is happening? | Loading, success, error, disabled, empty, and warning states |
-| Navigation theory | How does the user move and stay oriented? | Menus, breadcrumbs, active states, internal links, and labels |
-| Component theory | How does the interface stay consistent? | Components, variants, states, tokens, and documentation |
-| Access theory | How does the interface work across abilities and technologies? | Keyboard access, contrast, focus order, semantics, and assistive technology support |
-
 ## Structure Theory: The Screen as an Organised Field
-
-Structure theory begins with a simple claim: a screen is not a container for objects. It is an organised field of attention. Placement, grouping, scale, alignment, contrast, and spacing all tell users what matters and what belongs together.
 
 Visual hierarchy guides the eye toward important elements. In interface design, this is not only aesthetic. It affects whether users find the main action, understand the page, and predict the next step.
 
@@ -97,13 +60,11 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Structural principle | Interface meaning | Failure pattern |
-|---|---|---|
-| Proximity | Nearby items are interpreted as related | Users group unrelated actions together |
-| Similarity | Similar-looking items are read as similar in function | Decorative elements look interactive |
-| Contrast | Strong difference signals importance | Primary actions disappear into the page |
-| Alignment | Ordered placement communicates structure | The page feels accidental or unstable |
-| Progressive disclosure | Detail appears when needed | Users are overloaded too early |
+- **Proximity:** interface meaning: Nearby items are interpreted as related; failure pattern: Users group unrelated actions together
+- **Similarity:** interface meaning: Similar-looking items are read as similar in function; failure pattern: Decorative elements look interactive
+- **Contrast:** interface meaning: Strong difference signals importance; failure pattern: Primary actions disappear into the page
+- **Alignment:** interface meaning: Ordered placement communicates structure; failure pattern: The page feels accidental or unstable
+- **Progressive disclosure:** interface meaning: Detail appears when needed; failure pattern: Users are overloaded too early
 
 The practical theory is that the interface should reduce unnecessary interpretation. If users must scan repeatedly, compare too many equal elements, or guess what belongs together, the structure is forcing them to do extra cognitive work.
 
@@ -129,24 +90,18 @@ flowchart LR
     class E final;
 ```
 
-| Control type | Theoretical job | Interface check |
-|---|---|---|
-| Button | Makes a command visible | Label, contrast, state, and click target are clear |
-| Link | Signals movement to another place or resource | Text describes the destination |
-| Text field | Invites input | Label and expected format are visible |
-| Toggle | Represents binary state | Current state and change effect are clear |
-| Slider | Represents adjustable value | Range, value, and effect are understandable |
-| Disabled control | Communicates unavailable action | Reason and path to availability are shown when useful |
+- **Button:** theoretical job: Makes a command visible; interface check: Label, contrast, state, and click target are clear
+- **Link:** theoretical job: Signals movement to another place or resource; interface check: Text describes the destination
+- **Text field:** theoretical job: Invites input; interface check: Label and expected format are visible
+- **Toggle:** theoretical job: Represents binary state; interface check: Current state and change effect are clear
+- **Slider:** theoretical job: Represents adjustable value; interface check: Range, value, and effect are understandable
+- **Disabled control:** theoretical job: Communicates unavailable action; interface check: Reason and path to availability are shown when useful
 
 The core theory is that users should not need accidental exploration to find basic actions. Exploration can be useful, but essential functions need strong signifiers, predictable behaviour, and immediate feedback.
 
 Useful routes: [NN/g signifiers topic](https://www.nngroup.com/topic/signifiers/), [NN/g design-pattern guidelines](https://www.nngroup.com/articles/design-pattern-guidelines/), and Donald Norman’s writing on affordances and signifiers.
 
 ## State Theory: Interfaces Are Always Changing
-
-State theory explains that an interface is not a static picture. A screen can be idle, loading, successful, empty, disabled, warning, failed, recovering, or updated. Users need to understand those states to act safely.
-
-Apple’s feedback guidance explains that clear, consistent feedback helps people understand what happens as they interact with an app. This is central to the Interface Forge because state is often invisible unless the designer expresses it through feedback.
 
 ```mermaid
 flowchart LR
@@ -168,15 +123,12 @@ flowchart LR
     class E final;
 ```
 
-| Interface state | User question | Design requirement |
-|---|---|---|
-| Idle | What can I do now? | Available actions are visible |
-| Loading | Is the system working? | Progress or processing feedback appears |
-| Success | Did it work? | Confirmation and next step are clear |
-| Error | What failed, and how do I repair it? | Message is visible, constructive, and specific |
-| Empty | Why is nothing here? | Explain the state and offer the next action |
-| Disabled | Why can I not do this? | Show the condition or requirement when useful |
-| Warning | What risk am I about to take? | Explain consequence before commitment |
+- **Idle:** user question: What can I do now?; design requirement: Available actions are visible
+- **Loading:** user question: Is the system working?; design requirement: Progress or processing feedback appears
+- **Success:** user question: Did it work?; design requirement: Confirmation and next step are clear
+- **Error:** user question: What failed, and how do I repair it?; design requirement: Message is visible, constructive, and specific
+- **Empty:** user question: Why is nothing here?; design requirement: Explain the state and offer the next action
+- **Disabled:** user question: Why can I not do this?; design requirement: Show the condition or requirement when useful
 
 State theory prevents silent change. If a system changes without clear feedback, the user must guess. That can create repeated clicking, duplicate submissions, anxiety, and mistrust.
 
@@ -211,15 +163,11 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Navigation problem | User interpretation | Repair |
-|---|---|---|
-| Current location is hidden | “I am lost.” | Add active states, headings, or breadcrumbs |
-| Labels are vague | “I cannot predict what is inside.” | Use task-based, user-centred language |
-| Too many routes compete | “Everything looks equally important.” | Prioritise primary paths |
-| Back path is unclear | “I might lose my work.” | Support safe return, undo, and saved state |
-| Search is the only usable navigation | “The structure is not learnable.” | Improve categories and information architecture |
-
-In this project, navigation theory matters because the vault itself is an interface. [[../../01_Understanding_the_User/Overview|Mind Library]], [[../Overview|Interface Forge]], [[../../03_Evaluating_the_Design/Overview|Observation Chamber]], [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], and [[../../05_Human_AI_Interaction/Overview|Oracle Engine]] should behave like meaningful regions, not random folders.
+- **Current location is hidden:** user interpretation: “I am lost.”; repair: Add active states, headings, or breadcrumbs
+- **Labels are vague:** user interpretation: “I cannot predict what is inside.”; repair: Use task-based, user-centred language
+- **Too many routes compete:** user interpretation: “Everything looks equally important.”; repair: Prioritise primary paths
+- **Back path is unclear:** user interpretation: “I might lose my work.”; repair: Support safe return, undo, and saved state
+- **Search is the only usable navigation:** user interpretation: “The structure is not learnable.”; repair: Improve categories and information architecture
 
 ## Feedback and Error Theory: Failure Is Part of the Interface
 
@@ -243,13 +191,11 @@ flowchart LR
     class D final;
 ```
 
-| Error principle | Interface theory | Example |
-|---|---|---|
-| Prevention | Avoid the error before it happens | Disable impossible dates |
-| Visibility | Show the problem where it occurs | Inline field message |
-| Constructive language | Explain repair, not blame | “Use at least 8 characters” |
-| Efficiency | Let users fix without restarting | Keep valid fields filled |
-| Recovery | Provide undo or safe reversal | Restore deleted item |
+- **Prevention:** interface theory: Avoid the error before it happens (example: Disable impossible dates)
+- **Visibility:** interface theory: Show the problem where it occurs (example: Inline field message)
+- **Constructive language:** interface theory: Explain repair, not blame (example: “Use at least 8 characters”)
+- **Efficiency:** interface theory: Let users fix without restarting (example: Keep valid fields filled)
+- **Recovery:** interface theory: Provide undo or safe reversal (example: Restore deleted item)
 
 NN/g’s error-message guidance recommends messages that are visible, constructive, and respectful of user effort. This belongs in theory because error design expresses the system’s attitude toward the user. A hostile error message makes the user feel like the problem. A good error message treats the problem as repairable.
 
@@ -284,13 +230,11 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Component layer | What it controls | Why it matters |
-|---|---|---|
-| Component | The reusable interface object | Prevents rebuilding and inconsistency |
-| Variant | Different forms of that object | Supports different contexts without chaos |
-| State | The object’s behaviour over time | Shows availability, feedback, and response |
-| Token | The design value behind appearance | Keeps colour, spacing, and type consistent |
-| Documentation | The rule for use | Prevents misuse by designers and developers |
+- **Component:** what it controls: The reusable interface object (why: Prevents rebuilding and inconsistency)
+- **Variant:** what it controls: Different forms of that object (why: Supports different contexts without chaos)
+- **State:** what it controls: The object’s behaviour over time (why: Shows availability, feedback, and response)
+- **Token:** what it controls: The design value behind appearance (why: Keeps colour, spacing, and type consistent)
+- **Documentation:** what it controls: The rule for use (why: Prevents misuse by designers and developers)
 
 Useful routes: [Material Design components](https://m3.material.io/components), [Material Design foundations](https://m3.material.io/foundations), [Microsoft Fluent 2](https://fluent2.microsoft.design/), and [Fluent 2 design tokens](https://fluent2.microsoft.design/design-tokens).
 
@@ -323,19 +267,15 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| System element | Theory role | Practical question |
-|---|---|---|
-| Token | Stores a reusable design value | Is this colour or spacing used consistently? |
-| Component | Stores a reusable interface object | Does this button behave the same everywhere? |
-| Pattern | Stores a recurring interaction solution | Do similar tasks follow similar flows? |
-| Guideline | Stores the rule behind usage | Does the team know when to use this element? |
-| Accessibility rule | Stores inclusive requirements | Does every component support keyboard and screen reader use? |
+- **Token:** theory role: Stores a reusable design value; practical question: Is this colour or spacing used consistently?
+- **Component:** theory role: Stores a reusable interface object; practical question: Does this button behave the same everywhere?
+- **Pattern:** theory role: Stores a recurring interaction solution; practical question: Do similar tasks follow similar flows?
+- **Guideline:** theory role: Stores the rule behind usage; practical question: Does the team know when to use this element?
+- **Accessibility rule:** theory role: Stores inclusive requirements; practical question: Does every component support keyboard and screen reader use?
 
 Fluent 2 describes design tokens as flexible and accessibility-supporting, including support for light, dark, high-contrast, and branded themes. Material Design describes components and foundations as reusable resources for building user interfaces. These sources are useful because they show how interface theory becomes maintainable infrastructure.
 
-## Accessibility Theory Inside the Forge
-
-Accessibility theory in the Interface Forge is component-level. It asks whether the actual interface pieces can be perceived, operated, understood, and interpreted reliably by assistive technologies.
+## Accessibility Theory Inside the System Design
 
 WCAG organises accessibility around four principles: perceivable, operable, understandable, and robust. In interface construction, these principles become practical questions about every component and state.
 
@@ -362,12 +302,10 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| WCAG principle | Interface theory | Forge check |
-|---|---|---|
-| Perceivable | Users must be able to access information through available senses | Contrast, labels, captions, alternatives |
-| Operable | Users must be able to use controls through available input methods | Keyboard access, focus order, target size |
-| Understandable | Users must be able to predict and interpret interaction | Clear language, consistent states, helpful errors |
-| Robust | Interface must work with assistive technologies | Semantic HTML, ARIA when needed, reliable structure |
+- **Perceivable:** interface theory: Users must be able to access information through available senses; design check: Contrast, labels, captions, alternatives
+- **Operable:** interface theory: Users must be able to use controls through available input methods; design check: Keyboard access, focus order, target size
+- **Understandable:** interface theory: Users must be able to predict and interpret interaction; design check: Clear language, consistent states, helpful errors
+- **Robust:** interface theory: Interface must work with assistive technologies; design check: Semantic HTML, ARIA when needed, reliable structure
 
 Accessibility cannot be added only at the end because inaccessible components reproduce barriers everywhere they are reused. A design system with inaccessible buttons, fields, dialogs, and menus becomes a barrier factory.
 
@@ -450,37 +388,12 @@ flowchart LR
     class F final;
 ```
 
-| Theory | Prototype decision | Test question |
-|---|---|---|
-| Visual hierarchy | Make the primary action visually dominant | Do users notice the correct action first? |
-| Signifiers | Add clearer button states and labels | Do users understand what is clickable? |
-| Feedback | Add loading, success, and error states | Do users know what happened? |
-| Navigation | Add active state and clearer labels | Can users find the target page? |
-| Accessibility | Add keyboard focus and semantic labels | Can assistive technology users operate the flow? |
-| Design system | Use consistent components | Do repeated patterns behave predictably? |
-
-This loop connects the Interface Forge to the [[../../03_Evaluating_the_Design/Overview|Observation Chamber]], where prototypes are tested, and to the [[../../04_Accessibility_and_Accountability/Overview|Inclusive Gate]], where interface theory is checked against accessibility and ethics.
-
-## Cognishire Application
-
-The Cognishire vault is itself an interface. The theory on this page can be used to check whether the vault is readable, navigable, consistent, and accessible.
-
-| Theory route | Cognishire design check |
-|---|---|
-| Structure | Are headings, diagrams, callouts, and tables visually ordered? |
-| Action | Do links look meaningful and lead to expected places? |
-| State | Does the user know when they are in a room, subarea, or activity page? |
-| Navigation | Can the user move from the five rooms to a specific concept and back? |
-| Component | Do repeated callouts, diagrams, and tables behave consistently? |
-| Accessibility | Can the theme be read with enough contrast and used with keyboard navigation? |
-
-This gives the Interface Forge a practical role inside the project. It is not only a chapter about interface design. It is also a checklist for improving the vault as a learning system.
-
-## Forge Synthesis
-
-Theory in the Interface Forge is practical theory. It explains how interface form should be constructed. Structure theory organises attention. Action theory makes possible actions visible. State theory shows system behaviour. Navigation theory supports wayfinding. Component theory creates consistency. Accessibility theory protects inclusion. Responsive and platform theory preserve usability across conditions.
-
-The Interface Forge does not replace the Mind Library. It applies it. The Mind Library explains why users need clear mental models, low cognitive load, feedback, and accessible interaction. The Interface Forge turns those ideas into components, states, flows, layouts, and prototypes that can be tested.
+- **Visual hierarchy:** prototype decision: Make the primary action visually dominant; test question: Do users notice the correct action first?
+- **Signifiers:** prototype decision: Add clearer button states and labels; test question: Do users understand what is clickable?
+- **Feedback:** prototype decision: Add loading, success, and error states; test question: Do users know what happened?
+- **Navigation:** prototype decision: Add active state and clearer labels; test question: Can users find the target page?
+- **Accessibility:** prototype decision: Add keyboard focus and semantic labels; test question: Can assistive technology users operate the flow?
+- **Design system:** prototype decision: Use consistent components; test question: Do repeated patterns behave predictably?
 
 ## Academic anchors
 
@@ -503,4 +416,3 @@ The Interface Forge does not replace the Mind Library. It applies it. The Mind L
 | Design tokens | [Fluent 2 Design Tokens](https://fluent2.microsoft.design/design-tokens) |
 | Prototyping and design practice | [Stanford d.school Tools](https://dschool.stanford.edu/innovate/tools) |
 
-^theory-interface-forge-end

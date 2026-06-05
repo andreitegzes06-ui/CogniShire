@@ -1,43 +1,5 @@
----
-title: Design
-area: Accessibility and Inclusive Design
-display-name: The Inclusive Gate
-category: Activities
-cs2023_unit: HCI-Accessibility
-secondary_unit: HCI-Accountability
-cssclasses:
-  - inclusive-gate
-tags:
-  - HCI
-  - CS2023
-  - HCI-Accessibility
-  - accessibility
-  - inclusive-design
-  - design
-  - accessible-interface-design
-  - WCAG
-  - WAI
-  - design-system
-  - inclusive-components
-  - keyboard-access
-  - screen-reader
-  - cognitive-accessibility
-  - UVT
-  - local-global
-status: academic-career-guide-draft
----
-
+![[house.png|1000]]
 # Design
-
-Back to [[../Overview|The Inclusive Gate]].
-
-> [!abstract] Inclusive Design Guide
-> Design in the **Inclusive Gate** means turning accessibility knowledge into interface decisions. It covers structure, contrast, typography, keyboard access, focus states, labels, error recovery, diagrams, reusable components, and fallback routes.
-
-The project nickname is **Inclusive Design Forge**.  
-The real CS2023 label is **HCI-Accessibility: Accessibility and Inclusive Design**.  
-The connected responsibility route is **HCI-Accountability: Accountability and Responsibility in Design**.  
-The practical meaning is **building access, clarity, dignity, and participation into the system before the system is tested**.
 
 This page is about design. The [[Experiment]] page checks whether the design works for real users. This page explains how to shape the interface so that fewer barriers appear in the first place.
 
@@ -47,8 +9,6 @@ This page is about design. The [[Experiment]] page checks whether the design wor
 ## What inclusive design means here
 
 Inclusive design starts from human variation. Users differ in vision, hearing, mobility, attention, language, memory, device access, technical skill, stress, fatigue, and context. A design becomes more inclusive when it reduces unnecessary demands on those users.
-
-For Cognishire, the main design question is simple:
 
 > What barrier could this page create, and how can the design remove or reduce that barrier?
 
@@ -85,17 +45,7 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1 detail;
 ```
 
-| Design layer | Main design question | Common failure |
-|---|---|---|
-| Information structure | Can users and assistive technologies understand the page order? | The page looks organised visually but has weak structure |
-| Visual access | Can users read the content across screens, zoom levels, and lighting conditions? | The design looks good to the author but becomes hard to read |
-| Interaction access | Can users move, open, select, and recover without one fixed input method? | The interface assumes mouse use or precise movement |
-| Language and cognition | Can users understand labels, instructions, states, and concepts? | The page becomes mentally expensive |
-| Reusable components | Are links, tables, callouts, and diagrams consistent across pages? | Accessibility breaks one page at a time |
-| Fallback routes | Does the content survive without the preferred theme, CSS, or plugin? | The design collapses outside the author’s setup |
-| Accountability | Are limits, risks, and assumptions stated clearly? | The design hides who may still be excluded |
-
-## CS2023 design gate
+## CS2023 grounding
 
 CS2023 places accessibility inside HCI. In this guide, that means accessibility is part of how interactive systems are designed, implemented, evaluated, and justified. It is not an optional polish step after the interface is finished.
 
@@ -122,53 +72,12 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| CS2023 route | Inclusive design translation |
-|---|---|
-| HCI-Accessibility | Design for disability, assistive technology, flexible use, and participation |
-| HCI-Design | Build accessibility into navigation, layout, components, states, and prototypes |
-| HCI-Evaluation | Test whether access actually works in practice |
-| HCI-Accountability | Document design choices, remaining barriers, repair plans, and limits |
+- **HCI-Accessibility:** Design for disability, assistive technology, flexible use, and participation
+- **HCI-Design:** Build accessibility into navigation, layout, components, states, and prototypes
+- **HCI-Evaluation:** Test whether access actually works in practice
+- **HCI-Accountability:** Document design choices, remaining barriers, repair plans, and limits
 
 ## Local UVT design layer
-
-The local context is the **Faculty of Informatics / Computer Science context at UVT**. This project will be read and judged through real tools: Obsidian, GitHub, Markdown, Mermaid, CSS, classroom presentation, professor review, and student reading.
-
-```mermaid
-flowchart TB
-    A((Local Design Context))
-
-    A --> B[Obsidian Vault]
-    A --> C[GitHub Repository]
-    A --> D[Classroom View]
-    A --> E[Professor Review]
-    A --> F[Student Reading]
-    A --> G[Accessibility Support]
-
-    B --> B1[Readable pages<br/>and stable links]
-    C --> C1[Content works<br/>after clone]
-    D --> D1[Readable from<br/>distance]
-    E --> E1[Academic labels<br/>and sources]
-    F --> F1[Clear first-year<br/>learning path]
-    G --> G1[Students may need<br/>accommodations]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G node;
-    class B1,C1,D1,E1,F1,G1 detail;
-```
-
-| Local design target | Requirement |
-|---|---|
-| Obsidian page | Headings, readable sections, stable backlinks, and compact diagrams |
-| GitHub view | Content remains understandable without Obsidian styling |
-| CSS theme | Contrast, text size, spacing, and focus visibility remain readable |
-| Professor review | Fantasy names are paired with real CS2023 labels and trusted sources |
-| Student reading | Explanations are short enough for a first-year student to follow |
-| Mermaid diagrams | Diagrams are compact, readable, and supported by text or tables |
-| Local accessibility context | The project respects that students may use accommodations or assistive technologies |
 
 ## Principle 1: Start from exclusion
 
@@ -187,15 +96,6 @@ flowchart LR
     class A,B,C,D node;
     class E final;
 ```
-
-| Design demand | Possible exclusion | Repair |
-|---|---|---|
-| The user must understand a fantasy metaphor | New reader, professor, non-HCI student | Pair the metaphor with the official CS2023 label |
-| The user must detect colour differences | Colour-blind or low-vision user | Add text labels, contrast, shape, and position |
-| The user must use a mouse | Keyboard user, motor-disabled user, broken mouse situation | Make navigation keyboard reachable |
-| The user must read dense academic text | Tired student, ADHD user, language learner | Use short sections, route tables, and examples |
-| The user must open Obsidian correctly | External viewer unfamiliar with the setup | Keep a GitHub-readable fallback |
-| The user must understand a complex diagram | Small-screen reader, screen reader user, low-vision user | Add a text explanation and a table |
 
 ## Principle 2: Use POUR as a design skeleton
 
@@ -224,12 +124,9 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| POUR principle | Design rule for Cognishire |
-|---|---|
-| Perceivable | Text, diagrams, labels, and sources must be readable and not depend only on colour |
-| Operable | Links and routes must be reachable by keyboard and not rely on hover-only behavior |
-| Understandable | Fantasy labels must be translated into academic terms immediately |
-| Robust | Markdown, links, assets, and CSS should remain usable across viewers |
+- **Perceivable:** Text, diagrams, labels, and sources must be readable and not depend only on colour
+- **Operable:** Links and routes must be reachable by keyboard and not rely on hover-only behavior
+- **Robust:** Markdown, links, assets, and CSS should remain usable across viewers
 
 ## Information structure design
 
@@ -262,15 +159,12 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Structural element | Design rule |
-|---|---|
-| Page title | Use the fantasy name only when the official academic meaning is visible nearby |
-| Opening callout | State the CS2023 label, page purpose, and local-global role |
-| Headings | Use headings as navigation, not decoration |
-| Backlink | Every page should have a clear route back to its room overview |
-| Tables | Use tables for comparisons and decisions |
-| Academic anchors | Separate curriculum, standards, research venues, practice guidance, and local UVT sources |
-| End synthesis | Close with one clear question or design principle |
+- **Opening callout:** State the CS2023 label, page purpose, and local-global role
+- **Headings:** Use headings as navigation, not decoration
+- **Backlink:** Every page should have a clear route back to its area overview
+- **Tables:** Use tables for comparisons and decisions
+- **Academic anchors:** Separate curriculum, standards, research venues, practice guidance, and local UVT sources
+- **End synthesis:** Close with one clear question or design principle
 
 ## Visual access design
 
@@ -303,17 +197,6 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Visual decision | Accessible choice |
-|---|---|
-| Text colour | High contrast against the page background |
-| Accent colour | Used for emphasis, not as the only signal |
-| Font size | Comfortable for long reading and adjustable by the user |
-| Line length | Narrow enough for scanning |
-| Spacing | Related content is grouped; unrelated content is separated |
-| Diagram text | Dark readable text on light nodes in the current Cognishire Mermaid palette |
-| Focus state | Clearly visible during keyboard navigation |
-| Long pages | Broken into sections with route tables and short summaries |
-
 ## Interaction access design
 
 Interaction access means that users can act. A page is not accessible if users can read it but cannot move through it, open links, recover from mistakes, or understand where they are.
@@ -344,16 +227,6 @@ flowchart TB
     class B,C,D,E,F,G node;
     class B1,C1,D1,E1,F1,G1 detail;
 ```
-
-| Interaction rule | Application in the HCI map |
-|---|---|
-| Keyboard reachable | Internal navigation should work without a mouse |
-| Focus visible | The focus indicator should remain visible on dark backgrounds and panels |
-| Link text meaningful | Avoid vague text such as “click here” |
-| Targets forgiving | Links should not require tiny precision |
-| Return path clear | Every page should link back to its overview |
-| No hover-only content | Important information should not depend only on hover |
-| Recovery possible | If GitHub or Obsidian setup fails, users need fallback instructions |
 
 ## Component design rules
 
@@ -386,19 +259,13 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Component | Accessible design rule |
-|---|---|
-| Link | Link text should describe the destination or purpose |
-| Button or action | The user should know what will happen before activation |
-| Table | Use a header row and keep comparisons simple |
-| Diagram | Keep it compact and repeat the core idea in text |
-| Callout | Use callouts for purpose, warning, example, or synthesis |
-| Source block | Group sources by role: curriculum, standard, research, local UVT, practice |
-| Page route | Use a consistent route board so users know where to go next |
+- **Link:** Link text should describe the destination or purpose
+- **Button or action:** The user should know what will happen before activation
+- **Table:** Use a header row and keep comparisons simple
+- **Diagram:** Keep it compact and repeat the core idea in text
+- **Source block:** Group sources by role: curriculum, standard, research, local UVT, practice
 
 ## Accessible Mermaid design
-
-Mermaid diagrams are useful in Cognishire, but they can create barriers if they are large, low contrast, or visually dependent. The current design rule is: one concept per diagram, light nodes, dark brown text, compact labels, and a nearby text or table explanation.
 
 ```mermaid
 flowchart TB
@@ -425,19 +292,7 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Mermaid rule | Reason |
-|---|---|
-| Prefer compact flowcharts | They fit better in Obsidian Reading View |
-| Avoid large mindmaps | They overflow and are difficult to scan |
-| Use light node fills with dark text | This matches the current Cognishire palette and improves readability |
-| Avoid thin low-contrast arrows | Direction must remain visible |
-| Limit node text | Long sentences inside nodes reduce readability |
-| Add a table under important diagrams | Users need another route to the same meaning |
-| Do not use colour as the only category marker | Add labels and headings |
-
 ## Cognitive design rules
-
-Cognitive accessibility matters because Cognishire uses metaphors, academic sources, CS2023 labels, and long pages. A user should not need to guess the academic meaning of a room name.
 
 ```mermaid
 flowchart TB
@@ -454,7 +309,7 @@ flowchart TB
     C --> C1[Use the same term<br/>across pages]
     D --> D1[Short sections]
     E --> E1[Concrete local<br/>examples]
-    F --> F1[Repeat room purpose]
+    F --> F1[Repeat area purpose]
     G --> G1[Predictable structure]
 
     classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
@@ -466,15 +321,12 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Cognitive barrier | Design repair |
-|---|---|
-| User does not understand the fantasy name | Add the official label and real-life meaning immediately |
-| User forgets where they are | Add consistent backlinks and room identity |
-| User is overwhelmed by sources | Group sources by type |
-| User cannot connect local and global ideas | Put UVT and global HCI in the same comparison table |
-| User sees a diagram but misses the concept | Add a short explanation after the diagram |
-| User cannot distinguish theory from experiment | Use page-role callouts at the top |
-| User reads on a small screen | Use shorter paragraphs and compact visual blocks |
+- **User forgets where they are:** Add consistent backlinks and area identity
+- **User is overwhelmed by sources:** Group sources by type
+- **User cannot connect local and global ideas:** Put UVT and global HCI in the same comparison table
+- **User sees a diagram but misses the concept:** Add a short explanation after the diagram
+- **User cannot distinguish theory from experiment:** Use page-role callouts at the top
+- **User reads on a small screen:** Use shorter paragraphs and compact visual blocks
 
 ## Form and error design
 
@@ -505,19 +357,15 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| Form or error element | Inclusive design rule |
-|---|---|
-| Label | Visible and programmatically connected to the input |
-| Required field | Marked in text, not only by colour |
-| Instruction | Placed before the user makes the error |
-| Validation | Does not erase user input |
-| Error message | Explains what happened and how to fix it |
-| Focus after error | Moves users to the problem or clearly identifies it |
-| Recovery | Allows correction without restarting |
+- **Label:** Visible and programmatically connected to the input
+- **Required field:** Marked in text, not only by colour
+- **Instruction:** Placed before the user makes the error
+- **Validation:** Does not erase user input
+- **Error message:** Explains what happened and how to fix it
+- **Focus after error:** Moves users to the problem or clearly identifies it
+- **Recovery:** Allows correction without restarting
 
 ## Design-system tokens
-
-A design system should encode accessibility into reusable choices. For this project, that means CSS variables, colours, spacing, font sizes, focus styles, and Mermaid classes should carry accessibility rules.
 
 ```mermaid
 flowchart TB
@@ -546,59 +394,18 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1 detail;
 ```
 
-| Token type | Requirement |
-|---|---|
-| Text colour | High contrast against the page background |
-| Accent colour | Helps emphasis but does not carry meaning alone |
-| Background colour | Supports long reading |
-| Font size | Large enough and user-adjustable |
-| Line height | Comfortable for academic pages |
-| Focus outline | Visible against all relevant backgrounds |
-| Spacing | Separates routes, sections, diagrams, and source blocks |
-| Mermaid class | Uses light fills and dark readable text |
+- **Text colour:** High contrast against the page background
+- **Accent colour:** Helps emphasis but does not carry meaning alone
+- **Background colour:** Supports long reading
+- **Font size:** Large enough and user-adjustable
+- **Line height:** Comfortable for academic pages
+- **Focus outline:** Visible against all relevant backgrounds
+- **Spacing:** Separates routes, sections, diagrams, and source blocks
+- **Mermaid class:** Uses light fills and dark readable text
 
 ## Robustness and fallback design
 
-Robust design matters because Obsidian themes, snippets, and plugins may not apply after a GitHub download or clone. Accessibility includes this kind of robustness because users still need access when the preferred visual layer fails.
-
-```mermaid
-flowchart TB
-    A((Fallback Design))
-
-    A --> B[Preferred View]
-    A --> C[Fallback View]
-    A --> D[Broken Styling]
-    A --> E[Different Device]
-    A --> F[Plain Markdown]
-
-    B --> B1[Obsidian with theme]
-    C --> C1[GitHub or exported view]
-    D --> D1[Content remains<br/>readable]
-    E --> E1[Scalable layout]
-    F --> F1[Meaning survives<br/>without CSS]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F node;
-    class B1,C1,D1,E1,F1 detail;
-```
-
-| Risk | Design response |
-|---|---|
-| CSS snippet is not enabled | Content remains readable in plain Markdown |
-| Theme is missing | Meaning does not depend on theme-only styling |
-| Mermaid does not render | The same idea appears in text or table form |
-| GitHub path changes | Relative links are checked after clone |
-| Local image is missing | File names are meaningful and important images have text support |
-| Page is opened on a small screen | Diagrams remain compact and text remains structured |
-| Professor does not install plugins | The page still makes sense without plugin-specific behavior |
-
 ## Recommended page pattern
-
-This pattern should be used across the Inclusive Gate. It helps readers understand the page without needing the author to explain it.
 
 ```mermaid
 flowchart TB
@@ -621,98 +428,29 @@ flowchart TB
     class H final;
 ```
 
-| Page section | Accessibility purpose |
-|---|---|
-| Title + CS2023 label | Prevents metaphor confusion |
-| Real-life meaning | Gives immediate cognitive access |
-| Local context | Grounds the page in real users and tools |
-| Global rule | Connects the page to field knowledge |
-| Design pattern | Shows how to build the interface |
-| Barrier + repair table | Makes exclusion and repair visible |
-| Academic anchors | Shows source credibility |
+- **Title + CS2023 label:** Prevents metaphor confusion
+- **Real-life meaning:** Gives immediate cognitive access
+- **Local context:** Grounds the page in real users and tools
+- **Global rule:** Connects the page to field knowledge
+- **Design pattern:** Shows how to build the interface
+- **Barrier + repair table:** Makes exclusion and repair visible
+- **Academic anchors:** Shows source credibility
 
 ## Inclusive design checklist
 
 Use this checklist before evaluation.
 
-| Design question | Pass condition |
-|---|---|
-| Does the page state its official CS2023 meaning? | The academic label appears near the title |
-| Can the page be understood without the fantasy metaphor? | The real-life meaning is explicit |
-| Is the heading structure logical? | Headings describe the page path |
-| Is link text meaningful? | Links describe destination or purpose |
-| Are diagrams readable? | They are compact, light, high-contrast, and explained in text |
-| Is colour used safely? | Meaning does not depend only on colour |
-| Can the page be navigated by keyboard? | Links and controls are reachable and focus is visible |
-| Is the text cognitively manageable? | Sections are chunked and supported by examples |
-| Does the page work without custom CSS? | Core content remains readable in fallback view |
-| Are local and global sources clear? | UVT, CS2023, standards, venues, and practice sources are grouped |
-
-## Cognishire application
-
-The Inclusive Gate should act as a design checkpoint for the whole Cognishire map.
-
-```mermaid
-flowchart TB
-    A((Cognishire Design Checkpoint))
-
-    A --> B[Room Identity]
-    A --> C[Navigation]
-    A --> D[Diagram System]
-    A --> E[Theme System]
-    A --> F[Source System]
-    A --> G[Sharing System]
-
-    B --> B1[Fantasy name +<br/>academic label]
-    C --> C1[Backlinks and<br/>route board]
-    D --> D1[Readable, compact,<br/>described]
-    E --> E1[Contrast and focus]
-    F --> F1[Trusted source<br/>categories]
-    G --> G1[GitHub and<br/>fallback access]
-
-    classDef center fill:#ddd2ff,stroke:#a875ff,color:#2b160b,stroke-width:3px;
-    classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
-    classDef detail fill:#f6d6ee,stroke:#c27aa2,color:#2b160b,stroke-width:2px;
-
-    class A center;
-    class B,C,D,E,F,G node;
-    class B1,C1,D1,E1,F1,G1 detail;
-```
-
-| Cognishire element | Inclusive design decision |
-|---|---|
-| Room identity | Every fantasy name includes the real CS2023 label |
-| Navigation | Every page has a stable return path and route board |
-| Diagrams | Flowcharts are used only when they clarify a concept |
-| Tables | Tables compare ideas instead of decorating the page |
-| CSS | Text contrast, focus visibility, and line spacing remain readable |
-| Sources | Academic anchors are grouped by source type |
-| GitHub | Content still makes sense outside Obsidian |
-| Professor view | Academic credibility is visible without author explanation |
-| Student view | Concepts are understandable for first-year learners |
+- **Does the page state its official CS2023 meaning?:** The academic label appears near the title
+- **Is the heading structure logical?:** Headings describe the page path
+- **Is link text meaningful?:** Links describe destination or purpose
+- **Are diagrams readable?:** They are compact, light, high-contrast, and explained in text
+- **Is colour used safely?:** Meaning does not depend only on colour
+- **Can the page be navigated by keyboard?:** Links and controls are reachable and focus is visible
+- **Is the text cognitively manageable?:** Sections are chunked and supported by examples
+- **Does the page work without custom CSS?:** Core content remains readable in fallback view
+- **Are local and global sources clear?:** UVT, CS2023, standards, venues, and practice sources are grouped
 
 ## Local and global design comparison
-
-| Dimension | Local UVT design question | Global HCI design rule |
-|---|---|---|
-| Page meaning | Can students and a professor identify the real CS2023 topic? | Labels should match user expectations and domain vocabulary |
-| Visual style | Is the theme readable on local screens and projectors? | Contrast, spacing, and hierarchy must support perception |
-| Navigation | Can users move through the vault without help? | Interfaces need predictable paths and meaningful links |
-| Accessibility | Are basic access barriers avoided in the actual project? | WCAG and WAI give a baseline for perceivable, operable, understandable, and robust content |
-| Robustness | Does the vault work after clone or download? | Content should not depend on one environment |
-| Accountability | Are limits and remaining risks stated? | Responsible design documents what was considered and what remains untested |
-
-## Design synthesis
-
-Design in **Accessibility and Inclusive Design** is the work of building access into the system before evaluation begins. It turns accessibility theory into decisions about structure, contrast, typography, keyboard paths, focus states, semantic headings, understandable labels, repairable errors, readable diagrams, reusable components, source clarity, and fallback content.
-
-Locally, this means the Cognishire HCI map must work inside the UVT project context: Obsidian, GitHub, professor review, student reading, CSS, Mermaid, and local accessibility responsibilities. Globally, it means the design should connect to CS2023, WCAG, W3C WAI, inclusive design, universal design, ability-based design, and accessibility-focused HCI research.
-
-The central design question is:
-
-> What barrier could this design create, and how can the interface be shaped so that the barrier is reduced before testing begins?
-
-This page connects to [[Theory]] because design decisions come from accessibility concepts. It connects to [[Experiment]] because the design must be tested. It connects to [[../Overview|Overview]] because the Inclusive Gate protects the whole map. It connects outward to [[../../02_System_Design/Overview|Interface Forge]] because inclusive design must be implemented in the actual system.
 
 ## Academic anchors
 

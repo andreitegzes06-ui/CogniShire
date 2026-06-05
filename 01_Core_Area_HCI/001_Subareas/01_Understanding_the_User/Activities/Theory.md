@@ -1,20 +1,3 @@
----
-title: Theory
-area: Mind Library
-category: Activities
-cssclasses:
-  - mind-library
-tags:
-  - HCI
-  - theory
-  - cognition
-  - mental-models
-  - affordances
-  - cognitive-load
-  - accessibility
-  - human-ai-interaction
-status: factchecked-visual-academic-draft
----
 ![[thoery.png|1000]]
 # Theory
 
@@ -30,7 +13,7 @@ Theory connects directly to [[Design]], because design turns concepts into inter
 
 ## Archive compass
 
-The Theory chamber is organised as a set of conceptual lenses. Each lens helps explain a different layer of interaction.
+The Theory section is organised as a set of conceptual lenses. Each lens helps explain a different layer of interaction.
 
 ```mermaid
 flowchart LR
@@ -48,16 +31,14 @@ flowchart LR
     class B,C,D,E,F,G node;
 ```
 
-| Lens | What it explains | What it changes in design |
-|---|---|---|
-| Mental model | How users believe the system works | Structure, labels, navigation, conceptual clarity |
-| Affordance and signifier | What actions users perceive as possible | Controls, states, cues, interaction wording |
-| Feedback | How users understand system response | Confirmation, progress, errors, recovery |
-| Cognitive load | How much mental effort a task requires | Grouping, simplification, recognition support |
-| Accessibility | Who can perceive, understand, and operate the system | Keyboard access, contrast, semantics, alternatives |
-| Trust | When users rely on system behaviour | Transparency, uncertainty, control, accountability |
+- **Mental model:** what it explains: How users believe the system works; what it changes in design: Structure, labels, navigation, conceptual clarity
+- **Affordance and signifier:** what it explains: What actions users perceive as possible; what it changes in design: Controls, states, cues, interaction wording
+- **Feedback:** what it explains: How users understand system response; what it changes in design: Confirmation, progress, errors, recovery
+- **Cognitive load:** what it explains: How much mental effort a task requires; what it changes in design: Grouping, simplification, recognition support
+- **Accessibility:** what it explains: Who can perceive, understand, and operate the system; what it changes in design: Keyboard access, contrast, semantics, alternatives
+- **Trust:** what it explains: When users rely on system behaviour; what it changes in design: Transparency, uncertainty, control, accountability
 
-## The mental model chamber
+## The mental model section
 
 A **mental model** is the user's internal explanation of how a system works. It may be accurate, incomplete, or wrong, but it strongly shapes action. Users do not act on the system's implementation model. They act on what they believe the system is doing.
 
@@ -81,14 +62,12 @@ flowchart LR
 > [!important] Mental model rule
 > The user's model does not need to match the code perfectly. It needs to be accurate enough to support successful action, prediction, and recovery.
 
-| Design element | How it teaches the model |
-|---|---|
-| Navigation | Shows how the system is organised |
-| Labels | Names objects and actions in the system |
-| Icons | Suggest category or possible action |
-| Feedback | Confirms what the system understood |
-| Error messages | Explains the boundary between valid and invalid action |
-| Empty states | Shows what the system expects next |
+- **Navigation:** Shows how the system is organised
+- **Labels:** Names objects and actions in the system
+- **Icons:** Suggest category or possible action
+- **Feedback:** Confirms what the system understood
+- **Error messages:** Explains the boundary between valid and invalid action
+- **Empty states:** Shows what the system expects next
 
 The academic point is not simply that users “have opinions.” The stronger point is that users build working explanations from the interface, prior experience, visible cues, and system feedback. Design should therefore make the right model easier to form.
 
@@ -112,12 +91,10 @@ flowchart LR
     class E detail;
 ```
 
-| Interaction failure | Theoretical explanation | Design repair |
-|---|---|---|
-| User does not click a button | The signifier is weak | Strengthen contrast, label, border, or placement |
-| User clicks decorative graphics | False affordance | Avoid making decoration look like a control |
-| User cannot find a draggable object | The action is hidden | Add a handle, visual cue, or short instruction |
-| User repeats an action | Feedback is insufficient | Show confirmation, progress, or state change |
+- **User does not click a button:** theoretical explanation: The signifier is weak (repair: Strengthen contrast, label, border, or placement)
+- **User clicks decorative graphics:** theoretical explanation: False affordance (repair: Avoid making decoration look like a control)
+- **User cannot find a draggable object:** theoretical explanation: The action is hidden (repair: Add a handle, visual cue, or short instruction)
+- **User repeats an action:** theoretical explanation: Feedback is insufficient (repair: Show confirmation, progress, or state change)
 
 This lens connects theory to visible interface decisions. It asks whether the user can perceive the action that the system technically supports.
 
@@ -143,17 +120,14 @@ flowchart LR
 > [!note] Feedback rule
 > A system response is not enough. The response must be visible and interpretable.
 
-| Feedback type | What it explains to the user | Example |
-|---|---|---|
-| Confirmation | The action succeeded | “Your changes were saved.” |
-| Progress | The action is still happening | Upload percentage or progress bar |
-| Error | The action failed and needs repair | “Password must include at least 8 characters.” |
-| Warning | The action carries risk | “This action cannot be undone.” |
-| Empty state | The system has no content yet and suggests next action | “No files yet. Upload your first document.” |
+- **Confirmation:** what it explains to the user: The action succeeded (example: “Your changes were saved.”)
+- **Progress:** what it explains to the user: The action is still happening (example: Upload percentage or progress bar)
+- **Error:** what it explains to the user: The action failed and needs repair (example: “Password must include at least 8 characters.”)
+- **Empty state:** what it explains to the user: The system has no content yet and suggests next action (example: “No files yet. Upload your first document.”)
 
 Nielsen Norman Group's visibility of system status heuristic is a practical anchor here. The principle is that users should know what is going on within a reasonable time. In theoretical terms, feedback supports prediction, trust, recovery, and mental model repair.
 
-## The cognitive load chamber
+## The cognitive load section
 
 **Cognitive load** refers to the mental effort needed to process information and complete a task. The term comes from cognitive psychology and instructional design, but it is useful in HCI because interfaces can increase or reduce the effort needed to act.
 
@@ -190,7 +164,7 @@ flowchart LR
 
 This lens gives experiments a way to study effort, not only success. A user can complete a task and still experience excessive cognitive load. Useful evidence includes hesitation, repeated scanning, task time, self-correction, confidence, and perceived difficulty.
 
-## The accessibility chamber
+## The accessibility section
 
 Accessibility theory changes the model of the user. The user is not a single ideal body with perfect vision, hearing, motor control, working memory, reading fluency, device access, and network quality. Human ability varies permanently, temporarily, and situationally.
 
@@ -217,16 +191,12 @@ flowchart LR
     class B1,C1,D1,E1 detail;
 ```
 
-| Accessibility principle | HCI interpretation | Design consequence |
-|---|---|---|
-| Perceivable | Information must be available through the user's senses. | Provide contrast, text alternatives, captions, and readable structure. |
-| Operable | Users must be able to act through available input methods. | Support keyboard access, focus order, target size, and enough time. |
-| Understandable | Users must be able to predict and interpret interaction. | Use clear language, consistent behaviour, and helpful errors. |
-| Robust | The system must work across technologies. | Use semantic structure and assistive technology compatibility. |
+- **Perceivable:** hci interpretation: Information must be available through the user's senses.; design consequence: Provide contrast, text alternatives, captions, and readable structure.
+- **Operable:** hci interpretation: Users must be able to act through available input methods.; design consequence: Support keyboard access, focus order, target size, and enough time.
+- **Understandable:** hci interpretation: Users must be able to predict and interpret interaction.; design consequence: Use clear language, consistent behaviour, and helpful errors.
+- **Robust:** hci interpretation: The system must work across technologies.; design consequence: Use semantic structure and assistive technology compatibility.
 
-WCAG 2.2 organises accessibility under these four principles and provides guidelines and testable success criteria. For the Mind Library, the principles are not only compliance terms. They are conceptual reminders that interaction depends on the relationship between body, device, environment, and system.
-
-## The trust and AI chamber
+## The trust and AI section
 
 Human-AI interaction extends HCI theory because AI systems often behave differently from conventional interfaces. They may be probabilistic, adaptive, opaque, fluent, and wrong in ways that sound confident. This changes how users form trust.
 
@@ -252,22 +222,15 @@ flowchart LR
     class E,E1 final;
 ```
 
-| AI interaction issue | Theoretical problem | Design implication |
-|---|---|---|
-| Fluent but wrong output | Users may confuse fluency with accuracy | Show uncertainty, sources, and verification paths |
-| Opaque recommendation | Users may not understand why something appears | Explain relevant factors and allow correction |
-| Automated decision | Users may lack meaningful control | Provide contestability, override, and escalation |
-| Personalisation | Users may not know what data shaped the result | Make data use visible and adjustable |
-
-Microsoft's Human-AI Interaction Guidelines organise design guidance around initial interaction, regular interaction, situations where the AI system is wrong, and system behaviour over time. Google’s People + AI Guidebook gives related practical guidance for human-centred AI products. In the Map of HCI, this topic connects the Mind Library to [[../../05_Human_AI_Interaction/Overview|Human-AI Interaction]] and to [[../Open Problems]].
+- **Fluent but wrong output:** theoretical problem: Users may confuse fluency with accuracy (implication: Show uncertainty, sources, and verification paths)
+- **Opaque recommendation:** theoretical problem: Users may not understand why something appears (implication: Explain relevant factors and allow correction)
+- **Automated decision:** theoretical problem: Users may lack meaningful control (implication: Provide contestability, override, and escalation)
+- **Personalisation:** theoretical problem: Users may not know what data shaped the result (implication: Make data use visible and adjustable)
 
 ## Theory in motion
 
-Theory should not remain static. In HCI, a concept moves through design and experiment. It begins as an explanation, becomes a design claim, enters a prototype, meets users, and is revised through evidence.
-
 ```mermaid
 flowchart LR
-    A["Theory concept"] --> B["Design claim"]
     B --> C["Prototype"]
     C --> D["Experiment"]
     D --> E["Evidence"]
@@ -288,20 +251,12 @@ This is why theory is not academic decoration. It is a tool for generating desig
 
 ## Concept relation matrix
 
-| Concept | Closest design concern | Closest experimental trace | Connected page |
-|---|---|---|---|
-| Mental model | Information architecture and conceptual clarity | Wrong path, hesitation, repeated search | [[Design]] |
-| Affordance and signifier | Action visibility | Missed control, false click | [[Design]] |
-| Feedback | System status and recovery | Repeated action, uncertainty, repair time | [[Experiment]] |
-| Cognitive load | Task complexity and information density | Long time, scanning, self-correction | [[Experiment]] |
-| Accessibility | Inclusive perception and operation | Keyboard failure, contrast issue, screen reader problem | [[../Local and Global]] |
-| Trust | Reliance, uncertainty, and control | Overacceptance, rejection, verification behaviour | [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] |
-
-## Chamber synthesis
-
-Theory is the Mind Library's conceptual archive. It gives HCI disciplined explanations for interaction rather than loose opinion. Mental models explain expectation. Affordances and signifiers explain possible action. Feedback explains system response. Cognitive load explains effort. Accessibility explains diversity of use. Human-AI theory explains trust under uncertainty.
-
-The rest of the library depends on this archive. [[Design]] draws from it, [[Experiment]] tests it, [[../Connections]] carries it into other disciplines, and [[../Open Problems]] revises it when emerging systems create new forms of interaction.
+- **Mental model:** closest design concern: Information architecture and conceptual clarity; closest experimental trace: Wrong path, hesitation, repeated search; connected page: [[Design]]
+- **Affordance and signifier:** closest design concern: Action visibility; closest experimental trace: Missed control, false click; connected page: [[Design]]
+- **Feedback:** closest design concern: System status and recovery; closest experimental trace: Repeated action, uncertainty, repair time; connected page: [[Experiment]]
+- **Cognitive load:** closest design concern: Task complexity and information density; closest experimental trace: Long time, scanning, self-correction; connected page: [[Experiment]]
+- **Accessibility:** closest design concern: Inclusive perception and operation; closest experimental trace: Keyboard failure, contrast issue, screen reader problem; connected page: [[../Local and Global]]
+- **Trust:** closest design concern: Reliance, uncertainty, and control; closest experimental trace: Overacceptance, rejection, verification behaviour; connected page: [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]]
 
 ## Academic anchors
 
@@ -312,15 +267,9 @@ The rest of the library depends on this archive. [[Design]] draws from it, [[Exp
 | Mental models | [NN/g: Mental Models](https://www.nngroup.com/articles/mental-models/) | Explains how users rely on internal representations of how systems work. |
 | Conceptual models and signifiers | [Don Norman: The Design of Everyday Things](https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/) | Anchors the distinction between system design, perceived cues, affordances, and signifiers. |
 | Usability heuristics | [NN/g: 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) | Supports visibility of system status, match with user language, user control, recognition, error prevention, and recovery. |
-| Recognition over recall | [NN/g: Recognition Rather Than Recall](https://www.nngroup.com/articles/recognition-and-recall/) | Supports the claim that interfaces should reduce memory burden by making options visible. |
 | Cognitive load | [Sweller: Cognitive Load During Problem Solving](https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1202_4) | Provides a foundational source for cognitive load theory. |
 | Accessibility standards | [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/) | Defines the four accessibility principles and testable success criteria. |
 | Accessibility guidance | [W3C Web Accessibility Initiative](https://www.w3.org/WAI/) | Provides practical and conceptual guidance for accessible digital systems. |
 | Human-AI interaction | [Microsoft Human-AI Interaction Guidelines](https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/) | Provides design guidance for AI systems across initial use, regular use, errors, and change over time. |
 | AI design practice | [Google People + AI Guidebook](https://pair.withgoogle.com/guidebook/) | Provides practical human-centred guidance for AI product design. |
 
-## Connected chambers
-
-This chamber connects to [[../Overview]] because it explains the conceptual purpose of the Mind Library. It connects to [[Design]] because theory becomes interface form. It connects to [[Experiment]] because theory becomes evidence interpretation. It connects to [[../Connections]] because HCI theory travels across cognition, design, computing, accessibility, ethics, and AI. It connects to [[../Important People]] because many theoretical ideas come from named scholars and research traditions. It connects to [[../Open Problems]] because new technologies continually stress and revise existing theory.
-
-^theory-end

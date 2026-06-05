@@ -1,25 +1,5 @@
----
-title: Important Venues
-area: Mind Library
-category: Academic Atlas
-cssclasses:
-  - mind-library
-tags:
-  - HCI
-  - venues
-  - conferences
-  - journals
-  - research
-  - accessibility
-  - standards
-  - human-ai-interaction
-status: factchecked-polished-draft
----
 ![[venue1.webp|1000]]
 # Important Venues
-
-> [!abstract] Academic Atlas
-> This chamber maps the main places where Human-Computer Interaction knowledge is produced, reviewed, standardised, questioned, and translated into practice. In the Mind Library, venues are more than citation sources. They show what different communities accept as evidence, method, design knowledge, accessibility guidance, and responsible interaction.
 
 HCI knowledge does not live in one textbook. It moves through conferences, journals, standards bodies, accessibility organisations, professional research groups, and human-AI laboratories. Each venue gives a different kind of authority.
 
@@ -57,20 +37,10 @@ flowchart TB
     class B1,C1,D1,E1 detail;
 ```
 
-| Atlas territory | Best used for | What it contributes to the Mind Library |
-|---|---|---|
-| Academic research | Peer-reviewed studies, theories, prototypes, and methods | Scholarly grounding for claims |
-| Standards and accessibility | Requirements, criteria, and formal guidance | Stable design and evaluation checks |
-| Practice guides | Method explanations and applied design guidance | Practical tools for small projects |
-| Human-AI guidance | Trust, uncertainty, automation, explanation, and accountability | Safer thinking about AI systems |
-
 ## How to read this page
-
-Do not use venues as random links. Ask what kind of support your claim needs.
 
 ```mermaid
 flowchart LR
-    A[Design claim] --> B{What support<br/>is needed?}
     B --> C[Evidence]
     B --> D[Requirement]
     B --> E[Method]
@@ -130,8 +100,6 @@ flowchart TB
 | [ACM UIST](https://uist.acm.org/) | Interface software, interaction techniques, input/output devices, tools, and emerging interaction systems |
 | [ACM IUI](https://dl.acm.org/conference/iui) | Intelligent user interfaces, adaptive systems, recommender systems, and AI-supported interaction |
 
-The conference route connects most strongly to [[Activities/Experiment]]. Conferences often publish studies, prototypes, evaluation methods, and evidence-based design claims. It also connects to [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]], because recent conferences show what the field is still trying to solve.
-
 ## The journal archive
 
 Journals are useful when a student needs depth. They often contain longer arguments, literature grounding, detailed methods, and mature theoretical work.
@@ -169,11 +137,9 @@ flowchart TB
 | [Interacting with Computers](https://academic.oup.com/iwc) | Useful for usability, interaction, and human-centred systems |
 | [Behaviour & Information Technology](https://www.tandfonline.com/journals/tbit20) | Useful for technology use, organisations, behaviour, and applied HCI contexts |
 
-The journal archive is slower than the conference route, but it helps when a project needs conceptual stability. For [[Activities/Theory]], journals are often better than quick summaries because they show how concepts are argued, tested, criticised, and refined.
+The journal archive is slower than the conference route, but it helps when a study needs conceptual stability. For [[Activities/Theory]], journals are often better than quick summaries because they show how concepts are argued, tested, criticised, and refined.
 
 ## The standards citadel
-
-Standards define requirements, principles, and criteria. They are not research papers. Their role is to stabilise practice across systems and organisations. In the Mind Library, standards are especially important for human-centred design and accessibility.
 
 ```mermaid
 flowchart TB
@@ -213,8 +179,6 @@ The standards citadel connects to [[Activities/Design]] because standards shape 
 
 ## The practice route
 
-Practice guides are useful when academic papers are too narrow and standards are too formal. They translate research knowledge into methods, design principles, and evaluation routines. They are helpful for student projects because they give usable language and small-scale procedures.
-
 ```mermaid
 flowchart TB
     A((Practice Route))
@@ -247,8 +211,6 @@ flowchart TB
 | [NIST Human-Centered Design](https://www.nist.gov/itl/iad/human-centered-technologies/human-factors-human-centered-design) | Human factors, human-centred technologies, measurement, evaluation, and applied research context |
 | [Stanford d.school Tools](https://dschool.stanford.edu/tools) | Design methods, prototyping exercises, ideation, empathy work, and testing activities |
 | [Interaction Design Foundation](https://www.interaction-design.org/literature) | Introductory HCI and interaction design concepts |
-
-The practice route connects to Cognishire because this vault is a designed learning interface. Practice guides help translate academic HCI into decisions about layout, feedback, navigation, accessibility, and testing.
 
 ## The human-AI observatory
 
@@ -315,13 +277,11 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| If the question is... | Start with... | Then check... |
-|---|---|---|
-| What does current HCI research say? | CHI, TOCHI, IJHCS, ACM Digital Library | Recent papers, methods, limitations |
-| How do I evaluate usability? | NN/g, CHI methods papers | Task design, metrics, participant protocol |
-| Is this accessible? | WCAG, W3C WAI, WebAIM | Assistive technology testing and real users |
-| How do I design for AI? | Microsoft HAX, Google PAIR, IUI | Trust, uncertainty, control, accountability |
-| What are the ethical risks? | ACM Code of Ethics, FAccT, CSCW | Harm, fairness, privacy, power, responsibility |
+- **What does current HCI research say?:** start with...: CHI, TOCHI, IJHCS, ACM Digital Library; then check...: Recent papers, methods, limitations
+- **How do I evaluate usability?:** start with...: NN/g, CHI methods papers; then check...: Task design, metrics, participant protocol
+- **Is this accessible?:** start with...: WCAG, W3C WAI, WebAIM; then check...: Assistive technology testing and real users
+- **How do I design for AI?:** start with...: Microsoft HAX, Google PAIR, IUI; then check...: Trust, uncertainty, control, accountability
+- **What are the ethical risks?:** start with...: ACM Code of Ethics, FAccT, CSCW; then check...: Harm, fairness, privacy, power, responsibility
 
 ## Reading across venues
 
@@ -380,26 +340,13 @@ flowchart TB
     class F detail;
 ```
 
-> [!warning] Source rule
-> Do not treat every link as equal. A CHI paper, a W3C standard, and a blog post can all be useful, but they do different work. State what each source is being used for.
-
 ## Academic route examples
 
-| Research task | Route through the atlas |
-|---|---|
-| Build a theory page about mental models | Start with a textbook or concept guide. Then search ACM Digital Library for empirical HCI papers. |
-| Design an accessible learning interface | Start with WCAG and W3C WAI. Then use WebAIM and NN/g for practice. Then test with users. |
-| Study AI trust | Start with Microsoft HAX and Google PAIR. Then search CHI, IUI, and FAccT for current research. |
-| Explain collaboration tools | Start with CSCW. Then connect to CHI and organisational HCI literature. |
-| Justify a human-centred process | Start with ISO 9241-210 and NIST. Then connect to DIS or CHI design research. |
-
-## Venue synthesis
-
-The academic atlas gives the Mind Library its research infrastructure. It shows where user understanding is created, reviewed, standardised, and translated into practice. It also protects the project from unsupported opinion.
-
-A claim about users should connect to research. A claim about accessibility should connect to standards and testing. A claim about AI should connect to human-AI guidance, empirical evidence, and ethical risk analysis.
-
-The atlas matters for [[Activities/Theory]] because theory needs scholarly grounding. It matters for [[Activities/Experiment]] because methods require evidence norms. It matters for [[Activities/Design]] because design decisions should connect to principles, standards, and practice. It matters for [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] because recent venues show where the field is still unstable.
+- **Build a theory page about mental models:** Start with a textbook or concept guide. Then search ACM Digital Library for empirical HCI papers.
+- **Design an accessible learning interface:** Start with WCAG and W3C WAI. Then use WebAIM and NN/g for practice. Then test with users.
+- **Study AI trust:** Start with Microsoft HAX and Google PAIR. Then search CHI, IUI, and FAccT for current research.
+- **Explain collaboration tools:** Start with CSCW. Then connect to CHI and organisational HCI literature.
+- **Justify a human-centred process:** Start with ISO 9241-210 and NIST. Then connect to DIS or CHI design research.
 
 ## Academic anchors
 
@@ -426,8 +373,3 @@ The atlas matters for [[Activities/Theory]] because theory needs scholarly groun
 | Fairness and accountability | [ACM FAccT](https://facctconference.org/) |
 | Computing ethics | [ACM Code of Ethics](https://www.acm.org/code-of-ethics) |
 
-## Connected chambers
-
-This chamber connects to [[Overview]] because the Mind Library needs a research infrastructure. It connects to [[Important People]] because venues and scholars shape one another. It connects to [[Activities/Theory]] because theory depends on published research. It connects to [[Activities/Design]] because design decisions need recognised principles and standards. It connects to [[Activities/Experiment]] because experiments rely on accepted methods and evidence norms. It connects to [[Connections]] because venues link HCI to psychology, design, computing, accessibility, ethics, and AI. It connects to [[Local and Global]] because standards and conferences travel across cultures and institutions. It connects to [[01_Core_Area_HCI/001_Subareas/05_Human_AI_Interaction/Open Problems]] because venues reveal active research frontiers.
-
-^important-venues-end

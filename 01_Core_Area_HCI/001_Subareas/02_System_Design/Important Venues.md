@@ -3,7 +3,6 @@ title: Important Venues
 area: System Design
 category: Venue Atlas
 cssclasses:
-  - interface-forge
 tags:
   - HCI
   - CS2023
@@ -20,19 +19,14 @@ tags:
   - venues
 status: corrected-polished-draft
 ---
-![[important2.webp|1500]]
-# Important Venues
 
-Back to [[Overview|The Interface Forge]].
+![[street_japano.gif|1000]]
+# Important Venues
 
 > [!abstract] System Design Venue Atlas
 > This page maps where **CS2023 HCI-Design: System Design** appears as research, prototypes, tools, workshops, studios, papers, exhibitions, and design practice. It is not a generic list of HCI venues. It is a route map for the part of HCI concerned with building interaction.
 
 This page treats conferences, journals, studios, labs, workshops, and communities as venues for interaction design knowledge. In CS2023 terms, it belongs to **HCI-Design: System Design**, the part of Human-Computer Interaction that includes prototyping, design patterns, design constraints, participatory and co-design processes, interaction techniques, GUIs, hardware design, error handling, visual UI design, immersive environments, fabrication, creativity support tools, and voice UI.
-
-The fantasy name is **Interface Forge**.  
-The real CS2023 label is **HCI-Design: System Design**.  
-The real-life purpose is **knowing where system-design knowledge is created, reviewed, exhibited, engineered, and taught**.
 
 > [!quote] Atlas rule
 > A venue matters for System Design when it helps researchers or students build, critique, evaluate, document, or publish interactive systems.
@@ -68,15 +62,13 @@ flowchart TB
     class B1,C1,D1,E1,F1,G1,H1 route;
 ```
 
-| Venue territory | Real-life meaning | System Design use |
-|---|---|---|
-| Interface Systems | Technical venues for interaction techniques, UI software, and engineered interactive systems | Publish new controls, tools, input methods, UI architectures, and prototypes |
-| Design Research | Venues where design practice becomes research knowledge | Publish design methods, research-through-design, artifacts, process, and critique |
-| Physical Interaction | Venues for tangible, embodied, surface, and spatial interaction | Publish post-screen interfaces, fabrication, haptics, touch spaces, and interactive objects |
-| Spatial and Immersive | Venues for AR, VR, MR, 3D UI, and spatial interaction | Publish immersive interfaces, spatial input, world-anchored UI, and XR evaluation |
-| Graphics and Visual Computing | Venues for visual representation, rendering, simulation, and interactive graphics | Publish visual systems that interface designers later use in tools, games, XR, and creative software |
-| Journals and Archives | Long-form publication routes | Preserve mature HCI and interface-system research |
-| Labs and Studios | University spaces where systems are built before publication | Learn how prototypes, papers, and research programmes are actually produced |
+- **Interface Systems:** real-life meaning: Technical venues for interaction techniques, UI software, and engineered interactive systems; system design use: Publish new controls, tools, input methods, UI architectures, and prototypes
+- **Design Research:** real-life meaning: Venues where design practice becomes research knowledge; system design use: Publish design methods, research-through-design, artifacts, process, and critique
+- **Physical Interaction:** real-life meaning: Venues for tangible, embodied, surface, and spatial interaction; system design use: Publish post-screen interfaces, fabrication, haptics, touch spaces, and interactive objects
+- **Spatial and Immersive:** real-life meaning: Venues for AR, VR, MR, 3D UI, and spatial interaction; system design use: Publish immersive interfaces, spatial input, world-anchored UI, and XR evaluation
+- **Graphics and Visual Computing:** real-life meaning: Venues for visual representation, rendering, simulation, and interactive graphics; system design use: Publish visual systems that interface designers later use in tools, games, XR, and creative software
+- **Journals and Archives:** real-life meaning: Long-form publication routes; system design use: Preserve mature HCI and interface-system research
+- **Labs and Studios:** real-life meaning: University spaces where systems are built before publication; system design use: Learn how prototypes, papers, and research programmes are actually produced
 
 ## CS2023 Alignment Gate
 
@@ -107,16 +99,14 @@ flowchart TB
     class B1,C1,D1,E1,F1 detail;
 ```
 
-| CS2023 System Design topic | Venue territory to search first |
-|---|---|
-| Prototyping and rapid iteration | DIS, UIST, CHI, DRS |
-| Design patterns and interactive systems | DIS, EICS, UIST, TOCHI |
-| Interaction techniques | UIST, EICS, ISS, SUI |
-| Graphical user interfaces | UIST, EICS, CHI, TOCHI |
-| Error handling and visual UI design | CHI, DIS, EICS, IJHCS |
-| Hardware design, haptics, and fabrication | TEI, UIST, SIGGRAPH, HCI labs |
-| Immersive environments | IEEE VR, ISMAR, SUI, SIGGRAPH |
-| Creativity support tools | UIST, DIS, CHI, TOCHI |
+- **Prototyping and rapid iteration:** DIS, UIST, CHI, DRS
+- **Design patterns and interactive systems:** DIS, EICS, UIST, TOCHI
+- **Interaction techniques:** UIST, EICS, ISS, SUI
+- **Graphical user interfaces:** UIST, EICS, CHI, TOCHI
+- **Error handling and visual UI design:** CHI, DIS, EICS, IJHCS
+- **Hardware design, haptics, and fabrication:** TEI, UIST, SIGGRAPH, HCI labs
+- **Immersive environments:** IEEE VR, ISMAR, SUI, SIGGRAPH
+- **Creativity support tools:** UIST, DIS, CHI, TOCHI
 
 ## Interface Systems Gate: UIST and EICS
 
@@ -143,12 +133,12 @@ flowchart TB
     class B1,B2,C1,C2 detail;
 ```
 
-| Venue | What it is for | Use it when your page/project is about |
+| Venue | What it is for | Use it when your page or study is about |
 |---|---|---|
 | [ACM UIST](https://uist.acm.org/) | A central ACM venue for innovations in human-computer interfaces, including graphical and web UI, tangible and ubiquitous computing, VR/AR, new input and output devices, multimedia, human-centred AI, and CSCW | Interface techniques, UI tools, input devices, authoring systems, interaction software, and novel prototypes |
 | [ACM EICS](https://eics.acm.org/) | A SIGCHI conference devoted to engineering usable and effective interactive computing systems and their user interfaces | UI architecture, model-based UI, interactive-system quality, reliability, security, usability, and implementation constraints |
 
-**Real-life translation:** this gate is not about whether a design looks nice. It is about whether an interaction can be technically built, controlled, measured, and reused.
+**Practical use:** this route is not about whether a design looks nice. It is about whether an interaction can be technically built, controlled, measured, and reused.
 
 ## Design Research Studio: DIS, DRS, IASDR, Cumulus
 
@@ -184,7 +174,7 @@ flowchart TB
 | [IASDR](https://iasdr.net/) | International Association of Societies of Design Research | Broad global design research route, useful for connecting HCI to design schools and design theory |
 | [Cumulus](https://cumulusassociation.org/) | Global association of art and design education and research | Useful for design education, studio culture, interdisciplinary design practice, and international art/design networks |
 
-**Real-life translation:** this studio is where interface design is treated as research, not only implementation. It is useful when the page needs design reasoning, critique, visual systems, studio methods, or research-through-design.
+**Practical use:** this studio is where interface design is treated as research, not only implementation. It is useful when the page needs design reasoning, critique, visual systems, studio methods, or research-through-design.
 
 ## Physical Interaction Yard: TEI and ISS
 
@@ -216,7 +206,7 @@ flowchart TB
 | [ACM TEI](https://tei.acm.org/) | Tangible, embedded, and embodied interaction | Physical-digital artifacts, haptics, embodied interaction, interactive materials, fabrication, post-screen interfaces |
 | [ACM ISS](https://iss.acm.org/) | Interactive surfaces and spaces | Tabletops, walls, large displays, multi-surface systems, spatial workspaces, collaborative interaction spaces |
 
-**Real-life translation:** this yard is where interface design leaves the flat screen. It is useful for kiosks, large displays, tangible objects, smart rooms, public installations, embodied tools, and physical computing.
+**Practical use:** this yard is where interface design leaves the flat screen. It is useful for kiosks, large displays, tangible objects, smart areas, public installations, embodied tools, and physical computing.
 
 ## Spatial and Immersive Observatory: SUI, IEEE VR, ISMAR
 
@@ -245,11 +235,11 @@ flowchart TB
 
 | Venue | What it is for | System Design value |
 |---|---|---|
-| [ACM SUI](https://sigchi.org/events/sui-2025/) | Spatial user interaction for VR, AR, MR, ubiquitous, smart, and real environments | Spatial menus, 3D input, embodied navigation, room-scale interaction, spatial evaluation |
+| [ACM SUI](https://sigchi.org/events/sui-2025/) | Spatial user interaction for VR, AR, MR, ubiquitous, smart, and real environments | Spatial menus, 3D input, embodied navigation, area-scale interaction, spatial evaluation |
 | [IEEE VR](https://ieeevr.org/) | Virtual Reality and 3D User Interfaces | VR interaction, 3D UI, immersive systems, user studies, XR hardware and software |
 | [IEEE ISMAR](https://www.ismar.net/) | Mixed and Augmented Reality | AR/MR systems, world-anchored interfaces, tracking, displays, mixed-reality interaction |
 
-**Real-life translation:** this observatory is for interfaces where the “screen” becomes an environment. It is useful when studying AR glasses, VR workspaces, spatial UI, mixed-reality learning, 3D interaction, and immersive prototyping.
+**Practical use:** this observatory is for interfaces where the “screen” becomes an environment. It is useful when studying AR glasses, VR workspaces, spatial UI, mixed-reality learning, 3D interaction, and immersive prototyping.
 
 ## Graphics and Interactive Techniques Gate: SIGGRAPH
 
@@ -274,11 +264,7 @@ flowchart TB
     class C,D,E,F detail;
 ```
 
-| Venue | What it is for | Interface Forge use |
-|---|---|---|
-| [ACM SIGGRAPH](https://www.siggraph.org/) | Premier conference and exhibition on computer graphics and interactive techniques | Visual systems, graphics tools, simulation, creative interfaces, XR rendering, interactive media |
-
-**Real-life translation:** this gate is for the visual engine behind many interfaces: games, XR, data displays, creative software, simulation systems, visual tools, and interactive graphics.
+**Practical use:** this route is for the visual engine behind many interfaces: games, XR, data displays, creative software, simulation systems, visual tools, and interactive graphics.
 
 ## Journal Archive: Mature System Design Research
 
@@ -314,11 +300,11 @@ flowchart TB
 | [International Journal of Human-Computer Studies](https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies) | Publishes research on the design and use of interactive computer technology |
 | [ACM TiiS](https://dl.acm.org/journal/tiis) | Useful when System Design crosses into interactive intelligent systems, AI, adaptive UI, and human-centred automation |
 
-**Real-life translation:** this archive is where you go when you need a more stable source than a web guide or conference landing page.
+**Practical use:** this archive is where you go when you need a more stable source than a web guide or conference landing page.
 
 ## Labs and Studios: Where System Design Is Built
 
-A lab is a venue when it produces research culture, students, prototypes, papers, and public project archives. For System Design, labs matter because many interface contributions begin as prototypes inside university groups before they appear at UIST, DIS, TEI, EICS, or CHI.
+A lab is a venue when it produces research culture, students, prototypes, papers, and public research archives. For System Design, labs matter because many interface contributions begin as prototypes inside university groups before they appear at UIST, DIS, TEI, EICS, or CHI.
 
 ```mermaid
 flowchart TB
@@ -343,18 +329,16 @@ flowchart TB
     class B1,C1,D1,E1 output;
 ```
 
-| Lab or studio route | What to look for |
-|---|---|
-| Stanford HCI / HAI routes | Human-centred AI, prototyping, design tools, behavior change, interface research |
-| UCSD Design Lab | Design methods, creativity tools, learning systems, design education |
-| UCL Interaction Centre | Interaction design, ubiquitous computing, human-centred AI, human-data interaction |
-| MIT Tangible Media Group | Tangible interaction, physical-digital interfaces, Radical Atoms, post-screen systems |
-| Aalto HCI group | Computational HCI, interactive AI, user interfaces, human performance |
-| University of Toronto DGP / HCI groups | Graphics, input, UI techniques, design tools |
-| UW DUB / CREATE | HCI, accessibility, design methods, inclusive technologies |
-| HPI HCI group | Fabrication, haptics, physical interaction systems |
+- **Stanford HCI / HAI routes:** Human-centred AI, prototyping, design tools, behavior change, interface research
+- **UCSD Design Lab:** Design methods, creativity tools, learning systems, design education
+- **UCL Interaction Centre:** Interaction design, ubiquitous computing, human-centred AI, human-data interaction
+- **MIT Tangible Media Group:** Tangible interaction, physical-digital interfaces, Radical Atoms, post-screen systems
+- **Aalto HCI group:** Computational HCI, interactive AI, user interfaces, human performance
+- **University of Toronto DGP / HCI groups:** Graphics, input, UI techniques, design tools
+- **UW DUB / CREATE:** HCI, accessibility, design methods, inclusive technologies
+- **HPI HCI group:** Fabrication, haptics, physical interaction systems
 
-**Real-life translation:** labs are where a student learns what research actually looks like: project pages, prototypes, videos, papers, datasets, demos, students, and publication patterns.
+**Practical use:** labs are where a student learns what research actually looks like: research pages, prototypes, videos, papers, datasets, demos, students, and publication patterns.
 
 ## Venue Selection Route
 
@@ -406,11 +390,11 @@ Do not treat venues as interchangeable. Each one has its own research culture.
 
 ```mermaid
 flowchart LR
-    A[Project question] --> B[CS2023 topic]
+    A[Research question] --> B[CS2023 topic]
     B --> C[Venue route]
     C --> D[Papers + projects]
     D --> E[Design decision]
-    E --> F[Refined project]
+    E --> F[Refined study]
 
     classDef node fill:#eee9ff,stroke:#a875ff,color:#2b160b,stroke-width:2px;
     classDef final fill:#d9efd7,stroke:#7cab72,color:#2b160b,stroke-width:2px;
@@ -419,7 +403,7 @@ flowchart LR
     class F final;
 ```
 
-For example, a project about an interactive wall should not begin only with general UX articles. It should check ISS for surfaces and spaces, UIST for interaction techniques, EICS for engineering issues, and CHI or TOCHI for broader HCI evaluation. A project about a design-system component should check design-system documentation, EICS for engineered UI systems, and accessibility standards before finalising the component.
+For example, a study about an interactive wall should not begin only with general UX articles. It should check ISS for surfaces and spaces, UIST for interaction techniques, EICS for engineering issues, and CHI or TOCHI for broader HCI evaluation. A study about a design-system component should check design-system documentation, EICS for engineered UI systems, and accessibility standards before finalising the component.
 
 ## Venue Reliability Ladder
 
@@ -465,42 +449,6 @@ flowchart TB
 | Immersive systems | IEEE VR, ISMAR | VR, AR, MR, 3D UI, tracking, displays |
 | Visual computing | SIGGRAPH | Graphics, simulation, rendering, interactive techniques |
 | Intelligent interaction | TiiS, IUI, human-AI tracks | Adaptive, intelligent, AI-mediated systems |
-
-## Mini Application: Mapping a Student Project
-
-A project in the Interface Forge should choose venues according to what it actually builds.
-
-| Student project | Best venue map |
-|---|---|
-| A clickable Obsidian HCI map | DIS for design framing, CHI for HCI relevance, EICS for interactive system structure |
-| A new Mermaid/CSS diagram style | UIST for interaction technique, DIS for design artifact, SIGGRAPH if visual computing becomes central |
-| A mobile app prototype | CHI, DIS, UIST, IJHCS |
-| A design system for the vault | EICS, DIS, Material/Fluent/Apple documentation, WCAG |
-| A tangible learning interface | TEI, UIST, CHI |
-| A VR version of Cognishire | SUI, IEEE VR, ISMAR, SIGGRAPH |
-| A wall display map for a classroom | ISS, UIST, CHI |
-| An AI guide inside the vault | IUI, TiiS, CHI, UIST, Oracle Engine resources |
-
-
-## What this page should not claim
-
-Because the atlas covers many communities, it should avoid treating one venue as the only valid source for a topic. System Design is distributed across HCI, design research, graphics, engineering, accessibility, XR, and physical computing.
-
-| Avoid this claim | Safer version |
-|---|---|
-| “UIST is the only place for interface systems.” | “UIST is a central route for UI software and interaction techniques.” |
-| “DIS is only about visual design.” | “DIS is useful for design-led interactive systems, artifacts, methods, and critique.” |
-| “SIGGRAPH is only animation.” | “SIGGRAPH is important for graphics and interactive techniques that often support interface work.” |
-| “A lab page proves a claim.” | “A lab page can show projects and research direction, but claims still need papers, methods, or evaluation.” |
-| “Professional design systems are academic evidence.” | “Design systems are useful practice references, but they should be separated from peer-reviewed research.” |
-
-## Venue Synthesis
-
-Important Venues for System Design is the atlas of where interface-building knowledge lives. It is broader than one HCI conference because system design crosses several worlds: software engineering, design research, physical interaction, spatial computing, visual computing, journals, labs, and professional design systems.
-
-The central CS2023 anchor is **HCI-Design: System Design**. The practical meaning is that a student should know where to search depending on what they are building. UI techniques often start with UIST. Engineered interactive systems often start with EICS. Design-led artifacts often start with DIS and design research venues. Tangible and embodied systems often start with TEI. Interactive surfaces often start with ISS. Spatial and immersive systems often start with SUI, IEEE VR, and ISMAR. Graphics-heavy systems often start with SIGGRAPH. Mature written research often starts with journals such as TOCHI, PACM HCI, and IJHCS.
-
-This page connects to [[Activities/Theory]] because venues define the concepts that system designers use. It connects to [[Activities/Design]] because venues publish design patterns, artifacts, systems, and methods. It connects to [[Activities/Experiment]] because many venues require evaluation. It connects to [[Connections]] because System Design is interdisciplinary by nature. It connects to [[Important People]] because professors and labs publish through these venues.
 
 ## Academic anchors
 
