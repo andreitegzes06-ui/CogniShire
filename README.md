@@ -1,6 +1,6 @@
 ## How to run the project
 
-### 1. Install Obsidian
+### 1. Install Obsidian (if not already installed)
 
 Download and install Obsidian from the official website:
 
@@ -8,7 +8,7 @@ Download and install Obsidian from the official website:
 
 ### 2. Download the latest release
 
-Open the **Releases** section of this repository and download the latest version.
+Open the **Releases** section of this repository from the right the right side of the page ---->
 
 <p align="center">
   <img src="assets/photos/release.png" alt="GitHub releases page" width="200">
